@@ -22,7 +22,17 @@ private:
     void callbackFunction(const example_interfaces::srv::AddTwoInts::Request::SharedPtr request,
                             const example_interfaces::srv::AddTwoInts::Response::SharedPtr response) //TODO (Ex: callbackAddTwoInts)
     {
-        response->sum = request->a + request->b;
+        // Read incoming values from the request pointer
+        (int) a = request->a;
+        (int) b = request->b;
+
+        // Perform the service's operations and calculations
+        (int) sum = a + b;
+
+        // Write to the respond pointer
+        response->sum = sum;
+
+        // Print statement for debugging purposes
         RCLCPP_INFO(this->get_logger(), "%d + %d = %d", request->a, request->b, response->sum);
     }
 
