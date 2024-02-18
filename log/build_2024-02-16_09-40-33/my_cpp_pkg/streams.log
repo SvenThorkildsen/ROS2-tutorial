@@ -1,0 +1,11 @@
+[0.030s] Invoking command in '/home/cleanseasolutions/ros2_ws/build/my_cpp_pkg': AMENT_PREFIX_PATH=/home/cleanseasolutions/ros2_ws/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cleanseasolutions/ros2_ws/install/my_robot_interfaces:/home/cleanseasolutions/ros2_ws/install/my_cpp_pkg:/home/cleanseasolutions/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/cleanseasolutions/ros2_ws/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cleanseasolutions/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cleanseasolutions/ros2_ws/build/my_cpp_pkg -- -j16 -l16
+[0.043s] -- Configuring incomplete, errors occurred!
+[0.043s] See also "/home/cleanseasolutions/ros2_ws/build/my_cpp_pkg/CMakeFiles/CMakeOutput.log".
+[0.043s] [31mCMake Error at CMakeLists.txt:15:
+[0.043s]   Parse error.  Expected "(", got newline with text "
+[0.044s] 
+[0.044s]   ".
+[0.044s] 
+[0.044s] [0m
+[0.044s] gmake: *** [Makefile:554: cmake_check_build_system] Error 1
+[0.046s] Invoked command in '/home/cleanseasolutions/ros2_ws/build/my_cpp_pkg' returned '2': AMENT_PREFIX_PATH=/home/cleanseasolutions/ros2_ws/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cleanseasolutions/ros2_ws/install/my_robot_interfaces:/home/cleanseasolutions/ros2_ws/install/my_cpp_pkg:/home/cleanseasolutions/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/cleanseasolutions/ros2_ws/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cleanseasolutions/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cleanseasolutions/ros2_ws/build/my_cpp_pkg -- -j16 -l16

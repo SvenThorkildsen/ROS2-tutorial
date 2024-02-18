@@ -1,0 +1,7 @@
+[01m[K/home/cleanseasolutions/ros2_ws/src/my_cpp_pkg/src/battery_node.cpp:[m[K In member function ‘[01m[Kvoid BatteryNode::checkBatteryState()[m[K’:
+[01m[K/home/cleanseasolutions/ros2_ws/src/my_cpp_pkg/src/battery_node.cpp:63:51:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Krclcpp::Time[m[K’
+   63 |         double time_now = this->get_clock()->now()[01;31m[K->[m[Kseconds();
+      |                                                   [01;31m[K^~[m[K
+gmake[2]: *** [CMakeFiles/battery.dir/build.make:76: CMakeFiles/battery.dir/src/battery_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:417: CMakeFiles/battery.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

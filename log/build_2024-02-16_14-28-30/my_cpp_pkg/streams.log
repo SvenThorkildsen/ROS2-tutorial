@@ -1,0 +1,21 @@
+[0.040s] Invoking command in '/home/cleanseasolutions/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cleanseasolutions/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/cleanseasolutions/ros2_ws/build/my_cpp_pkg -- -j16 -l16
+[0.076s] [35m[1mConsolidate compiler generated dependencies of target battery[0m
+[0.082s] [  9%] Built target cpp_node
+[0.082s] [ 18%] Built target robot_news_station
+[0.084s] [ 27%] Built target number_publisher
+[0.085s] [ 36%] Built target smartphone
+[0.086s] [ 45%] Built target add_two_ints_client
+[0.087s] [ 54%] Built target add_two_ints_server
+[0.087s] [ 63%] Built target hardware_status_publisher
+[0.089s] [ 72%] Built target number_counter
+[0.090s] [ 81%] Built target add_two_ints_client_no_oop
+[0.090s] [ 86%] [32mBuilding CXX object CMakeFiles/battery.dir/src/battery_node.cpp.o[0m
+[0.090s] [ 95%] Built target led_panel_status_publisher
+[1.550s] [01m[K/home/cleanseasolutions/ros2_ws/src/my_cpp_pkg/src/battery_node.cpp:[m[K In member function ‘[01m[Kvoid BatteryNode::checkBatteryState()[m[K’:
+[1.550s] [01m[K/home/cleanseasolutions/ros2_ws/src/my_cpp_pkg/src/battery_node.cpp:63:51:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Krclcpp::Time[m[K’
+[1.550s]    63 |         double time_now = this->get_clock()->now()[01;31m[K->[m[Kseconds();
+[1.550s]       |                                                   [01;31m[K^~[m[K
+[1.986s] gmake[2]: *** [CMakeFiles/battery.dir/build.make:76: CMakeFiles/battery.dir/src/battery_node.cpp.o] Error 1
+[1.986s] gmake[1]: *** [CMakeFiles/Makefile2:417: CMakeFiles/battery.dir/all] Error 2
+[1.986s] gmake: *** [Makefile:146: all] Error 2
+[1.988s] Invoked command in '/home/cleanseasolutions/ros2_ws/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cleanseasolutions/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/cleanseasolutions/ros2_ws/build/my_cpp_pkg -- -j16 -l16

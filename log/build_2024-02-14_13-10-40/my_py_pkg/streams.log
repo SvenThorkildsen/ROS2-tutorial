@@ -1,0 +1,19 @@
+[0.380s] Invoking command in '/home/cleanseasolutions/ros2_ws/build/my_py_pkg': PYTHONPATH=/home/cleanseasolutions/ros2_ws/build/my_py_pkg/prefix_override:/home/cleanseasolutions/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/cleanseasolutions/ros2_ws/build/my_py_pkg/build --no-deps install_data
+[0.520s] running develop
+[0.593s] running egg_info
+[0.593s] writing my_py_pkg.egg-info/PKG-INFO
+[0.593s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[0.593s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[0.593s] writing requirements to my_py_pkg.egg-info/requires.txt
+[0.593s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[0.594s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[0.595s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[0.595s] running build_ext
+[0.595s] Creating /home/cleanseasolutions/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my-py-pkg.egg-link (link to .)
+[0.596s] Installing py_node script to /home/cleanseasolutions/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.596s] Installing robot_news_station script to /home/cleanseasolutions/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.596s] 
+[0.596s] Installed /home/cleanseasolutions/ros2_ws/build/my_py_pkg
+[0.596s] running install_data
+[0.596s] copying package.xml -> /home/cleanseasolutions/ros2_ws/install/my_py_pkg/share/my_py_pkg
+[0.613s] Invoked command in '/home/cleanseasolutions/ros2_ws/build/my_py_pkg' returned '0': PYTHONPATH=/home/cleanseasolutions/ros2_ws/build/my_py_pkg/prefix_override:/home/cleanseasolutions/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/cleanseasolutions/ros2_ws/build/my_py_pkg/build --no-deps install_data

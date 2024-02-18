@@ -1,0 +1,69 @@
+-- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/cleanseasolutions/ros2_ws/build/my_cpp_pkg
+[35m[1mConsolidate compiler generated dependencies of target cpp_node[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.o[0m
+[ 75%] Built target cpp_node
+[01m[K/home/cleanseasolutions/ros2_ws/src/my_cpp_pkg/src/robot_news_station.cpp:25:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kexample_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+   25 |     rclcpp::Publisher<[01;31m[Kexample_interfaces[m[K::msg::String>::SharedPtr publisher_;
+      |                       [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |                       [32m[Krcl_interfaces[m[K
+[01m[K/home/cleanseasolutions/ros2_ws/src/my_cpp_pkg/src/robot_news_station.cpp:25:54:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   25 |     rclcpp::Publisher<example_interfaces::msg::String[01;31m[K>[m[K::SharedPtr publisher_;
+      |                                                      [01;31m[K^[m[K
+[01m[K/home/cleanseasolutions/ros2_ws/src/my_cpp_pkg/src/robot_news_station.cpp:25:57:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   25 |     rclcpp::Publisher<example_interfaces::msg::String>::[01;31m[KSharedPtr[m[K publisher_;
+      |                                                         [01;31m[K^~~~~~~~~[m[K
+      |                                                                  [32m[K;[m[K
+[01m[K/home/cleanseasolutions/ros2_ws/src/my_cpp_pkg/src/robot_news_station.cpp:25:67:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ does not name a type; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   25 |     rclcpp::Publisher<example_interfaces::msg::String>::SharedPtr [01;31m[Kpublisher_[m[K;
+      |                                                                   [01;31m[K^~~~~~~~~~[m[K
+      |                                                                   [32m[Krmw_publisher_t[m[K
+[01m[K/home/cleanseasolutions/ros2_ws/src/my_cpp_pkg/src/robot_news_station.cpp:[m[K In constructor ‘[01m[KRobotNewsStationNode::RobotNewsStationNode()[m[K’:
+[01m[K/home/cleanseasolutions/ros2_ws/src/my_cpp_pkg/src/robot_news_station.cpp:10:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[KpublishNews[m[K’?
+   10 |         [01;31m[Kpublisher_[m[K = this->create_publisher<example_interfaces::msg::String>("robot_news", 10);
+      |         [01;31m[K^~~~~~~~~~[m[K
+      |         [32m[KpublishNews[m[K
+[01m[K/home/cleanseasolutions/ros2_ws/src/my_cpp_pkg/src/robot_news_station.cpp:10:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kexample_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+   10 |         publisher_ = this->create_publisher<[01;31m[Kexample_interfaces[m[K::msg::String>("robot_news", 10);
+      |                                             [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |                                             [32m[Krcl_interfaces[m[K
+[01m[K/home/cleanseasolutions/ros2_ws/src/my_cpp_pkg/src/robot_news_station.cpp:10:28:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   10 |         publisher_ = this->[01;31m[Kcreate_publisher<example_interfaces::msg::String>[m[K("robot_news", 10);
+      |                            [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/cleanseasolutions/ros2_ws/src/my_cpp_pkg/src/robot_news_station.cpp:10:77:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KRobotNewsStationNode::create_publisher<<expression error> >(const char [11], int)[m[K’
+   10 |         publisher_ = [01;31m[Kthis->create_publisher<example_interfaces::msg::String>("robot_news", 10)[m[K;
+      |                      [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/cleanseasolutions/ros2_ws/src/my_cpp_pkg/src/robot_news_station.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+  195 |   [01;36m[Kcreate_publisher[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/cleanseasolutions/ros2_ws/src/my_cpp_pkg/src/robot_news_station.cpp:10:77:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   10 |         publisher_ = [01;31m[Kthis->create_publisher<example_interfaces::msg::String>("robot_news", 10)[m[K;
+      |                      [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/cleanseasolutions/ros2_ws/src/my_cpp_pkg/src/robot_news_station.cpp:[m[K In member function ‘[01m[Kvoid RobotNewsStationNode::publishNews()[m[K’:
+[01m[K/home/cleanseasolutions/ros2_ws/src/my_cpp_pkg/src/robot_news_station.cpp:19:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kexample_interfaces[m[K’ has not been declared
+   19 |         auto msg = [01;31m[Kexample_interfaces[m[K::msg::String();
+      |                    [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/cleanseasolutions/ros2_ws/src/my_cpp_pkg/src/robot_news_station.cpp:21:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[KpublishNews[m[K’?
+   21 |         [01;31m[Kpublisher_[m[K->publish(msg);
+      |         [01;31m[K^~~~~~~~~~[m[K
+      |         [32m[KpublishNews[m[K
+gmake[2]: *** [CMakeFiles/robot_news_station.dir/build.make:76: CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/robot_news_station.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

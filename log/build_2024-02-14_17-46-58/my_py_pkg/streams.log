@@ -1,0 +1,23 @@
+[0.364s] Invoking command in '/home/cleanseasolutions/ros2_ws/build/my_py_pkg': PYTHONPATH=/home/cleanseasolutions/ros2_ws/build/my_py_pkg/prefix_override:/home/cleanseasolutions/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/cleanseasolutions/ros2_ws/build/my_py_pkg/build --no-deps install_data
+[0.506s] running develop
+[0.575s] running egg_info
+[0.576s] writing my_py_pkg.egg-info/PKG-INFO
+[0.576s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[0.576s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[0.576s] writing requirements to my_py_pkg.egg-info/requires.txt
+[0.576s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[0.577s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[0.577s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[0.578s] running build_ext
+[0.578s] Creating /home/cleanseasolutions/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my-py-pkg.egg-link (link to .)
+[0.579s] Installing add_two_ints_client_no_oop script to /home/cleanseasolutions/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.579s] Installing add_two_ints_server script to /home/cleanseasolutions/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.579s] Installing number_counter script to /home/cleanseasolutions/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.579s] Installing number_publisher script to /home/cleanseasolutions/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.579s] Installing py_node script to /home/cleanseasolutions/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.579s] Installing robot_news_station script to /home/cleanseasolutions/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.579s] Installing smartphone script to /home/cleanseasolutions/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.579s] 
+[0.579s] Installed /home/cleanseasolutions/ros2_ws/build/my_py_pkg
+[0.579s] running install_data
+[0.609s] Invoked command in '/home/cleanseasolutions/ros2_ws/build/my_py_pkg' returned '0': PYTHONPATH=/home/cleanseasolutions/ros2_ws/build/my_py_pkg/prefix_override:/home/cleanseasolutions/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/cleanseasolutions/ros2_ws/build/my_py_pkg/build --no-deps install_data

@@ -1,0 +1,26 @@
+[0.030s] Invoking command in '/home/cleanseasolutions/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cleanseasolutions/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/cleanseasolutions/ros2_ws/build/my_cpp_pkg -- -j16 -l16
+[0.056s] [35m[1mConsolidate compiler generated dependencies of target cpp_node[0m
+[0.066s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o[0m
+[1.727s] [100%] [32m[1mLinking CXX executable cpp_node[0m
+[1.794s] [100%] Built target cpp_node
+[1.802s] Invoked command in '/home/cleanseasolutions/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cleanseasolutions/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/cleanseasolutions/ros2_ws/build/my_cpp_pkg -- -j16 -l16
+[1.824s] Invoking command in '/home/cleanseasolutions/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cleanseasolutions/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/cleanseasolutions/ros2_ws/build/my_cpp_pkg
+[1.828s] -- Install configuration: ""
+[1.829s] -- Installing: /home/cleanseasolutions/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node
+[1.829s] -- Set runtime path of "/home/cleanseasolutions/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node" to ""
+[1.830s] -- Up-to-date: /home/cleanseasolutions/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[1.830s] -- Up-to-date: /home/cleanseasolutions/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[1.830s] -- Up-to-date: /home/cleanseasolutions/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[1.830s] -- Up-to-date: /home/cleanseasolutions/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[1.830s] -- Up-to-date: /home/cleanseasolutions/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[1.830s] -- Up-to-date: /home/cleanseasolutions/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[1.830s] -- Up-to-date: /home/cleanseasolutions/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[1.830s] -- Up-to-date: /home/cleanseasolutions/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[1.830s] -- Up-to-date: /home/cleanseasolutions/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[1.830s] -- Up-to-date: /home/cleanseasolutions/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[1.830s] -- Installing: /home/cleanseasolutions/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[1.830s] -- Up-to-date: /home/cleanseasolutions/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[1.830s] -- Up-to-date: /home/cleanseasolutions/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[1.830s] -- Up-to-date: /home/cleanseasolutions/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[1.830s] -- Up-to-date: /home/cleanseasolutions/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[1.831s] Invoked command in '/home/cleanseasolutions/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cleanseasolutions/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/cleanseasolutions/ros2_ws/build/my_cpp_pkg

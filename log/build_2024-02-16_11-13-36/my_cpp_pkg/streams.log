@@ -1,0 +1,71 @@
+[0.031s] Invoking command in '/home/cleanseasolutions/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cleanseasolutions/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/cleanseasolutions/ros2_ws/build/my_cpp_pkg -- -j16 -l16
+[0.046s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.132s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.148s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.150s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.153s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.159s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.168s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.202s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.202s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.272s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.362s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[0.441s] -- Found my_robot_interfaces: 0.0.0 (/home/cleanseasolutions/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake)
+[0.492s] -- Configuring done
+[0.510s] -- Generating done
+[0.511s] -- Build files have been written to: /home/cleanseasolutions/ros2_ws/build/my_cpp_pkg
+[0.529s] [35m[1mConsolidate compiler generated dependencies of target smartphone[0m
+[0.529s] [35m[1mConsolidate compiler generated dependencies of target robot_news_station[0m
+[0.530s] [35m[1mConsolidate compiler generated dependencies of target cpp_node[0m
+[0.530s] [35m[1mConsolidate compiler generated dependencies of target number_publisher[0m
+[0.534s] [35m[1mConsolidate compiler generated dependencies of target number_counter[0m
+[0.534s] [35m[1mConsolidate compiler generated dependencies of target add_two_ints_server[0m
+[0.534s] [35m[1mConsolidate compiler generated dependencies of target add_two_ints_client[0m
+[0.534s] [35m[1mConsolidate compiler generated dependencies of target add_two_ints_client_no_oop[0m
+[0.534s] [35m[1mConsolidate compiler generated dependencies of target hardware_status_publisher[0m
+[0.542s] [ 25%] Built target robot_news_station
+[0.542s] [ 25%] Built target smartphone
+[0.543s] [ 25%] [32mBuilding CXX object CMakeFiles/led_panel_status_publisher.dir/src/led_panel_node.cpp.o[0m
+[0.543s] [ 35%] Built target number_publisher
+[0.545s] [ 45%] Built target cpp_node
+[0.549s] [ 70%] Built target add_two_ints_client
+[0.549s] [ 70%] Built target add_two_ints_server
+[0.550s] [ 75%] Built target number_counter
+[0.552s] [ 85%] [32mBuilding CXX object CMakeFiles/hardware_status_publisher.dir/src/hw_status_publisher.cpp.o[0m
+[0.552s] [ 90%] Built target add_two_ints_client_no_oop
+[1.977s] [01m[K/home/cleanseasolutions/ros2_ws/src/my_cpp_pkg/src/led_panel_node.cpp:33:49:[m[K [01;31m[Kerror: [m[K‘[01m[KLEDStatus[m[K’ is not a member of ‘[01m[Kmy_robot_interfaces::msg[m[K’; did you mean ‘[01m[KLedStatus[m[K’?
+[1.977s]    33 |     rclcpp::Publisher<my_robot_interfaces::msg::[01;31m[KLEDStatus[m[K::SharedPtr publisher_;
+[1.977s]       |                                                 [01;31m[K^~~~~~~~~[m[K
+[1.977s]       |                                                 [32m[KLedStatus[m[K
+[1.977s] [01m[K/home/cleanseasolutions/ros2_ws/src/my_cpp_pkg/src/led_panel_node.cpp:33:70:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.977s]    33 |     rclcpp::Publisher<my_robot_interfaces::msg::LEDStatus::SharedPtr [01;31m[Kpublisher_[m[K;
+[1.977s]       |                                                                      [01;31m[K^~~~~~~~~~[m[K
+[1.981s] [01m[K/home/cleanseasolutions/ros2_ws/src/my_cpp_pkg/src/led_panel_node.cpp:[m[K In constructor ‘[01m[KLEDPanelPublisherNode::LEDPanelPublisherNode()[m[K’:
+[1.981s] [01m[K/home/cleanseasolutions/ros2_ws/src/my_cpp_pkg/src/led_panel_node.cpp:12:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[1.981s]    12 |         [01;31m[Kpublisher_[m[K = this->create_publisher<my_robot_interfaces::msg::LedStatus>("led_panel_status", 10);
+[1.981s]       |         [01;31m[K^~~~~~~~~~[m[K
+[1.981s]       |         [32m[Krmw_publisher_t[m[K
+[1.990s] [01m[K/home/cleanseasolutions/ros2_ws/src/my_cpp_pkg/src/led_panel_node.cpp:[m[K In member function ‘[01m[Kvoid LEDPanelPublisherNode::publishLedPanelStatus()[m[K’:
+[1.990s] [01m[K/home/cleanseasolutions/ros2_ws/src/my_cpp_pkg/src/led_panel_node.cpp:25:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct my_robot_interfaces::msg::LedStatus_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kdata[m[K’
+[1.990s]    25 |         msg.[01;31m[Kdata[m[K = [0, 0, 0];
+[1.990s]       |             [01;31m[K^~~~[m[K
+[1.990s] [01m[K/home/cleanseasolutions/ros2_ws/src/my_cpp_pkg/src/led_panel_node.cpp:25:21:[m[K [01;31m[Kerror: [m[Kexpected identifier before numeric constant
+[1.990s]    25 |         msg.data = [[01;31m[K0[m[K, 0, 0];
+[1.990s]       |                     [01;31m[K^[m[K
+[1.990s] [01m[K/home/cleanseasolutions/ros2_ws/src/my_cpp_pkg/src/led_panel_node.cpp:25:22:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K][m[K’ before ‘[01m[K,[m[K’ token
+[1.990s]    25 |         msg.data = [0[01;31m[K,[m[K 0, 0];
+[1.990s]       |                      [01;31m[K^[m[K
+[1.990s] [01m[K/home/cleanseasolutions/ros2_ws/src/my_cpp_pkg/src/led_panel_node.cpp:[m[K In lambda function:
+[1.990s] [01m[K/home/cleanseasolutions/ros2_ws/src/my_cpp_pkg/src/led_panel_node.cpp:25:22:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K,[m[K’ token
+[1.994s] [01m[K/home/cleanseasolutions/ros2_ws/src/my_cpp_pkg/src/led_panel_node.cpp:[m[K In member function ‘[01m[Kvoid LEDPanelPublisherNode::publishLedPanelStatus()[m[K’:
+[1.994s] [01m[K/home/cleanseasolutions/ros2_ws/src/my_cpp_pkg/src/led_panel_node.cpp:30:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[1.994s]    30 |         [01;31m[Kpublisher_[m[K->publish(msg);
+[1.995s]       |         [01;31m[K^~~~~~~~~~[m[K
+[1.995s]       |         [32m[Krmw_publisher_t[m[K
+[2.422s] gmake[2]: *** [CMakeFiles/led_panel_status_publisher.dir/build.make:76: CMakeFiles/led_panel_status_publisher.dir/src/led_panel_node.cpp.o] Error 1
+[2.422s] gmake[1]: *** [CMakeFiles/Makefile2:389: CMakeFiles/led_panel_status_publisher.dir/all] Error 2
+[2.422s] gmake[1]: *** Waiting for unfinished jobs....
+[3.156s] [ 95%] [32m[1mLinking CXX executable hardware_status_publisher[0m
+[3.272s] [ 95%] Built target hardware_status_publisher
+[3.273s] gmake: *** [Makefile:146: all] Error 2
+[3.275s] Invoked command in '/home/cleanseasolutions/ros2_ws/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cleanseasolutions/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/cleanseasolutions/ros2_ws/build/my_cpp_pkg -- -j16 -l16

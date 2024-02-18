@@ -1,0 +1,23 @@
+[0.029s] Invoking command in '/home/cleanseasolutions/ros2_ws/build/my_cpp_pkg': AMENT_PREFIX_PATH=/home/cleanseasolutions/ros2_ws/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cleanseasolutions/ros2_ws/install/my_robot_interfaces:/home/cleanseasolutions/ros2_ws/install/my_cpp_pkg:/home/cleanseasolutions/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/cleanseasolutions/ros2_ws/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cleanseasolutions/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cleanseasolutions/ros2_ws/build/my_cpp_pkg -- -j16 -l16
+[0.045s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.129s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.144s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.146s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.149s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.155s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.163s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.194s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.195s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.258s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.343s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[0.417s] -- Found my_robot_interfaces: 0.0.0 (/home/cleanseasolutions/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake)
+[0.428s] -- Configuring incomplete, errors occurred!
+[0.428s] See also "/home/cleanseasolutions/ros2_ws/build/my_cpp_pkg/CMakeFiles/CMakeOutput.log".
+[0.428s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:42 (message):
+[0.428s]   ament_target_dependencies() the first argument must be a valid target name
+[0.428s] Call Stack (most recent call first):
+[0.428s]   CMakeLists.txt:41 (ament_target_dependencies)
+[0.429s] 
+[0.429s] [0m
+[0.432s] gmake: *** [Makefile:554: cmake_check_build_system] Error 1
+[0.434s] Invoked command in '/home/cleanseasolutions/ros2_ws/build/my_cpp_pkg' returned '2': AMENT_PREFIX_PATH=/home/cleanseasolutions/ros2_ws/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cleanseasolutions/ros2_ws/install/my_robot_interfaces:/home/cleanseasolutions/ros2_ws/install/my_cpp_pkg:/home/cleanseasolutions/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/cleanseasolutions/ros2_ws/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cleanseasolutions/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cleanseasolutions/ros2_ws/build/my_cpp_pkg -- -j16 -l16

@@ -1,0 +1,15 @@
+[0.028s] Invoking command in '/home/cleanseasolutions/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cleanseasolutions/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/cleanseasolutions/ros2_ws/build/my_cpp_pkg -- -j16 -l16
+[0.055s] [35m[1mConsolidate compiler generated dependencies of target add_two_ints_client_no_oop[0m
+[0.060s] [ 80%] Built target add_two_ints_server
+[0.060s] [ 80%] Built target robot_news_station
+[0.060s] [ 80%] Built target smartphone
+[0.060s] [ 80%] Built target cpp_node
+[0.066s] [ 90%] [32mBuilding CXX object CMakeFiles/add_two_ints_client_no_oop.dir/src/add_two_ints_client_no_oop.cpp.o[0m
+[1.251s] [01m[K/home/cleanseasolutions/ros2_ws/src/my_cpp_pkg/src/add_two_ints_client_no_oop.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.251s] [01m[K/home/cleanseasolutions/ros2_ws/src/my_cpp_pkg/src/add_two_ints_client_no_oop.cpp:21:80:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::executors::FutureReturnCode[m[K’ has not been declared
+[1.251s]    21 |     if (rclcpp::spin_until_future_complete(node, future) == rclcpp::executors::[01;31m[KFutureReturnCode[m[K::SUCCESS)
+[1.251s]       |                                                                                [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.571s] gmake[2]: *** [CMakeFiles/add_two_ints_client_no_oop.dir/build.make:76: CMakeFiles/add_two_ints_client_no_oop.dir/src/add_two_ints_client_no_oop.cpp.o] Error 1
+[1.571s] gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/add_two_ints_client_no_oop.dir/all] Error 2
+[1.571s] gmake: *** [Makefile:146: all] Error 2
+[1.573s] Invoked command in '/home/cleanseasolutions/ros2_ws/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cleanseasolutions/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/cleanseasolutions/ros2_ws/build/my_cpp_pkg -- -j16 -l16
