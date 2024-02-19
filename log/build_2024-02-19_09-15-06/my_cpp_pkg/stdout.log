@@ -1,0 +1,46 @@
+[35m[1mConsolidate compiler generated dependencies of target robot_news_station[0m
+[35m[1mConsolidate compiler generated dependencies of target number_publisher[0m
+[  9%] Built target smartphone
+[ 22%] [32mBuilding CXX object CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.o[0m
+[ 22%] Built target number_publisher
+[ 36%] Built target add_two_ints_client_no_oop
+[ 36%] [32mBuilding CXX object CMakeFiles/led_panel_status_publisher.dir/src/led_panel_node.cpp.o[0m
+[ 45%] Built target cpp_node
+[ 54%] Built target add_two_ints_client
+[ 63%] Built target number_counter
+[ 72%] Built target add_two_ints_server
+[ 81%] Built target hardware_status_publisher
+[ 90%] Built target battery
+[ 95%] [32m[1mLinking CXX executable robot_news_station[0m
+[ 95%] Built target robot_news_station
+[100%] [32m[1mLinking CXX executable led_panel_status_publisher[0m
+[100%] Built target led_panel_status_publisher
+-- Install configuration: ""
+-- Up-to-date: /home/cleanseasolutions/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node
+-- Installing: /home/cleanseasolutions/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station
+-- Set runtime path of "/home/cleanseasolutions/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station" to ""
+-- Up-to-date: /home/cleanseasolutions/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone
+-- Up-to-date: /home/cleanseasolutions/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_publisher
+-- Up-to-date: /home/cleanseasolutions/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_counter
+-- Up-to-date: /home/cleanseasolutions/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_server
+-- Up-to-date: /home/cleanseasolutions/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client
+-- Up-to-date: /home/cleanseasolutions/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client_no_oop
+-- Up-to-date: /home/cleanseasolutions/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/hardware_status_publisher
+-- Installing: /home/cleanseasolutions/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/led_panel_status_publisher
+-- Set runtime path of "/home/cleanseasolutions/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/led_panel_status_publisher" to ""
+-- Up-to-date: /home/cleanseasolutions/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/battery
+-- Up-to-date: /home/cleanseasolutions/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+-- Up-to-date: /home/cleanseasolutions/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+-- Up-to-date: /home/cleanseasolutions/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+-- Up-to-date: /home/cleanseasolutions/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/cleanseasolutions/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+-- Up-to-date: /home/cleanseasolutions/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+-- Up-to-date: /home/cleanseasolutions/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+-- Up-to-date: /home/cleanseasolutions/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+-- Up-to-date: /home/cleanseasolutions/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+-- Up-to-date: /home/cleanseasolutions/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+-- Installing: /home/cleanseasolutions/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+-- Up-to-date: /home/cleanseasolutions/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+-- Up-to-date: /home/cleanseasolutions/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+-- Up-to-date: /home/cleanseasolutions/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+-- Up-to-date: /home/cleanseasolutions/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
