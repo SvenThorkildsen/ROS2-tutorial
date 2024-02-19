@@ -1,0 +1,8 @@
+source;share/turtlesim_catch_them_all/hook/cmake_prefix_path.ps1
+source;share/turtlesim_catch_them_all/hook/cmake_prefix_path.dsv
+source;share/turtlesim_catch_them_all/hook/cmake_prefix_path.sh
+source;share/turtlesim_catch_them_all/local_setup.bash
+source;share/turtlesim_catch_them_all/local_setup.dsv
+source;share/turtlesim_catch_them_all/local_setup.ps1
+source;share/turtlesim_catch_them_all/local_setup.sh
+source;share/turtlesim_catch_them_all/local_setup.zsh

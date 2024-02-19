@@ -1,0 +1,4 @@
+source;share/turtlesim_catch_them_all/local_setup.bash
+source;share/turtlesim_catch_them_all/local_setup.dsv
+source;share/turtlesim_catch_them_all/local_setup.sh
+source;share/turtlesim_catch_them_all/local_setup.zsh
