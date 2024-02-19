@@ -10,7 +10,9 @@ class RobotNewsStationNode(Node):
     def __init__(self):
         super().__init__("robot_news_station") # Same name for file and node
 
-        self.robot_name_ = "C3PO"
+        self.declare_parameter("robot_name", "robot name")
+        self.robot_name_ = self.get_parameter("robot_name")
+
         self.publisher_ = self.create_publisher(String, "robot_news", 10) # Topic robot_news, queue size 10
         self.timer_ = self.create_timer(0.5, self.publish_news)
         self.get_logger().info("Robot News Station has been started")
