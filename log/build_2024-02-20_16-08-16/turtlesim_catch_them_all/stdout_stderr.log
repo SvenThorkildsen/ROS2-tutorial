@@ -1,0 +1,29 @@
+[35m[1mConsolidate compiler generated dependencies of target turtle_spawner[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/turtle_controller.dir/src/turtle_controller_node.cpp.o[0m
+[ 75%] Built target turtle_spawner
+[01m[K/home/cleanseasolutions/ros2_ws/src/turtlesim_catch_them_all/src/turtle_controller_node.cpp:[m[K In member function ‘[01m[Kstd::pair<int, int> TurtleControllerNode::callbackFindNextTarget(my_robot_interfaces::msg::TurtleArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/cleanseasolutions/ros2_ws/src/turtlesim_catch_them_all/src/turtle_controller_node.cpp:39:107:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kturtle_msg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   39 | > callbackFindNextTarget([01;35m[Kconst my_robot_interfaces::msg::TurtleArray::SharedPtr turtle_msg[m[K)
+      |                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+
+[100%] [32m[1mLinking CXX executable turtle_controller[0m
+[100%] Built target turtle_controller
+-- Install configuration: ""
+-- Installing: /home/cleanseasolutions/ros2_ws/install/turtlesim_catch_them_all/lib/turtlesim_catch_them_all/turtle_controller
+-- Set runtime path of "/home/cleanseasolutions/ros2_ws/install/turtlesim_catch_them_all/lib/turtlesim_catch_them_all/turtle_controller" to ""
+-- Up-to-date: /home/cleanseasolutions/ros2_ws/install/turtlesim_catch_them_all/lib/turtlesim_catch_them_all/turtle_spawner
+-- Up-to-date: /home/cleanseasolutions/ros2_ws/install/turtlesim_catch_them_all/share/ament_index/resource_index/package_run_dependencies/turtlesim_catch_them_all
+-- Up-to-date: /home/cleanseasolutions/ros2_ws/install/turtlesim_catch_them_all/share/ament_index/resource_index/parent_prefix_path/turtlesim_catch_them_all
+-- Up-to-date: /home/cleanseasolutions/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/environment/ament_prefix_path.sh
+-- Up-to-date: /home/cleanseasolutions/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/cleanseasolutions/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/environment/path.sh
+-- Up-to-date: /home/cleanseasolutions/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/environment/path.dsv
+-- Up-to-date: /home/cleanseasolutions/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/local_setup.bash
+-- Up-to-date: /home/cleanseasolutions/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/local_setup.sh
+-- Up-to-date: /home/cleanseasolutions/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/local_setup.zsh
+-- Up-to-date: /home/cleanseasolutions/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/local_setup.dsv
+-- Installing: /home/cleanseasolutions/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/package.dsv
+-- Up-to-date: /home/cleanseasolutions/ros2_ws/install/turtlesim_catch_them_all/share/ament_index/resource_index/packages/turtlesim_catch_them_all
+-- Up-to-date: /home/cleanseasolutions/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/cmake/turtlesim_catch_them_allConfig.cmake
+-- Up-to-date: /home/cleanseasolutions/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/cmake/turtlesim_catch_them_allConfig-version.cmake
+-- Up-to-date: /home/cleanseasolutions/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/package.xml

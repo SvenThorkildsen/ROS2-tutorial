@@ -1,0 +1,5 @@
+[01m[K/home/cleanseasolutions/ros2_ws/src/turtlesim_catch_them_all/src/turtle_controller_node.cpp:[m[K In member function ‘[01m[Kstd::pair<int, int> TurtleControllerNode::callbackFindNextTarget(my_robot_interfaces::msg::TurtleArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/cleanseasolutions/ros2_ws/src/turtlesim_catch_them_all/src/turtle_controller_node.cpp:39:107:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kturtle_msg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   39 | > callbackFindNextTarget([01;35m[Kconst my_robot_interfaces::msg::TurtleArray::SharedPtr turtle_msg[m[K)
+      |                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+

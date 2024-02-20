@@ -2,6 +2,10 @@ msg/HardwareStatus.idl
 msg/HardwareStatus.msg
 msg/LedStatus.idl
 msg/LedStatus.msg
+msg/Turtle.idl
+msg/Turtle.msg
+msg/TurtleArray.idl
+msg/TurtleArray.msg
 srv/ComputeRectangleArea.idl
 srv/ComputeRectangleArea.srv
 srv/ComputeRectangleArea_Request.msg

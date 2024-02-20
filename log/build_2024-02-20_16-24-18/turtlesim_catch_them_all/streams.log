@@ -1,0 +1,26 @@
+[0.031s] Invoking command in '/home/cleanseasolutions/ros2_ws/build/turtlesim_catch_them_all': CMAKE_PREFIX_PATH=/home/cleanseasolutions/ros2_ws/install/my_robot_interfaces:/home/cleanseasolutions/ros2_ws/install/turtlesim_catch_them_all:/home/cleanseasolutions/ros2_ws/install/my_robot_bringup:/home/cleanseasolutions/ros2_ws/install/my_cpp_pkg:/home/cleanseasolutions/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/cleanseasolutions/ros2_ws/build/turtlesim_catch_them_all -- -j16 -l16
+[0.055s] [35m[1mConsolidate compiler generated dependencies of target turtle_controller[0m
+[0.063s] [ 50%] Built target turtle_spawner
+[0.064s] [ 75%] [32mBuilding CXX object CMakeFiles/turtle_controller.dir/src/turtle_controller_node.cpp.o[0m
+[1.309s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.309s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.309s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.309s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.309s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.309s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.309s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.309s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.309s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.309s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.309s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.309s]                  from [01m[K/home/cleanseasolutions/ros2_ws/src/turtlesim_catch_them_all/src/turtle_controller_node.cpp:1[m[K:
+[1.310s] [01m[K/home/cleanseasolutions/ros2_ws/src/turtlesim_catch_them_all/src/turtle_controller_node.cpp:[m[K In member function ‘[01m[Kstd::pair<int, int> TurtleControllerNode::callbackFindNextTarget(my_robot_interfaces::msg::TurtleArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.310s] [01m[K/home/cleanseasolutions/ros2_ws/src/turtlesim_catch_them_all/src/turtle_controller_node.cpp:52:65:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[Kconst char [14][m[K’ and ‘[01m[Kconst char*[m[K’ to binary ‘[01m[Koperator+[m[K’
+[1.310s]    52 |                 RCLCPP_INFO(this->get_logger(), [32m[K"Turtle name: "[m[K [01;31m[K+[m[K [34m[Kname.c_str()[m[K);
+[1.310s]       |                                                 [32m[K~~~~~~~~~~~~~~~[m[K [01;31m[K^[m[K [34m[K~~~~~~~~~~~~[m[K
+[1.310s]       |                                                 [32m[K|[m[K                           [34m[K|[m[K
+[1.310s]       |                                                 [32m[Kconst char [14][m[K             [34m[Kconst char*[m[K
+[2.976s] gmake[2]: *** [CMakeFiles/turtle_controller.dir/build.make:76: CMakeFiles/turtle_controller.dir/src/turtle_controller_node.cpp.o] Error 1
+[2.977s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/turtle_controller.dir/all] Error 2
+[2.977s] gmake: *** [Makefile:146: all] Error 2
+[2.978s] Invoked command in '/home/cleanseasolutions/ros2_ws/build/turtlesim_catch_them_all' returned '2': CMAKE_PREFIX_PATH=/home/cleanseasolutions/ros2_ws/install/my_robot_interfaces:/home/cleanseasolutions/ros2_ws/install/turtlesim_catch_them_all:/home/cleanseasolutions/ros2_ws/install/my_robot_bringup:/home/cleanseasolutions/ros2_ws/install/my_cpp_pkg:/home/cleanseasolutions/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/cleanseasolutions/ros2_ws/build/turtlesim_catch_them_all -- -j16 -l16

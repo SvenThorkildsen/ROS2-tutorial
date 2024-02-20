@@ -1,0 +1,17 @@
+[0.030s] Invoking command in '/home/cleanseasolutions/ros2_ws/build/turtlesim_catch_them_all': CMAKE_PREFIX_PATH=/home/cleanseasolutions/ros2_ws/install/my_robot_interfaces:/home/cleanseasolutions/ros2_ws/install/turtlesim_catch_them_all:/home/cleanseasolutions/ros2_ws/install/my_robot_bringup:/home/cleanseasolutions/ros2_ws/install/my_cpp_pkg:/home/cleanseasolutions/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/cleanseasolutions/ros2_ws/build/turtlesim_catch_them_all -- -j16 -l16
+[0.055s] [35m[1mConsolidate compiler generated dependencies of target turtle_spawner[0m
+[0.060s] [ 50%] Built target turtle_controller
+[0.064s] [ 75%] [32mBuilding CXX object CMakeFiles/turtle_spawner.dir/src/turtle_spawner_node.cpp.o[0m
+[1.217s] [01m[K/home/cleanseasolutions/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:88:94:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[K{"default_name", 2.29999995e+0f, 4.5e+0f}[m[K’ from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kstd::vector<my_robot_interfaces::msg::TurtleArray_<std::allocator<void> > >[m[K’
+[1.217s]    88 |     std::vector<my_robot_interfaces::msg::TurtleArray> turtles_ = {"default_name", 2.3f, 4.5f[01;31m[K}[m[K;
+[1.218s]       |                                                                                              [01;31m[K^[m[K
+[1.218s]       |                                                                                              [01;31m[K|[m[K
+[1.218s]       |                                                                                              [01;31m[K<brace-enclosed initializer list>[m[K
+[1.224s] [01m[K/home/cleanseasolutions/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:[m[K In member function ‘[01m[Kvoid TurtleSpawnerNode::publishTurtleArray()[m[K’:
+[1.224s] [01m[K/home/cleanseasolutions/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:29:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct my_robot_interfaces::msg::TurtleArray_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kdata[m[K’
+[1.224s]    29 |         msg.[01;31m[Kdata[m[K = turtles_; // TODO: Replace with turtles_[] (list of alive turtles)
+[1.224s]       |             [01;31m[K^~~~[m[K
+[1.773s] gmake[2]: *** [CMakeFiles/turtle_spawner.dir/build.make:76: CMakeFiles/turtle_spawner.dir/src/turtle_spawner_node.cpp.o] Error 1
+[1.773s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/turtle_spawner.dir/all] Error 2
+[1.773s] gmake: *** [Makefile:146: all] Error 2
+[1.776s] Invoked command in '/home/cleanseasolutions/ros2_ws/build/turtlesim_catch_them_all' returned '2': CMAKE_PREFIX_PATH=/home/cleanseasolutions/ros2_ws/install/my_robot_interfaces:/home/cleanseasolutions/ros2_ws/install/turtlesim_catch_them_all:/home/cleanseasolutions/ros2_ws/install/my_robot_bringup:/home/cleanseasolutions/ros2_ws/install/my_cpp_pkg:/home/cleanseasolutions/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/cleanseasolutions/ros2_ws/build/turtlesim_catch_them_all -- -j16 -l16
