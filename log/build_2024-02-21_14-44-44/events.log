@@ -1,0 +1,113 @@
+[0.000000] (-) TimerEvent: {}
+[0.000105] (-) JobUnselected: {'identifier': 'my_cpp_pkg'}
+[0.000123] (-) JobUnselected: {'identifier': 'my_py_pkg'}
+[0.000133] (-) JobUnselected: {'identifier': 'my_robot_bringup'}
+[0.000142] (-) JobUnselected: {'identifier': 'my_robot_interfaces'}
+[0.000151] (turtlesim_catch_them_all) JobQueued: {'identifier': 'turtlesim_catch_them_all', 'dependencies': OrderedDict([('my_robot_interfaces', '/home/cleanseasolutions/ros2_ws/install/my_robot_interfaces')])}
+[0.000353] (turtlesim_catch_them_all) JobStarted: {'identifier': 'turtlesim_catch_them_all'}
+[0.032668] (turtlesim_catch_them_all) JobProgress: {'identifier': 'turtlesim_catch_them_all', 'progress': 'cmake'}
+[0.032889] (turtlesim_catch_them_all) JobProgress: {'identifier': 'turtlesim_catch_them_all', 'progress': 'build'}
+[0.033351] (turtlesim_catch_them_all) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/cleanseasolutions/ros2_ws/build/turtlesim_catch_them_all', '--', '-j16', '-l16'], 'cwd': '/home/cleanseasolutions/ros2_ws/build/turtlesim_catch_them_all', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'cleanseasolutions'), ('LC_TIME', 'nb_NO.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/cleanseasolutions/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/cleanseasolutions'), ('OLDPWD', '/home/cleanseasolutions'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nb_NO.UTF-8'), ('MANAGERPID', '2149'), ('SYSTEMD_EXEC_PID', '2403'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5701'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/cleanseasolutions/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'cleanseasolutions'), ('JOURNAL_STREAM', '8:928'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'cleanseasolutions'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/CSS-Dell-XPS:@/tmp/.ICE-unix/2384,unix/CSS-Dell-XPS:/tmp/.ICE-unix/2384'), ('INVOCATION_ID', '8d8883dbf08541bbb4f0a9bd28111dd2'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nb_NO.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'nb_NO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1001/.mutter-Xwaylandauth.8FGIJ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/cleanseasolutions/ros2_ws/install/turtlesim_catch_them_all:/home/cleanseasolutions/ros2_ws/install/my_robot_bringup:/home/cleanseasolutions/ros2_ws/install/my_py_pkg:/home/cleanseasolutions/ros2_ws/install/my_cpp_pkg:/home/cleanseasolutions/ros2_ws/install/my_robot_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nb_NO.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:c8d6e06c-67c7-46ad-9429-2b4e216d43c5'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nb_NO.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'nb_NO.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/cleanseasolutions/ros2_ws/build/turtlesim_catch_them_all'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/cleanseasolutions/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/cleanseasolutions/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nb_NO.UTF-8'), ('LC_PAPER', 'nb_NO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/cleanseasolutions/ros2_ws/install/my_robot_interfaces:/home/cleanseasolutions/ros2_ws/install/turtlesim_catch_them_all:/home/cleanseasolutions/ros2_ws/install/my_robot_bringup:/home/cleanseasolutions/ros2_ws/install/my_cpp_pkg:/home/cleanseasolutions/ros2_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[0.063296] (turtlesim_catch_them_all) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtle_controller\x1b[0m\n'}
+[0.072252] (turtlesim_catch_them_all) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/turtle_spawner.dir/src/turtle_spawner_node.cpp.o\x1b[0m\n'}
+[0.074439] (turtlesim_catch_them_all) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/turtle_controller.dir/src/turtle_controller_node.cpp.o\x1b[0m\n'}
+[0.099613] (-) TimerEvent: {}
+[0.199980] (-) TimerEvent: {}
+[0.300274] (-) TimerEvent: {}
+[0.400568] (-) TimerEvent: {}
+[0.500829] (-) TimerEvent: {}
+[0.601157] (-) TimerEvent: {}
+[0.701485] (-) TimerEvent: {}
+[0.801789] (-) TimerEvent: {}
+[0.902099] (-) TimerEvent: {}
+[1.002486] (-) TimerEvent: {}
+[1.102783] (-) TimerEvent: {}
+[1.203178] (-) TimerEvent: {}
+[1.303520] (-) TimerEvent: {}
+[1.403951] (-) TimerEvent: {}
+[1.504286] (-) TimerEvent: {}
+[1.604659] (-) TimerEvent: {}
+[1.705058] (-) TimerEvent: {}
+[1.805440] (-) TimerEvent: {}
+[1.905799] (-) TimerEvent: {}
+[2.006216] (-) TimerEvent: {}
+[2.106507] (-) TimerEvent: {}
+[2.206790] (-) TimerEvent: {}
+[2.307083] (-) TimerEvent: {}
+[2.407447] (-) TimerEvent: {}
+[2.507822] (-) TimerEvent: {}
+[2.608083] (-) TimerEvent: {}
+[2.610396] (turtlesim_catch_them_all) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable turtle_spawner\x1b[0m\n'}
+[2.708216] (-) TimerEvent: {}
+[2.730355] (turtlesim_catch_them_all) StdoutLine: {'line': b'[ 75%] Built target turtle_spawner\n'}
+[2.808316] (-) TimerEvent: {}
+[2.908710] (-) TimerEvent: {}
+[3.009145] (-) TimerEvent: {}
+[3.109493] (-) TimerEvent: {}
+[3.209900] (-) TimerEvent: {}
+[3.310204] (-) TimerEvent: {}
+[3.410489] (-) TimerEvent: {}
+[3.510861] (-) TimerEvent: {}
+[3.611174] (-) TimerEvent: {}
+[3.711581] (-) TimerEvent: {}
+[3.811885] (-) TimerEvent: {}
+[3.912235] (-) TimerEvent: {}
+[4.012613] (-) TimerEvent: {}
+[4.112969] (-) TimerEvent: {}
+[4.213234] (-) TimerEvent: {}
+[4.313709] (-) TimerEvent: {}
+[4.414143] (-) TimerEvent: {}
+[4.514516] (-) TimerEvent: {}
+[4.614748] (-) TimerEvent: {}
+[4.715038] (-) TimerEvent: {}
+[4.815433] (-) TimerEvent: {}
+[4.915844] (-) TimerEvent: {}
+[5.016133] (-) TimerEvent: {}
+[5.116433] (-) TimerEvent: {}
+[5.216814] (-) TimerEvent: {}
+[5.317146] (-) TimerEvent: {}
+[5.417480] (-) TimerEvent: {}
+[5.517867] (-) TimerEvent: {}
+[5.618315] (-) TimerEvent: {}
+[5.718601] (-) TimerEvent: {}
+[5.819026] (-) TimerEvent: {}
+[5.919412] (-) TimerEvent: {}
+[6.019745] (-) TimerEvent: {}
+[6.120161] (-) TimerEvent: {}
+[6.220578] (-) TimerEvent: {}
+[6.320978] (-) TimerEvent: {}
+[6.421354] (-) TimerEvent: {}
+[6.521736] (-) TimerEvent: {}
+[6.622150] (-) TimerEvent: {}
+[6.672610] (turtlesim_catch_them_all) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable turtle_controller\x1b[0m\n'}
+[6.722401] (-) TimerEvent: {}
+[6.822656] (-) TimerEvent: {}
+[6.922943] (-) TimerEvent: {}
+[7.001827] (turtlesim_catch_them_all) StdoutLine: {'line': b'[100%] Built target turtle_controller\n'}
+[7.011255] (turtlesim_catch_them_all) CommandEnded: {'returncode': 0}
+[7.023063] (-) TimerEvent: {}
+[7.028816] (turtlesim_catch_them_all) JobProgress: {'identifier': 'turtlesim_catch_them_all', 'progress': 'install'}
+[7.034213] (turtlesim_catch_them_all) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/cleanseasolutions/ros2_ws/build/turtlesim_catch_them_all'], 'cwd': '/home/cleanseasolutions/ros2_ws/build/turtlesim_catch_them_all', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'cleanseasolutions'), ('LC_TIME', 'nb_NO.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/cleanseasolutions/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/cleanseasolutions'), ('OLDPWD', '/home/cleanseasolutions'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nb_NO.UTF-8'), ('MANAGERPID', '2149'), ('SYSTEMD_EXEC_PID', '2403'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5701'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/cleanseasolutions/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'cleanseasolutions'), ('JOURNAL_STREAM', '8:928'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'cleanseasolutions'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/CSS-Dell-XPS:@/tmp/.ICE-unix/2384,unix/CSS-Dell-XPS:/tmp/.ICE-unix/2384'), ('INVOCATION_ID', '8d8883dbf08541bbb4f0a9bd28111dd2'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nb_NO.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'nb_NO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1001/.mutter-Xwaylandauth.8FGIJ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/cleanseasolutions/ros2_ws/install/turtlesim_catch_them_all:/home/cleanseasolutions/ros2_ws/install/my_robot_bringup:/home/cleanseasolutions/ros2_ws/install/my_py_pkg:/home/cleanseasolutions/ros2_ws/install/my_cpp_pkg:/home/cleanseasolutions/ros2_ws/install/my_robot_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nb_NO.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:c8d6e06c-67c7-46ad-9429-2b4e216d43c5'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nb_NO.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'nb_NO.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/cleanseasolutions/ros2_ws/build/turtlesim_catch_them_all'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/cleanseasolutions/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/cleanseasolutions/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nb_NO.UTF-8'), ('LC_PAPER', 'nb_NO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/cleanseasolutions/ros2_ws/install/my_robot_interfaces:/home/cleanseasolutions/ros2_ws/install/turtlesim_catch_them_all:/home/cleanseasolutions/ros2_ws/install/my_robot_bringup:/home/cleanseasolutions/ros2_ws/install/my_cpp_pkg:/home/cleanseasolutions/ros2_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[7.039458] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.039619] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/cleanseasolutions/ros2_ws/install/turtlesim_catch_them_all/lib/turtlesim_catch_them_all/turtle_controller\n'}
+[7.042248] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Set runtime path of "/home/cleanseasolutions/ros2_ws/install/turtlesim_catch_them_all/lib/turtlesim_catch_them_all/turtle_controller" to ""\n'}
+[7.042419] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/cleanseasolutions/ros2_ws/install/turtlesim_catch_them_all/lib/turtlesim_catch_them_all/turtle_spawner\n'}
+[7.042909] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Set runtime path of "/home/cleanseasolutions/ros2_ws/install/turtlesim_catch_them_all/lib/turtlesim_catch_them_all/turtle_spawner" to ""\n'}
+[7.043021] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Up-to-date: /home/cleanseasolutions/ros2_ws/install/turtlesim_catch_them_all/share/ament_index/resource_index/package_run_dependencies/turtlesim_catch_them_all\n'}
+[7.043093] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Up-to-date: /home/cleanseasolutions/ros2_ws/install/turtlesim_catch_them_all/share/ament_index/resource_index/parent_prefix_path/turtlesim_catch_them_all\n'}
+[7.043248] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Up-to-date: /home/cleanseasolutions/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/environment/ament_prefix_path.sh\n'}
+[7.043332] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Up-to-date: /home/cleanseasolutions/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/environment/ament_prefix_path.dsv\n'}
+[7.043395] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Up-to-date: /home/cleanseasolutions/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/environment/path.sh\n'}
+[7.043454] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Up-to-date: /home/cleanseasolutions/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/environment/path.dsv\n'}
+[7.043512] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Up-to-date: /home/cleanseasolutions/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/local_setup.bash\n'}
+[7.043569] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Up-to-date: /home/cleanseasolutions/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/local_setup.sh\n'}
+[7.043626] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Up-to-date: /home/cleanseasolutions/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/local_setup.zsh\n'}
+[7.043787] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Up-to-date: /home/cleanseasolutions/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/local_setup.dsv\n'}
+[7.044278] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Installing: /home/cleanseasolutions/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/package.dsv\n'}
+[7.044354] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Up-to-date: /home/cleanseasolutions/ros2_ws/install/turtlesim_catch_them_all/share/ament_index/resource_index/packages/turtlesim_catch_them_all\n'}
+[7.044419] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Up-to-date: /home/cleanseasolutions/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/cmake/turtlesim_catch_them_allConfig.cmake\n'}
+[7.044484] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Up-to-date: /home/cleanseasolutions/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/cmake/turtlesim_catch_them_allConfig-version.cmake\n'}
+[7.044546] (turtlesim_catch_them_all) StdoutLine: {'line': b'-- Up-to-date: /home/cleanseasolutions/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/package.xml\n'}
+[7.044823] (turtlesim_catch_them_all) CommandEnded: {'returncode': 0}
+[7.115492] (turtlesim_catch_them_all) JobEnded: {'identifier': 'turtlesim_catch_them_all', 'rc': 0}
+[7.116272] (-) EventReactorShutdown: {}

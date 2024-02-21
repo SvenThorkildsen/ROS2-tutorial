@@ -1,0 +1,28 @@
+[0.033s] Invoking command in '/home/cleanseasolutions/ros2_ws/build/turtlesim_catch_them_all': CMAKE_PREFIX_PATH=/home/cleanseasolutions/ros2_ws/install/my_robot_interfaces:/home/cleanseasolutions/ros2_ws/install/turtlesim_catch_them_all:/home/cleanseasolutions/ros2_ws/install/my_robot_bringup:/home/cleanseasolutions/ros2_ws/install/my_cpp_pkg:/home/cleanseasolutions/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/cleanseasolutions/ros2_ws/build/turtlesim_catch_them_all -- -j16 -l16
+[0.056s] [35m[1mConsolidate compiler generated dependencies of target turtle_spawner[0m
+[0.064s] [ 50%] Built target turtle_controller
+[0.066s] [ 75%] [32mBuilding CXX object CMakeFiles/turtle_spawner.dir/src/turtle_spawner_node.cpp.o[0m
+[2.688s] [100%] [32m[1mLinking CXX executable turtle_spawner[0m
+[2.813s] [100%] Built target turtle_spawner
+[2.823s] Invoked command in '/home/cleanseasolutions/ros2_ws/build/turtlesim_catch_them_all' returned '0': CMAKE_PREFIX_PATH=/home/cleanseasolutions/ros2_ws/install/my_robot_interfaces:/home/cleanseasolutions/ros2_ws/install/turtlesim_catch_them_all:/home/cleanseasolutions/ros2_ws/install/my_robot_bringup:/home/cleanseasolutions/ros2_ws/install/my_cpp_pkg:/home/cleanseasolutions/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/cleanseasolutions/ros2_ws/build/turtlesim_catch_them_all -- -j16 -l16
+[2.843s] Invoking command in '/home/cleanseasolutions/ros2_ws/build/turtlesim_catch_them_all': CMAKE_PREFIX_PATH=/home/cleanseasolutions/ros2_ws/install/my_robot_interfaces:/home/cleanseasolutions/ros2_ws/install/turtlesim_catch_them_all:/home/cleanseasolutions/ros2_ws/install/my_robot_bringup:/home/cleanseasolutions/ros2_ws/install/my_cpp_pkg:/home/cleanseasolutions/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/cleanseasolutions/ros2_ws/build/turtlesim_catch_them_all
+[2.848s] -- Install configuration: ""
+[2.848s] -- Up-to-date: /home/cleanseasolutions/ros2_ws/install/turtlesim_catch_them_all/lib/turtlesim_catch_them_all/turtle_controller
+[2.848s] -- Installing: /home/cleanseasolutions/ros2_ws/install/turtlesim_catch_them_all/lib/turtlesim_catch_them_all/turtle_spawner
+[2.849s] -- Set runtime path of "/home/cleanseasolutions/ros2_ws/install/turtlesim_catch_them_all/lib/turtlesim_catch_them_all/turtle_spawner" to ""
+[2.849s] -- Up-to-date: /home/cleanseasolutions/ros2_ws/install/turtlesim_catch_them_all/share/ament_index/resource_index/package_run_dependencies/turtlesim_catch_them_all
+[2.849s] -- Up-to-date: /home/cleanseasolutions/ros2_ws/install/turtlesim_catch_them_all/share/ament_index/resource_index/parent_prefix_path/turtlesim_catch_them_all
+[2.849s] -- Up-to-date: /home/cleanseasolutions/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/environment/ament_prefix_path.sh
+[2.849s] -- Up-to-date: /home/cleanseasolutions/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/environment/ament_prefix_path.dsv
+[2.849s] -- Up-to-date: /home/cleanseasolutions/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/environment/path.sh
+[2.849s] -- Up-to-date: /home/cleanseasolutions/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/environment/path.dsv
+[2.849s] -- Up-to-date: /home/cleanseasolutions/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/local_setup.bash
+[2.849s] -- Up-to-date: /home/cleanseasolutions/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/local_setup.sh
+[2.849s] -- Up-to-date: /home/cleanseasolutions/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/local_setup.zsh
+[2.849s] -- Up-to-date: /home/cleanseasolutions/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/local_setup.dsv
+[2.849s] -- Installing: /home/cleanseasolutions/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/package.dsv
+[2.849s] -- Up-to-date: /home/cleanseasolutions/ros2_ws/install/turtlesim_catch_them_all/share/ament_index/resource_index/packages/turtlesim_catch_them_all
+[2.850s] -- Up-to-date: /home/cleanseasolutions/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/cmake/turtlesim_catch_them_allConfig.cmake
+[2.850s] -- Up-to-date: /home/cleanseasolutions/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/cmake/turtlesim_catch_them_allConfig-version.cmake
+[2.850s] -- Up-to-date: /home/cleanseasolutions/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/package.xml
+[2.851s] Invoked command in '/home/cleanseasolutions/ros2_ws/build/turtlesim_catch_them_all' returned '0': CMAKE_PREFIX_PATH=/home/cleanseasolutions/ros2_ws/install/my_robot_interfaces:/home/cleanseasolutions/ros2_ws/install/turtlesim_catch_them_all:/home/cleanseasolutions/ros2_ws/install/my_robot_bringup:/home/cleanseasolutions/ros2_ws/install/my_cpp_pkg:/home/cleanseasolutions/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/cleanseasolutions/ros2_ws/build/turtlesim_catch_them_all

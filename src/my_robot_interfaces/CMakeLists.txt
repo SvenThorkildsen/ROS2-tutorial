@@ -14,6 +14,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/LedStatus.msg"
   "msg/Turtle.msg"
   "msg/TurtleArray.msg"
+  "srv/CatchTurtle.srv"
   "srv/ComputeRectangleArea.srv"
   "srv/SetLed.srv"
 )

@@ -146,6 +146,9 @@ class TurtleControllerNode: public rclcpp::Node
                 msg.linear.x = 0.0;
                 msg.angular.z = 0.0;
                 RCLCPP_INFO(this->get_logger(), "Target reached!");
+
+                // TODO: Remove the turtle from /alive_turtles
+                    // /kill service call
             }
             else
             {

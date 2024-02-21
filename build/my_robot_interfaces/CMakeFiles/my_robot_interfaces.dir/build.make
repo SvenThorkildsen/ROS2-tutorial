@@ -70,6 +70,9 @@ CMakeFiles/my_robot_interfaces: /home/cleanseasolutions/ros2_ws/src/my_robot_int
 CMakeFiles/my_robot_interfaces: /home/cleanseasolutions/ros2_ws/src/my_robot_interfaces/msg/LedStatus.msg
 CMakeFiles/my_robot_interfaces: /home/cleanseasolutions/ros2_ws/src/my_robot_interfaces/msg/Turtle.msg
 CMakeFiles/my_robot_interfaces: /home/cleanseasolutions/ros2_ws/src/my_robot_interfaces/msg/TurtleArray.msg
+CMakeFiles/my_robot_interfaces: /home/cleanseasolutions/ros2_ws/src/my_robot_interfaces/srv/CatchTurtle.srv
+CMakeFiles/my_robot_interfaces: rosidl_cmake/srv/CatchTurtle_Request.msg
+CMakeFiles/my_robot_interfaces: rosidl_cmake/srv/CatchTurtle_Response.msg
 CMakeFiles/my_robot_interfaces: /home/cleanseasolutions/ros2_ws/src/my_robot_interfaces/srv/ComputeRectangleArea.srv
 CMakeFiles/my_robot_interfaces: rosidl_cmake/srv/ComputeRectangleArea_Request.msg
 CMakeFiles/my_robot_interfaces: rosidl_cmake/srv/ComputeRectangleArea_Response.msg

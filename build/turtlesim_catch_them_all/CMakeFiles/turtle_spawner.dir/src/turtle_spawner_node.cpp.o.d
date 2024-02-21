@@ -607,6 +607,14 @@ CMakeFiles/turtle_spawner.dir/src/turtle_spawner_node.cpp.o: \
  /home/cleanseasolutions/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle_array__struct.hpp \
  /home/cleanseasolutions/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle_array__builder.hpp \
  /home/cleanseasolutions/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle_array__traits.hpp \
+ /home/cleanseasolutions/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/catch_turtle.hpp \
+ /home/cleanseasolutions/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/catch_turtle__struct.hpp \
+ /home/cleanseasolutions/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/catch_turtle__builder.hpp \
+ /home/cleanseasolutions/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/catch_turtle__traits.hpp \
+ /opt/ros/humble/include/turtlesim/turtlesim/srv/kill.hpp \
+ /opt/ros/humble/include/turtlesim/turtlesim/srv/detail/kill__struct.hpp \
+ /opt/ros/humble/include/turtlesim/turtlesim/srv/detail/kill__builder.hpp \
+ /opt/ros/humble/include/turtlesim/turtlesim/srv/detail/kill__traits.hpp \
  /opt/ros/humble/include/turtlesim/turtlesim/srv/spawn.hpp \
  /opt/ros/humble/include/turtlesim/turtlesim/srv/detail/spawn__struct.hpp \
  /opt/ros/humble/include/turtlesim/turtlesim/srv/detail/spawn__builder.hpp \

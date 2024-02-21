@@ -1,9 +1,14 @@
 #include "rclcpp/rclcpp.hpp"
 #include "my_robot_interfaces/msg/turtle.hpp"
 #include "my_robot_interfaces/msg/turtle_array.hpp"
+#include "my_robot_interfaces/srv/catch_turtle.hpp"
+#include "turtlesim/srv/kill.hpp"
 #include "turtlesim/srv/spawn.hpp"
 
+
+#include <cmath>
 #include <cstdlib> // for rand() and RAND_MAX
+
 
 
 class TurtleSpawnerNode : public rclcpp::Node 
@@ -11,27 +16,20 @@ class TurtleSpawnerNode : public rclcpp::Node
 public:
     TurtleSpawnerNode() : Node("turtle_spawner")
     {
-        // Initialise default turtle
-        // turtles_ = (5, {"default_name", 2.3, 4.5});
-        default_turtle.name = "default_name";
-        default_turtle.pos_x = 1.0;
-        default_turtle.pos_y = 1.0;
-
-        test_turtle.name = "test_turtle";
-        test_turtle.pos_x = 8.544445;
-        test_turtle.pos_y = 9.544445;
-
-        // Add the default turtle to the TurtleArray
-        // turtles_.turtles.push_back(default_turtle);
-
         publisher_ = this->create_publisher<my_robot_interfaces::msg::TurtleArray>(
             "alive_turtles", 
             10);
-        timer_ = this->create_wall_timer(std::chrono::milliseconds(2000),
-                                         std::bind(&TurtleSpawnerNode::publishTurtleArray, this)); 
-
+        publisher_timer_ = this->create_wall_timer(std::chrono::milliseconds(2000),
+                                                   std::bind(&TurtleSpawnerNode::publishTurtleArray, this)); 
 
         RCLCPP_INFO(this->get_logger(), "Publisher has been started.");
+
+        spawn_timer_ = this->create_wall_timer(std::chrono::milliseconds(3000),
+                                               std::bind(&TurtleSpawnerNode::spawnTurtle, this));
+
+        catch_turtle_service_ = this->create_service<my_robot_interfaces::srv::CatchTurtle>(
+            "catch_turtle",
+            std::bind(&TurtleSpawnerNode::callbackCatchTurtle, this, std::placeholders::_1, std::placeholders::_2));
     }
 
 private:
@@ -41,53 +39,119 @@ private:
         auto msg = my_robot_interfaces::msg::TurtleArray();
         
         // ADD DATA TO MESSAGE
-        // msg.turtles = turtles_;
-        msg.turtles.push_back(default_turtle);
-        msg.turtles.push_back(test_turtle);
+        msg.turtles = alive_turtles_;
 
         // Publish list of turtles on the /alive_turtles topic
         publisher_->publish(msg);
+        RCLCPP_INFO(this->get_logger(), "/alive_turtles has been updated.");
     }
 
-    // void callSpawnService()
-    // {
-    //     // Call the /spawn service to create a new turtle
+    void spawnTurtle()
+    {
+        // Set random values between 0.0 - 11.0 for the x and y position
+        float x =  generateRandomFloat32(0.0f, 11.0f);
+        float y =  generateRandomFloat32(0.0f, 10.0f);
+        float theta = generateRandomFloat32(0.0f, 2 * M_PI); // ¿Range from [-pi, pi] or [0, 2 * M_PI]?
 
-    //     auto client = this->create_client<turtlesim::srv::Spawn>("spawn");
-    //     while (!client->wait_for_service(std::chrono::seconds(1)))
-    //     {
-    //         RCLCPP_WARN(this->get_logger(), "Waiting for the spawn-server to be up...");
-    //     }
+        spawn_turtle_threads_.push_back(
+            std::make_shared<std::thread>(
+                std::bind(&TurtleSpawnerNode::callSpawnService, this, x, y, theta)));
+    }
 
-    //     auto request = std::make_shared<turtlesim::srv::Spawn::Request>();
+    void callSpawnService(float x, float y, float theta)
+    {
+        // Call the /spawn service to create a new turtle
 
-    //     // Set random values between 1.0 - 11.0 for the x and y position
-    //     request->x = generateRandomFloat32(1.0f, 11.0f);
-    //     request->y = generateRandomFloat32(1.0f, 11.0f);
+        RCLCPP_INFO(this->get_logger(), "/spawn service has been called.");
 
-    //     // Set random value for theta within 
-    //         //TODO: Test 3.14f
-    //     request->theta = generateRandomFloat32(0.0f, 3.1f);
+        auto client = this->create_client<turtlesim::srv::Spawn>("spawn");
+        while (!client->wait_for_service(std::chrono::seconds(1)))
+        {
+            RCLCPP_WARN(this->get_logger(), "Waiting for the spawn-server to be up...");
+        }
 
+        auto request = std::make_shared<turtlesim::srv::Spawn::Request>();
 
-    //     auto future = client->async_send_request(request);
-    //     try
-    //     {
-    //         auto response = future.get();
-    //         // RCLCPP_INFO(this->get_logger(), "");
-    //     }
-    //     catch (const std::exception &e)
-    //     {
-    //         RCLCPP_ERROR(this->get_logger(), "Service call failed");
-    //     }
+        request->x = x;
+        request->y = y;
+        request->theta = theta;
 
-    // }
+        auto future = client->async_send_request(request);
+
+        try
+        {
+            auto response = future.get();
+            std::string name = response->name;
+            RCLCPP_INFO(this->get_logger(), "%s spawned at (%f, %f)", name.c_str(), x, y);
+
+            if (name != "")
+            {
+                auto new_turtle = my_robot_interfaces::msg::Turtle();
+                new_turtle.name = name;
+                new_turtle.pos_x = x;
+                new_turtle.pos_y = y;
+                // new_turtle.theta = theta;
+
+                // Add turtle to array of alive turtles
+                alive_turtles_.push_back(new_turtle);
+            }
+        }
+        catch (const std::exception &e)
+        {
+            RCLCPP_ERROR(this->get_logger(), "Service call failed");
+        }
+
+        // TODO: ¿Call publish function?
+    }
+
+    void callbackCatchTurtle(const my_robot_interfaces::srv::CatchTurtle::Request::SharedPtr request,
+                             const my_robot_interfaces::srv::CatchTurtle::Response::SharedPtr response)
+    {
+        // Retrieve information from the request
+        std::string name = request->name;
+
+        // Call service
+        kill_turtle_threads_.push_back(
+            std::make_shared<std::thread>(
+                std::bind(&TurtleSpawnerNode::callKillTurtleService, this, name)));
+        
+        // Add service response
+        response->success = true;
+    }
+
+    void callKillTurtleService(std::string turtle_name)
+    {
+        auto client = this->create_client<turtlesim::srv::Kill>("kill");
+        while (!client->wait_for_service(std::chrono::seconds(1)))
+        {
+            RCLCPP_WARN(this->get_logger(), "Waiting for the spawn-server to be up...");
+        }
+
+        auto request = std::make_shared<turtlesim::srv::Kill::Request>();
+
+        request->name = turtle_name;
+
+        auto future = client->async_send_request(request);
+
+        try
+        {
+            auto response = future.get();
+
+            // TODO: DELETE TURTLE FROM /alive_turtles
+
+            // RCLCPP_INFO(this->get_logger(), "");
+        }
+        catch (const std::exception &e)
+        {
+            RCLCPP_ERROR(this->get_logger(), "Service call failed");
+        }        
+    }
 
     // Function for generating a random float32 within a range
     float generateRandomFloat32(float min, float max)
     {
-        // TODO: ¿call srand() to seed the random generator with a unique value?
-            // This would ensure that the same sequence of generated numbers does not occurr every time
+        // Seed the random number generator with the current time
+        std::srand(static_cast<unsigned>(std::chrono::high_resolution_clock::now().time_since_epoch().count()));
 
         // Generate a random integer between 0 and RAND_MAX
         int random_int = rand();
@@ -99,12 +163,16 @@ private:
     }
 
     rclcpp::Publisher<my_robot_interfaces::msg::TurtleArray>::SharedPtr publisher_;
-    rclcpp::TimerBase::SharedPtr timer_;
-
-    // my_robot_interfaces::msg::TurtleArray turtles_;
-    my_robot_interfaces::msg::Turtle default_turtle;
-    my_robot_interfaces::msg::Turtle test_turtle;
     
+    rclcpp::TimerBase::SharedPtr publisher_timer_;
+    rclcpp::TimerBase::SharedPtr spawn_timer_;
+
+    std::vector<my_robot_interfaces::msg::Turtle> alive_turtles_;
+    
+    std::vector<std::shared_ptr<std::thread>> spawn_turtle_threads_;
+    std::vector<std::shared_ptr<std::thread>> kill_turtle_threads_;
+
+    rclcpp::Service<my_robot_interfaces::srv::CatchTurtle>::SharedPtr catch_turtle_service_;
 
 };
 

@@ -12,6 +12,8 @@ file(REMOVE_RECURSE
   "../rosidl_generator_py/my_robot_interfaces/msg/_turtle_array_s.c"
   "../rosidl_generator_py/my_robot_interfaces/msg/_turtle_s.c"
   "../rosidl_generator_py/my_robot_interfaces/srv/__init__.py"
+  "../rosidl_generator_py/my_robot_interfaces/srv/_catch_turtle.py"
+  "../rosidl_generator_py/my_robot_interfaces/srv/_catch_turtle_s.c"
   "../rosidl_generator_py/my_robot_interfaces/srv/_compute_rectangle_area.py"
   "../rosidl_generator_py/my_robot_interfaces/srv/_compute_rectangle_area_s.c"
   "../rosidl_generator_py/my_robot_interfaces/srv/_set_led.py"
