@@ -14,8 +14,12 @@ public:
         // Initialise default turtle
         // turtles_ = (5, {"default_name", 2.3, 4.5});
         default_turtle.name = "default_name";
-        default_turtle.pos_x = 6.7;
-        default_turtle.pos_y = 7.8;
+        default_turtle.pos_x = 1.0;
+        default_turtle.pos_y = 1.0;
+
+        test_turtle.name = "test_turtle";
+        test_turtle.pos_x = 8.544445;
+        test_turtle.pos_y = 9.544445;
 
         // Add the default turtle to the TurtleArray
         // turtles_.turtles.push_back(default_turtle);
@@ -39,6 +43,7 @@ private:
         // ADD DATA TO MESSAGE
         // msg.turtles = turtles_;
         msg.turtles.push_back(default_turtle);
+        msg.turtles.push_back(test_turtle);
 
         // Publish list of turtles on the /alive_turtles topic
         publisher_->publish(msg);
@@ -98,6 +103,7 @@ private:
 
     // my_robot_interfaces::msg::TurtleArray turtles_;
     my_robot_interfaces::msg::Turtle default_turtle;
+    my_robot_interfaces::msg::Turtle test_turtle;
     
 
 };

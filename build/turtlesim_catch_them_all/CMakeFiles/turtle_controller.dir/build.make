@@ -92,6 +92,12 @@ turtle_controller_EXTERNAL_OBJECTS =
 
 turtle_controller: CMakeFiles/turtle_controller.dir/src/turtle_controller_node.cpp.o
 turtle_controller: CMakeFiles/turtle_controller.dir/build.make
+turtle_controller: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so
+turtle_controller: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
+turtle_controller: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so
+turtle_controller: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
+turtle_controller: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
+turtle_controller: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_py.so
 turtle_controller: /home/cleanseasolutions/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so
 turtle_controller: /home/cleanseasolutions/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_c.so
 turtle_controller: /home/cleanseasolutions/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so
@@ -105,6 +111,16 @@ turtle_controller: /opt/ros/humble/lib/libturtlesim__rosidl_typesupport_introspe
 turtle_controller: /opt/ros/humble/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so
 turtle_controller: /opt/ros/humble/lib/libturtlesim__rosidl_typesupport_cpp.so
 turtle_controller: /opt/ros/humble/lib/libturtlesim__rosidl_generator_py.so
+turtle_controller: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
+turtle_controller: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
+turtle_controller: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so
+turtle_controller: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
+turtle_controller: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so
+turtle_controller: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_c.so
+turtle_controller: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_c.so
+turtle_controller: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so
+turtle_controller: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_c.so
+turtle_controller: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so
 turtle_controller: /home/cleanseasolutions/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_c.so
 turtle_controller: /home/cleanseasolutions/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_c.so
 turtle_controller: /opt/ros/humble/lib/liblibstatistics_collector.so
