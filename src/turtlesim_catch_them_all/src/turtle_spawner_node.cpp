@@ -43,7 +43,7 @@ private:
 
         // Publish list of turtles on the /alive_turtles topic
         publisher_->publish(msg);
-        RCLCPP_INFO(this->get_logger(), "/alive_turtles has been updated.");
+        // RCLCPP_INFO(this->get_logger(), "/alive_turtles has been updated.");
     }
 
     void spawnTurtle()
