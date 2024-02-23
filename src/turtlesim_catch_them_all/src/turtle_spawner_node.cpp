@@ -19,7 +19,7 @@ public:
         publisher_ = this->create_publisher<my_robot_interfaces::msg::TurtleArray>(
             "alive_turtles", 
             10);
-        publisher_timer_ = this->create_wall_timer(std::chrono::milliseconds(2000),
+        publisher_timer_ = this->create_wall_timer(std::chrono::milliseconds(100),
                                                    std::bind(&TurtleSpawnerNode::publishTurtleArray, this)); 
 
         RCLCPP_INFO(this->get_logger(), "Publisher has been started.");
@@ -137,14 +137,45 @@ private:
         {
             auto response = future.get();
 
-            // TODO: DELETE TURTLE FROM /alive_turtles
-
+            // Remove turtle from /alive_turtles
+            printArray(alive_turtles_);
+            removeTurtleByName(alive_turtles_, turtle_name);
+            printArray(alive_turtles_);
+            
             // RCLCPP_INFO(this->get_logger(), "");
         }
         catch (const std::exception &e)
         {
             RCLCPP_ERROR(this->get_logger(), "Service call failed");
         }        
+    }
+
+    void removeTurtleByName(std::vector<my_robot_interfaces::msg::Turtle>& array, const std::string& name)
+    {
+        for (size_t i = 0; i < array.size(); ++i)
+        {
+            if (array.at(i).name == name)
+            {
+                array.erase(array.begin() + i);
+                RCLCPP_INFO(this->get_logger(), "%s has been removed", name.c_str());
+                
+                // Publish /alive_turtles
+                publishTurtleArray();
+                break; // Exit the loop since the turtle has been found and removed
+            }
+        }
+    }
+
+    void printArray(std::vector<my_robot_interfaces::msg::Turtle> array)
+    {
+        for (const auto &element : array)
+            {
+                // Extract the tuple elements
+                const auto &[str, float1, float2] = element;
+
+                // Print each element using RCLCPP_INFO
+                RCLCPP_INFO(this->get_logger(), "String: %s, Float 1: %.2f, Float 2: %.2f", str.c_str(), float1, float2);
+            }
     }
 
     // Function for generating a random float32 within a range

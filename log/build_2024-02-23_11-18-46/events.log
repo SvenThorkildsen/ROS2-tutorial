@@ -1,0 +1,923 @@
+[0.000000] (-) TimerEvent: {}
+[0.000103] (-) JobUnselected: {'identifier': 'my_cpp_pkg'}
+[0.000117] (-) JobUnselected: {'identifier': 'my_py_pkg'}
+[0.000125] (-) JobUnselected: {'identifier': 'my_robot_bringup'}
+[0.000132] (-) JobUnselected: {'identifier': 'my_robot_interfaces'}
+[0.000152] (turtlesim_catch_them_all) JobQueued: {'identifier': 'turtlesim_catch_them_all', 'dependencies': OrderedDict([('my_robot_interfaces', '/home/sven/ros2_ws/install/my_robot_interfaces')])}
+[0.000368] (turtlesim_catch_them_all) JobStarted: {'identifier': 'turtlesim_catch_them_all'}
+[0.024923] (turtlesim_catch_them_all) JobProgress: {'identifier': 'turtlesim_catch_them_all', 'progress': 'cmake'}
+[0.025256] (turtlesim_catch_them_all) JobProgress: {'identifier': 'turtlesim_catch_them_all', 'progress': 'build'}
+[0.025548] (turtlesim_catch_them_all) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sven/ros2_ws/build/turtlesim_catch_them_all', '--', '-j20', '-l20'], 'cwd': '/home/sven/ros2_ws/build/turtlesim_catch_them_all', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sven'), ('LC_TIME', 'nb_NO.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sven/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sven'), ('OLDPWD', '/home/sven'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nb_NO.UTF-8'), ('MANAGERPID', '1852'), ('SYSTEMD_EXEC_PID', '2387'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '46504'), ('COLCON_PREFIX_PATH', '/home/sven/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'sven'), ('JOURNAL_STREAM', '8:40803'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sven'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sven-cleanseasolutions:@/tmp/.ICE-unix/2368,unix/sven-cleanseasolutions:/tmp/.ICE-unix/2368'), ('INVOCATION_ID', 'abae98d8c4604ad49ff2efe50cc0d76d'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nb_NO.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'nb_NO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sven/ros2_ws/install/turtlesim_catch_them_all:/home/sven/ros2_ws/install/my_robot_bringup:/home/sven/ros2_ws/install/my_py_pkg:/home/sven/ros2_ws/install/my_cpp_pkg:/home/sven/ros2_ws/install/my_robot_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nb_NO.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:cbd334a7-ecf7-463d-ba86-ec749b16b08d'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nb_NO.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'nb_NO.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sven/ros2_ws/build/turtlesim_catch_them_all'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sven/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/sven/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nb_NO.UTF-8'), ('LC_PAPER', 'nb_NO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sven/ros2_ws/install/my_robot_interfaces:/home/sven/ros2_ws/install/turtlesim_catch_them_all:/home/sven/ros2_ws/install/my_robot_bringup:/home/sven/ros2_ws/install/my_cpp_pkg:/home/sven/ros2_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[0.046463] (turtlesim_catch_them_all) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtle_spawner\x1b[0m\n'}
+[0.051855] (turtlesim_catch_them_all) StdoutLine: {'line': b'[ 50%] Built target turtle_controller\n'}
+[0.054241] (turtlesim_catch_them_all) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/turtle_spawner.dir/src/turtle_spawner_node.cpp.o\x1b[0m\n'}
+[0.099888] (-) TimerEvent: {}
+[0.200097] (-) TimerEvent: {}
+[0.300356] (-) TimerEvent: {}
+[0.400589] (-) TimerEvent: {}
+[0.500840] (-) TimerEvent: {}
+[0.601076] (-) TimerEvent: {}
+[0.701317] (-) TimerEvent: {}
+[0.801563] (-) TimerEvent: {}
+[0.901801] (-) TimerEvent: {}
+[1.002043] (-) TimerEvent: {}
+[1.102296] (-) TimerEvent: {}
+[1.202533] (-) TimerEvent: {}
+[1.274995] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:71\x1b[m\x1b[K,\n'}
+[1.275309] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[1.275614] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.275642] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.275674] (turtlesim_catch_them_all) StderrLine: {'line': b'/usr/include/c++/11/bits/predefined_ops.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kbool __gnu_cxx::__ops::_Iter_equals_val<_Value>::operator()(_Iterator) [with _Iterator = __gnu_cxx::__normal_iterator<my_robot_interfaces::msg::Turtle_<std::allocator<void> >*, std::vector<my_robot_interfaces::msg::Turtle_<std::allocator<void> >, std::allocator<my_robot_interfaces::msg::Turtle_<std::allocator<void> > > > >; _Value = const std::__cxx11::basic_string<char>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.275828] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algo.h:822:13:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[K_ForwardIterator std::__remove_if(_ForwardIterator, _ForwardIterator, _Predicate) [with _ForwardIterator = __gnu_cxx::__normal_iterator<my_robot_interfaces::msg::Turtle_<std::allocator<void> >*, std::vector<my_robot_interfaces::msg::Turtle_<std::allocator<void> >, std::allocator<my_robot_interfaces::msg::Turtle_<std::allocator<void> > > > >; _Predicate = __gnu_cxx::__ops::_Iter_equals_val<const std::__cxx11::basic_string<char> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.275857] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algo.h:860:30:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[K_FIter std::remove(_FIter, _FIter, const _Tp&) [with _FIter = __gnu_cxx::__normal_iterator<my_robot_interfaces::msg::Turtle_<std::allocator<void> >*, std::vector<my_robot_interfaces::msg::Turtle_<std::allocator<void> >, std::allocator<my_robot_interfaces::msg::Turtle_<std::allocator<void> > > > >; _Tp = std::__cxx11::basic_string<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.275882] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:142:34:\x1b[m\x1b[K   required from here\n'}
+[1.275907] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/predefined_ops.h:270:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator==\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Kmy_robot_interfaces::msg::Turtle_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[1.275932] (turtlesim_catch_them_all) StderrLine: {'line': b'  270 |         { return \x1b[01;31m\x1b[K*__it == _M_value\x1b[m\x1b[K; }\n'}
+[1.276008] (turtlesim_catch_them_all) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.276032] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/sven/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/turtle.hpp:7\x1b[m\x1b[K,\n'}
+[1.276061] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:2\x1b[m\x1b[K:\n'}
+[1.276084] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sven/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle__struct.hpp:130:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kbool my_robot_interfaces::msg::Turtle_<ContainerAllocator>::operator==(const my_robot_interfaces::msg::Turtle_<ContainerAllocator>&) const [with ContainerAllocator = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.276109] (turtlesim_catch_them_all) StderrLine: {'line': b'  130 |   bool \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const Turtle_ & other) const\n'}
+[1.276132] (turtlesim_catch_them_all) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.276156] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sven/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle__struct.hpp:130:35:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst my_robot_interfaces::msg::Turtle_<std::allocator<void> >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.276226] (turtlesim_catch_them_all) StderrLine: {'line': b'  130 |   bool operator==(\x1b[01;36m\x1b[Kconst Turtle_ & other\x1b[m\x1b[K) const\n'}
+[1.276252] (turtlesim_catch_them_all) StderrLine: {'line': b'      |                   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[1.276328] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:67\x1b[m\x1b[K,\n'}
+[1.276353] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[1.276376] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.276399] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.276469] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:1155:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _IteratorL, class _IteratorR, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_IteratorL, _Container>&, const __gnu_cxx::__normal_iterator<_IteratorR, _Container>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.276544] (turtlesim_catch_them_all) StderrLine: {'line': b' 1155 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const __normal_iterator<_IteratorL, _Container>& __lhs,\n'}
+[1.276611] (turtlesim_catch_them_all) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.276634] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:1155:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.276657] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:71\x1b[m\x1b[K,\n'}
+[1.276680] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[1.276702] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.276724] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.276748] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/predefined_ops.h:270:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmy_robot_interfaces::msg::Turtle_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst __gnu_cxx::__normal_iterator<_IteratorL, _Container>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.276826] (turtlesim_catch_them_all) StderrLine: {'line': b'  270 |         { return \x1b[01;36m\x1b[K*__it == _M_value\x1b[m\x1b[K; }\n'}
+[1.276901] (turtlesim_catch_them_all) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.276928] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:67\x1b[m\x1b[K,\n'}
+[1.276951] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[1.276974] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.276996] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.277018] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:1163:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Iterator, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_Iterator, _Container>&, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.277089] (turtlesim_catch_them_all) StderrLine: {'line': b' 1163 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const __normal_iterator<_Iterator, _Container>& __lhs,\n'}
+[1.277112] (turtlesim_catch_them_all) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.277185] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:1163:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.277208] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:71\x1b[m\x1b[K,\n'}
+[1.277231] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[1.277253] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.277275] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.277297] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/predefined_ops.h:270:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmy_robot_interfaces::msg::Turtle_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst __gnu_cxx::__normal_iterator<_Iterator, _Container>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.277321] (turtlesim_catch_them_all) StderrLine: {'line': b'  270 |         { return \x1b[01;36m\x1b[K*__it == _M_value\x1b[m\x1b[K; }\n'}
+[1.277344] (turtlesim_catch_them_all) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.277366] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33\x1b[m\x1b[K,\n'}
+[1.277388] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/allocator.h:46\x1b[m\x1b[K,\n'}
+[1.277456] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:64\x1b[m\x1b[K,\n'}
+[1.277481] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.277505] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.277528] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ext/new_allocator.h:183:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Up> bool __gnu_cxx::operator==(const __gnu_cxx::new_allocator<char>&, const __gnu_cxx::new_allocator<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.277551] (turtlesim_catch_them_all) StderrLine: {'line': b'  183 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const new_allocator&, const new_allocator<_Up>&)\n'}
+[1.277575] (turtlesim_catch_them_all) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.277627] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ext/new_allocator.h:183:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.277649] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:71\x1b[m\x1b[K,\n'}
+[1.277670] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[1.277691] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.277712] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.277735] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/predefined_ops.h:270:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst __gnu_cxx::new_allocator<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.277757] (turtlesim_catch_them_all) StderrLine: {'line': b'  270 |         { return \x1b[01;36m\x1b[K*__it == _M_value\x1b[m\x1b[K; }\n'}
+[1.277777] (turtlesim_catch_them_all) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.277798] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:64\x1b[m\x1b[K,\n'}
+[1.277817] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[1.277837] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.277857] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.277876] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_pair.h:466:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _T1, class _T2> constexpr bool std::operator==(const std::pair<_T1, _T2>&, const std::pair<_T1, _T2>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.277897] (turtlesim_catch_them_all) StderrLine: {'line': b'  466 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const pair<_T1, _T2>& __x, const pair<_T1, _T2>& __y)\n'}
+[1.277917] (turtlesim_catch_them_all) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.277937] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_pair.h:466:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.277957] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:71\x1b[m\x1b[K,\n'}
+[1.277979] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[1.278000] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.278020] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.278040] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/predefined_ops.h:270:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmy_robot_interfaces::msg::Turtle_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::pair<_T1, _T2>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.278061] (turtlesim_catch_them_all) StderrLine: {'line': b'  270 |         { return \x1b[01;36m\x1b[K*__it == _M_value\x1b[m\x1b[K; }\n'}
+[1.278081] (turtlesim_catch_them_all) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.278101] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:67\x1b[m\x1b[K,\n'}
+[1.278121] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[1.278141] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.278161] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.278183] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:420:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Iterator> constexpr bool std::operator==(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_Iterator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.278205] (turtlesim_catch_them_all) StderrLine: {'line': b'  420 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const reverse_iterator<_Iterator>& __x,\n'}
+[1.278226] (turtlesim_catch_them_all) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.278249] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:420:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.278269] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:71\x1b[m\x1b[K,\n'}
+[1.278290] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[1.278311] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.278332] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.278352] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/predefined_ops.h:270:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmy_robot_interfaces::msg::Turtle_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::reverse_iterator<_Iterator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.278373] (turtlesim_catch_them_all) StderrLine: {'line': b'  270 |         { return \x1b[01;36m\x1b[K*__it == _M_value\x1b[m\x1b[K; }\n'}
+[1.278394] (turtlesim_catch_them_all) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.278414] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:67\x1b[m\x1b[K,\n'}
+[1.278435] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[1.278455] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.278475] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.278495] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:459:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _IteratorL, class _IteratorR> constexpr bool std::operator==(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_IteratorR>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.278521] (turtlesim_catch_them_all) StderrLine: {'line': b'  459 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const reverse_iterator<_IteratorL>& __x,\n'}
+[1.278543] (turtlesim_catch_them_all) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.278564] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:459:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.278585] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:71\x1b[m\x1b[K,\n'}
+[1.278605] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[1.278627] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.278647] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.278667] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/predefined_ops.h:270:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmy_robot_interfaces::msg::Turtle_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::reverse_iterator<_Iterator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.278688] (turtlesim_catch_them_all) StderrLine: {'line': b'  270 |         { return \x1b[01;36m\x1b[K*__it == _M_value\x1b[m\x1b[K; }\n'}
+[1.278711] (turtlesim_catch_them_all) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.278731] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:67\x1b[m\x1b[K,\n'}
+[1.278751] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[1.278771] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.278791] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.278811] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:1585:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _IteratorL, class _IteratorR> constexpr bool std::operator==(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorR>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.278832] (turtlesim_catch_them_all) StderrLine: {'line': b' 1585 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const move_iterator<_IteratorL>& __x,\n'}
+[1.278853] (turtlesim_catch_them_all) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.278874] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:1585:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.278895] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:71\x1b[m\x1b[K,\n'}
+[1.278917] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[1.278939] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.278960] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.278980] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/predefined_ops.h:270:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmy_robot_interfaces::msg::Turtle_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::move_iterator<_IteratorL>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.279003] (turtlesim_catch_them_all) StderrLine: {'line': b'  270 |         { return \x1b[01;36m\x1b[K*__it == _M_value\x1b[m\x1b[K; }\n'}
+[1.279024] (turtlesim_catch_them_all) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.279044] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:67\x1b[m\x1b[K,\n'}
+[1.279066] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[1.279087] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.279107] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.279128] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:1648:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Iterator> constexpr bool std::operator==(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorL>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.279149] (turtlesim_catch_them_all) StderrLine: {'line': b' 1648 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const move_iterator<_Iterator>& __x,\n'}
+[1.279169] (turtlesim_catch_them_all) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.279190] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:1648:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.279210] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:71\x1b[m\x1b[K,\n'}
+[1.279230] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[1.279250] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.279271] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.279291] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/predefined_ops.h:270:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmy_robot_interfaces::msg::Turtle_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::move_iterator<_IteratorL>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.279313] (turtlesim_catch_them_all) StderrLine: {'line': b'  270 |         { return \x1b[01;36m\x1b[K*__it == _M_value\x1b[m\x1b[K; }\n'}
+[1.279335] (turtlesim_catch_them_all) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.279354] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:64\x1b[m\x1b[K,\n'}
+[1.279375] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.279394] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.279414] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/allocator.h:218:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _T1, class _T2> bool std::operator==(const std::allocator<_Tp1>&, const std::allocator<_T2>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.279434] (turtlesim_catch_them_all) StderrLine: {'line': b'  218 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const allocator<_T1>&, const allocator<_T2>&)\n'}
+[1.279454] (turtlesim_catch_them_all) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.279474] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/allocator.h:218:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.279497] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:71\x1b[m\x1b[K,\n'}
+[1.279517] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[1.279539] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.279558] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.279578] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/predefined_ops.h:270:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmy_robot_interfaces::msg::Turtle_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::allocator<_Tp1>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.279599] (turtlesim_catch_them_all) StderrLine: {'line': b'  270 |         { return \x1b[01;36m\x1b[K*__it == _M_value\x1b[m\x1b[K; }\n'}
+[1.279619] (turtlesim_catch_them_all) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.279638] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/tuple:39\x1b[m\x1b[K,\n'}
+[1.279658] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:37\x1b[m\x1b[K,\n'}
+[1.279679] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:76\x1b[m\x1b[K,\n'}
+[1.279699] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.279718] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.279738] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/array:276:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, long unsigned int _Nm> bool std::operator==(const std::array<_Tp, _Nm>&, const std::array<_Tp, _Nm>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.279814] (turtlesim_catch_them_all) StderrLine: {'line': b'  276 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const array<_Tp, _Nm>& __one, const array<_Tp, _Nm>& __two)\n'}
+[1.279837] (turtlesim_catch_them_all) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.279857] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/array:276:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.279878] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:71\x1b[m\x1b[K,\n'}
+[1.279899] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[1.279919] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.279938] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.279959] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/predefined_ops.h:270:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmy_robot_interfaces::msg::Turtle_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::array<_Tp, _Nm>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.279980] (turtlesim_catch_them_all) StderrLine: {'line': b'  270 |         { return \x1b[01;36m\x1b[K*__it == _M_value\x1b[m\x1b[K; }\n'}
+[1.280002] (turtlesim_catch_them_all) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.280022] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:37\x1b[m\x1b[K,\n'}
+[1.280041] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:76\x1b[m\x1b[K,\n'}
+[1.280061] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.280081] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.280101] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/tuple:1524:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ... _TElements, class ... _UElements> constexpr bool std::operator==(const std::tuple<_Tps ...>&, const std::tuple<_UTypes ...>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.280121] (turtlesim_catch_them_all) StderrLine: {'line': b' 1524 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const tuple<_TElements...>& __t,\n'}
+[1.280140] (turtlesim_catch_them_all) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.280160] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/tuple:1524:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.280181] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:71\x1b[m\x1b[K,\n'}
+[1.280202] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[1.280223] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.280244] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.280264] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/predefined_ops.h:270:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmy_robot_interfaces::msg::Turtle_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::tuple<_Tps ...>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.280285] (turtlesim_catch_them_all) StderrLine: {'line': b'  270 |         { return \x1b[01;36m\x1b[K*__it == _M_value\x1b[m\x1b[K; }\n'}
+[1.280305] (turtlesim_catch_them_all) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.280325] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:76\x1b[m\x1b[K,\n'}
+[1.280345] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.280398] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.280420] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:753:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Dp, class _Up, class _Ep> bool std::operator==(const std::unique_ptr<_Tp, _Dp>&, const std::unique_ptr<_Up, _Ep>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.280441] (turtlesim_catch_them_all) StderrLine: {'line': b'  753 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const unique_ptr<_Tp, _Dp>& __x,\n'}
+[1.280461] (turtlesim_catch_them_all) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.280482] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:753:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.280502] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:71\x1b[m\x1b[K,\n'}
+[1.280522] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[1.280542] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.280562] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.280584] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/predefined_ops.h:270:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmy_robot_interfaces::msg::Turtle_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::unique_ptr<_Tp, _Dp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.280605] (turtlesim_catch_them_all) StderrLine: {'line': b'  270 |         { return \x1b[01;36m\x1b[K*__it == _M_value\x1b[m\x1b[K; }\n'}
+[1.280625] (turtlesim_catch_them_all) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.280645] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:76\x1b[m\x1b[K,\n'}
+[1.280665] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.280685] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.280705] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:760:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Dp> bool std::operator==(const std::unique_ptr<_Tp, _Dp>&, std::nullptr_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.280725] (turtlesim_catch_them_all) StderrLine: {'line': b'  760 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const unique_ptr<_Tp, _Dp>& __x, nullptr_t) noexcept\n'}
+[1.280744] (turtlesim_catch_them_all) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.280769] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:760:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.280790] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:71\x1b[m\x1b[K,\n'}
+[1.280810] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[1.280829] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.280849] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.280869] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/predefined_ops.h:270:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmy_robot_interfaces::msg::Turtle_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::unique_ptr<_Tp, _Dp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.280891] (turtlesim_catch_them_all) StderrLine: {'line': b'  270 |         { return \x1b[01;36m\x1b[K*__it == _M_value\x1b[m\x1b[K; }\n'}
+[1.280914] (turtlesim_catch_them_all) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.280934] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:76\x1b[m\x1b[K,\n'}
+[1.280954] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.280974] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.280994] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:767:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Dp> bool std::operator==(std::nullptr_t, const std::unique_ptr<_Tp, _Dp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.281016] (turtlesim_catch_them_all) StderrLine: {'line': b'  767 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(nullptr_t, const unique_ptr<_Tp, _Dp>& __x) noexcept\n'}
+[1.281037] (turtlesim_catch_them_all) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.281057] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:767:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.281077] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:71\x1b[m\x1b[K,\n'}
+[1.281097] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[1.281117] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.281137] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.281158] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/predefined_ops.h:270:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::unique_ptr<_Tp, _Dp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.281178] (turtlesim_catch_them_all) StderrLine: {'line': b'  270 |         { return \x1b[01;36m\x1b[K*__it == _M_value\x1b[m\x1b[K; }\n'}
+[1.281198] (turtlesim_catch_them_all) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.281217] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/iosfwd:40\x1b[m\x1b[K,\n'}
+[1.281238] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:52\x1b[m\x1b[K,\n'}
+[1.281258] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[1.281277] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.281297] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.281317] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/postypes.h:222:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _StateT> bool std::operator==(const std::fpos<_StateT>&, const std::fpos<_StateT>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.281339] (turtlesim_catch_them_all) StderrLine: {'line': b'  222 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const fpos<_StateT>& __lhs, const fpos<_StateT>& __rhs)\n'}
+[1.281361] (turtlesim_catch_them_all) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.281381] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/postypes.h:222:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.281402] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:71\x1b[m\x1b[K,\n'}
+[1.281422] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[1.281443] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.281462] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.281482] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/predefined_ops.h:270:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmy_robot_interfaces::msg::Turtle_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::fpos<_StateT>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.281503] (turtlesim_catch_them_all) StderrLine: {'line': b'  270 |         { return \x1b[01;36m\x1b[K*__it == _M_value\x1b[m\x1b[K; }\n'}
+[1.281523] (turtlesim_catch_them_all) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.281543] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:53\x1b[m\x1b[K,\n'}
+[1.281563] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[1.281583] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.281602] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.281623] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1410:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp1, class _Tp2, __gnu_cxx::_Lock_policy _Lp> bool std::operator==(const std::__shared_ptr<_Tp1, _Lp>&, const std::__shared_ptr<_Tp2, _Lp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.281643] (turtlesim_catch_them_all) StderrLine: {'line': b' 1410 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const __shared_ptr<_Tp1, _Lp>& __a,\n'}
+[1.281663] (turtlesim_catch_them_all) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.281683] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1410:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.281703] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:71\x1b[m\x1b[K,\n'}
+[1.281723] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[1.281744] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.281764] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.281783] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/predefined_ops.h:270:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmy_robot_interfaces::msg::Turtle_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::__shared_ptr<_Tp1, _Lp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.281809] (turtlesim_catch_them_all) StderrLine: {'line': b'  270 |         { return \x1b[01;36m\x1b[K*__it == _M_value\x1b[m\x1b[K; }\n'}
+[1.281828] (turtlesim_catch_them_all) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.281848] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:53\x1b[m\x1b[K,\n'}
+[1.281870] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[1.281890] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.281910] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.281929] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1416:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, __gnu_cxx::_Lock_policy _Lp> bool std::operator==(const std::__shared_ptr<_Tp, _Lp>&, std::nullptr_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.281949] (turtlesim_catch_them_all) StderrLine: {'line': b' 1416 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const __shared_ptr<_Tp, _Lp>& __a, nullptr_t) noexcept\n'}
+[1.281969] (turtlesim_catch_them_all) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.281988] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1416:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.282009] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:71\x1b[m\x1b[K,\n'}
+[1.282029] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[1.282048] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.282070] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.282090] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/predefined_ops.h:270:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmy_robot_interfaces::msg::Turtle_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::__shared_ptr<_Tp, _Lp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.282110] (turtlesim_catch_them_all) StderrLine: {'line': b'  270 |         { return \x1b[01;36m\x1b[K*__it == _M_value\x1b[m\x1b[K; }\n'}
+[1.282129] (turtlesim_catch_them_all) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.282149] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:53\x1b[m\x1b[K,\n'}
+[1.282169] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[1.282189] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.282209] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.282230] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1436:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, __gnu_cxx::_Lock_policy _Lp> bool std::operator==(std::nullptr_t, const std::__shared_ptr<_Tp, _Lp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.282253] (turtlesim_catch_them_all) StderrLine: {'line': b' 1436 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(nullptr_t, const __shared_ptr<_Tp, _Lp>& __a) noexcept\n'}
+[1.282272] (turtlesim_catch_them_all) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.282292] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1436:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.282311] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:71\x1b[m\x1b[K,\n'}
+[1.282331] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[1.282351] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.282370] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.282390] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/predefined_ops.h:270:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::__shared_ptr<_Tp, _Lp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.282411] (turtlesim_catch_them_all) StderrLine: {'line': b'  270 |         { return \x1b[01;36m\x1b[K*__it == _M_value\x1b[m\x1b[K; }\n'}
+[1.282430] (turtlesim_catch_them_all) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.282450] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[1.282470] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.282491] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.282511] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:437:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Up> bool std::operator==(const std::shared_ptr<_Tp>&, const std::shared_ptr<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.282531] (turtlesim_catch_them_all) StderrLine: {'line': b'  437 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const shared_ptr<_Tp>& __a, const shared_ptr<_Up>& __b) noexcept\n'}
+[1.282552] (turtlesim_catch_them_all) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.282572] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:437:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.282594] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:71\x1b[m\x1b[K,\n'}
+[1.282614] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[1.282635] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.282656] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.282678] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/predefined_ops.h:270:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmy_robot_interfaces::msg::Turtle_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.282698] (turtlesim_catch_them_all) StderrLine: {'line': b'  270 |         { return \x1b[01;36m\x1b[K*__it == _M_value\x1b[m\x1b[K; }\n'}
+[1.282718] (turtlesim_catch_them_all) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.282738] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[1.282759] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.282779] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.282801] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:443:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> bool std::operator==(const std::shared_ptr<_Tp>&, std::nullptr_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.282822] (turtlesim_catch_them_all) StderrLine: {'line': b'  443 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const shared_ptr<_Tp>& __a, nullptr_t) noexcept\n'}
+[1.282842] (turtlesim_catch_them_all) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.282862] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:443:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.282885] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:71\x1b[m\x1b[K,\n'}
+[1.282906] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[1.282926] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.282946] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.282967] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/predefined_ops.h:270:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmy_robot_interfaces::msg::Turtle_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.282987] (turtlesim_catch_them_all) StderrLine: {'line': b'  270 |         { return \x1b[01;36m\x1b[K*__it == _M_value\x1b[m\x1b[K; }\n'}
+[1.283007] (turtlesim_catch_them_all) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.283027] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[1.283047] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.283067] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.283086] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:464:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> bool std::operator==(std::nullptr_t, const std::shared_ptr<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.283109] (turtlesim_catch_them_all) StderrLine: {'line': b'  464 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(nullptr_t, const shared_ptr<_Tp>& __a) noexcept\n'}
+[1.283129] (turtlesim_catch_them_all) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.283149] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:464:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.283168] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:71\x1b[m\x1b[K,\n'}
+[1.283188] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[1.283209] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.283229] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.283249] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/predefined_ops.h:270:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.283270] (turtlesim_catch_them_all) StderrLine: {'line': b'  270 |         { return \x1b[01;36m\x1b[K*__it == _M_value\x1b[m\x1b[K; }\n'}
+[1.283290] (turtlesim_catch_them_all) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.283310] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:48\x1b[m\x1b[K,\n'}
+[1.283330] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[1.283350] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/stdexcept:39\x1b[m\x1b[K,\n'}
+[1.283370] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/system_error:41\x1b[m\x1b[K,\n'}
+[1.283391] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/mutex:42\x1b[m\x1b[K,\n'}
+[1.283410] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/future:38\x1b[m\x1b[K,\n'}
+[1.283431] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[1.283453] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.283474] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.283494] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/string_view:535:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> constexpr bool std::operator==(std::basic_string_view<_CharT, _Traits>, std::basic_string_view<_CharT, _Traits>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.283517] (turtlesim_catch_them_all) StderrLine: {'line': b'  535 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(basic_string_view<_CharT, _Traits> __x,\n'}
+[1.283539] (turtlesim_catch_them_all) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.283560] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/string_view:535:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.283582] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:71\x1b[m\x1b[K,\n'}
+[1.283602] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[1.283621] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.283641] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.283661] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/predefined_ops.h:270:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmy_robot_interfaces::msg::Turtle_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_string_view<_CharT, _Traits>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.283682] (turtlesim_catch_them_all) StderrLine: {'line': b'  270 |         { return \x1b[01;36m\x1b[K*__it == _M_value\x1b[m\x1b[K; }\n'}
+[1.283702] (turtlesim_catch_them_all) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.283723] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:48\x1b[m\x1b[K,\n'}
+[1.283742] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[1.283762] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/stdexcept:39\x1b[m\x1b[K,\n'}
+[1.283783] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/system_error:41\x1b[m\x1b[K,\n'}
+[1.283803] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/mutex:42\x1b[m\x1b[K,\n'}
+[1.283824] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/future:38\x1b[m\x1b[K,\n'}
+[1.283845] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[1.283867] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.283888] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.283908] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/string_view:541:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> constexpr bool std::operator==(std::basic_string_view<_CharT, _Traits>, std::__type_identity_t<std::basic_string_view<_CharT, _Traits> >)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.283930] (turtlesim_catch_them_all) StderrLine: {'line': b'  541 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(basic_string_view<_CharT, _Traits> __x,\n'}
+[1.283951] (turtlesim_catch_them_all) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.283971] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/string_view:541:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.283992] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:71\x1b[m\x1b[K,\n'}
+[1.284014] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[1.284034] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.284056] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.284076] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/predefined_ops.h:270:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmy_robot_interfaces::msg::Turtle_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_string_view<_CharT, _Traits>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.284098] (turtlesim_catch_them_all) StderrLine: {'line': b'  270 |         { return \x1b[01;36m\x1b[K*__it == _M_value\x1b[m\x1b[K; }\n'}
+[1.284118] (turtlesim_catch_them_all) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.284139] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:48\x1b[m\x1b[K,\n'}
+[1.284159] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[1.284179] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/stdexcept:39\x1b[m\x1b[K,\n'}
+[1.284199] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/system_error:41\x1b[m\x1b[K,\n'}
+[1.284218] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/mutex:42\x1b[m\x1b[K,\n'}
+[1.284237] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/future:38\x1b[m\x1b[K,\n'}
+[1.284258] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[1.284278] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.284298] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.284320] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/string_view:564:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> constexpr bool std::operator==(std::__type_identity_t<std::basic_string_view<_CharT, _Traits> >, std::basic_string_view<_CharT, _Traits>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.284343] (turtlesim_catch_them_all) StderrLine: {'line': b'  564 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(__type_identity_t<basic_string_view<_CharT, _Traits>> __x,\n'}
+[1.284364] (turtlesim_catch_them_all) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.284383] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/string_view:564:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.284404] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:71\x1b[m\x1b[K,\n'}
+[1.284423] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[1.284443] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.284463] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.284482] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/predefined_ops.h:270:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_string_view<_CharT, _Traits>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.284505] (turtlesim_catch_them_all) StderrLine: {'line': b'  270 |         { return \x1b[01;36m\x1b[K*__it == _M_value\x1b[m\x1b[K; }\n'}
+[1.284525] (turtlesim_catch_them_all) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.284545] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[1.284565] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/stdexcept:39\x1b[m\x1b[K,\n'}
+[1.284584] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/system_error:41\x1b[m\x1b[K,\n'}
+[1.284604] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/mutex:42\x1b[m\x1b[K,\n'}
+[1.284624] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/future:38\x1b[m\x1b[K,\n'}
+[1.284644] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[1.284665] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.284684] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.284704] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6226:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.284727] (turtlesim_catch_them_all) StderrLine: {'line': b' 6226 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const basic_string<_CharT, _Traits, _Alloc>& __lhs,\n'}
+[1.284747] (turtlesim_catch_them_all) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.284777] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6226:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.284798] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:71\x1b[m\x1b[K,\n'}
+[1.284819] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[1.284839] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.284860] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.284879] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/predefined_ops.h:270:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmy_robot_interfaces::msg::Turtle_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.284900] (turtlesim_catch_them_all) StderrLine: {'line': b'  270 |         { return \x1b[01;36m\x1b[K*__it == _M_value\x1b[m\x1b[K; }\n'}
+[1.284920] (turtlesim_catch_them_all) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.284940] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[1.284961] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/stdexcept:39\x1b[m\x1b[K,\n'}
+[1.284981] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/system_error:41\x1b[m\x1b[K,\n'}
+[1.285002] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/mutex:42\x1b[m\x1b[K,\n'}
+[1.285022] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/future:38\x1b[m\x1b[K,\n'}
+[1.285042] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[1.285062] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.285082] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.285102] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6234:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT> typename __gnu_cxx::__enable_if<std::__is_char<_Tp>::__value, bool>::__type std::operator==(const std::__cxx11::basic_string<_CharT>&, const std::__cxx11::basic_string<_CharT>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.285126] (turtlesim_catch_them_all) StderrLine: {'line': b' 6234 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const basic_string<_CharT>& __lhs,\n'}
+[1.285146] (turtlesim_catch_them_all) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.285166] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6234:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.285189] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:71\x1b[m\x1b[K,\n'}
+[1.285212] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[1.285232] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.285252] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.285273] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/predefined_ops.h:270:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmy_robot_interfaces::msg::Turtle_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<_CharT>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.285296] (turtlesim_catch_them_all) StderrLine: {'line': b'  270 |         { return \x1b[01;36m\x1b[K*__it == _M_value\x1b[m\x1b[K; }\n'}
+[1.285315] (turtlesim_catch_them_all) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.285336] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[1.285356] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/stdexcept:39\x1b[m\x1b[K,\n'}
+[1.285376] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/system_error:41\x1b[m\x1b[K,\n'}
+[1.285396] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/mutex:42\x1b[m\x1b[K,\n'}
+[1.285416] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/future:38\x1b[m\x1b[K,\n'}
+[1.285439] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[1.285459] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.285480] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.285500] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6248:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, const _CharT*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.285521] (turtlesim_catch_them_all) StderrLine: {'line': b' 6248 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const basic_string<_CharT, _Traits, _Alloc>& __lhs,\n'}
+[1.285541] (turtlesim_catch_them_all) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.285561] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6248:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.285581] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:71\x1b[m\x1b[K,\n'}
+[1.285601] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[1.285621] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.285641] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.285661] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/predefined_ops.h:270:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmy_robot_interfaces::msg::Turtle_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.285682] (turtlesim_catch_them_all) StderrLine: {'line': b'  270 |         { return \x1b[01;36m\x1b[K*__it == _M_value\x1b[m\x1b[K; }\n'}
+[1.285702] (turtlesim_catch_them_all) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.285722] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[1.285742] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/stdexcept:39\x1b[m\x1b[K,\n'}
+[1.285762] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/system_error:41\x1b[m\x1b[K,\n'}
+[1.285781] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/mutex:42\x1b[m\x1b[K,\n'}
+[1.285801] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/future:38\x1b[m\x1b[K,\n'}
+[1.285821] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[1.285841] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.285861] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.285883] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6289:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _Alloc> bool std::operator==(const _CharT*, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.285904] (turtlesim_catch_them_all) StderrLine: {'line': b' 6289 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const _CharT* __lhs,\n'}
+[1.285927] (turtlesim_catch_them_all) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.285947] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6289:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.285968] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:71\x1b[m\x1b[K,\n'}
+[1.285987] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[1.286007] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.286029] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.286049] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/predefined_ops.h:270:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst _CharT*\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kmy_robot_interfaces::msg::Turtle_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.286070] (turtlesim_catch_them_all) StderrLine: {'line': b'  270 |         { return \x1b[01;36m\x1b[K*__it == _M_value\x1b[m\x1b[K; }\n'}
+[1.286091] (turtlesim_catch_them_all) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.286110] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/future:47\x1b[m\x1b[K,\n'}
+[1.286130] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[1.286150] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.286170] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.286190] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_function.h:718:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Res, class ... _Args> bool std::operator==(const std::function<_Res(_ArgTypes ...)>&, std::nullptr_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.286209] (turtlesim_catch_them_all) StderrLine: {'line': b'  718 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const function<_Res(_Args...)>& __f, nullptr_t) noexcept\n'}
+[1.286229] (turtlesim_catch_them_all) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.286249] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_function.h:718:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.286269] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:71\x1b[m\x1b[K,\n'}
+[1.286288] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[1.286308] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.286329] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.286349] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/predefined_ops.h:270:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmy_robot_interfaces::msg::Turtle_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::function<_Res(_ArgTypes ...)>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.286370] (turtlesim_catch_them_all) StderrLine: {'line': b'  270 |         { return \x1b[01;36m\x1b[K*__it == _M_value\x1b[m\x1b[K; }\n'}
+[1.286389] (turtlesim_catch_them_all) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.286408] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/future:47\x1b[m\x1b[K,\n'}
+[1.286428] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[1.286448] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.286468] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.286488] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_function.h:725:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Res, class ... _Args> bool std::operator==(std::nullptr_t, const std::function<_Res(_ArgTypes ...)>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.286509] (turtlesim_catch_them_all) StderrLine: {'line': b'  725 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(nullptr_t, const function<_Res(_Args...)>& __f) noexcept\n'}
+[1.286529] (turtlesim_catch_them_all) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.286548] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_function.h:725:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.286568] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:71\x1b[m\x1b[K,\n'}
+[1.286588] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[1.286610] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.286630] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.286650] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/predefined_ops.h:270:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::function<_Res(_ArgTypes ...)>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.286670] (turtlesim_catch_them_all) StderrLine: {'line': b'  270 |         { return \x1b[01;36m\x1b[K*__it == _M_value\x1b[m\x1b[K; }\n'}
+[1.286690] (turtlesim_catch_them_all) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.286709] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/set:61\x1b[m\x1b[K,\n'}
+[1.286729] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:21\x1b[m\x1b[K,\n'}
+[1.286750] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.286772] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.286792] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.286813] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_set.h:985:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Key, class _Compare, class _Alloc> bool std::operator==(const std::set<_Key, _Compare, _Allocator>&, const std::set<_Key, _Compare, _Allocator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.286834] (turtlesim_catch_them_all) StderrLine: {'line': b'  985 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const set<_Key, _Compare, _Alloc>& __x,\n'}
+[1.286854] (turtlesim_catch_them_all) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.286875] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_set.h:985:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.286897] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:71\x1b[m\x1b[K,\n'}
+[1.286920] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[1.286941] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.286963] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.286983] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/predefined_ops.h:270:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmy_robot_interfaces::msg::Turtle_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::set<_Key, _Compare, _Allocator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.287005] (turtlesim_catch_them_all) StderrLine: {'line': b'  270 |         { return \x1b[01;36m\x1b[K*__it == _M_value\x1b[m\x1b[K; }\n'}
+[1.287026] (turtlesim_catch_them_all) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.287046] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/set:62\x1b[m\x1b[K,\n'}
+[1.287067] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:21\x1b[m\x1b[K,\n'}
+[1.287087] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.287107] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.287127] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.287147] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_multiset.h:971:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Key, class _Compare, class _Alloc> bool std::operator==(const std::multiset<_Key, _Compare, _Allocator>&, const std::multiset<_Key, _Compare, _Allocator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.287168] (turtlesim_catch_them_all) StderrLine: {'line': b'  971 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const multiset<_Key, _Compare, _Alloc>& __x,\n'}
+[1.287190] (turtlesim_catch_them_all) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.287211] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_multiset.h:971:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.287232] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:71\x1b[m\x1b[K,\n'}
+[1.287252] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[1.287272] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.287292] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.287311] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/predefined_ops.h:270:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmy_robot_interfaces::msg::Turtle_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::multiset<_Key, _Compare, _Allocator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.287334] (turtlesim_catch_them_all) StderrLine: {'line': b'  270 |         { return \x1b[01;36m\x1b[K*__it == _M_value\x1b[m\x1b[K; }\n'}
+[1.287355] (turtlesim_catch_them_all) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.287375] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/unordered_map:47\x1b[m\x1b[K,\n'}
+[1.287394] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:23\x1b[m\x1b[K,\n'}
+[1.287414] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.287434] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.287454] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.287474] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unordered_map.h:2134:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Key1, class _Tp1, class _Hash1, class _Pred1, class _Alloc1> bool std::operator==(const std::unordered_map<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>&, const std::unordered_map<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.287496] (turtlesim_catch_them_all) StderrLine: {'line': b' 2134 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const unordered_map<_Key, _Tp, _Hash, _Pred, _Alloc>& __x,\n'}
+[1.287518] (turtlesim_catch_them_all) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.287538] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unordered_map.h:2134:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.287560] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:71\x1b[m\x1b[K,\n'}
+[1.287580] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[1.287600] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.287622] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.287642] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/predefined_ops.h:270:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmy_robot_interfaces::msg::Turtle_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::unordered_map<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.287662] (turtlesim_catch_them_all) StderrLine: {'line': b'  270 |         { return \x1b[01;36m\x1b[K*__it == _M_value\x1b[m\x1b[K; }\n'}
+[1.287681] (turtlesim_catch_them_all) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.287701] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/unordered_map:47\x1b[m\x1b[K,\n'}
+[1.287721] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:23\x1b[m\x1b[K,\n'}
+[1.287741] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.287761] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.287781] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.287802] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unordered_map.h:2148:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Key1, class _Tp1, class _Hash1, class _Pred1, class _Alloc1> bool std::operator==(const std::unordered_multimap<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>&, const std::unordered_multimap<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.287823] (turtlesim_catch_them_all) StderrLine: {'line': b' 2148 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const unordered_multimap<_Key, _Tp, _Hash, _Pred, _Alloc>& __x,\n'}
+[1.287842] (turtlesim_catch_them_all) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.287863] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unordered_map.h:2148:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.287883] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:71\x1b[m\x1b[K,\n'}
+[1.287903] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[1.287923] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.287943] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.287963] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/predefined_ops.h:270:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmy_robot_interfaces::msg::Turtle_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::unordered_multimap<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.287985] (turtlesim_catch_them_all) StderrLine: {'line': b'  270 |         { return \x1b[01;36m\x1b[K*__it == _M_value\x1b[m\x1b[K; }\n'}
+[1.288005] (turtlesim_catch_them_all) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.288027] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/vector:67\x1b[m\x1b[K,\n'}
+[1.288047] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:62\x1b[m\x1b[K,\n'}
+[1.288067] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[1.288087] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:74\x1b[m\x1b[K,\n'}
+[1.288107] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18\x1b[m\x1b[K,\n'}
+[1.288127] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.288148] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.288169] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.288191] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.288214] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_vector.h:1892:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Alloc> bool std::operator==(const std::vector<_Tp, _Alloc>&, const std::vector<_Tp, _Alloc>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.288235] (turtlesim_catch_them_all) StderrLine: {'line': b' 1892 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const vector<_Tp, _Alloc>& __x, const vector<_Tp, _Alloc>& __y)\n'}
+[1.288255] (turtlesim_catch_them_all) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.288276] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_vector.h:1892:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.288299] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:71\x1b[m\x1b[K,\n'}
+[1.288319] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[1.288341] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.288361] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.288380] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/predefined_ops.h:270:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmy_robot_interfaces::msg::Turtle_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<_Tp, _Alloc>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.288402] (turtlesim_catch_them_all) StderrLine: {'line': b'  270 |         { return \x1b[01;36m\x1b[K*__it == _M_value\x1b[m\x1b[K; }\n'}
+[1.288422] (turtlesim_catch_them_all) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.288442] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/locale_facets.h:48\x1b[m\x1b[K,\n'}
+[1.288461] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/basic_ios.h:37\x1b[m\x1b[K,\n'}
+[1.288481] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/ios:44\x1b[m\x1b[K,\n'}
+[1.288503] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/ostream:38\x1b[m\x1b[K,\n'}
+[1.288523] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/iostream:39\x1b[m\x1b[K,\n'}
+[1.288543] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22\x1b[m\x1b[K,\n'}
+[1.288564] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.288584] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.288604] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.288623] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.288643] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/streambuf_iterator.h:226:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> bool std::operator==(const std::istreambuf_iterator<_CharT, _Traits>&, const std::istreambuf_iterator<_CharT, _Traits>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.288664] (turtlesim_catch_them_all) StderrLine: {'line': b'  226 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const istreambuf_iterator<_CharT, _Traits>& __a,\n'}
+[1.288685] (turtlesim_catch_them_all) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.288706] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/streambuf_iterator.h:226:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.288726] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:71\x1b[m\x1b[K,\n'}
+[1.288746] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[1.288774] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.288797] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.288816] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/predefined_ops.h:270:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmy_robot_interfaces::msg::Turtle_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::istreambuf_iterator<_CharT, _Traits>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.288836] (turtlesim_catch_them_all) StderrLine: {'line': b'  270 |         { return \x1b[01;36m\x1b[K*__it == _M_value\x1b[m\x1b[K; }\n'}
+[1.288856] (turtlesim_catch_them_all) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.288876] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/list:63\x1b[m\x1b[K,\n'}
+[1.288900] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:23\x1b[m\x1b[K,\n'}
+[1.288923] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.288944] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.288965] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.288985] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.289005] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_list.h:2030:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Alloc> bool std::operator==(const std::__cxx11::list<_Tp, _Alloc>&, const std::__cxx11::list<_Tp, _Alloc>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.289025] (turtlesim_catch_them_all) StderrLine: {'line': b' 2030 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const list<_Tp, _Alloc>& __x, const list<_Tp, _Alloc>& __y)\n'}
+[1.289045] (turtlesim_catch_them_all) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.289065] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_list.h:2030:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.289085] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:71\x1b[m\x1b[K,\n'}
+[1.289107] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[1.289127] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.289147] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.289169] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/predefined_ops.h:270:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmy_robot_interfaces::msg::Turtle_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::list<_Tp, _Alloc>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.289190] (turtlesim_catch_them_all) StderrLine: {'line': b'  270 |         { return \x1b[01;36m\x1b[K*__it == _M_value\x1b[m\x1b[K; }\n'}
+[1.289210] (turtlesim_catch_them_all) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.289230] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/map:61\x1b[m\x1b[K,\n'}
+[1.289286] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:24\x1b[m\x1b[K,\n'}
+[1.289311] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.289331] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.289352] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.289372] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.289396] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_map.h:1463:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Key, class _Tp, class _Compare, class _Alloc> bool std::operator==(const std::map<_Key, _Tp, _Compare, _Allocator>&, const std::map<_Key, _Tp, _Compare, _Allocator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.289422] (turtlesim_catch_them_all) StderrLine: {'line': b' 1463 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const map<_Key, _Tp, _Compare, _Alloc>& __x,\n'}
+[1.289443] (turtlesim_catch_them_all) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.289467] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_map.h:1463:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.289496] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:71\x1b[m\x1b[K,\n'}
+[1.289517] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[1.289538] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.289566] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.289590] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/predefined_ops.h:270:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmy_robot_interfaces::msg::Turtle_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::map<_Key, _Tp, _Compare, _Allocator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.289613] (turtlesim_catch_them_all) StderrLine: {'line': b'  270 |         { return \x1b[01;36m\x1b[K*__it == _M_value\x1b[m\x1b[K; }\n'}
+[1.289634] (turtlesim_catch_them_all) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.289654] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/map:62\x1b[m\x1b[K,\n'}
+[1.289674] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:24\x1b[m\x1b[K,\n'}
+[1.289694] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.289715] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.289740] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.289760] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.289781] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_multimap.h:1128:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Key, class _Tp, class _Compare, class _Alloc> bool std::operator==(const std::multimap<_Key, _Tp, _Compare, _Allocator>&, const std::multimap<_Key, _Tp, _Compare, _Allocator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.289802] (turtlesim_catch_them_all) StderrLine: {'line': b' 1128 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const multimap<_Key, _Tp, _Compare, _Alloc>& __x,\n'}
+[1.289821] (turtlesim_catch_them_all) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.289841] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_multimap.h:1128:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.289861] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:71\x1b[m\x1b[K,\n'}
+[1.289880] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[1.289902] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.289921] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.289941] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/predefined_ops.h:270:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmy_robot_interfaces::msg::Turtle_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::multimap<_Key, _Tp, _Compare, _Allocator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.289982] (turtlesim_catch_them_all) StderrLine: {'line': b'  270 |         { return \x1b[01;36m\x1b[K*__it == _M_value\x1b[m\x1b[K; }\n'}
+[1.290006] (turtlesim_catch_them_all) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.290026] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/unordered_set:47\x1b[m\x1b[K,\n'}
+[1.290046] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/context.hpp:26\x1b[m\x1b[K,\n'}
+[1.290066] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:34\x1b[m\x1b[K,\n'}
+[1.290085] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.290105] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.290125] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.290145] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.290165] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unordered_set.h:1804:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Value1, class _Hash1, class _Pred1, class _Alloc1> bool std::operator==(const std::unordered_set<_Value1, _Hash1, _Pred1, _Alloc1>&, const std::unordered_set<_Value1, _Hash1, _Pred1, _Alloc1>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.290187] (turtlesim_catch_them_all) StderrLine: {'line': b' 1804 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const unordered_set<_Value, _Hash, _Pred, _Alloc>& __x,\n'}
+[1.290207] (turtlesim_catch_them_all) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.290227] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unordered_set.h:1804:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.290246] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:71\x1b[m\x1b[K,\n'}
+[1.290265] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[1.290285] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.290307] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.290327] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/predefined_ops.h:270:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmy_robot_interfaces::msg::Turtle_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::unordered_set<_Value1, _Hash1, _Pred1, _Alloc1>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.290351] (turtlesim_catch_them_all) StderrLine: {'line': b'  270 |         { return \x1b[01;36m\x1b[K*__it == _M_value\x1b[m\x1b[K; }\n'}
+[1.290370] (turtlesim_catch_them_all) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.290390] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/unordered_set:47\x1b[m\x1b[K,\n'}
+[1.290411] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/context.hpp:26\x1b[m\x1b[K,\n'}
+[1.290431] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:34\x1b[m\x1b[K,\n'}
+[1.290453] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.290473] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.290492] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.290512] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.290531] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unordered_set.h:1818:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Value1, class _Hash1, class _Pred1, class _Alloc1> bool std::operator==(const std::unordered_multiset<_Value1, _Hash1, _Pred1, _Alloc1>&, const std::unordered_multiset<_Value1, _Hash1, _Pred1, _Alloc1>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.290552] (turtlesim_catch_them_all) StderrLine: {'line': b' 1818 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const unordered_multiset<_Value, _Hash, _Pred, _Alloc>& __x,\n'}
+[1.290572] (turtlesim_catch_them_all) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.290592] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unordered_set.h:1818:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.290611] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:71\x1b[m\x1b[K,\n'}
+[1.290631] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[1.290651] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.290672] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.290692] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/predefined_ops.h:270:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmy_robot_interfaces::msg::Turtle_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::unordered_multiset<_Value1, _Hash1, _Pred1, _Alloc1>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.290715] (turtlesim_catch_them_all) StderrLine: {'line': b'  270 |         { return \x1b[01;36m\x1b[K*__it == _M_value\x1b[m\x1b[K; }\n'}
+[1.290734] (turtlesim_catch_them_all) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.290756] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:23\x1b[m\x1b[K,\n'}
+[1.290778] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.290798] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.290818] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.290838] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.290858] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.290879] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.290899] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.290918] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.290938] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.290959] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.290979] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/optional:1045:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Up> constexpr std::__optional_eq_t<_Tp, _Up> std::operator==(const std::optional<_Tp>&, const std::optional<_Up>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.291001] (turtlesim_catch_them_all) StderrLine: {'line': b' 1045 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const optional<_Tp>& __lhs, const optional<_Up>& __rhs)\n'}
+[1.291021] (turtlesim_catch_them_all) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.291042] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/optional:1045:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.291062] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:71\x1b[m\x1b[K,\n'}
+[1.291082] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[1.291102] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.291121] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.291141] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/predefined_ops.h:270:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmy_robot_interfaces::msg::Turtle_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::optional<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.291162] (turtlesim_catch_them_all) StderrLine: {'line': b'  270 |         { return \x1b[01;36m\x1b[K*__it == _M_value\x1b[m\x1b[K; }\n'}
+[1.291182] (turtlesim_catch_them_all) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.291202] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:23\x1b[m\x1b[K,\n'}
+[1.291224] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.291244] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.291264] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.291285] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.291304] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.291324] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.291344] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.291365] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.291385] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.291405] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.291425] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/optional:1105:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> constexpr bool std::operator==(const std::optional<_Tp>&, std::nullopt_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.291445] (turtlesim_catch_them_all) StderrLine: {'line': b' 1105 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const optional<_Tp>& __lhs, nullopt_t) noexcept\n'}
+[1.291466] (turtlesim_catch_them_all) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.291486] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/optional:1105:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.291506] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:71\x1b[m\x1b[K,\n'}
+[1.291527] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[1.291548] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.291568] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.291590] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/predefined_ops.h:270:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmy_robot_interfaces::msg::Turtle_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::optional<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.291611] (turtlesim_catch_them_all) StderrLine: {'line': b'  270 |         { return \x1b[01;36m\x1b[K*__it == _M_value\x1b[m\x1b[K; }\n'}
+[1.291632] (turtlesim_catch_them_all) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.291652] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:23\x1b[m\x1b[K,\n'}
+[1.291673] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.291694] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.291714] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.291733] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.291755] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.291775] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.291795] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.291814] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.291835] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.291856] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.291876] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/optional:1116:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> constexpr bool std::operator==(std::nullopt_t, const std::optional<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.291896] (turtlesim_catch_them_all) StderrLine: {'line': b' 1116 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(nullopt_t, const optional<_Tp>& __rhs) noexcept\n'}
+[1.291916] (turtlesim_catch_them_all) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.291938] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/optional:1116:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.291959] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:71\x1b[m\x1b[K,\n'}
+[1.291978] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[1.291998] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.292018] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.292038] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/predefined_ops.h:270:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::optional<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.292058] (turtlesim_catch_them_all) StderrLine: {'line': b'  270 |         { return \x1b[01;36m\x1b[K*__it == _M_value\x1b[m\x1b[K; }\n'}
+[1.292077] (turtlesim_catch_them_all) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.292097] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:23\x1b[m\x1b[K,\n'}
+[1.292118] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.292138] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.292157] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.292178] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.292199] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.292219] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.292239] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.292259] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.292279] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.292298] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.292318] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/optional:1173:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Up> constexpr std::__optional_eq_t<_Tp, _Up> std::operator==(const std::optional<_Tp>&, const _Up&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.292341] (turtlesim_catch_them_all) StderrLine: {'line': b' 1173 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const optional<_Tp>& __lhs, const _Up& __rhs)\n'}
+[1.292361] (turtlesim_catch_them_all) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.292383] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/optional:1173:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.292402] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:71\x1b[m\x1b[K,\n'}
+[1.292422] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[1.292442] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.292462] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.292483] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/predefined_ops.h:270:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmy_robot_interfaces::msg::Turtle_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::optional<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.292506] (turtlesim_catch_them_all) StderrLine: {'line': b'  270 |         { return \x1b[01;36m\x1b[K*__it == _M_value\x1b[m\x1b[K; }\n'}
+[1.292526] (turtlesim_catch_them_all) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.292546] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:23\x1b[m\x1b[K,\n'}
+[1.292567] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.292586] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.292606] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.292626] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.292646] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.292666] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.292686] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.292706] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.292726] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.292746] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.292771] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/optional:1179:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Up> constexpr std::__optional_eq_t<_Up, _Tp> std::operator==(const _Up&, const std::optional<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.292791] (turtlesim_catch_them_all) StderrLine: {'line': b' 1179 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const _Up& __lhs, const optional<_Tp>& __rhs)\n'}
+[1.292812] (turtlesim_catch_them_all) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.292833] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/optional:1179:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.292853] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:71\x1b[m\x1b[K,\n'}
+[1.292873] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[1.292893] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.292913] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.292933] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/predefined_ops.h:270:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::optional<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.292953] (turtlesim_catch_them_all) StderrLine: {'line': b'  270 |         { return \x1b[01;36m\x1b[K*__it == _M_value\x1b[m\x1b[K; }\n'}
+[1.292973] (turtlesim_catch_them_all) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.292993] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:28\x1b[m\x1b[K,\n'}
+[1.293013] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.293035] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.293054] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.293074] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.293094] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.293114] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.293133] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.293155] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.293175] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.293195] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.293216] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/variant:1232:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ... _Types> constexpr bool std::operator==(const std::variant<_Types ...>&, const std::variant<_Types ...>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.293237] (turtlesim_catch_them_all) StderrLine: {'line': b' 1232 |   \x1b[01;36m\x1b[K_VARIANT_RELATION_FUNCTION_TEMPLATE\x1b[m\x1b[K(==, equal)\n'}
+[1.293258] (turtlesim_catch_them_all) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.293278] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/variant:1232:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.293299] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:71\x1b[m\x1b[K,\n'}
+[1.293319] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[1.293339] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.293358] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.293379] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/predefined_ops.h:270:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmy_robot_interfaces::msg::Turtle_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::variant<_Types ...>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.293400] (turtlesim_catch_them_all) StderrLine: {'line': b'  270 |         { return \x1b[01;36m\x1b[K*__it == _M_value\x1b[m\x1b[K; }\n'}
+[1.293421] (turtlesim_catch_them_all) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.293441] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:64\x1b[m\x1b[K,\n'}
+[1.293461] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.293483] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.293504] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/allocator.h:204:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kbool std::operator==(const std::allocator<char>&, const std::allocator<char>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.293524] (turtlesim_catch_them_all) StderrLine: {'line': b'  204 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const allocator&, const allocator&) _GLIBCXX_NOTHROW\n'}
+[1.293544] (turtlesim_catch_them_all) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.293564] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/allocator.h:204:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kmy_robot_interfaces::msg::Turtle_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::allocator<char>&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.293585] (turtlesim_catch_them_all) StderrLine: {'line': b'  204 |       operator==(\x1b[01;36m\x1b[Kconst allocator&\x1b[m\x1b[K, const allocator&) _GLIBCXX_NOTHROW\n'}
+[1.293605] (turtlesim_catch_them_all) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.293626] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/mutex:42\x1b[m\x1b[K,\n'}
+[1.293646] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/future:38\x1b[m\x1b[K,\n'}
+[1.293665] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[1.293684] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.293704] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.293724] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/system_error:362:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kbool std::operator==(const std::error_code&, const std::error_code&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.293744] (turtlesim_catch_them_all) StderrLine: {'line': b'  362 |   \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const error_code& __lhs, const error_code& __rhs) noexcept\n'}
+[1.293764] (turtlesim_catch_them_all) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.293785] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/system_error:362:32:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kmy_robot_interfaces::msg::Turtle_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::error_code&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.293805] (turtlesim_catch_them_all) StderrLine: {'line': b'  362 |   operator==(\x1b[01;36m\x1b[Kconst error_code& __lhs\x1b[m\x1b[K, const error_code& __rhs) noexcept\n'}
+[1.293826] (turtlesim_catch_them_all) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[1.293846] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/system_error:368:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kbool std::operator==(const std::error_code&, const std::error_condition&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.293867] (turtlesim_catch_them_all) StderrLine: {'line': b'  368 |   \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const error_code& __lhs, const error_condition& __rhs) noexcept\n'}
+[1.293888] (turtlesim_catch_them_all) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.293908] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/system_error:368:32:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kmy_robot_interfaces::msg::Turtle_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::error_code&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.293930] (turtlesim_catch_them_all) StderrLine: {'line': b'  368 |   operator==(\x1b[01;36m\x1b[Kconst error_code& __lhs\x1b[m\x1b[K, const error_condition& __rhs) noexcept\n'}
+[1.293952] (turtlesim_catch_them_all) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[1.293973] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/system_error:376:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kbool std::operator==(const std::error_condition&, const std::error_condition&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.293994] (turtlesim_catch_them_all) StderrLine: {'line': b'  376 |   \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const error_condition& __lhs,\n'}
+[1.294014] (turtlesim_catch_them_all) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.294034] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/system_error:376:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kmy_robot_interfaces::msg::Turtle_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::error_condition&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.294054] (turtlesim_catch_them_all) StderrLine: {'line': b'  376 |   operator==(\x1b[01;36m\x1b[Kconst error_condition& __lhs\x1b[m\x1b[K,\n'}
+[1.294074] (turtlesim_catch_them_all) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[1.294095] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/system_error:408:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kbool std::operator==(const std::error_condition&, const std::error_code&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.294115] (turtlesim_catch_them_all) StderrLine: {'line': b'  408 |   \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const error_condition& __lhs, const error_code& __rhs) noexcept\n'}
+[1.294135] (turtlesim_catch_them_all) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.294155] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/system_error:408:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kmy_robot_interfaces::msg::Turtle_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::error_condition&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.294177] (turtlesim_catch_them_all) StderrLine: {'line': b'  408 |   operator==(\x1b[01;36m\x1b[Kconst error_condition& __lhs\x1b[m\x1b[K, const error_code& __rhs) noexcept\n'}
+[1.294197] (turtlesim_catch_them_all) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[1.294217] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/future:48\x1b[m\x1b[K,\n'}
+[1.294237] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[1.294257] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.294277] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.294299] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_thread.h:287:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kbool std::operator==(std::thread::id, std::thread::id)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.294320] (turtlesim_catch_them_all) StderrLine: {'line': b'  287 |   \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(thread::id __x, thread::id __y) noexcept\n'}
+[1.294340] (turtlesim_catch_them_all) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.294360] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_thread.h:287:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kmy_robot_interfaces::msg::Turtle_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::thread::id\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.294380] (turtlesim_catch_them_all) StderrLine: {'line': b'  287 |   operator==(\x1b[01;36m\x1b[Kthread::id __x\x1b[m\x1b[K, thread::id __y) noexcept\n'}
+[1.294400] (turtlesim_catch_them_all) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[1.294419] (turtlesim_catch_them_all) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:28\x1b[m\x1b[K,\n'}
+[1.294439] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.294459] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.294480] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.294500] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.294520] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.294540] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.294560] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.294580] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.294600] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.294621] (turtlesim_catch_them_all) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.294641] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/variant:1239:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr bool std::operator==(std::monostate, std::monostate)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.294664] (turtlesim_catch_them_all) StderrLine: {'line': b' 1239 |   constexpr bool \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(monostate, monostate) noexcept { return true; }\n'}
+[1.294684] (turtlesim_catch_them_all) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.294706] (turtlesim_catch_them_all) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/variant:1239:29:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kmy_robot_interfaces::msg::Turtle_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::monostate\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.294730] (turtlesim_catch_them_all) StderrLine: {'line': b' 1239 |   constexpr bool operator==(\x1b[01;36m\x1b[Kmonostate\x1b[m\x1b[K, monostate) noexcept { return true; }\n'}
+[1.294750] (turtlesim_catch_them_all) StderrLine: {'line': b'      |                             \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.302709] (-) TimerEvent: {}
+[1.402904] (-) TimerEvent: {}
+[1.503148] (-) TimerEvent: {}
+[1.603386] (-) TimerEvent: {}
+[1.703602] (-) TimerEvent: {}
+[1.803829] (-) TimerEvent: {}
+[1.904043] (-) TimerEvent: {}
+[1.929835] (turtlesim_catch_them_all) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/turtle_spawner.dir/build.make:76: CMakeFiles/turtle_spawner.dir/src/turtle_spawner_node.cpp.o] Error 1\n'}
+[1.930070] (turtlesim_catch_them_all) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/turtle_spawner.dir/all] Error 2\n'}
+[1.930131] (turtlesim_catch_them_all) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[1.931736] (turtlesim_catch_them_all) CommandEnded: {'returncode': 2}
+[1.967727] (turtlesim_catch_them_all) JobEnded: {'identifier': 'turtlesim_catch_them_all', 'rc': 2}
+[1.978606] (-) EventReactorShutdown: {}

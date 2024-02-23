@@ -4,6 +4,8 @@
 #include "my_robot_interfaces/msg/turtle_array.hpp"
 #include "geometry_msgs/msg/twist.hpp"
 
+#include "my_robot_interfaces/srv/catch_turtle.hpp"
+
 #include <cmath>
 
 class TurtleControllerNode: public rclcpp::Node
@@ -11,10 +13,9 @@ class TurtleControllerNode: public rclcpp::Node
     public:
         TurtleControllerNode(): Node("turtle_controller")
         {
-            // current_pos_x = 5.5; // Default value in the center of the map
-            // current_pos_y = 5.5;
             target_x = 5.5; // Default value in the center of the map
             target_y = 5.5;
+            target_name = ""; // Default name
 
             pose_subscriber_ = this->create_subscription<turtlesim::msg::Pose>(
                 "turtle1/pose",
@@ -58,7 +59,7 @@ class TurtleControllerNode: public rclcpp::Node
             RCLCPP_INFO(this->get_logger(), "/alive_turtles has been updated.");
 
             distance_to_closest_turtle = 15.6; // Variable for storing the current distance to the closest turtle, default value is higher than the diagonal of the map (meaning that it is larger than the distance to any potential turtle)
-            std::string name = "None"; // Variable for storing the name of the closest turtle
+            std::string name = ""; // Variable for storing the name of the closest turtle
             float x = 5.544445; // Default value which ensures that the main turtle will return to the middle of the map if there are no other turtles there
             float y = 5.544445; // -----||-----
             
@@ -70,10 +71,6 @@ class TurtleControllerNode: public rclcpp::Node
                 // Then iterate through the list to find the position of the closest turtle
             for (const auto& turtle : turtle_msg->turtles)
             {
-                // RCLCPP_INFO(this->get_logger(), "Turtle name: %s",  turtle.name.c_str());
-                // RCLCPP_INFO(this->get_logger(), "Turtle pos_x: %f",  turtle.pos_x);
-                // RCLCPP_INFO(this->get_logger(), "Turtle pos_y: %f",  turtle.pos_y);
-
                 // Distance from main turtle to the other turtles is found through the Pythagorean theorem
                 float distance_to_turtle = sqrt((current_pos_x - turtle.pos_x)*(current_pos_x - turtle.pos_x) + (current_pos_y - turtle.pos_y)*(current_pos_y - turtle.pos_y));
                 // RCLCPP_INFO(this->get_logger(), "Distance from main turtle: %f",  distance_to_turtle);
@@ -89,11 +86,13 @@ class TurtleControllerNode: public rclcpp::Node
                     // Set the co-ordinates for the updated closest turtle
                     x = turtle.pos_x;
                     y = turtle.pos_y;
+
+                    RCLCPP_INFO(this->get_logger(), "NEW TARGET: %s (%f, %f)", name.c_str(), x, y);
                 }
 
             }
 
-            if (name == "None")
+            if (name == "")
             {
                 RCLCPP_INFO(this->get_logger(), "There are no turtles on the map, returning to the center.");
             }
@@ -102,18 +101,15 @@ class TurtleControllerNode: public rclcpp::Node
                 RCLCPP_INFO(this->get_logger(), "%s is the closest target. Position: (%f, %f). Distance: %f", name.c_str(), x, y, distance_to_closest_turtle); //TODO: Replace msg->name with the closest turtle's name
             }
 
-            // Return the position of the target
-            // return std::make_pair(x, y);
+            // Return the position and the name of the target
             target_x = x;
             target_y = y;
+            target_name = name;
         }
 
         // Function for controlling main turtle through a P-regulator, and publishing the 
         void publishTurtleController()
         {
-            // Determine value of constant for P-regulator
-            // Kp = 0.5; // TODO: ¿Create parameter?
-
             // Calculate difference between current position of main turtle and its next target
             float error_x = target_x - current_pos_x;
             float error_y = target_y - current_pos_y;
@@ -141,14 +137,18 @@ class TurtleControllerNode: public rclcpp::Node
             // msg.linear.y = Kp * error_y;
             msg.angular.z = 6 * error_dir; // Regulate the direction of the turtle compared to the direction of the target's location
 
-            if (error_distance < 0.2) // Deadzone to reduce oscillations
+            if (error_distance < 0.1) // Deadzone to reduce oscillations
             {
                 msg.linear.x = 0.0;
                 msg.angular.z = 0.0;
                 RCLCPP_INFO(this->get_logger(), "Target reached!");
 
                 // TODO: Remove the turtle from /alive_turtles
-                    // /kill service call
+                if (target_name != "")
+                {
+                    callCatchTurtleService(target_name);
+                    target_name = ""; // Reset target name
+                }
             }
             else
             {
@@ -158,21 +158,51 @@ class TurtleControllerNode: public rclcpp::Node
             turtle_control_publisher_->publish(msg);
         }
 
+        // Function for sending a service call to turtle_spawner, telling the node that a turle has been caught
+        void callCatchTurtleService(std::string name)
+        {
+            auto client = this->create_client<my_robot_interfaces::srv::CatchTurtle>("catch_turtle");
+            while (!client->wait_for_service(std::chrono::seconds(1)))
+            {
+                RCLCPP_WARN(this->get_logger(), "Waiting for the spawn-server to be up...");
+            }
+
+            auto request = std::make_shared<my_robot_interfaces::srv::CatchTurtle::Request>();
+
+            request->name = name;
+
+            auto future = client->async_send_request(request);
+
+            RCLCPP_INFO(this->get_logger(), "TEST 1");
+
+            // try
+            // {
+            //     auto response = future.get();
+            //     // RCLCPP_ERROR(this->get_logger(), "Service response: %d", response->success);
+            // }
+            // catch (const std::exception &e)
+            // {
+            //     RCLCPP_ERROR(this->get_logger(), "Service call failed");
+            // } 
+
+            RCLCPP_INFO(this->get_logger(), "TEST 2");
+        }
+
+
+
         float current_pos_x;
         float current_pos_y;
         float current_dir;
         float target_x; // global variable for storing the x-distance to the turtle closest to the main turtle
         float target_y; // -----||-----
+        std::string target_name;
         float distance_to_closest_turtle;
-        float Kp; // proportional gain constant for P-regulator
 
         rclcpp::Subscription<turtlesim::msg::Pose>::SharedPtr pose_subscriber_;
         rclcpp::Subscription<my_robot_interfaces::msg::TurtleArray>::SharedPtr turtle_subscriber_;
 
         rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr turtle_control_publisher_;
         rclcpp::TimerBase::SharedPtr timer_;
-
-        // my_robot_interfaces::msg::Turtle closest_turtle;
 
 };
 

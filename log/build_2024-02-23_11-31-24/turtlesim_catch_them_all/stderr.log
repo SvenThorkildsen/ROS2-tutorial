@@ -1,0 +1,46 @@
+[01m[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:151:41:[m[K [01;31m[Kerror: [m[K‘[01m[KTurtle[m[K’ was not declared in this scope; did you mean ‘[01m[Kmy_robot_interfaces::msg::Turtle[m[K’?
+  151 |     void removeTurtleByName(std::vector<[01;31m[KTurtle[m[K>& alive_turtles_, const std::string& turtle_name)
+      |                                         [01;31m[K^~~~~~[m[K
+      |                                         [32m[Kmy_robot_interfaces::msg::Turtle[m[K
+In file included from [01m[K/home/sven/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/turtle.hpp:7[m[K,
+                 from [01m[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:2[m[K:
+[01m[K/home/sven/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle__struct.hpp:150:7:[m[K [01;36m[Knote: [m[K‘[01m[Kmy_robot_interfaces::msg::Turtle[m[K’ declared here
+  150 | using [01;36m[KTurtle[m[K =
+      |       [01;36m[K^~~~~~[m[K
+[01m[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:151:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  151 |     void removeTurtleByName(std::vector<Turtle[01;31m[K>[m[K& alive_turtles_, const std::string& turtle_name)
+      |                                               [01;31m[K^[m[K
+[01m[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:151:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:[m[K In member function ‘[01m[Kvoid TurtleSpawnerNode::callKillTurtleService(std::string)[m[K’:
+[01m[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:141:32:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::vector<my_robot_interfaces::msg::Turtle_<std::allocator<void> >, std::allocator<my_robot_interfaces::msg::Turtle_<std::allocator<void> > > >[m[K’ to ‘[01m[Kint&[m[K’
+  141 |             removeTurtleByName([01;31m[Kalive_turtles_[m[K, turtle_name);
+      |                                [01;31m[K^~~~~~~~~~~~~~[m[K
+      |                                [01;31m[K|[m[K
+      |                                [01;31m[Kstd::vector<my_robot_interfaces::msg::Turtle_<std::allocator<void> >, std::allocator<my_robot_interfaces::msg::Turtle_<std::allocator<void> > > >[m[K
+[01m[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:151:50:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid TurtleSpawnerNode::removeTurtleByName(int&, const string&)[m[K’
+  151 |     void removeTurtleByName([01;36m[Kstd::vector<Turtle>& alive_turtles_[m[K, const std::string& turtle_name)
+      |                             [01;36m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:[m[K In member function ‘[01m[Kvoid TurtleSpawnerNode::removeTurtleByName(int&, const string&)[m[K’:
+[01m[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:154:24:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kerase[m[K’ in ‘[01m[Kalive_turtles_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  154 |         alive_turtles_.[01;31m[Kerase[m[K(std::remove_if(alive_turtles_.begin(),
+      |                        [01;31m[K^~~~~[m[K
+[01m[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:154:60:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kbegin[m[K’ in ‘[01m[Kalive_turtles_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  154 |         alive_turtles_.erase(std::remove_if(alive_turtles_.[01;31m[Kbegin[m[K(),
+      |                                                            [01;31m[K^~~~~[m[K
+[01m[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:155:60:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kend[m[K’ in ‘[01m[Kalive_turtles_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  155 |                                             alive_turtles_.[01;31m[Kend[m[K(),
+      |                                                            [01;31m[K^~~[m[K
+[01m[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:156:66:[m[K [01;31m[Kerror: [m[K‘[01m[KTurtle[m[K’ does not name a type
+  156 |                                             [&turtle_name](const [01;31m[KTurtle[m[K& turtle){return std::get<0>(turtle) == turtle_name;}),
+      |                                                                  [01;31m[K^~~~~~[m[K
+[01m[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:[m[K In lambda function:
+[01m[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:156:126:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K,[m[K’ token
+  156 |                                             [&turtle_name](const Turtle& turtle){return std::get<0>(turtle) == turtle_name;})[01;31m[K,[m[K
+      |                                                                                                                              [01;31m[K^[m[K
+[01m[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:[m[K In member function ‘[01m[Kvoid TurtleSpawnerNode::removeTurtleByName(int&, const string&)[m[K’:
+[01m[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:157:60:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kend[m[K’ in ‘[01m[Kalive_turtles_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  157 |                                             alive_turtles_.[01;31m[Kend[m[K());
+      |                                                            [01;31m[K^~~[m[K
+gmake[2]: *** [CMakeFiles/turtle_spawner.dir/build.make:76: CMakeFiles/turtle_spawner.dir/src/turtle_spawner_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/turtle_spawner.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

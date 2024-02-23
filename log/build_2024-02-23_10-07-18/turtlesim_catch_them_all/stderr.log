@@ -1,0 +1,14 @@
+[01m[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:[m[K In member function ‘[01m[Kvoid TurtleSpawnerNode::callKillTurtleService(std::string)[m[K’:
+[01m[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:142:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kalive_turtles[m[K’ was not declared in this scope; did you mean ‘[01m[Kalive_turtles_[m[K’?
+  142 |             auto it = std::remove([01;31m[Kalive_turtles[m[K.begin(), alive_turtles.end(), turtle_name);
+      |                                   [01;31m[K^~~~~~~~~~~~~[m[K
+      |                                   [32m[Kalive_turtles_[m[K
+[01m[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:146:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct turtlesim::srv::Kill_Response_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct turtlesim::srv::Kill_Response_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ksuccess[m[K’
+  146 |                 response->[01;31m[Ksuccess[m[K = true;  // Turtle successfully removed
+      |                           [01;31m[K^~~~~~~[m[K
+[01m[K/home/sven/ros2_ws/src/turtlesim_catch_them_all/src/turtle_spawner_node.cpp:151:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct turtlesim::srv::Kill_Response_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct turtlesim::srv::Kill_Response_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ksuccess[m[K’
+  151 |                 response->[01;31m[Ksuccess[m[K = false;  // Turtle not found in the array
+      |                           [01;31m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/turtle_spawner.dir/build.make:76: CMakeFiles/turtle_spawner.dir/src/turtle_spawner_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/turtle_spawner.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
