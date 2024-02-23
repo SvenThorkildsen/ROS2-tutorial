@@ -1,12 +1,12 @@
 {
   "package_name": "my_robot_interfaces",
   "non_idl_tuples": [
-    "/home/cleanseasolutions/ros2_ws/src/my_robot_interfaces:msg/HardwareStatus.msg",
-    "/home/cleanseasolutions/ros2_ws/src/my_robot_interfaces:msg/LedStatus.msg",
-    "/home/cleanseasolutions/ros2_ws/src/my_robot_interfaces:msg/Turtle.msg",
-    "/home/cleanseasolutions/ros2_ws/src/my_robot_interfaces:msg/TurtleArray.msg",
-    "/home/cleanseasolutions/ros2_ws/src/my_robot_interfaces:srv/CatchTurtle.srv",
-    "/home/cleanseasolutions/ros2_ws/src/my_robot_interfaces:srv/ComputeRectangleArea.srv",
-    "/home/cleanseasolutions/ros2_ws/src/my_robot_interfaces:srv/SetLed.srv"
+    "/home/sven/ros2_ws/src/my_robot_interfaces:msg/HardwareStatus.msg",
+    "/home/sven/ros2_ws/src/my_robot_interfaces:msg/LedStatus.msg",
+    "/home/sven/ros2_ws/src/my_robot_interfaces:msg/Turtle.msg",
+    "/home/sven/ros2_ws/src/my_robot_interfaces:msg/TurtleArray.msg",
+    "/home/sven/ros2_ws/src/my_robot_interfaces:srv/CatchTurtle.srv",
+    "/home/sven/ros2_ws/src/my_robot_interfaces:srv/ComputeRectangleArea.srv",
+    "/home/sven/ros2_ws/src/my_robot_interfaces:srv/SetLed.srv"
   ]
 }

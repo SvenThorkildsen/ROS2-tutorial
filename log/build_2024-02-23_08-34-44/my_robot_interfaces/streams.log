@@ -1,0 +1,6 @@
+[0.019s] Invoking command in '/home/sven/ros2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sven/ros2_ws/build/my_robot_interfaces -- -j20 -l20
+[0.022s] [0mCMake Error: The current CMakeCache.txt directory /home/sven/ros2_ws/build/my_robot_interfaces/CMakeCache.txt is different than the directory /home/cleanseasolutions/ros2_ws/build/my_robot_interfaces where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.028s] [0mCMake Error: The source directory "/home/cleanseasolutions/ros2_ws/src/my_robot_interfaces" does not exist.
+[0.028s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.028s] gmake: *** [Makefile:2043: cmake_check_build_system] Error 1
+[0.029s] Invoked command in '/home/sven/ros2_ws/build/my_robot_interfaces' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sven/ros2_ws/build/my_robot_interfaces -- -j20 -l20

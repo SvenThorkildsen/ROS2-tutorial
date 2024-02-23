@@ -1,0 +1,4 @@
+Invoking command in '/home/sven/ros2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sven/ros2_ws/build/my_robot_interfaces -- -j20 -l20
+Invoked command in '/home/sven/ros2_ws/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sven/ros2_ws/build/my_robot_interfaces -- -j20 -l20
+Invoking command in '/home/sven/ros2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sven/ros2_ws/build/my_robot_interfaces
+Invoked command in '/home/sven/ros2_ws/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sven/ros2_ws/build/my_robot_interfaces

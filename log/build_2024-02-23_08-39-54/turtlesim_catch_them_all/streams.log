@@ -1,0 +1,26 @@
+[0.145s] Invoking command in '/home/sven/ros2_ws/build/turtlesim_catch_them_all': AMENT_PREFIX_PATH=/home/sven/ros2_ws/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sven/ros2_ws/install/my_robot_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/sven/ros2_ws/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sven/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sven/ros2_ws/build/turtlesim_catch_them_all -- -j20 -l20
+[0.163s] [35m[1mConsolidate compiler generated dependencies of target turtle_controller[0m
+[0.163s] [35m[1mConsolidate compiler generated dependencies of target turtle_spawner[0m
+[0.170s] [ 75%] Built target turtle_controller
+[0.171s] [100%] Built target turtle_spawner
+[0.190s] Invoked command in '/home/sven/ros2_ws/build/turtlesim_catch_them_all' returned '0': AMENT_PREFIX_PATH=/home/sven/ros2_ws/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sven/ros2_ws/install/my_robot_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/sven/ros2_ws/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sven/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sven/ros2_ws/build/turtlesim_catch_them_all -- -j20 -l20
+[0.202s] Invoking command in '/home/sven/ros2_ws/build/turtlesim_catch_them_all': AMENT_PREFIX_PATH=/home/sven/ros2_ws/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sven/ros2_ws/install/my_robot_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/sven/ros2_ws/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sven/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sven/ros2_ws/build/turtlesim_catch_them_all
+[0.205s] -- Install configuration: ""
+[0.206s] -- Up-to-date: /home/sven/ros2_ws/install/turtlesim_catch_them_all/lib/turtlesim_catch_them_all/turtle_controller
+[0.206s] -- Up-to-date: /home/sven/ros2_ws/install/turtlesim_catch_them_all/lib/turtlesim_catch_them_all/turtle_spawner
+[0.206s] -- Up-to-date: /home/sven/ros2_ws/install/turtlesim_catch_them_all/share/ament_index/resource_index/package_run_dependencies/turtlesim_catch_them_all
+[0.206s] -- Up-to-date: /home/sven/ros2_ws/install/turtlesim_catch_them_all/share/ament_index/resource_index/parent_prefix_path/turtlesim_catch_them_all
+[0.206s] -- Up-to-date: /home/sven/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/environment/ament_prefix_path.sh
+[0.206s] -- Up-to-date: /home/sven/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/environment/ament_prefix_path.dsv
+[0.206s] -- Up-to-date: /home/sven/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/environment/path.sh
+[0.206s] -- Up-to-date: /home/sven/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/environment/path.dsv
+[0.206s] -- Up-to-date: /home/sven/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/local_setup.bash
+[0.206s] -- Up-to-date: /home/sven/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/local_setup.sh
+[0.206s] -- Up-to-date: /home/sven/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/local_setup.zsh
+[0.206s] -- Up-to-date: /home/sven/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/local_setup.dsv
+[0.206s] -- Installing: /home/sven/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/package.dsv
+[0.206s] -- Up-to-date: /home/sven/ros2_ws/install/turtlesim_catch_them_all/share/ament_index/resource_index/packages/turtlesim_catch_them_all
+[0.206s] -- Up-to-date: /home/sven/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/cmake/turtlesim_catch_them_allConfig.cmake
+[0.206s] -- Up-to-date: /home/sven/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/cmake/turtlesim_catch_them_allConfig-version.cmake
+[0.206s] -- Up-to-date: /home/sven/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/package.xml
+[0.207s] Invoked command in '/home/sven/ros2_ws/build/turtlesim_catch_them_all' returned '0': AMENT_PREFIX_PATH=/home/sven/ros2_ws/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sven/ros2_ws/install/my_robot_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/sven/ros2_ws/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sven/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sven/ros2_ws/build/turtlesim_catch_them_all

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cleanseasolutions/ros2_ws/src/turtlesim_catch_them_all
+CMAKE_SOURCE_DIR = /home/sven/ros2_ws/src/turtlesim_catch_them_all
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cleanseasolutions/ros2_ws/build/turtlesim_catch_them_all
+CMAKE_BINARY_DIR = /home/sven/ros2_ws/build/turtlesim_catch_them_all
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/cleanseasolutions/ros2_ws/build/turtlesim_catch_them_all && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cleanseasolutions/ros2_ws/src/turtlesim_catch_them_all /home/cleanseasolutions/ros2_ws/src/turtlesim_catch_them_all /home/cleanseasolutions/ros2_ws/build/turtlesim_catch_them_all /home/cleanseasolutions/ros2_ws/build/turtlesim_catch_them_all /home/cleanseasolutions/ros2_ws/build/turtlesim_catch_them_all/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sven/ros2_ws/build/turtlesim_catch_them_all && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sven/ros2_ws/src/turtlesim_catch_them_all /home/sven/ros2_ws/src/turtlesim_catch_them_all /home/sven/ros2_ws/build/turtlesim_catch_them_all /home/sven/ros2_ws/build/turtlesim_catch_them_all /home/sven/ros2_ws/build/turtlesim_catch_them_all/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 
