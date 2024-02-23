@@ -37,13 +37,20 @@ To use the code in this repository, follow these steps:
     git clone https://github.com/SvenThorkildsen/ROS2-tutorial.git
     ```
 
-4. Build the ROS2 workspace using colcon:
+4. Remove the build and install folders:
+
+    ```
+    rm -rf ~/ros2_ws/build/*
+    rm -rf ~/ros2_ws/install/*
+    ```
+
+5. Build the ROS2 workspace using colcon:
 
     ```
     colcon build
     ```
 
-5. Source the setup.bash file:
+6. Source the setup.bash file:
 
     ```
     source install/setup.bash
@@ -53,9 +60,11 @@ To use the code in this repository, follow these steps:
 
 The repository contains the following packages and examples:
 
-- my_py_pkg:            Nodes written in Python.
-- my_cpp_pkg:           Nodes written in C++.
-- my_robot_interfaces:  Contains custom formats for messages and services
+- my_cpp_pkg:                  Nodes written in C++.
+- my_py_pkg:                   Nodes written in Python.
+- my_robot_bringup:            Launch files.
+- my_robot_interfaces:         Contains custom formats for messages and services.
+- turtlesim_catch_them_all:    Turtlesim project to conclude the first part of the course ROS2 For Beginners.
 
 ## Usage
 
