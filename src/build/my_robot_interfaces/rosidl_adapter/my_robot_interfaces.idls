@@ -1,0 +1,7 @@
+/home/sven/ros2_ws/src/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/HardwareStatus.idl
+/home/sven/ros2_ws/src/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/LedStatus.idl
+/home/sven/ros2_ws/src/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/Turtle.idl
+/home/sven/ros2_ws/src/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/TurtleArray.idl
+/home/sven/ros2_ws/src/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/CatchTurtle.idl
+/home/sven/ros2_ws/src/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/ComputeRectangleArea.idl
+/home/sven/ros2_ws/src/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/SetLed.idl

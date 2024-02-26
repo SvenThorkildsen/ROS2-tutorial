@@ -1,0 +1,276 @@
+[0.075s] Invoking command in '/home/sven/ros2_ws/src/build/my_cpp_pkg': AMENT_PREFIX_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces:/home/sven/ros2_ws/install/turtlesim_catch_them_all:/home/sven/ros2_ws/install/my_robot_bringup:/home/sven/ros2_ws/install/my_cpp_pkg:/home/sven/ros2_ws/install/my_robot_interfaces:/home/sven/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces/lib:/home/sven/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/sven/ros2_ws/src/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/sven/ros2_ws/src/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/sven/ros2_ws/src/install/my_cpp_pkg
+[0.208s] -- The C compiler identification is GNU 11.4.0
+[0.208s] -- The CXX compiler identification is GNU 11.4.0
+[0.208s] -- Detecting C compiler ABI info
+[0.208s] -- Detecting C compiler ABI info - done
+[0.208s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.208s] -- Detecting C compile features
+[0.208s] -- Detecting C compile features - done
+[0.208s] -- Detecting CXX compiler ABI info
+[0.210s] -- Detecting CXX compiler ABI info - done
+[0.214s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.214s] -- Detecting CXX compile features
+[0.214s] -- Detecting CXX compile features - done
+[0.215s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.293s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.340s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.362s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.364s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.368s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.376s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.386s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.424s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.425s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.475s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.492s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.518s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.523s] -- Looking for pthread.h
+[0.560s] -- Looking for pthread.h - found
+[0.561s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.598s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.599s] -- Found Threads: TRUE  
+[0.678s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[0.745s] -- Found my_robot_interfaces: 0.0.0 (/home/sven/ros2_ws/src/install/my_robot_interfaces/share/my_robot_interfaces/cmake)
+[0.789s] -- Configuring done
+[0.805s] -- Generating done
+[0.806s] -- Build files have been written to: /home/sven/ros2_ws/src/build/my_cpp_pkg
+[0.812s] Invoked command in '/home/sven/ros2_ws/src/build/my_cpp_pkg' returned '0': AMENT_PREFIX_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces:/home/sven/ros2_ws/install/turtlesim_catch_them_all:/home/sven/ros2_ws/install/my_robot_bringup:/home/sven/ros2_ws/install/my_cpp_pkg:/home/sven/ros2_ws/install/my_robot_interfaces:/home/sven/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces/lib:/home/sven/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/sven/ros2_ws/src/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/sven/ros2_ws/src/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/sven/ros2_ws/src/install/my_cpp_pkg
+[0.812s] Invoking command in '/home/sven/ros2_ws/src/build/my_cpp_pkg': AMENT_PREFIX_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces:/home/sven/ros2_ws/install/turtlesim_catch_them_all:/home/sven/ros2_ws/install/my_robot_bringup:/home/sven/ros2_ws/install/my_cpp_pkg:/home/sven/ros2_ws/install/my_robot_interfaces:/home/sven/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces/lib:/home/sven/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/sven/ros2_ws/src/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sven/ros2_ws/src/build/my_cpp_pkg -- -j20 -l20
+[0.838s] [  4%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o[0m
+[0.838s] [  9%] [32mBuilding CXX object CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.o[0m
+[0.838s] [ 13%] [32mBuilding CXX object CMakeFiles/smartphone.dir/src/smartphone.cpp.o[0m
+[0.839s] [ 18%] [32mBuilding CXX object CMakeFiles/number_publisher.dir/src/number_publisher.cpp.o[0m
+[0.839s] [ 22%] [32mBuilding CXX object CMakeFiles/number_counter.dir/src/number_counter.cpp.o[0m
+[0.844s] [ 27%] [32mBuilding CXX object CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o[0m
+[0.845s] [ 31%] [32mBuilding CXX object CMakeFiles/battery.dir/src/battery_node.cpp.o[0m
+[0.845s] [ 40%] [32mBuilding CXX object CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.o[0m
+[0.845s] [ 40%] [32mBuilding CXX object CMakeFiles/add_two_ints_client_no_oop.dir/src/add_two_ints_client_no_oop.cpp.o[0m
+[0.845s] [ 45%] [32mBuilding CXX object CMakeFiles/hardware_status_publisher.dir/src/hw_status_publisher.cpp.o[0m
+[0.845s] [ 50%] [32mBuilding CXX object CMakeFiles/led_panel_status_publisher.dir/src/led_panel_node.cpp.o[0m
+[2.285s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.285s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.285s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.285s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.285s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.285s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.285s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.285s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.285s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.285s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.285s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.286s]                  from [01m[K/home/sven/ros2_ws/src/my_cpp_pkg/src/add_two_ints_client.cpp:1[m[K:
+[2.286s] [01m[K/home/sven/ros2_ws/src/my_cpp_pkg/src/add_two_ints_client.cpp:[m[K In member function ‘[01m[Kvoid AddTwoIntsClientNode::callAddTwoIntsService(int, int)[m[K’:
+[2.286s] [01m[K/home/sven/ros2_ws/src/my_cpp_pkg/src/add_two_ints_client.cpp:34:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kexample_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >::_a_type[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.286s]    34 |             RCLCPP_INFO(this->get_logger(), [01;35m[K"%d + %d = %d"[m[K, [32m[Krequest->a[m[K, request->b, response->sum);
+[2.286s]       |                                             [01;35m[K^~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~[m[K
+[2.286s]       |                                                                      [32m[K|[m[K
+[2.286s]       |                                                                      [32m[Kexample_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >::_a_type {aka long int}[m[K
+[2.286s] [01m[K/home/sven/ros2_ws/src/my_cpp_pkg/src/add_two_ints_client.cpp:34:47:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[2.286s]    34 |             RCLCPP_INFO(this->get_logger(), "[01;36m[K%d[m[K + %d = %d", request->a, request->b, response->sum);
+[2.286s]       |                                              [01;36m[K~^[m[K
+[2.286s]       |                                               [01;36m[K|[m[K
+[2.286s]       |                                               [01;36m[Kint[m[K
+[2.286s]       |                                              [32m[K%ld[m[K
+[2.286s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.286s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.286s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.286s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.286s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.286s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.286s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.286s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.286s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.286s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.287s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.287s]                  from [01m[K/home/sven/ros2_ws/src/my_cpp_pkg/src/add_two_ints_client.cpp:1[m[K:
+[2.287s] [01m[K/home/sven/ros2_ws/src/my_cpp_pkg/src/add_two_ints_client.cpp:34:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Kexample_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >::_b_type[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.287s]    34 |             RCLCPP_INFO(this->get_logger(), [01;35m[K"%d + %d = %d"[m[K, request->a, [32m[Krequest->b[m[K, response->sum);
+[2.287s]       |                                             [01;35m[K^~~~~~~~~~~~~~[m[K              [32m[K~~~~~~~~~~[m[K
+[2.287s]       |                                                                                  [32m[K|[m[K
+[2.287s]       |                                                                                  [32m[Kexample_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >::_b_type {aka long int}[m[K
+[2.287s] [01m[K/home/sven/ros2_ws/src/my_cpp_pkg/src/add_two_ints_client.cpp:34:52:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[2.287s]    34 |             RCLCPP_INFO(this->get_logger(), "%d + [01;36m[K%d[m[K = %d", request->a, request->b, response->sum);
+[2.287s]       |                                                   [01;36m[K~^[m[K
+[2.287s]       |                                                    [01;36m[K|[m[K
+[2.287s]       |                                                    [01;36m[Kint[m[K
+[2.287s]       |                                                   [32m[K%ld[m[K
+[2.287s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.287s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.287s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.287s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.287s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.287s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.287s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.287s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.287s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.287s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.288s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.288s]                  from [01m[K/home/sven/ros2_ws/src/my_cpp_pkg/src/add_two_ints_client.cpp:1[m[K:
+[2.288s] [01m[K/home/sven/ros2_ws/src/my_cpp_pkg/src/add_two_ints_client.cpp:34:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 7 has type ‘[01m[Kexample_interfaces::srv::AddTwoInts_Response_<std::allocator<void> >::_sum_type[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.288s]    34 |             RCLCPP_INFO(this->get_logger(), [01;35m[K"%d + %d = %d"[m[K, request->a, request->b, [32m[Kresponse->sum[m[K);
+[2.288s]       |                                             [01;35m[K^~~~~~~~~~~~~~[m[K                          [32m[K~~~~~~~~~~~~~[m[K
+[2.288s]       |                                                                                               [32m[K|[m[K
+[2.288s]       |                                                                                               [32m[Kexample_interfaces::srv::AddTwoInts_Response_<std::allocator<void> >::_sum_type {aka long int}[m[K
+[2.288s] [01m[K/home/sven/ros2_ws/src/my_cpp_pkg/src/add_two_ints_client.cpp:34:57:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[2.288s]    34 |             RCLCPP_INFO(this->get_logger(), "%d + %d = [01;36m[K%d[m[K", request->a, request->b, response->sum);
+[2.288s]       |                                                        [01;36m[K~^[m[K
+[2.288s]       |                                                         [01;36m[K|[m[K
+[2.288s]       |                                                         [01;36m[Kint[m[K
+[2.288s]       |                                                        [32m[K%ld[m[K
+[2.301s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.301s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.301s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.302s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.302s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.302s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.302s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.302s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.302s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.302s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.302s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.302s]                  from [01m[K/home/sven/ros2_ws/src/my_cpp_pkg/src/number_counter.cpp:1[m[K:
+[2.302s] [01m[K/home/sven/ros2_ws/src/my_cpp_pkg/src/number_counter.cpp:[m[K In member function ‘[01m[Kvoid NumberCounterNode::callbackNumber(example_interfaces::msg::Int64_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.302s] [01m[K/home/sven/ros2_ws/src/my_cpp_pkg/src/number_counter.cpp:29:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kint64_t[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.302s]    29 |         RCLCPP_INFO(this->get_logger(), [01;35m[K"%d"[m[K, [32m[Kcounter_[m[K);
+[2.302s]       |                                         [01;35m[K^~~~[m[K  [32m[K~~~~~~~~[m[K
+[2.302s]       |                                               [32m[K|[m[K
+[2.302s]       |                                               [32m[Kint64_t {aka long int}[m[K
+[2.302s] [01m[K/home/sven/ros2_ws/src/my_cpp_pkg/src/number_counter.cpp:29:43:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[2.302s]    29 |         RCLCPP_INFO(this->get_logger(), "[01;36m[K%d[m[K", counter_);
+[2.302s]       |                                          [01;36m[K~^[m[K
+[2.302s]       |                                           [01;36m[K|[m[K
+[2.302s]       |                                           [01;36m[Kint[m[K
+[2.302s]       |                                          [32m[K%ld[m[K
+[3.226s] [ 54%] [32m[1mLinking CXX executable battery[0m
+[3.321s] [ 54%] Built target battery
+[3.337s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.337s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.337s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.337s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.337s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.338s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.338s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.338s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.338s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.338s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.338s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.338s]                  from [01m[K/home/sven/ros2_ws/src/my_cpp_pkg/src/add_two_ints_server.cpp:1[m[K:
+[3.338s] [01m[K/home/sven/ros2_ws/src/my_cpp_pkg/src/add_two_ints_server.cpp:[m[K In member function ‘[01m[Kvoid AddTwoIntsServerNode::callbackAddTwoInts(example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >::SharedPtr, example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.338s] [01m[K/home/sven/ros2_ws/src/my_cpp_pkg/src/add_two_ints_server.cpp:26:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kexample_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >::_a_type[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[3.338s]    26 |         RCLCPP_INFO(this->get_logger(), [01;35m[K"%d + %d = %d"[m[K, [32m[Krequest->a[m[K, request->b, response->sum);
+[3.338s]       |                                         [01;35m[K^~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~[m[K
+[3.338s]       |                                                                  [32m[K|[m[K
+[3.338s]       |                                                                  [32m[Kexample_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >::_a_type {aka long int}[m[K
+[3.338s] [01m[K/home/sven/ros2_ws/src/my_cpp_pkg/src/add_two_ints_server.cpp:26:43:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[3.338s]    26 |         RCLCPP_INFO(this->get_logger(), "[01;36m[K%d[m[K + %d = %d", request->a, request->b, response->sum);
+[3.338s]       |                                          [01;36m[K~^[m[K
+[3.338s]       |                                           [01;36m[K|[m[K
+[3.338s]       |                                           [01;36m[Kint[m[K
+[3.338s]       |                                          [32m[K%ld[m[K
+[3.338s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.338s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.338s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.338s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.338s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.338s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.339s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.339s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.339s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.339s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.339s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.339s]                  from [01m[K/home/sven/ros2_ws/src/my_cpp_pkg/src/add_two_ints_server.cpp:1[m[K:
+[3.339s] [01m[K/home/sven/ros2_ws/src/my_cpp_pkg/src/add_two_ints_server.cpp:26:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Kexample_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >::_b_type[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[3.339s]    26 |         RCLCPP_INFO(this->get_logger(), [01;35m[K"%d + %d = %d"[m[K, request->a, [32m[Krequest->b[m[K, response->sum);
+[3.339s]       |                                         [01;35m[K^~~~~~~~~~~~~~[m[K              [32m[K~~~~~~~~~~[m[K
+[3.339s]       |                                                                              [32m[K|[m[K
+[3.339s]       |                                                                              [32m[Kexample_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >::_b_type {aka long int}[m[K
+[3.339s] [01m[K/home/sven/ros2_ws/src/my_cpp_pkg/src/add_two_ints_server.cpp:26:48:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[3.339s]    26 |         RCLCPP_INFO(this->get_logger(), "%d + [01;36m[K%d[m[K = %d", request->a, request->b, response->sum);
+[3.339s]       |                                               [01;36m[K~^[m[K
+[3.339s]       |                                                [01;36m[K|[m[K
+[3.339s]       |                                                [01;36m[Kint[m[K
+[3.339s]       |                                               [32m[K%ld[m[K
+[3.339s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.339s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.339s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.339s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.339s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.339s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.339s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.339s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.340s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.340s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.340s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.340s]                  from [01m[K/home/sven/ros2_ws/src/my_cpp_pkg/src/add_two_ints_server.cpp:1[m[K:
+[3.340s] [01m[K/home/sven/ros2_ws/src/my_cpp_pkg/src/add_two_ints_server.cpp:26:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 7 has type ‘[01m[Kexample_interfaces::srv::AddTwoInts_Response_<std::allocator<void> >::_sum_type[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[3.340s]    26 |         RCLCPP_INFO(this->get_logger(), [01;35m[K"%d + %d = %d"[m[K, request->a, request->b, [32m[Kresponse->sum[m[K);
+[3.340s]       |                                         [01;35m[K^~~~~~~~~~~~~~[m[K                          [32m[K~~~~~~~~~~~~~[m[K
+[3.340s]       |                                                                                           [32m[K|[m[K
+[3.340s]       |                                                                                           [32m[Kexample_interfaces::srv::AddTwoInts_Response_<std::allocator<void> >::_sum_type {aka long int}[m[K
+[3.340s] [01m[K/home/sven/ros2_ws/src/my_cpp_pkg/src/add_two_ints_server.cpp:26:53:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[3.340s]    26 |         RCLCPP_INFO(this->get_logger(), "%d + %d = [01;36m[K%d[m[K", request->a, request->b, response->sum);
+[3.340s]       |                                                    [01;36m[K~^[m[K
+[3.340s]       |                                                     [01;36m[K|[m[K
+[3.340s]       |                                                     [01;36m[Kint[m[K
+[3.340s]       |                                                    [32m[K%ld[m[K
+[3.457s] [ 59%] [32m[1mLinking CXX executable add_two_ints_client[0m
+[3.554s] [ 59%] Built target add_two_ints_client
+[3.693s] [ 63%] [32m[1mLinking CXX executable hardware_status_publisher[0m
+[3.887s] [ 63%] Built target hardware_status_publisher
+[3.975s] [ 68%] [32m[1mLinking CXX executable cpp_node[0m
+[4.099s] [ 68%] Built target cpp_node
+[4.133s] [ 72%] [32m[1mLinking CXX executable number_publisher[0m
+[4.242s] [ 72%] Built target number_publisher
+[4.313s] [ 77%] [32m[1mLinking CXX executable led_panel_status_publisher[0m
+[4.435s] [ 77%] Built target led_panel_status_publisher
+[4.467s] [ 81%] [32m[1mLinking CXX executable add_two_ints_server[0m
+[4.495s] [ 86%] [32m[1mLinking CXX executable add_two_ints_client_no_oop[0m
+[4.552s] [ 86%] Built target add_two_ints_server
+[4.580s] [ 86%] Built target add_two_ints_client_no_oop
+[4.827s] [ 90%] [32m[1mLinking CXX executable robot_news_station[0m
+[4.929s] [ 90%] Built target robot_news_station
+[5.906s] [ 95%] [32m[1mLinking CXX executable number_counter[0m
+[6.113s] [ 95%] Built target number_counter
+[6.385s] [100%] [32m[1mLinking CXX executable smartphone[0m
+[6.564s] [100%] Built target smartphone
+[6.576s] Invoked command in '/home/sven/ros2_ws/src/build/my_cpp_pkg' returned '0': AMENT_PREFIX_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces:/home/sven/ros2_ws/install/turtlesim_catch_them_all:/home/sven/ros2_ws/install/my_robot_bringup:/home/sven/ros2_ws/install/my_cpp_pkg:/home/sven/ros2_ws/install/my_robot_interfaces:/home/sven/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces/lib:/home/sven/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/sven/ros2_ws/src/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sven/ros2_ws/src/build/my_cpp_pkg -- -j20 -l20
+[6.603s] Invoking command in '/home/sven/ros2_ws/src/build/my_cpp_pkg': AMENT_PREFIX_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces:/home/sven/ros2_ws/install/turtlesim_catch_them_all:/home/sven/ros2_ws/install/my_robot_bringup:/home/sven/ros2_ws/install/my_cpp_pkg:/home/sven/ros2_ws/install/my_robot_interfaces:/home/sven/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces/lib:/home/sven/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/sven/ros2_ws/src/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sven/ros2_ws/src/build/my_cpp_pkg
+[6.607s] -- Install configuration: ""
+[6.607s] -- Installing: /home/sven/ros2_ws/src/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node
+[6.607s] -- Set runtime path of "/home/sven/ros2_ws/src/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node" to ""
+[6.607s] -- Installing: /home/sven/ros2_ws/src/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station
+[6.608s] -- Set runtime path of "/home/sven/ros2_ws/src/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station" to ""
+[6.608s] -- Installing: /home/sven/ros2_ws/src/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone
+[6.609s] -- Set runtime path of "/home/sven/ros2_ws/src/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone" to ""
+[6.609s] -- Installing: /home/sven/ros2_ws/src/install/my_cpp_pkg/lib/my_cpp_pkg/number_publisher
+[6.610s] -- Set runtime path of "/home/sven/ros2_ws/src/install/my_cpp_pkg/lib/my_cpp_pkg/number_publisher" to ""
+[6.610s] -- Installing: /home/sven/ros2_ws/src/install/my_cpp_pkg/lib/my_cpp_pkg/number_counter
+[6.612s] -- Set runtime path of "/home/sven/ros2_ws/src/install/my_cpp_pkg/lib/my_cpp_pkg/number_counter" to ""
+[6.612s] -- Installing: /home/sven/ros2_ws/src/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_server
+[6.612s] -- Set runtime path of "/home/sven/ros2_ws/src/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_server" to ""
+[6.612s] -- Installing: /home/sven/ros2_ws/src/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client
+[6.612s] -- Set runtime path of "/home/sven/ros2_ws/src/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client" to ""
+[6.612s] -- Installing: /home/sven/ros2_ws/src/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client_no_oop
+[6.613s] -- Set runtime path of "/home/sven/ros2_ws/src/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client_no_oop" to ""
+[6.613s] -- Installing: /home/sven/ros2_ws/src/install/my_cpp_pkg/lib/my_cpp_pkg/hardware_status_publisher
+[6.613s] -- Set runtime path of "/home/sven/ros2_ws/src/install/my_cpp_pkg/lib/my_cpp_pkg/hardware_status_publisher" to ""
+[6.613s] -- Installing: /home/sven/ros2_ws/src/install/my_cpp_pkg/lib/my_cpp_pkg/led_panel_status_publisher
+[6.614s] -- Set runtime path of "/home/sven/ros2_ws/src/install/my_cpp_pkg/lib/my_cpp_pkg/led_panel_status_publisher" to ""
+[6.614s] -- Installing: /home/sven/ros2_ws/src/install/my_cpp_pkg/lib/my_cpp_pkg/battery
+[6.614s] -- Set runtime path of "/home/sven/ros2_ws/src/install/my_cpp_pkg/lib/my_cpp_pkg/battery" to ""
+[6.614s] -- Installing: /home/sven/ros2_ws/src/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[6.614s] -- Installing: /home/sven/ros2_ws/src/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[6.614s] -- Installing: /home/sven/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[6.614s] -- Installing: /home/sven/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[6.614s] -- Installing: /home/sven/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[6.615s] -- Installing: /home/sven/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[6.615s] -- Installing: /home/sven/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[6.615s] -- Installing: /home/sven/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[6.615s] -- Installing: /home/sven/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[6.615s] -- Installing: /home/sven/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[6.615s] -- Installing: /home/sven/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[6.615s] -- Installing: /home/sven/ros2_ws/src/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[6.615s] -- Installing: /home/sven/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[6.615s] -- Installing: /home/sven/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[6.615s] -- Installing: /home/sven/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[6.616s] Invoked command in '/home/sven/ros2_ws/src/build/my_cpp_pkg' returned '0': AMENT_PREFIX_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces:/home/sven/ros2_ws/install/turtlesim_catch_them_all:/home/sven/ros2_ws/install/my_robot_bringup:/home/sven/ros2_ws/install/my_cpp_pkg:/home/sven/ros2_ws/install/my_robot_interfaces:/home/sven/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces/lib:/home/sven/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/sven/ros2_ws/src/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sven/ros2_ws/src/build/my_cpp_pkg
