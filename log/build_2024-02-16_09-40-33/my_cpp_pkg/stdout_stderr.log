@@ -1,9 +1,0 @@
--- Configuring incomplete, errors occurred!
-See also "/home/cleanseasolutions/ros2_ws/build/my_cpp_pkg/CMakeFiles/CMakeOutput.log".
-[31mCMake Error at CMakeLists.txt:15:
-  Parse error.  Expected "(", got newline with text "
-
-  ".
-
-[0m
-gmake: *** [Makefile:554: cmake_check_build_system] Error 1

@@ -1,9 +1,0 @@
-[35m[1mConsolidate compiler generated dependencies of target turtle_controller[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/turtle_controller.dir/src/turtle_controller_node.cpp.o[0m
-[01m[K/home/cleanseasolutions/ros2_ws/src/turtlesim_catch_them_all/src/turtle_controller_node.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kturtlesim/msg/pose.hpp: No such file or directory
-    3 | #include [01;31m[K"turtlesim/msg/pose.hpp"[m[K
-      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
-compilation terminated.
-gmake[2]: *** [CMakeFiles/turtle_controller.dir/build.make:76: CMakeFiles/turtle_controller.dir/src/turtle_controller_node.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/turtle_controller.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

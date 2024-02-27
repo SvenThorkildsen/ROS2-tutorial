@@ -286,6 +286,9 @@ ament_cmake_test_DIR:PATH=/opt/ros/humble/share/ament_cmake_test/cmake
 //The directory containing a CMake configuration file for ament_cmake_version.
 ament_cmake_version_DIR:PATH=/opt/ros/humble/share/ament_cmake_version/cmake
 
+//The directory containing a CMake configuration file for my_robot_bringup.
+my_robot_bringup_DIR:PATH=my_robot_bringup_DIR-NOTFOUND
+
 //Value Computed by CMake
 my_robot_description_BINARY_DIR:STATIC=/home/sven/ros2_ws/build/my_robot_description
 

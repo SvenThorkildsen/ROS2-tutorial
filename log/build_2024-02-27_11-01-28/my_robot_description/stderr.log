@@ -1,0 +1,17 @@
+[31mCMake Error at CMakeLists.txt:10 (find_package):
+  By not providing "Findmy_robot_bringup.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "my_robot_bringup", but CMake did not find one.
+
+  Could not find a package configuration file provided by "my_robot_bringup"
+  with any of the following names:
+
+    my_robot_bringupConfig.cmake
+    my_robot_bringup-config.cmake
+
+  Add the installation prefix of "my_robot_bringup" to CMAKE_PREFIX_PATH or
+  set "my_robot_bringup_DIR" to a directory containing one of the above
+  files.  If "my_robot_bringup" provides a separate development package or
+  SDK, be sure it has been installed.
+
+[0m

@@ -1,0 +1,35 @@
+[0.030s] Invoking command in '/home/sven/ros2_ws/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sven/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/sven/ros2_ws/src/my_robot_description -DCMAKE_INSTALL_PREFIX=/home/sven/ros2_ws/install/my_robot_description
+[0.055s] -- The C compiler identification is GNU 11.4.0
+[0.082s] -- The CXX compiler identification is GNU 11.4.0
+[0.086s] -- Detecting C compiler ABI info
+[0.119s] -- Detecting C compiler ABI info - done
+[0.122s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.122s] -- Detecting C compile features
+[0.122s] -- Detecting C compile features - done
+[0.124s] -- Detecting CXX compiler ABI info
+[0.162s] -- Detecting CXX compiler ABI info - done
+[0.166s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.166s] -- Detecting CXX compile features
+[0.166s] -- Detecting CXX compile features - done
+[0.167s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.239s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.282s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[0.282s]   By not providing "Findmy_robot_bringup.cmake" in CMAKE_MODULE_PATH this
+[0.282s]   project has asked CMake to find a package configuration file provided by
+[0.282s]   "my_robot_bringup", but CMake did not find one.
+[0.282s] 
+[0.282s]   Could not find a package configuration file provided by "my_robot_bringup"
+[0.282s]   with any of the following names:
+[0.282s] 
+[0.282s]     my_robot_bringupConfig.cmake
+[0.282s]     my_robot_bringup-config.cmake
+[0.282s] 
+[0.282s]   Add the installation prefix of "my_robot_bringup" to CMAKE_PREFIX_PATH or
+[0.282s]   set "my_robot_bringup_DIR" to a directory containing one of the above
+[0.283s]   files.  If "my_robot_bringup" provides a separate development package or
+[0.283s]   SDK, be sure it has been installed.
+[0.283s] 
+[0.283s] [0m
+[0.283s] -- Configuring incomplete, errors occurred!
+[0.283s] See also "/home/sven/ros2_ws/build/my_robot_description/CMakeFiles/CMakeOutput.log".
+[0.284s] Invoked command in '/home/sven/ros2_ws/build/my_robot_description' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sven/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/sven/ros2_ws/src/my_robot_description -DCMAKE_INSTALL_PREFIX=/home/sven/ros2_ws/install/my_robot_description
