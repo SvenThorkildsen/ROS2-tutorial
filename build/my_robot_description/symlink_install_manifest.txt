@@ -1,9 +1,14 @@
+/home/sven/ros2_ws/install/my_robot_description/share/my_robot_description//urdf/arm.xacro
+/home/sven/ros2_ws/install/my_robot_description/share/my_robot_description//urdf/arm_gazebo.xacro
+/home/sven/ros2_ws/install/my_robot_description/share/my_robot_description//urdf/camera.xacro
 /home/sven/ros2_ws/install/my_robot_description/share/my_robot_description//urdf/common_properties.xacro
 /home/sven/ros2_ws/install/my_robot_description/share/my_robot_description//urdf/mobile_base.xacro
 /home/sven/ros2_ws/install/my_robot_description/share/my_robot_description//urdf/mobile_base_gazebo.xacro
 /home/sven/ros2_ws/install/my_robot_description/share/my_robot_description//urdf/my_robot.urdf.xacro
+/home/sven/ros2_ws/install/my_robot_description/share/my_robot_description//urdf/standalone_arm.urdf.xacro
 /home/sven/ros2_ws/install/my_robot_description/share/my_robot_description//launch/display.launch.py
 /home/sven/ros2_ws/install/my_robot_description/share/my_robot_description//launch/display.launch.xml
+/home/sven/ros2_ws/install/my_robot_description/share/my_robot_description//rviz/arm_urdf_config.rviz
 /home/sven/ros2_ws/install/my_robot_description/share/my_robot_description//rviz/urdf_config.rviz
 /home/sven/ros2_ws/install/my_robot_description/share/ament_index/resource_index/package_run_dependencies/my_robot_description
 /home/sven/ros2_ws/install/my_robot_description/share/ament_index/resource_index/parent_prefix_path/my_robot_description

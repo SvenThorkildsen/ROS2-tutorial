@@ -2,6 +2,7 @@
 /home/sven/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/launch/number_app.launch.py
 /home/sven/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/launch/robot_news_app.launch.py
 /home/sven/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/launch/turtlesim_catch_them_all.launch.py
+/home/sven/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/rviz/arm_urdf_config.rviz
 /home/sven/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/rviz/urdf_config.rviz
 /home/sven/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/worlds/test_world.world
 /home/sven/ros2_ws/install/my_robot_bringup/share/ament_index/resource_index/package_run_dependencies/my_robot_bringup
