@@ -1,0 +1,22 @@
+[0.327s] Invoking command in '/home/sven/ros2_ws/build/actions_py': CMAKE_PREFIX_PATH=/home/sven/ros2_ws/install/my_robot_interfaces:/home/sven/ros2_ws/install/turtlesim_catch_them_all:/home/sven/ros2_ws/install/my_robot_bringup:/home/sven/ros2_ws/install/my_cpp_pkg:/home/sven/ros2_ws/install/my_robot_description:/home/sven/install/my_robot_description LD_LIBRARY_PATH=/home/sven/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/sven/ros2_ws/build/actions_py/prefix_override:/home/sven/ros2_ws/install/actions_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/sven/ros2_ws/build/actions_py/build --no-deps install_data
+[0.439s] running develop
+[0.449s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.449s]   warnings.warn(
+[0.450s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.450s]   warnings.warn(
+[0.509s] running egg_info
+[0.509s] writing actions_py.egg-info/PKG-INFO
+[0.509s] writing dependency_links to actions_py.egg-info/dependency_links.txt
+[0.509s] writing entry points to actions_py.egg-info/entry_points.txt
+[0.509s] writing requirements to actions_py.egg-info/requires.txt
+[0.509s] writing top-level names to actions_py.egg-info/top_level.txt
+[0.510s] reading manifest file 'actions_py.egg-info/SOURCES.txt'
+[0.510s] writing manifest file 'actions_py.egg-info/SOURCES.txt'
+[0.511s] running build_ext
+[0.511s] Creating /home/sven/ros2_ws/install/actions_py/lib/python3.10/site-packages/actions-py.egg-link (link to .)
+[0.511s] Installing count_until_client script to /home/sven/ros2_ws/install/actions_py/lib/actions_py
+[0.511s] Installing count_until_server script to /home/sven/ros2_ws/install/actions_py/lib/actions_py
+[0.512s] 
+[0.512s] Installed /home/sven/ros2_ws/build/actions_py
+[0.512s] running install_data
+[0.524s] Invoked command in '/home/sven/ros2_ws/build/actions_py' returned '0': CMAKE_PREFIX_PATH=/home/sven/ros2_ws/install/my_robot_interfaces:/home/sven/ros2_ws/install/turtlesim_catch_them_all:/home/sven/ros2_ws/install/my_robot_bringup:/home/sven/ros2_ws/install/my_cpp_pkg:/home/sven/ros2_ws/install/my_robot_description:/home/sven/install/my_robot_description LD_LIBRARY_PATH=/home/sven/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/sven/ros2_ws/build/actions_py/prefix_override:/home/sven/ros2_ws/install/actions_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/sven/ros2_ws/build/actions_py/build --no-deps install_data

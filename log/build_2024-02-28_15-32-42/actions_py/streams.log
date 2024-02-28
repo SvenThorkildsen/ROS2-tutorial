@@ -1,0 +1,27 @@
+[0.326s] Invoking command in '/home/sven/ros2_ws/src/actions_py': CMAKE_PREFIX_PATH=/home/sven/ros2_ws/install/my_robot_interfaces:/home/sven/ros2_ws/install/turtlesim_catch_them_all:/home/sven/ros2_ws/install/my_robot_bringup:/home/sven/ros2_ws/install/my_cpp_pkg:/home/sven/ros2_ws/install/my_robot_description:/home/sven/install/my_robot_description LD_LIBRARY_PATH=/home/sven/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/sven/ros2_ws/build/actions_py/prefix_override:/home/sven/ros2_ws/install/actions_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/actions_py build --build-base /home/sven/ros2_ws/build/actions_py/build install --record /home/sven/ros2_ws/build/actions_py/install.log --single-version-externally-managed
+[0.429s] running egg_info
+[0.429s] writing ../../build/actions_py/actions_py.egg-info/PKG-INFO
+[0.429s] writing dependency_links to ../../build/actions_py/actions_py.egg-info/dependency_links.txt
+[0.429s] writing entry points to ../../build/actions_py/actions_py.egg-info/entry_points.txt
+[0.429s] writing requirements to ../../build/actions_py/actions_py.egg-info/requires.txt
+[0.429s] writing top-level names to ../../build/actions_py/actions_py.egg-info/top_level.txt
+[0.430s] reading manifest file '../../build/actions_py/actions_py.egg-info/SOURCES.txt'
+[0.430s] writing manifest file '../../build/actions_py/actions_py.egg-info/SOURCES.txt'
+[0.430s] running build
+[0.430s] running build_py
+[0.430s] copying actions_py/count_until_client.py -> /home/sven/ros2_ws/build/actions_py/build/lib/actions_py
+[0.430s] running install
+[0.431s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.431s]   warnings.warn(
+[0.431s] running install_lib
+[0.431s] copying /home/sven/ros2_ws/build/actions_py/build/lib/actions_py/count_until_client.py -> /home/sven/ros2_ws/install/actions_py/lib/python3.10/site-packages/actions_py
+[0.431s] byte-compiling /home/sven/ros2_ws/install/actions_py/lib/python3.10/site-packages/actions_py/count_until_client.py to count_until_client.cpython-310.pyc
+[0.431s] running install_data
+[0.432s] running install_egg_info
+[0.433s] removing '/home/sven/ros2_ws/install/actions_py/lib/python3.10/site-packages/actions_py-0.0.0-py3.10.egg-info' (and everything under it)
+[0.433s] Copying ../../build/actions_py/actions_py.egg-info to /home/sven/ros2_ws/install/actions_py/lib/python3.10/site-packages/actions_py-0.0.0-py3.10.egg-info
+[0.433s] running install_scripts
+[0.443s] Installing count_until_client script to /home/sven/ros2_ws/install/actions_py/lib/actions_py
+[0.443s] Installing count_until_server script to /home/sven/ros2_ws/install/actions_py/lib/actions_py
+[0.443s] writing list of installed files to '/home/sven/ros2_ws/build/actions_py/install.log'
+[0.455s] Invoked command in '/home/sven/ros2_ws/src/actions_py' returned '0': CMAKE_PREFIX_PATH=/home/sven/ros2_ws/install/my_robot_interfaces:/home/sven/ros2_ws/install/turtlesim_catch_them_all:/home/sven/ros2_ws/install/my_robot_bringup:/home/sven/ros2_ws/install/my_cpp_pkg:/home/sven/ros2_ws/install/my_robot_description:/home/sven/install/my_robot_description LD_LIBRARY_PATH=/home/sven/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/sven/ros2_ws/build/actions_py/prefix_override:/home/sven/ros2_ws/install/actions_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/actions_py build --build-base /home/sven/ros2_ws/build/actions_py/build install --record /home/sven/ros2_ws/build/actions_py/install.log --single-version-externally-managed

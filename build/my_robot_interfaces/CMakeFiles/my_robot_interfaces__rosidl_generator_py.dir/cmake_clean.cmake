@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/my_robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_robot_interfaces/action/_count_until_s.c.o"
+  "CMakeFiles/my_robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_robot_interfaces/action/_count_until_s.c.o.d"
   "CMakeFiles/my_robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_robot_interfaces/msg/_hardware_status_s.c.o"
   "CMakeFiles/my_robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_robot_interfaces/msg/_hardware_status_s.c.o.d"
   "CMakeFiles/my_robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_robot_interfaces/msg/_led_status_s.c.o"
