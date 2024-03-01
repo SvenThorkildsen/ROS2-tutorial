@@ -1,0 +1,48 @@
+[01m[K/home/sven/ros2_ws/src/actions_cpp/src/count_until_client.cpp:7:17:[m[K [01;31m[Kerror: [m[K‘[01m[Ktsd[m[K’ has not been declared
+    7 | using namespace [01;31m[Ktsd[m[K::placeholders;
+      |                 [01;31m[K^~~[m[K
+[01m[K/home/sven/ros2_ws/src/actions_cpp/src/count_until_client.cpp:7:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kplaceholders[m[K’ is not a namespace-name
+    7 | using namespace tsd::[01;31m[Kplaceholders[m[K;
+      |                      [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/sven/ros2_ws/src/actions_cpp/src/count_until_client.cpp:[m[K In member function ‘[01m[Kvoid CountUntilClientNode::send_goal(int, double)[m[K’:
+[01m[K/home/sven/ros2_ws/src/actions_cpp/src/count_until_client.cpp:30:74:[m[K [01;31m[Kerror: [m[K‘[01m[K_1[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::placeholders::_1[m[K’?
+   30 |             std::bind(&CountUntilClientNode::goal_result_callback, this, [01;31m[K_1[m[K);
+      |                                                                          [01;31m[K^~[m[K
+      |                                                                          [32m[Kstd::placeholders::_1[m[K
+In file included from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/sven/ros2_ws/src/actions_cpp/src/count_until_client.cpp:1[m[K:
+[01m[K/usr/include/c++/11/functional:225:34:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::placeholders::_1[m[K’ declared here
+  225 |     extern const _Placeholder<1> [01;36m[K_1[m[K;
+      |                                  [01;36m[K^~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/sven/ros2_ws/src/actions_cpp/src/count_until_client.cpp:1[m[K:
+[01m[K/home/sven/ros2_ws/src/actions_cpp/src/count_until_client.cpp:[m[K In member function ‘[01m[Kvoid CountUntilClientNode::goal_result_callback(const rclcpp_action::ClientGoalHandle<my_robot_interfaces::action::CountUntil>::WrappedResult&)[m[K’:
+[01m[K/home/sven/ros2_ws/src/actions_cpp/src/count_until_client.cpp:42:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kconst rclcpp_action::ClientGoalHandle<my_robot_interfaces::action::CountUntil>::WrappedResult[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   42 |         RCLCPP_INFO(this->get_logger(), [01;35m[K"Result: %d"[m[K, result);
+      |                                         [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/sven/ros2_ws/src/actions_cpp/src/count_until_client.cpp:42:51:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   42 |         RCLCPP_INFO(this->get_logger(), "Result: [01;36m[K%d[m[K", result);
+      |                                                  [01;36m[K~^[m[K
+      |                                                   [01;36m[K|[m[K
+      |                                                   [01;36m[Kint[m[K
+[01m[K/home/sven/ros2_ws/src/actions_cpp/src/count_until_client.cpp:41:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kreached_number[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   41 |         int [01;35m[Kreached_number[m[K = result.result->reached_number;
+      |             [01;35m[K^~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/count_until_client.dir/build.make:76: CMakeFiles/count_until_client.dir/src/count_until_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/count_until_client.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,74 @@
+[0.000000] (-) TimerEvent: {}
+[0.000073] (-) JobUnselected: {'identifier': 'actions_py'}
+[0.000087] (-) JobUnselected: {'identifier': 'my_cpp_pkg'}
+[0.000095] (-) JobUnselected: {'identifier': 'my_py_pkg'}
+[0.000101] (-) JobUnselected: {'identifier': 'my_robot_bringup'}
+[0.000107] (-) JobUnselected: {'identifier': 'my_robot_description'}
+[0.000113] (-) JobUnselected: {'identifier': 'my_robot_interfaces'}
+[0.000119] (-) JobUnselected: {'identifier': 'turtlesim_catch_them_all'}
+[0.000126] (actions_cpp) JobQueued: {'identifier': 'actions_cpp', 'dependencies': OrderedDict([('my_robot_interfaces', '/home/sven/ros2_ws/install/my_robot_interfaces')])}
+[0.000399] (actions_cpp) JobStarted: {'identifier': 'actions_cpp'}
+[0.031993] (actions_cpp) JobProgress: {'identifier': 'actions_cpp', 'progress': 'cmake'}
+[0.032317] (actions_cpp) JobProgress: {'identifier': 'actions_cpp', 'progress': 'build'}
+[0.032700] (actions_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sven/ros2_ws/build/actions_cpp', '--', '-j20', '-l20'], 'cwd': '/home/sven/ros2_ws/build/actions_cpp', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sven'), ('LC_TIME', 'nb_NO.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sven/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins'), ('HOME', '/home/sven'), ('OLDPWD', '/home/sven/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nb_NO.UTF-8'), ('MANAGERPID', '2182'), ('SYSTEMD_EXEC_PID', '2652'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '78790'), ('COLCON_PREFIX_PATH', '/home/sven/ros2_ws/install:/home/sven/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'sven'), ('JOURNAL_STREAM', '8:48237'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sven'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sven-cleanseasolutions:@/tmp/.ICE-unix/2632,unix/sven-cleanseasolutions:/tmp/.ICE-unix/2632'), ('INVOCATION_ID', '0e0f3af59236454c81f89152a5eeaf5b'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nb_NO.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'nb_NO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sven/ros2_ws/install/turtlesim_catch_them_all:/home/sven/ros2_ws/install/my_robot_bringup:/home/sven/ros2_ws/install/my_py_pkg:/home/sven/ros2_ws/install/my_cpp_pkg:/home/sven/ros2_ws/install/actions_py:/home/sven/ros2_ws/install/actions_cpp:/home/sven/ros2_ws/install/my_robot_interfaces:/home/sven/ros2_ws/install/my_robot_description:/home/sven/install/my_robot_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nb_NO.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:456d6fa2-38e5-4918-aeca-f89f6cc630a4'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nb_NO.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'nb_NO.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sven/ros2_ws/build/actions_cpp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sven/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/sven/ros2_ws/build/actions_py:/home/sven/ros2_ws/install/actions_py/lib/python3.10/site-packages:/home/sven/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nb_NO.UTF-8'), ('LC_PAPER', 'nb_NO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sven/ros2_ws/install/my_robot_interfaces:/home/sven/ros2_ws/install/turtlesim_catch_them_all:/home/sven/ros2_ws/install/my_robot_bringup:/home/sven/ros2_ws/install/my_cpp_pkg:/home/sven/ros2_ws/install/actions_cpp:/home/sven/ros2_ws/install/my_robot_description:/home/sven/install/my_robot_description:/home/sven/ros2_ws/install/my_py_pkg:/home/sven/ros2_ws/install/actions_py:/opt/ros/humble')]), 'shell': False}
+[0.047273] (actions_cpp) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.100015] (-) TimerEvent: {}
+[0.113012] (actions_cpp) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.127566] (actions_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.128796] (actions_cpp) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.131705] (actions_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.137382] (actions_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.144941] (actions_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.173851] (actions_cpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.174772] (actions_cpp) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.200156] (-) TimerEvent: {}
+[0.235669] (actions_cpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.300338] (-) TimerEvent: {}
+[0.315307] (actions_cpp) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.8 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[0.359440] (actions_cpp) StdoutLine: {'line': b'-- Found my_robot_interfaces: 0.0.0 (/home/sven/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake)\n'}
+[0.400447] (-) TimerEvent: {}
+[0.421832] (actions_cpp) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.428713] (actions_cpp) StdoutLine: {'line': b'-- Generating done\n'}
+[0.429474] (actions_cpp) StdoutLine: {'line': b'-- Build files have been written to: /home/sven/ros2_ws/build/actions_cpp\n'}
+[0.445602] (actions_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target count_until_server\x1b[0m\n'}
+[0.445717] (actions_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target count_until_client\x1b[0m\n'}
+[0.450943] (actions_cpp) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/count_until_server_queue_goals.dir/src/count_until_server_queue_goals.cpp.o\x1b[0m\n'}
+[0.455574] (actions_cpp) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/count_until_server.dir/src/count_until_server.cpp.o\x1b[0m\n'}
+[0.455863] (actions_cpp) StdoutLine: {'line': b'[ 66%] Built target count_until_client\n'}
+[0.500642] (-) TimerEvent: {}
+[0.601087] (-) TimerEvent: {}
+[0.701413] (-) TimerEvent: {}
+[0.801921] (-) TimerEvent: {}
+[0.902353] (-) TimerEvent: {}
+[1.002748] (-) TimerEvent: {}
+[1.103176] (-) TimerEvent: {}
+[1.203688] (-) TimerEvent: {}
+[1.303999] (-) TimerEvent: {}
+[1.404268] (-) TimerEvent: {}
+[1.504620] (-) TimerEvent: {}
+[1.605140] (-) TimerEvent: {}
+[1.700288] (actions_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sven/ros2_ws/src/actions_cpp/src/count_until_server_queue_goals.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KCountUntilServerQueueGoalsNode::CountUntilServerQueueGoalsNode()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.700471] (actions_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sven/ros2_ws/src/actions_cpp/src/count_until_server_queue_goals.cpp:17:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kcb_group_\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.700531] (actions_cpp) StderrLine: {'line': b'   17 |         \x1b[01;31m\x1b[Kcb_group_\x1b[m\x1b[K = this->create_callback_group(rclcpp::CallbackGroupType::Reentrant);\n'}
+[1.700584] (actions_cpp) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.705280] (-) TimerEvent: {}
+[1.714917] (actions_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sven/ros2_ws/src/actions_cpp/src/count_until_server_queue_goals.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid CountUntilServerQueueGoalsNode::run_goal_queue_thread()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.715041] (actions_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sven/ros2_ws/src/actions_cpp/src/count_until_server_queue_goals.cpp:76:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kthe address of \xe2\x80\x98\x1b[01m\x1b[Kbool rclcpp::ok(rclcpp::Context::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99 will never be NULL [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress\x07-Waddress\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.715103] (actions_cpp) StderrLine: {'line': b'   76 |         while (\x1b[01;35m\x1b[Krclcpp::ok\x1b[m\x1b[K)\n'}
+[1.715156] (actions_cpp) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K~~~~~~~~^~\x1b[m\x1b[K\n'}
+[1.805374] (-) TimerEvent: {}
+[1.905699] (-) TimerEvent: {}
+[2.006225] (-) TimerEvent: {}
+[2.080946] (actions_cpp) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/count_until_server_queue_goals.dir/build.make:76: CMakeFiles/count_until_server_queue_goals.dir/src/count_until_server_queue_goals.cpp.o] Error 1\n'}
+[2.081119] (actions_cpp) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/count_until_server_queue_goals.dir/all] Error 2\n'}
+[2.081192] (actions_cpp) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[2.106316] (-) TimerEvent: {}
+[2.206671] (-) TimerEvent: {}
+[2.307036] (-) TimerEvent: {}
+[2.341906] (actions_cpp) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable count_until_server\x1b[0m\n'}
+[2.407150] (-) TimerEvent: {}
+[2.421525] (actions_cpp) StdoutLine: {'line': b'[ 83%] Built target count_until_server\n'}
+[2.422176] (actions_cpp) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[2.423352] (actions_cpp) CommandEnded: {'returncode': 2}
+[2.471554] (actions_cpp) JobEnded: {'identifier': 'actions_cpp', 'rc': 2}
+[2.481819] (-) EventReactorShutdown: {}

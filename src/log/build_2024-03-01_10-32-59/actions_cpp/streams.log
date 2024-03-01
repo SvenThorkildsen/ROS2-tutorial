@@ -1,0 +1,55 @@
+[0.042s] Invoking command in '/home/sven/ros2_ws/src/build/actions_cpp': AMENT_PREFIX_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces:/home/sven/ros2_ws/install/turtlesim_catch_them_all:/home/sven/ros2_ws/install/my_robot_bringup:/home/sven/ros2_ws/install/my_cpp_pkg:/home/sven/ros2_ws/install/actions_cpp:/home/sven/ros2_ws/install/my_robot_interfaces:/home/sven/ros2_ws/install/my_robot_description:/home/sven/install/my_robot_description:/home/sven/ros2_ws/install/my_py_pkg:/home/sven/ros2_ws/install/actions_py:/opt/ros/humble LD_LIBRARY_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces/lib:/home/sven/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/sven/ros2_ws/src/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/sven/ros2_ws/src/actions_cpp -DCMAKE_INSTALL_PREFIX=/home/sven/ros2_ws/src/install/actions_cpp
+[0.068s] -- The C compiler identification is GNU 11.4.0
+[0.096s] -- The CXX compiler identification is GNU 11.4.0
+[0.099s] -- Detecting C compiler ABI info
+[0.136s] -- Detecting C compiler ABI info - done
+[0.139s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.139s] -- Detecting C compile features
+[0.140s] -- Detecting C compile features - done
+[0.141s] -- Detecting CXX compiler ABI info
+[0.180s] -- Detecting CXX compiler ABI info - done
+[0.184s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.184s] -- Detecting CXX compile features
+[0.184s] -- Detecting CXX compile features - done
+[0.185s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.263s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.313s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.335s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.338s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.342s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.351s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.362s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.398s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.400s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.450s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.464s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.488s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.493s] -- Looking for pthread.h
+[0.531s] -- Looking for pthread.h - found
+[0.531s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.567s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.568s] -- Found Threads: TRUE  
+[0.645s] -- Found rclcpp_action: 16.0.8 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.701s] -- Found my_robot_interfaces: 0.0.0 (/home/sven/ros2_ws/src/install/my_robot_interfaces/share/my_robot_interfaces/cmake)
+[0.749s] -- Configuring done
+[0.754s] -- Generating done
+[0.755s] -- Build files have been written to: /home/sven/ros2_ws/src/build/actions_cpp
+[0.761s] Invoked command in '/home/sven/ros2_ws/src/build/actions_cpp' returned '0': AMENT_PREFIX_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces:/home/sven/ros2_ws/install/turtlesim_catch_them_all:/home/sven/ros2_ws/install/my_robot_bringup:/home/sven/ros2_ws/install/my_cpp_pkg:/home/sven/ros2_ws/install/actions_cpp:/home/sven/ros2_ws/install/my_robot_interfaces:/home/sven/ros2_ws/install/my_robot_description:/home/sven/install/my_robot_description:/home/sven/ros2_ws/install/my_py_pkg:/home/sven/ros2_ws/install/actions_py:/opt/ros/humble LD_LIBRARY_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces/lib:/home/sven/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/sven/ros2_ws/src/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/sven/ros2_ws/src/actions_cpp -DCMAKE_INSTALL_PREFIX=/home/sven/ros2_ws/src/install/actions_cpp
+[0.761s] Invoking command in '/home/sven/ros2_ws/src/build/actions_cpp': AMENT_PREFIX_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces:/home/sven/ros2_ws/install/turtlesim_catch_them_all:/home/sven/ros2_ws/install/my_robot_bringup:/home/sven/ros2_ws/install/my_cpp_pkg:/home/sven/ros2_ws/install/actions_cpp:/home/sven/ros2_ws/install/my_robot_interfaces:/home/sven/ros2_ws/install/my_robot_description:/home/sven/install/my_robot_description:/home/sven/ros2_ws/install/my_py_pkg:/home/sven/ros2_ws/install/actions_py:/opt/ros/humble LD_LIBRARY_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces/lib:/home/sven/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/sven/ros2_ws/src/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sven/ros2_ws/src/build/actions_cpp -- -j20 -l20
+[0.792s] [ 50%] [32mBuilding CXX object CMakeFiles/count_until_client.dir/src/count_until_client.cpp.o[0m
+[0.792s] [ 50%] [32mBuilding CXX object CMakeFiles/count_until_server.dir/src/count_until_server.cpp.o[0m
+[0.886s] [01m[K/home/sven/ros2_ws/src/actions_cpp/src/count_until_server.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kmy_robot_interfaces/action/count_until.hpp: No such file or directory
+[0.886s]     3 | #include [01;31m[K"my_robot_interfaces/action/count_until.hpp"[m[K
+[0.886s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.886s] compilation terminated.
+[0.886s] [01m[K/home/sven/ros2_ws/src/actions_cpp/src/count_until_client.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kmy_robot_interfaces/action/count_until.hpp: No such file or directory
+[0.887s]     3 | #include [01;31m[K"my_robot_interfaces/action/count_until.hpp"[m[K
+[0.887s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.887s] compilation terminated.
+[0.897s] gmake[2]: *** [CMakeFiles/count_until_server.dir/build.make:76: CMakeFiles/count_until_server.dir/src/count_until_server.cpp.o] Error 1
+[0.897s] gmake[2]: *** [CMakeFiles/count_until_client.dir/build.make:76: CMakeFiles/count_until_client.dir/src/count_until_client.cpp.o] Error 1
+[0.897s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/count_until_server.dir/all] Error 2
+[0.897s] gmake[1]: *** Waiting for unfinished jobs....
+[0.897s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/count_until_client.dir/all] Error 2
+[0.897s] gmake: *** [Makefile:146: all] Error 2
+[0.899s] Invoked command in '/home/sven/ros2_ws/src/build/actions_cpp' returned '2': AMENT_PREFIX_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces:/home/sven/ros2_ws/install/turtlesim_catch_them_all:/home/sven/ros2_ws/install/my_robot_bringup:/home/sven/ros2_ws/install/my_cpp_pkg:/home/sven/ros2_ws/install/actions_cpp:/home/sven/ros2_ws/install/my_robot_interfaces:/home/sven/ros2_ws/install/my_robot_description:/home/sven/install/my_robot_description:/home/sven/ros2_ws/install/my_py_pkg:/home/sven/ros2_ws/install/actions_py:/opt/ros/humble LD_LIBRARY_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces/lib:/home/sven/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/sven/ros2_ws/src/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sven/ros2_ws/src/build/actions_cpp -- -j20 -l20

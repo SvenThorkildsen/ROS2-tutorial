@@ -1,0 +1,43 @@
+[0.732s] Invoking command in '/home/sven/ros2_ws/src/actions_py': AMENT_PREFIX_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces/lib:/home/sven/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/sven/ros2_ws/src/build/actions_py/prefix_override:/home/sven/ros2_ws/src/install/actions_py/lib/python3.10/site-packages:/home/sven/ros2_ws/src/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/actions_py build --build-base /home/sven/ros2_ws/src/build/actions_py/build install --record /home/sven/ros2_ws/src/build/actions_py/install.log --single-version-externally-managed
+[0.866s] running egg_info
+[0.866s] creating ../build/actions_py/actions_py.egg-info
+[0.866s] writing ../build/actions_py/actions_py.egg-info/PKG-INFO
+[0.867s] writing dependency_links to ../build/actions_py/actions_py.egg-info/dependency_links.txt
+[0.867s] writing entry points to ../build/actions_py/actions_py.egg-info/entry_points.txt
+[0.867s] writing requirements to ../build/actions_py/actions_py.egg-info/requires.txt
+[0.867s] writing top-level names to ../build/actions_py/actions_py.egg-info/top_level.txt
+[0.867s] writing manifest file '../build/actions_py/actions_py.egg-info/SOURCES.txt'
+[0.868s] reading manifest file '../build/actions_py/actions_py.egg-info/SOURCES.txt'
+[0.868s] writing manifest file '../build/actions_py/actions_py.egg-info/SOURCES.txt'
+[0.868s] running build
+[0.869s] running build_py
+[0.869s] creating /home/sven/ros2_ws/src/build/actions_py/build
+[0.869s] creating /home/sven/ros2_ws/src/build/actions_py/build/lib
+[0.869s] creating /home/sven/ros2_ws/src/build/actions_py/build/lib/actions_py
+[0.869s] copying actions_py/count_until_server.py -> /home/sven/ros2_ws/src/build/actions_py/build/lib/actions_py
+[0.869s] copying actions_py/count_until_client.py -> /home/sven/ros2_ws/src/build/actions_py/build/lib/actions_py
+[0.869s] copying actions_py/__init__.py -> /home/sven/ros2_ws/src/build/actions_py/build/lib/actions_py
+[0.869s] running install
+[0.874s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.874s]   warnings.warn(
+[0.874s] running install_lib
+[0.875s] creating /home/sven/ros2_ws/src/install/actions_py/lib/python3.10/site-packages/actions_py
+[0.875s] copying /home/sven/ros2_ws/src/build/actions_py/build/lib/actions_py/count_until_server.py -> /home/sven/ros2_ws/src/install/actions_py/lib/python3.10/site-packages/actions_py
+[0.875s] copying /home/sven/ros2_ws/src/build/actions_py/build/lib/actions_py/count_until_client.py -> /home/sven/ros2_ws/src/install/actions_py/lib/python3.10/site-packages/actions_py
+[0.876s] copying /home/sven/ros2_ws/src/build/actions_py/build/lib/actions_py/__init__.py -> /home/sven/ros2_ws/src/install/actions_py/lib/python3.10/site-packages/actions_py
+[0.876s] byte-compiling /home/sven/ros2_ws/src/install/actions_py/lib/python3.10/site-packages/actions_py/count_until_server.py to count_until_server.cpython-310.pyc
+[0.877s] byte-compiling /home/sven/ros2_ws/src/install/actions_py/lib/python3.10/site-packages/actions_py/count_until_client.py to count_until_client.cpython-310.pyc
+[0.877s] byte-compiling /home/sven/ros2_ws/src/install/actions_py/lib/python3.10/site-packages/actions_py/__init__.py to __init__.cpython-310.pyc
+[0.877s] running install_data
+[0.877s] creating /home/sven/ros2_ws/src/install/actions_py/share/ament_index
+[0.878s] creating /home/sven/ros2_ws/src/install/actions_py/share/ament_index/resource_index
+[0.878s] creating /home/sven/ros2_ws/src/install/actions_py/share/ament_index/resource_index/packages
+[0.878s] copying resource/actions_py -> /home/sven/ros2_ws/src/install/actions_py/share/ament_index/resource_index/packages
+[0.878s] copying package.xml -> /home/sven/ros2_ws/src/install/actions_py/share/actions_py
+[0.878s] running install_egg_info
+[0.879s] Copying ../build/actions_py/actions_py.egg-info to /home/sven/ros2_ws/src/install/actions_py/lib/python3.10/site-packages/actions_py-0.0.0-py3.10.egg-info
+[0.879s] running install_scripts
+[0.894s] Installing count_until_client script to /home/sven/ros2_ws/src/install/actions_py/lib/actions_py
+[0.894s] Installing count_until_server script to /home/sven/ros2_ws/src/install/actions_py/lib/actions_py
+[0.894s] writing list of installed files to '/home/sven/ros2_ws/src/build/actions_py/install.log'
+[0.925s] Invoked command in '/home/sven/ros2_ws/src/actions_py' returned '0': AMENT_PREFIX_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces/lib:/home/sven/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/sven/ros2_ws/src/build/actions_py/prefix_override:/home/sven/ros2_ws/src/install/actions_py/lib/python3.10/site-packages:/home/sven/ros2_ws/src/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/actions_py build --build-base /home/sven/ros2_ws/src/build/actions_py/build install --record /home/sven/ros2_ws/src/build/actions_py/install.log --single-version-externally-managed

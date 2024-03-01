@@ -1,0 +1,80 @@
+[0.032s] Invoking command in '/home/sven/ros2_ws/build/actions_cpp': CMAKE_PREFIX_PATH=/home/sven/ros2_ws/install/my_robot_interfaces:/home/sven/ros2_ws/install/turtlesim_catch_them_all:/home/sven/ros2_ws/install/my_robot_bringup:/home/sven/ros2_ws/install/my_cpp_pkg:/home/sven/ros2_ws/install/my_robot_description:/home/sven/install/my_robot_description:/home/sven/ros2_ws/install/my_py_pkg:/home/sven/ros2_ws/install/actions_py:/opt/ros/humble LD_LIBRARY_PATH=/home/sven/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /home/sven/ros2_ws/src/actions_cpp -DCMAKE_INSTALL_PREFIX=/home/sven/ros2_ws/install/actions_cpp
+[0.076s] -- The C compiler identification is GNU 11.4.0
+[0.112s] -- The CXX compiler identification is GNU 11.4.0
+[0.117s] -- Detecting C compiler ABI info
+[0.153s] -- Detecting C compiler ABI info - done
+[0.156s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.156s] -- Detecting C compile features
+[0.157s] -- Detecting C compile features - done
+[0.159s] -- Detecting CXX compiler ABI info
+[0.196s] -- Detecting CXX compiler ABI info - done
+[0.200s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.200s] -- Detecting CXX compile features
+[0.200s] -- Detecting CXX compile features - done
+[0.203s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.280s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.331s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.362s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.366s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.372s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.381s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.393s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.435s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.437s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.490s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.503s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.525s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.531s] -- Looking for pthread.h
+[0.565s] -- Looking for pthread.h - found
+[0.566s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.600s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.601s] -- Found Threads: TRUE  
+[0.687s] -- Found rclcpp_action: 16.0.8 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.739s] -- Found my_robot_interfaces: 0.0.0 (/home/sven/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake)
+[0.798s] -- Configuring done
+[0.803s] -- Generating done
+[0.803s] -- Build files have been written to: /home/sven/ros2_ws/build/actions_cpp
+[0.808s] Invoked command in '/home/sven/ros2_ws/build/actions_cpp' returned '0': CMAKE_PREFIX_PATH=/home/sven/ros2_ws/install/my_robot_interfaces:/home/sven/ros2_ws/install/turtlesim_catch_them_all:/home/sven/ros2_ws/install/my_robot_bringup:/home/sven/ros2_ws/install/my_cpp_pkg:/home/sven/ros2_ws/install/my_robot_description:/home/sven/install/my_robot_description:/home/sven/ros2_ws/install/my_py_pkg:/home/sven/ros2_ws/install/actions_py:/opt/ros/humble LD_LIBRARY_PATH=/home/sven/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /home/sven/ros2_ws/src/actions_cpp -DCMAKE_INSTALL_PREFIX=/home/sven/ros2_ws/install/actions_cpp
+[0.809s] Invoking command in '/home/sven/ros2_ws/build/actions_cpp': CMAKE_PREFIX_PATH=/home/sven/ros2_ws/install/my_robot_interfaces:/home/sven/ros2_ws/install/turtlesim_catch_them_all:/home/sven/ros2_ws/install/my_robot_bringup:/home/sven/ros2_ws/install/my_cpp_pkg:/home/sven/ros2_ws/install/my_robot_description:/home/sven/install/my_robot_description:/home/sven/ros2_ws/install/my_py_pkg:/home/sven/ros2_ws/install/actions_py:/opt/ros/humble LD_LIBRARY_PATH=/home/sven/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/sven/ros2_ws/build/actions_cpp -- -j20 -l20
+[0.832s] [ 50%] [32mBuilding CXX object CMakeFiles/count_until_server.dir/src/count_until_server.cpp.o[0m
+[1.894s] [01m[K/home/sven/ros2_ws/src/actions_cpp/src/count_until_server.cpp:[m[K In constructor ‘[01m[KCountUntilServerNode::CountUntilServerNode()[m[K’:
+[1.894s] [01m[K/home/sven/ros2_ws/src/actions_cpp/src/count_until_server.cpp:18:13:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Krclcpp_action::GoalResponse CountUntilServerNode::goal_callback(const GoalUUID&, std::shared_ptr<const my_robot_interfaces::action::CountUntil_Goal_<std::allocator<void> > >)[m[K’
+[1.894s]    18 |             [01;31m[Kgoal_callback[m[K,
+[1.894s]       |             [01;31m[K^~~~~~~~~~~~~[m[K
+[1.894s] [01m[K/home/sven/ros2_ws/src/actions_cpp/src/count_until_server.cpp:27:33:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.894s]    27 |     rclcpp_action::GoalResponse [01;36m[Kgoal_callback[m[K(
+[1.894s]       |                                 [01;36m[K^~~~~~~~~~~~~[m[K
+[1.904s] [01m[K/home/sven/ros2_ws/src/actions_cpp/src/count_until_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse CountUntilServerNode::goal_callback(const GoalUUID&, std::shared_ptr<const my_robot_interfaces::action::CountUntil_Goal_<std::allocator<void> > >)[m[K’:
+[1.904s] [01m[K/home/sven/ros2_ws/src/actions_cpp/src/count_until_server.cpp:28:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kuuid[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.904s]    28 |         [01;35m[Kconst rclcpp_action::GoalUUID &uuid[m[K, std::shared_ptr<const CountUntil::Goal> goal)
+[1.904s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[1.904s] [01m[K/home/sven/ros2_ws/src/actions_cpp/src/count_until_server.cpp:28:86:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.904s]    28 |         const rclcpp_action::GoalUUID &uuid, [01;35m[Kstd::shared_ptr<const CountUntil::Goal> goal[m[K)
+[1.904s]       |                                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[1.905s] [01m[K/home/sven/ros2_ws/src/actions_cpp/src/count_until_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::CancelResponse CountUntilServerNode::cancel_callback(std::shared_ptr<rclcpp_action::ServerGoalHandle<my_robot_interfaces::action::CountUntil> >)[m[K’:
+[1.905s] [01m[K/home/sven/ros2_ws/src/actions_cpp/src/count_until_server.cpp:34:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal_handle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.905s]    34 |         [01;35m[Kconst std::shared_ptr<CountUntilGoalHandle> goal_handle[m[K)
+[1.905s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[1.905s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.905s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.905s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.905s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.905s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.905s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.905s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.905s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.905s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.905s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.905s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.905s]                  from [01m[K/home/sven/ros2_ws/src/actions_cpp/src/count_until_server.cpp:1[m[K:
+[1.905s] [01m[K/home/sven/ros2_ws/src/actions_cpp/src/count_until_server.cpp:[m[K In member function ‘[01m[Kvoid CountUntilServerNode::handle_accepted_callback(std::shared_ptr<rclcpp_action::ServerGoalHandle<my_robot_interfaces::action::CountUntil> >)[m[K’:
+[1.905s] [01m[K/home/sven/ros2_ws/src/actions_cpp/src/count_until_server.cpp:42:41:[m[K [01;35m[Kwarning: [m[Kzero-length gnu_printf format string [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-zero-length-Wformat-zero-length]8;;[m[K]
+[1.905s]    42 |         RCLCPP_INFO(this->get_logger(), [01;35m[K""[m[K)
+[1.905s]       |                                         [01;35m[K^~[m[K
+[1.905s] [01m[K/home/sven/ros2_ws/src/actions_cpp/src/count_until_server.cpp:43:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kexecute_goal[m[K’
+[1.905s]    43 |         [01;31m[Kexecute_goal[m[K(goal_handle);
+[1.905s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[2.134s] gmake[2]: *** [CMakeFiles/count_until_server.dir/build.make:76: CMakeFiles/count_until_server.dir/src/count_until_server.cpp.o] Error 1
+[2.134s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/count_until_server.dir/all] Error 2
+[2.135s] gmake: *** [Makefile:146: all] Error 2
+[2.136s] Invoked command in '/home/sven/ros2_ws/build/actions_cpp' returned '2': CMAKE_PREFIX_PATH=/home/sven/ros2_ws/install/my_robot_interfaces:/home/sven/ros2_ws/install/turtlesim_catch_them_all:/home/sven/ros2_ws/install/my_robot_bringup:/home/sven/ros2_ws/install/my_cpp_pkg:/home/sven/ros2_ws/install/my_robot_description:/home/sven/install/my_robot_description:/home/sven/ros2_ws/install/my_py_pkg:/home/sven/ros2_ws/install/actions_py:/opt/ros/humble LD_LIBRARY_PATH=/home/sven/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/sven/ros2_ws/build/actions_cpp -- -j20 -l20

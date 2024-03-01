@@ -1,0 +1,552 @@
+[0.365s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.365s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7ff908360ca0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ff9087c7be0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ff9087c7be0>>)
+[0.383s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.383s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.383s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.383s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.383s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.383s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.383s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/sven/ros2_ws/src'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(actions_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(actions_cpp) by extension 'ignore'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(actions_cpp) by extension 'ignore_ament_install'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(actions_cpp) by extensions ['colcon_pkg']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(actions_cpp) by extension 'colcon_pkg'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(actions_cpp) by extensions ['colcon_meta']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(actions_cpp) by extension 'colcon_meta'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(actions_cpp) by extensions ['ros']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(actions_cpp) by extension 'ros'
+[0.390s] DEBUG:colcon.colcon_core.package_identification:Package 'actions_cpp' with type 'ros.ament_cmake' and name 'actions_cpp'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(actions_py) by extensions ['ignore', 'ignore_ament_install']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(actions_py) by extension 'ignore'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(actions_py) by extension 'ignore_ament_install'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(actions_py) by extensions ['colcon_pkg']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(actions_py) by extension 'colcon_pkg'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(actions_py) by extensions ['colcon_meta']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(actions_py) by extension 'colcon_meta'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(actions_py) by extensions ['ros']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(actions_py) by extension 'ros'
+[0.391s] DEBUG:colcon.colcon_core.package_identification:Package 'actions_py' with type 'ros.ament_python' and name 'actions_py'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(my_cpp_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(my_cpp_pkg) by extension 'ignore'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(my_cpp_pkg) by extension 'ignore_ament_install'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(my_cpp_pkg) by extensions ['colcon_pkg']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(my_cpp_pkg) by extension 'colcon_pkg'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(my_cpp_pkg) by extensions ['colcon_meta']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(my_cpp_pkg) by extension 'colcon_meta'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(my_cpp_pkg) by extensions ['ros']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(my_cpp_pkg) by extension 'ros'
+[0.391s] DEBUG:colcon.colcon_core.package_identification:Package 'my_cpp_pkg' with type 'ros.ament_cmake' and name 'my_cpp_pkg'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(my_py_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(my_py_pkg) by extension 'ignore'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(my_py_pkg) by extension 'ignore_ament_install'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(my_py_pkg) by extensions ['colcon_pkg']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(my_py_pkg) by extension 'colcon_pkg'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(my_py_pkg) by extensions ['colcon_meta']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(my_py_pkg) by extension 'colcon_meta'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(my_py_pkg) by extensions ['ros']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(my_py_pkg) by extension 'ros'
+[0.392s] DEBUG:colcon.colcon_core.package_identification:Package 'my_py_pkg' with type 'ros.ament_python' and name 'my_py_pkg'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_bringup) by extension 'ignore'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_bringup) by extension 'ignore_ament_install'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_bringup) by extensions ['colcon_pkg']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_bringup) by extension 'colcon_pkg'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_bringup) by extensions ['colcon_meta']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_bringup) by extension 'colcon_meta'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_bringup) by extensions ['ros']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_bringup) by extension 'ros'
+[0.392s] DEBUG:colcon.colcon_core.package_identification:Package 'my_robot_bringup' with type 'ros.ament_cmake' and name 'my_robot_bringup'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_description) by extension 'ignore'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_description) by extension 'ignore_ament_install'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_description) by extensions ['colcon_pkg']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_description) by extension 'colcon_pkg'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_description) by extensions ['colcon_meta']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_description) by extension 'colcon_meta'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_description) by extensions ['ros']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_description) by extension 'ros'
+[0.393s] DEBUG:colcon.colcon_core.package_identification:Package 'my_robot_description' with type 'ros.ament_cmake' and name 'my_robot_description'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_interfaces) by extension 'ignore'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_interfaces) by extension 'ignore_ament_install'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_interfaces) by extensions ['colcon_pkg']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_interfaces) by extension 'colcon_pkg'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_interfaces) by extensions ['colcon_meta']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_interfaces) by extension 'colcon_meta'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_interfaces) by extensions ['ros']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_interfaces) by extension 'ros'
+[0.393s] DEBUG:colcon.colcon_core.package_identification:Package 'my_robot_interfaces' with type 'ros.ament_cmake' and name 'my_robot_interfaces'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(turtlesim_catch_them_all) by extensions ['ignore', 'ignore_ament_install']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(turtlesim_catch_them_all) by extension 'ignore'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(turtlesim_catch_them_all) by extension 'ignore_ament_install'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(turtlesim_catch_them_all) by extensions ['colcon_pkg']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(turtlesim_catch_them_all) by extension 'colcon_pkg'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(turtlesim_catch_them_all) by extensions ['colcon_meta']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(turtlesim_catch_them_all) by extension 'colcon_meta'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(turtlesim_catch_them_all) by extensions ['ros']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(turtlesim_catch_them_all) by extension 'ros'
+[0.394s] DEBUG:colcon.colcon_core.package_identification:Package 'turtlesim_catch_them_all' with type 'ros.ament_cmake' and name 'turtlesim_catch_them_all'
+[0.394s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.394s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.394s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.394s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.394s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.429s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.429s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.440s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/sven/ros2_ws/install
+[0.446s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/sven/install
+[0.452s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 328 installed packages in /opt/ros/humble
+[0.452s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.491s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_args' from command line to 'None'
+[0.492s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_target' from command line to 'None'
+[0.492s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.492s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.492s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.492s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.492s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.492s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.492s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.492s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sven/ros2_ws/src/build/my_robot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sven/ros2_ws/src/install/my_robot_description', 'merge_install': False, 'path': '/home/sven/ros2_ws/src/my_robot_description', 'symlink_install': False, 'test_result_base': None}
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.497s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sven/ros2_ws/src/build/my_robot_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sven/ros2_ws/src/install/my_robot_interfaces', 'merge_install': False, 'path': '/home/sven/ros2_ws/src/my_robot_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'actions_cpp' build argument 'cmake_args' from command line to 'None'
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'actions_cpp' build argument 'cmake_target' from command line to 'None'
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'actions_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'actions_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'actions_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'actions_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'actions_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'actions_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'actions_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.502s] DEBUG:colcon.colcon_core.verb:Building package 'actions_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sven/ros2_ws/src/build/actions_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sven/ros2_ws/src/install/actions_cpp', 'merge_install': False, 'path': '/home/sven/ros2_ws/src/actions_cpp', 'symlink_install': False, 'test_result_base': None}
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'actions_py' build argument 'cmake_args' from command line to 'None'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'actions_py' build argument 'cmake_target' from command line to 'None'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'actions_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'actions_py' build argument 'cmake_clean_cache' from command line to 'False'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'actions_py' build argument 'cmake_clean_first' from command line to 'False'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'actions_py' build argument 'cmake_force_configure' from command line to 'False'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'actions_py' build argument 'ament_cmake_args' from command line to 'None'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'actions_py' build argument 'catkin_cmake_args' from command line to 'None'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'actions_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.507s] DEBUG:colcon.colcon_core.verb:Building package 'actions_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sven/ros2_ws/src/build/actions_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sven/ros2_ws/src/install/actions_py', 'merge_install': False, 'path': '/home/sven/ros2_ws/src/actions_py', 'symlink_install': False, 'test_result_base': None}
+[0.512s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'cmake_args' from command line to 'None'
+[0.512s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'cmake_target' from command line to 'None'
+[0.512s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.512s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.512s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.512s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.512s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.512s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.512s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.512s] DEBUG:colcon.colcon_core.verb:Building package 'my_cpp_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sven/ros2_ws/src/build/my_cpp_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sven/ros2_ws/src/install/my_cpp_pkg', 'merge_install': False, 'path': '/home/sven/ros2_ws/src/my_cpp_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_args' from command line to 'None'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_target' from command line to 'None'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.517s] DEBUG:colcon.colcon_core.verb:Building package 'my_py_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sven/ros2_ws/src/build/my_py_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sven/ros2_ws/src/install/my_py_pkg', 'merge_install': False, 'path': '/home/sven/ros2_ws/src/my_py_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_catch_them_all' build argument 'cmake_args' from command line to 'None'
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_catch_them_all' build argument 'cmake_target' from command line to 'None'
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_catch_them_all' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_catch_them_all' build argument 'cmake_clean_cache' from command line to 'False'
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_catch_them_all' build argument 'cmake_clean_first' from command line to 'False'
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_catch_them_all' build argument 'cmake_force_configure' from command line to 'False'
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_catch_them_all' build argument 'ament_cmake_args' from command line to 'None'
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_catch_them_all' build argument 'catkin_cmake_args' from command line to 'None'
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_catch_them_all' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.522s] DEBUG:colcon.colcon_core.verb:Building package 'turtlesim_catch_them_all' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sven/ros2_ws/src/build/turtlesim_catch_them_all', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sven/ros2_ws/src/install/turtlesim_catch_them_all', 'merge_install': False, 'path': '/home/sven/ros2_ws/src/turtlesim_catch_them_all', 'symlink_install': False, 'test_result_base': None}
+[0.528s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_args' from command line to 'None'
+[0.528s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_target' from command line to 'None'
+[0.528s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.528s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.528s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.528s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.528s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.528s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.528s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.528s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sven/ros2_ws/src/build/my_robot_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sven/ros2_ws/src/install/my_robot_bringup', 'merge_install': False, 'path': '/home/sven/ros2_ws/src/my_robot_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.533s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.538s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.538s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sven/ros2_ws/src/my_robot_interfaces' with build type 'ament_cmake'
+[0.538s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sven/ros2_ws/src/my_robot_interfaces'
+[0.549s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.549s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.549s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.571s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sven/ros2_ws/src/my_robot_description' with build type 'ament_cmake'
+[0.572s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sven/ros2_ws/src/my_robot_description'
+[0.577s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.577s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.602s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sven/ros2_ws/src/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sven/ros2_ws/install/my_py_pkg:/home/sven/ros2_ws/install/actions_py:/opt/ros/humble /usr/bin/cmake --build /home/sven/ros2_ws/src/build/my_robot_interfaces -- -j20 -l20
+[0.604s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sven/ros2_ws/src/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sven/ros2_ws/install/my_py_pkg:/home/sven/ros2_ws/install/actions_py:/opt/ros/humble /usr/bin/cmake --build /home/sven/ros2_ws/src/build/my_robot_description -- -j20 -l20
+[0.623s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sven/ros2_ws/src/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sven/ros2_ws/install/my_py_pkg:/home/sven/ros2_ws/install/actions_py:/opt/ros/humble /usr/bin/cmake --build /home/sven/ros2_ws/src/build/my_robot_description -- -j20 -l20
+[0.640s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sven/ros2_ws/src/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sven/ros2_ws/install/my_py_pkg:/home/sven/ros2_ws/install/actions_py:/opt/ros/humble /usr/bin/cmake --install /home/sven/ros2_ws/src/build/my_robot_description
+[0.646s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_description)
+[0.649s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sven/ros2_ws/src/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sven/ros2_ws/install/my_py_pkg:/home/sven/ros2_ws/install/actions_py:/opt/ros/humble /usr/bin/cmake --install /home/sven/ros2_ws/src/build/my_robot_description
+[0.657s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/my_robot_description' for CMake module files
+[0.657s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/my_robot_description' for CMake config files
+[0.657s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_description', 'cmake_prefix_path')
+[0.663s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sven/ros2_ws/src/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.ps1'
+[0.663s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sven/ros2_ws/src/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.dsv'
+[0.663s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sven/ros2_ws/src/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.sh'
+[0.664s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/my_robot_description/bin'
+[0.664s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/my_robot_description/lib/pkgconfig/my_robot_description.pc'
+[0.664s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/my_robot_description/lib/python3.10/site-packages'
+[0.664s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/my_robot_description/bin'
+[0.670s] INFO:colcon.colcon_core.shell:Creating package script '/home/sven/ros2_ws/src/install/my_robot_description/share/my_robot_description/package.ps1'
+[0.670s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sven/ros2_ws/src/install/my_robot_description/share/my_robot_description/package.dsv'
+[0.670s] INFO:colcon.colcon_core.shell:Creating package script '/home/sven/ros2_ws/src/install/my_robot_description/share/my_robot_description/package.sh'
+[0.671s] INFO:colcon.colcon_core.shell:Creating package script '/home/sven/ros2_ws/src/install/my_robot_description/share/my_robot_description/package.bash'
+[0.671s] INFO:colcon.colcon_core.shell:Creating package script '/home/sven/ros2_ws/src/install/my_robot_description/share/my_robot_description/package.zsh'
+[0.671s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sven/ros2_ws/src/install/my_robot_description/share/colcon-core/packages/my_robot_description)
+[0.688s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_description)
+[0.694s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/my_robot_description' for CMake module files
+[0.694s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/my_robot_description' for CMake config files
+[0.695s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_description', 'cmake_prefix_path')
+[0.701s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sven/ros2_ws/src/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.ps1'
+[0.701s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sven/ros2_ws/src/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.dsv'
+[0.701s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sven/ros2_ws/src/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.sh'
+[0.702s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/my_robot_description/bin'
+[0.702s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/my_robot_description/lib/pkgconfig/my_robot_description.pc'
+[0.702s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/my_robot_description/lib/python3.10/site-packages'
+[0.702s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/my_robot_description/bin'
+[0.708s] INFO:colcon.colcon_core.shell:Creating package script '/home/sven/ros2_ws/src/install/my_robot_description/share/my_robot_description/package.ps1'
+[0.708s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sven/ros2_ws/src/install/my_robot_description/share/my_robot_description/package.dsv'
+[0.708s] INFO:colcon.colcon_core.shell:Creating package script '/home/sven/ros2_ws/src/install/my_robot_description/share/my_robot_description/package.sh'
+[0.709s] INFO:colcon.colcon_core.shell:Creating package script '/home/sven/ros2_ws/src/install/my_robot_description/share/my_robot_description/package.bash'
+[0.709s] INFO:colcon.colcon_core.shell:Creating package script '/home/sven/ros2_ws/src/install/my_robot_description/share/my_robot_description/package.zsh'
+[0.709s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sven/ros2_ws/src/install/my_robot_description/share/colcon-core/packages/my_robot_description)
+[0.779s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sven/ros2_ws/src/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sven/ros2_ws/install/my_py_pkg:/home/sven/ros2_ws/install/actions_py:/opt/ros/humble /usr/bin/cmake --build /home/sven/ros2_ws/src/build/my_robot_interfaces -- -j20 -l20
+[0.860s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sven/ros2_ws/src/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sven/ros2_ws/install/my_py_pkg:/home/sven/ros2_ws/install/actions_py:/opt/ros/humble /usr/bin/cmake --install /home/sven/ros2_ws/src/build/my_robot_interfaces
+[0.890s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_interfaces)
+[0.890s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sven/ros2_ws/src/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sven/ros2_ws/install/my_py_pkg:/home/sven/ros2_ws/install/actions_py:/opt/ros/humble /usr/bin/cmake --install /home/sven/ros2_ws/src/build/my_robot_interfaces
+[0.897s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/my_robot_interfaces' for CMake module files
+[0.897s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/my_robot_interfaces' for CMake config files
+[0.897s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_interfaces', 'cmake_prefix_path')
+[0.903s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sven/ros2_ws/src/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.ps1'
+[0.903s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sven/ros2_ws/src/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.dsv'
+[0.903s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sven/ros2_ws/src/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.sh'
+[0.903s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/my_robot_interfaces/lib'
+[0.903s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_interfaces', 'ld_library_path_lib')
+[0.909s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sven/ros2_ws/src/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.ps1'
+[0.909s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sven/ros2_ws/src/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.dsv'
+[0.909s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sven/ros2_ws/src/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.sh'
+[0.910s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/my_robot_interfaces/bin'
+[0.910s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/my_robot_interfaces/lib/pkgconfig/my_robot_interfaces.pc'
+[0.910s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/my_robot_interfaces/lib/python3.10/site-packages'
+[0.910s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/my_robot_interfaces/bin'
+[0.916s] INFO:colcon.colcon_core.shell:Creating package script '/home/sven/ros2_ws/src/install/my_robot_interfaces/share/my_robot_interfaces/package.ps1'
+[0.916s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sven/ros2_ws/src/install/my_robot_interfaces/share/my_robot_interfaces/package.dsv'
+[0.916s] INFO:colcon.colcon_core.shell:Creating package script '/home/sven/ros2_ws/src/install/my_robot_interfaces/share/my_robot_interfaces/package.sh'
+[0.916s] INFO:colcon.colcon_core.shell:Creating package script '/home/sven/ros2_ws/src/install/my_robot_interfaces/share/my_robot_interfaces/package.bash'
+[0.917s] INFO:colcon.colcon_core.shell:Creating package script '/home/sven/ros2_ws/src/install/my_robot_interfaces/share/my_robot_interfaces/package.zsh'
+[0.917s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sven/ros2_ws/src/install/my_robot_interfaces/share/colcon-core/packages/my_robot_interfaces)
+[1.014s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_interfaces)
+[1.020s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/my_robot_interfaces' for CMake module files
+[1.021s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/my_robot_interfaces' for CMake config files
+[1.021s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_interfaces', 'cmake_prefix_path')
+[1.027s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sven/ros2_ws/src/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.ps1'
+[1.027s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sven/ros2_ws/src/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.dsv'
+[1.028s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sven/ros2_ws/src/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.sh'
+[1.028s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/my_robot_interfaces/lib'
+[1.028s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_interfaces', 'ld_library_path_lib')
+[1.034s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sven/ros2_ws/src/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.ps1'
+[1.034s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sven/ros2_ws/src/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.dsv'
+[1.035s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sven/ros2_ws/src/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.sh'
+[1.035s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/my_robot_interfaces/bin'
+[1.035s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/my_robot_interfaces/lib/pkgconfig/my_robot_interfaces.pc'
+[1.035s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/my_robot_interfaces/lib/python3.10/site-packages'
+[1.035s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/my_robot_interfaces/bin'
+[1.041s] INFO:colcon.colcon_core.shell:Creating package script '/home/sven/ros2_ws/src/install/my_robot_interfaces/share/my_robot_interfaces/package.ps1'
+[1.041s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sven/ros2_ws/src/install/my_robot_interfaces/share/my_robot_interfaces/package.dsv'
+[1.042s] INFO:colcon.colcon_core.shell:Creating package script '/home/sven/ros2_ws/src/install/my_robot_interfaces/share/my_robot_interfaces/package.sh'
+[1.042s] INFO:colcon.colcon_core.shell:Creating package script '/home/sven/ros2_ws/src/install/my_robot_interfaces/share/my_robot_interfaces/package.bash'
+[1.042s] INFO:colcon.colcon_core.shell:Creating package script '/home/sven/ros2_ws/src/install/my_robot_interfaces/share/my_robot_interfaces/package.zsh'
+[1.042s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sven/ros2_ws/src/install/my_robot_interfaces/share/colcon-core/packages/my_robot_interfaces)
+[1.042s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sven/ros2_ws/src/my_cpp_pkg' with build type 'ament_cmake'
+[1.042s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sven/ros2_ws/src/my_cpp_pkg'
+[1.049s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.049s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.074s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sven/ros2_ws/src/my_py_pkg' with build type 'ament_python'
+[1.074s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_py_pkg', 'ament_prefix_path')
+[1.081s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sven/ros2_ws/src/install/my_py_pkg/share/my_py_pkg/hook/ament_prefix_path.ps1'
+[1.081s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sven/ros2_ws/src/install/my_py_pkg/share/my_py_pkg/hook/ament_prefix_path.dsv'
+[1.081s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sven/ros2_ws/src/install/my_py_pkg/share/my_py_pkg/hook/ament_prefix_path.sh'
+[1.088s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.088s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.122s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sven/ros2_ws/src/actions_cpp' with build type 'ament_cmake'
+[1.122s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sven/ros2_ws/src/actions_cpp'
+[1.132s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.132s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.158s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sven/ros2_ws/src/actions_py' with build type 'ament_python'
+[1.158s] Level 1:colcon.colcon_core.shell:create_environment_hook('actions_py', 'ament_prefix_path')
+[1.165s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sven/ros2_ws/src/install/actions_py/share/actions_py/hook/ament_prefix_path.ps1'
+[1.165s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sven/ros2_ws/src/install/actions_py/share/actions_py/hook/ament_prefix_path.dsv'
+[1.165s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sven/ros2_ws/src/install/actions_py/share/actions_py/hook/ament_prefix_path.sh'
+[1.171s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.171s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.196s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sven/ros2_ws/src/turtlesim_catch_them_all' with build type 'ament_cmake'
+[1.196s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sven/ros2_ws/src/turtlesim_catch_them_all'
+[1.202s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.202s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.231s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sven/ros2_ws/src/build/my_cpp_pkg': AMENT_PREFIX_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces:/home/sven/ros2_ws/install/turtlesim_catch_them_all:/home/sven/ros2_ws/install/my_robot_bringup:/home/sven/ros2_ws/install/my_cpp_pkg:/home/sven/ros2_ws/install/actions_cpp:/home/sven/ros2_ws/install/my_robot_interfaces:/home/sven/ros2_ws/install/my_robot_description:/home/sven/install/my_robot_description:/home/sven/ros2_ws/install/my_py_pkg:/home/sven/ros2_ws/install/actions_py:/opt/ros/humble LD_LIBRARY_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces/lib:/home/sven/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/sven/ros2_ws/src/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sven/ros2_ws/src/build/my_cpp_pkg -- -j20 -l20
+[1.379s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sven/ros2_ws/src/my_py_pkg'
+[1.386s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.386s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.412s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sven/ros2_ws/src/build/actions_cpp': AMENT_PREFIX_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces:/home/sven/ros2_ws/install/turtlesim_catch_them_all:/home/sven/ros2_ws/install/my_robot_bringup:/home/sven/ros2_ws/install/my_cpp_pkg:/home/sven/ros2_ws/install/actions_cpp:/home/sven/ros2_ws/install/my_robot_interfaces:/home/sven/ros2_ws/install/my_robot_description:/home/sven/install/my_robot_description:/home/sven/ros2_ws/install/my_py_pkg:/home/sven/ros2_ws/install/actions_py:/opt/ros/humble LD_LIBRARY_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces/lib:/home/sven/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/sven/ros2_ws/src/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sven/ros2_ws/src/build/actions_cpp -- -j20 -l20
+[1.545s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sven/ros2_ws/src/actions_py'
+[1.551s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.551s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.586s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sven/ros2_ws/src/build/turtlesim_catch_them_all': AMENT_PREFIX_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces:/home/sven/ros2_ws/install/turtlesim_catch_them_all:/home/sven/ros2_ws/install/my_robot_bringup:/home/sven/ros2_ws/install/my_cpp_pkg:/home/sven/ros2_ws/install/actions_cpp:/home/sven/ros2_ws/install/my_robot_interfaces:/home/sven/ros2_ws/install/my_robot_description:/home/sven/install/my_robot_description:/home/sven/ros2_ws/install/my_py_pkg:/home/sven/ros2_ws/install/actions_py:/opt/ros/humble LD_LIBRARY_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces/lib:/home/sven/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/sven/ros2_ws/src/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sven/ros2_ws/src/build/turtlesim_catch_them_all -- -j20 -l20
+[1.587s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sven/ros2_ws/src/build/my_cpp_pkg' returned '0': AMENT_PREFIX_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces:/home/sven/ros2_ws/install/turtlesim_catch_them_all:/home/sven/ros2_ws/install/my_robot_bringup:/home/sven/ros2_ws/install/my_cpp_pkg:/home/sven/ros2_ws/install/actions_cpp:/home/sven/ros2_ws/install/my_robot_interfaces:/home/sven/ros2_ws/install/my_robot_description:/home/sven/install/my_robot_description:/home/sven/ros2_ws/install/my_py_pkg:/home/sven/ros2_ws/install/actions_py:/opt/ros/humble LD_LIBRARY_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces/lib:/home/sven/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/sven/ros2_ws/src/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sven/ros2_ws/src/build/my_cpp_pkg -- -j20 -l20
+[1.588s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sven/ros2_ws/src/build/actions_cpp' returned '0': AMENT_PREFIX_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces:/home/sven/ros2_ws/install/turtlesim_catch_them_all:/home/sven/ros2_ws/install/my_robot_bringup:/home/sven/ros2_ws/install/my_cpp_pkg:/home/sven/ros2_ws/install/actions_cpp:/home/sven/ros2_ws/install/my_robot_interfaces:/home/sven/ros2_ws/install/my_robot_description:/home/sven/install/my_robot_description:/home/sven/ros2_ws/install/my_py_pkg:/home/sven/ros2_ws/install/actions_py:/opt/ros/humble LD_LIBRARY_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces/lib:/home/sven/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/sven/ros2_ws/src/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sven/ros2_ws/src/build/actions_cpp -- -j20 -l20
+[1.601s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sven/ros2_ws/src/build/actions_cpp': AMENT_PREFIX_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces:/home/sven/ros2_ws/install/turtlesim_catch_them_all:/home/sven/ros2_ws/install/my_robot_bringup:/home/sven/ros2_ws/install/my_cpp_pkg:/home/sven/ros2_ws/install/actions_cpp:/home/sven/ros2_ws/install/my_robot_interfaces:/home/sven/ros2_ws/install/my_robot_description:/home/sven/install/my_robot_description:/home/sven/ros2_ws/install/my_py_pkg:/home/sven/ros2_ws/install/actions_py:/opt/ros/humble LD_LIBRARY_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces/lib:/home/sven/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/sven/ros2_ws/src/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sven/ros2_ws/src/build/actions_cpp
+[1.607s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(actions_cpp)
+[1.608s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sven/ros2_ws/src/build/actions_cpp' returned '0': AMENT_PREFIX_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces:/home/sven/ros2_ws/install/turtlesim_catch_them_all:/home/sven/ros2_ws/install/my_robot_bringup:/home/sven/ros2_ws/install/my_cpp_pkg:/home/sven/ros2_ws/install/actions_cpp:/home/sven/ros2_ws/install/my_robot_interfaces:/home/sven/ros2_ws/install/my_robot_description:/home/sven/install/my_robot_description:/home/sven/ros2_ws/install/my_py_pkg:/home/sven/ros2_ws/install/actions_py:/opt/ros/humble LD_LIBRARY_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces/lib:/home/sven/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/sven/ros2_ws/src/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sven/ros2_ws/src/build/actions_cpp
+[1.622s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/actions_cpp' for CMake module files
+[1.622s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/actions_cpp' for CMake config files
+[1.622s] Level 1:colcon.colcon_core.shell:create_environment_hook('actions_cpp', 'cmake_prefix_path')
+[1.629s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sven/ros2_ws/src/install/actions_cpp/share/actions_cpp/hook/cmake_prefix_path.ps1'
+[1.629s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sven/ros2_ws/src/install/actions_cpp/share/actions_cpp/hook/cmake_prefix_path.dsv'
+[1.630s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sven/ros2_ws/src/install/actions_cpp/share/actions_cpp/hook/cmake_prefix_path.sh'
+[1.630s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/actions_cpp/lib'
+[1.630s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/actions_cpp/bin'
+[1.630s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/actions_cpp/lib/pkgconfig/actions_cpp.pc'
+[1.630s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/actions_cpp/lib/python3.10/site-packages'
+[1.631s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/actions_cpp/bin'
+[1.640s] INFO:colcon.colcon_core.shell:Creating package script '/home/sven/ros2_ws/src/install/actions_cpp/share/actions_cpp/package.ps1'
+[1.641s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sven/ros2_ws/src/install/actions_cpp/share/actions_cpp/package.dsv'
+[1.641s] INFO:colcon.colcon_core.shell:Creating package script '/home/sven/ros2_ws/src/install/actions_cpp/share/actions_cpp/package.sh'
+[1.641s] INFO:colcon.colcon_core.shell:Creating package script '/home/sven/ros2_ws/src/install/actions_cpp/share/actions_cpp/package.bash'
+[1.641s] INFO:colcon.colcon_core.shell:Creating package script '/home/sven/ros2_ws/src/install/actions_cpp/share/actions_cpp/package.zsh'
+[1.642s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sven/ros2_ws/src/install/actions_cpp/share/colcon-core/packages/actions_cpp)
+[1.644s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sven/ros2_ws/src/build/my_cpp_pkg': AMENT_PREFIX_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces:/home/sven/ros2_ws/install/turtlesim_catch_them_all:/home/sven/ros2_ws/install/my_robot_bringup:/home/sven/ros2_ws/install/my_cpp_pkg:/home/sven/ros2_ws/install/actions_cpp:/home/sven/ros2_ws/install/my_robot_interfaces:/home/sven/ros2_ws/install/my_robot_description:/home/sven/install/my_robot_description:/home/sven/ros2_ws/install/my_py_pkg:/home/sven/ros2_ws/install/actions_py:/opt/ros/humble LD_LIBRARY_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces/lib:/home/sven/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/sven/ros2_ws/src/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sven/ros2_ws/src/build/my_cpp_pkg
+[1.645s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sven/ros2_ws/src/build/turtlesim_catch_them_all' returned '0': AMENT_PREFIX_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces:/home/sven/ros2_ws/install/turtlesim_catch_them_all:/home/sven/ros2_ws/install/my_robot_bringup:/home/sven/ros2_ws/install/my_cpp_pkg:/home/sven/ros2_ws/install/actions_cpp:/home/sven/ros2_ws/install/my_robot_interfaces:/home/sven/ros2_ws/install/my_robot_description:/home/sven/install/my_robot_description:/home/sven/ros2_ws/install/my_py_pkg:/home/sven/ros2_ws/install/actions_py:/opt/ros/humble LD_LIBRARY_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces/lib:/home/sven/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/sven/ros2_ws/src/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sven/ros2_ws/src/build/turtlesim_catch_them_all -- -j20 -l20
+[1.651s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_cpp_pkg)
+[1.651s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sven/ros2_ws/src/build/my_cpp_pkg' returned '0': AMENT_PREFIX_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces:/home/sven/ros2_ws/install/turtlesim_catch_them_all:/home/sven/ros2_ws/install/my_robot_bringup:/home/sven/ros2_ws/install/my_cpp_pkg:/home/sven/ros2_ws/install/actions_cpp:/home/sven/ros2_ws/install/my_robot_interfaces:/home/sven/ros2_ws/install/my_robot_description:/home/sven/install/my_robot_description:/home/sven/ros2_ws/install/my_py_pkg:/home/sven/ros2_ws/install/actions_py:/opt/ros/humble LD_LIBRARY_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces/lib:/home/sven/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/sven/ros2_ws/src/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sven/ros2_ws/src/build/my_cpp_pkg
+[1.659s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/my_cpp_pkg' for CMake module files
+[1.659s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/my_cpp_pkg' for CMake config files
+[1.659s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_cpp_pkg', 'cmake_prefix_path')
+[1.665s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sven/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/hook/cmake_prefix_path.ps1'
+[1.666s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sven/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/hook/cmake_prefix_path.dsv'
+[1.666s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sven/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/hook/cmake_prefix_path.sh'
+[1.666s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/my_cpp_pkg/lib'
+[1.666s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/my_cpp_pkg/bin'
+[1.666s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/my_cpp_pkg/lib/pkgconfig/my_cpp_pkg.pc'
+[1.667s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/my_cpp_pkg/lib/python3.10/site-packages'
+[1.667s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/my_cpp_pkg/bin'
+[1.673s] INFO:colcon.colcon_core.shell:Creating package script '/home/sven/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/package.ps1'
+[1.673s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sven/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv'
+[1.674s] INFO:colcon.colcon_core.shell:Creating package script '/home/sven/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/package.sh'
+[1.674s] INFO:colcon.colcon_core.shell:Creating package script '/home/sven/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/package.bash'
+[1.674s] INFO:colcon.colcon_core.shell:Creating package script '/home/sven/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/package.zsh'
+[1.674s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sven/ros2_ws/src/install/my_cpp_pkg/share/colcon-core/packages/my_cpp_pkg)
+[1.681s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(actions_cpp)
+[1.687s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/actions_cpp' for CMake module files
+[1.688s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/actions_cpp' for CMake config files
+[1.688s] Level 1:colcon.colcon_core.shell:create_environment_hook('actions_cpp', 'cmake_prefix_path')
+[1.694s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sven/ros2_ws/src/install/actions_cpp/share/actions_cpp/hook/cmake_prefix_path.ps1'
+[1.694s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sven/ros2_ws/src/install/actions_cpp/share/actions_cpp/hook/cmake_prefix_path.dsv'
+[1.694s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sven/ros2_ws/src/install/actions_cpp/share/actions_cpp/hook/cmake_prefix_path.sh'
+[1.694s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/actions_cpp/lib'
+[1.694s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/actions_cpp/bin'
+[1.694s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/actions_cpp/lib/pkgconfig/actions_cpp.pc'
+[1.694s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/actions_cpp/lib/python3.10/site-packages'
+[1.695s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/actions_cpp/bin'
+[1.701s] INFO:colcon.colcon_core.shell:Creating package script '/home/sven/ros2_ws/src/install/actions_cpp/share/actions_cpp/package.ps1'
+[1.701s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sven/ros2_ws/src/install/actions_cpp/share/actions_cpp/package.dsv'
+[1.701s] INFO:colcon.colcon_core.shell:Creating package script '/home/sven/ros2_ws/src/install/actions_cpp/share/actions_cpp/package.sh'
+[1.701s] INFO:colcon.colcon_core.shell:Creating package script '/home/sven/ros2_ws/src/install/actions_cpp/share/actions_cpp/package.bash'
+[1.701s] INFO:colcon.colcon_core.shell:Creating package script '/home/sven/ros2_ws/src/install/actions_cpp/share/actions_cpp/package.zsh'
+[1.702s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sven/ros2_ws/src/install/actions_cpp/share/colcon-core/packages/actions_cpp)
+[1.704s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sven/ros2_ws/src/build/turtlesim_catch_them_all': AMENT_PREFIX_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces:/home/sven/ros2_ws/install/turtlesim_catch_them_all:/home/sven/ros2_ws/install/my_robot_bringup:/home/sven/ros2_ws/install/my_cpp_pkg:/home/sven/ros2_ws/install/actions_cpp:/home/sven/ros2_ws/install/my_robot_interfaces:/home/sven/ros2_ws/install/my_robot_description:/home/sven/install/my_robot_description:/home/sven/ros2_ws/install/my_py_pkg:/home/sven/ros2_ws/install/actions_py:/opt/ros/humble LD_LIBRARY_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces/lib:/home/sven/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/sven/ros2_ws/src/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sven/ros2_ws/src/build/turtlesim_catch_them_all
+[1.712s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_cpp_pkg)
+[1.718s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/my_cpp_pkg' for CMake module files
+[1.719s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/my_cpp_pkg' for CMake config files
+[1.719s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_cpp_pkg', 'cmake_prefix_path')
+[1.724s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sven/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/hook/cmake_prefix_path.ps1'
+[1.725s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sven/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/hook/cmake_prefix_path.dsv'
+[1.725s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sven/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/hook/cmake_prefix_path.sh'
+[1.725s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/my_cpp_pkg/lib'
+[1.725s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/my_cpp_pkg/bin'
+[1.725s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/my_cpp_pkg/lib/pkgconfig/my_cpp_pkg.pc'
+[1.725s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/my_cpp_pkg/lib/python3.10/site-packages'
+[1.725s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/my_cpp_pkg/bin'
+[1.731s] INFO:colcon.colcon_core.shell:Creating package script '/home/sven/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/package.ps1'
+[1.732s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sven/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv'
+[1.732s] INFO:colcon.colcon_core.shell:Creating package script '/home/sven/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/package.sh'
+[1.732s] INFO:colcon.colcon_core.shell:Creating package script '/home/sven/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/package.bash'
+[1.732s] INFO:colcon.colcon_core.shell:Creating package script '/home/sven/ros2_ws/src/install/my_cpp_pkg/share/my_cpp_pkg/package.zsh'
+[1.732s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sven/ros2_ws/src/install/my_cpp_pkg/share/colcon-core/packages/my_cpp_pkg)
+[1.733s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim_catch_them_all)
+[1.734s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sven/ros2_ws/src/build/turtlesim_catch_them_all' returned '0': AMENT_PREFIX_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces:/home/sven/ros2_ws/install/turtlesim_catch_them_all:/home/sven/ros2_ws/install/my_robot_bringup:/home/sven/ros2_ws/install/my_cpp_pkg:/home/sven/ros2_ws/install/actions_cpp:/home/sven/ros2_ws/install/my_robot_interfaces:/home/sven/ros2_ws/install/my_robot_description:/home/sven/install/my_robot_description:/home/sven/ros2_ws/install/my_py_pkg:/home/sven/ros2_ws/install/actions_py:/opt/ros/humble LD_LIBRARY_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces/lib:/home/sven/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/sven/ros2_ws/src/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sven/ros2_ws/src/build/turtlesim_catch_them_all
+[1.741s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/turtlesim_catch_them_all' for CMake module files
+[1.742s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/turtlesim_catch_them_all' for CMake config files
+[1.742s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim_catch_them_all', 'cmake_prefix_path')
+[1.748s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sven/ros2_ws/src/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/hook/cmake_prefix_path.ps1'
+[1.749s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sven/ros2_ws/src/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/hook/cmake_prefix_path.dsv'
+[1.749s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sven/ros2_ws/src/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/hook/cmake_prefix_path.sh'
+[1.749s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/turtlesim_catch_them_all/lib'
+[1.749s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/turtlesim_catch_them_all/bin'
+[1.749s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/turtlesim_catch_them_all/lib/pkgconfig/turtlesim_catch_them_all.pc'
+[1.750s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/turtlesim_catch_them_all/lib/python3.10/site-packages'
+[1.750s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/turtlesim_catch_them_all/bin'
+[1.756s] INFO:colcon.colcon_core.shell:Creating package script '/home/sven/ros2_ws/src/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/package.ps1'
+[1.756s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sven/ros2_ws/src/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/package.dsv'
+[1.757s] INFO:colcon.colcon_core.shell:Creating package script '/home/sven/ros2_ws/src/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/package.sh'
+[1.757s] INFO:colcon.colcon_core.shell:Creating package script '/home/sven/ros2_ws/src/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/package.bash'
+[1.757s] INFO:colcon.colcon_core.shell:Creating package script '/home/sven/ros2_ws/src/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/package.zsh'
+[1.757s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sven/ros2_ws/src/install/turtlesim_catch_them_all/share/colcon-core/packages/turtlesim_catch_them_all)
+[1.784s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim_catch_them_all)
+[1.790s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/turtlesim_catch_them_all' for CMake module files
+[1.790s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/turtlesim_catch_them_all' for CMake config files
+[1.790s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim_catch_them_all', 'cmake_prefix_path')
+[1.796s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sven/ros2_ws/src/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/hook/cmake_prefix_path.ps1'
+[1.796s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sven/ros2_ws/src/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/hook/cmake_prefix_path.dsv'
+[1.796s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sven/ros2_ws/src/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/hook/cmake_prefix_path.sh'
+[1.796s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/turtlesim_catch_them_all/lib'
+[1.796s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/turtlesim_catch_them_all/bin'
+[1.796s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/turtlesim_catch_them_all/lib/pkgconfig/turtlesim_catch_them_all.pc'
+[1.796s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/turtlesim_catch_them_all/lib/python3.10/site-packages'
+[1.796s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/turtlesim_catch_them_all/bin'
+[1.802s] INFO:colcon.colcon_core.shell:Creating package script '/home/sven/ros2_ws/src/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/package.ps1'
+[1.802s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sven/ros2_ws/src/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/package.dsv'
+[1.802s] INFO:colcon.colcon_core.shell:Creating package script '/home/sven/ros2_ws/src/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/package.sh'
+[1.802s] INFO:colcon.colcon_core.shell:Creating package script '/home/sven/ros2_ws/src/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/package.bash'
+[1.802s] INFO:colcon.colcon_core.shell:Creating package script '/home/sven/ros2_ws/src/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all/package.zsh'
+[1.803s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sven/ros2_ws/src/install/turtlesim_catch_them_all/share/colcon-core/packages/turtlesim_catch_them_all)
+[1.805s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sven/ros2_ws/src/my_py_pkg': AMENT_PREFIX_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces/lib:/home/sven/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/sven/ros2_ws/src/build/my_py_pkg/prefix_override:/home/sven/ros2_ws/src/install/my_py_pkg/lib/python3.10/site-packages:/home/sven/ros2_ws/src/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/my_py_pkg build --build-base /home/sven/ros2_ws/src/build/my_py_pkg/build install --record /home/sven/ros2_ws/src/build/my_py_pkg/install.log --single-version-externally-managed
+[1.807s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sven/ros2_ws/src/actions_py': AMENT_PREFIX_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces/lib:/home/sven/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/sven/ros2_ws/src/build/actions_py/prefix_override:/home/sven/ros2_ws/src/install/actions_py/lib/python3.10/site-packages:/home/sven/ros2_ws/src/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/actions_py build --build-base /home/sven/ros2_ws/src/build/actions_py/build install --record /home/sven/ros2_ws/src/build/actions_py/install.log --single-version-externally-managed
+[1.949s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sven/ros2_ws/src/my_py_pkg' returned '0': AMENT_PREFIX_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces/lib:/home/sven/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/sven/ros2_ws/src/build/my_py_pkg/prefix_override:/home/sven/ros2_ws/src/install/my_py_pkg/lib/python3.10/site-packages:/home/sven/ros2_ws/src/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/my_py_pkg build --build-base /home/sven/ros2_ws/src/build/my_py_pkg/build install --record /home/sven/ros2_ws/src/build/my_py_pkg/install.log --single-version-externally-managed
+[1.961s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/my_py_pkg' for CMake module files
+[1.961s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/my_py_pkg' for CMake config files
+[1.962s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/my_py_pkg/lib'
+[1.962s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/my_py_pkg/bin'
+[1.962s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/my_py_pkg/lib/pkgconfig/my_py_pkg.pc'
+[1.962s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/my_py_pkg/lib/python3.10/site-packages'
+[1.962s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_py_pkg', 'pythonpath')
+[1.975s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sven/ros2_ws/src/install/my_py_pkg/share/my_py_pkg/hook/pythonpath.ps1'
+[1.975s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sven/ros2_ws/src/install/my_py_pkg/share/my_py_pkg/hook/pythonpath.dsv'
+[1.975s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sven/ros2_ws/src/install/my_py_pkg/share/my_py_pkg/hook/pythonpath.sh'
+[1.976s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/my_py_pkg/bin'
+[1.976s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_py_pkg)
+[1.989s] INFO:colcon.colcon_core.shell:Creating package script '/home/sven/ros2_ws/src/install/my_py_pkg/share/my_py_pkg/package.ps1'
+[1.990s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sven/ros2_ws/src/install/my_py_pkg/share/my_py_pkg/package.dsv'
+[1.990s] INFO:colcon.colcon_core.shell:Creating package script '/home/sven/ros2_ws/src/install/my_py_pkg/share/my_py_pkg/package.sh'
+[1.990s] INFO:colcon.colcon_core.shell:Creating package script '/home/sven/ros2_ws/src/install/my_py_pkg/share/my_py_pkg/package.bash'
+[1.990s] INFO:colcon.colcon_core.shell:Creating package script '/home/sven/ros2_ws/src/install/my_py_pkg/share/my_py_pkg/package.zsh'
+[1.990s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sven/ros2_ws/src/install/my_py_pkg/share/colcon-core/packages/my_py_pkg)
+[1.991s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sven/ros2_ws/src/my_robot_bringup' with build type 'ament_cmake'
+[1.991s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sven/ros2_ws/src/my_robot_bringup'
+[2.001s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.001s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.026s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sven/ros2_ws/src/actions_py' returned '0': AMENT_PREFIX_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces/lib:/home/sven/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/sven/ros2_ws/src/build/actions_py/prefix_override:/home/sven/ros2_ws/src/install/actions_py/lib/python3.10/site-packages:/home/sven/ros2_ws/src/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/actions_py build --build-base /home/sven/ros2_ws/src/build/actions_py/build install --record /home/sven/ros2_ws/src/build/actions_py/install.log --single-version-externally-managed
+[2.032s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/actions_py' for CMake module files
+[2.032s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/actions_py' for CMake config files
+[2.032s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/actions_py/lib'
+[2.032s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/actions_py/bin'
+[2.032s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/actions_py/lib/pkgconfig/actions_py.pc'
+[2.032s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/actions_py/lib/python3.10/site-packages'
+[2.032s] Level 1:colcon.colcon_core.shell:create_environment_hook('actions_py', 'pythonpath')
+[2.039s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sven/ros2_ws/src/install/actions_py/share/actions_py/hook/pythonpath.ps1'
+[2.039s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sven/ros2_ws/src/install/actions_py/share/actions_py/hook/pythonpath.dsv'
+[2.039s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sven/ros2_ws/src/install/actions_py/share/actions_py/hook/pythonpath.sh'
+[2.039s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/actions_py/bin'
+[2.039s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(actions_py)
+[2.045s] INFO:colcon.colcon_core.shell:Creating package script '/home/sven/ros2_ws/src/install/actions_py/share/actions_py/package.ps1'
+[2.046s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sven/ros2_ws/src/install/actions_py/share/actions_py/package.dsv'
+[2.046s] INFO:colcon.colcon_core.shell:Creating package script '/home/sven/ros2_ws/src/install/actions_py/share/actions_py/package.sh'
+[2.046s] INFO:colcon.colcon_core.shell:Creating package script '/home/sven/ros2_ws/src/install/actions_py/share/actions_py/package.bash'
+[2.046s] INFO:colcon.colcon_core.shell:Creating package script '/home/sven/ros2_ws/src/install/actions_py/share/actions_py/package.zsh'
+[2.046s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sven/ros2_ws/src/install/actions_py/share/colcon-core/packages/actions_py)
+[2.048s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sven/ros2_ws/src/build/my_robot_bringup': AMENT_PREFIX_PATH=/home/sven/ros2_ws/src/install/my_py_pkg:/home/sven/ros2_ws/src/install/my_cpp_pkg:/home/sven/ros2_ws/src/install/my_robot_interfaces:/home/sven/ros2_ws/src/install/my_robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sven/ros2_ws/src/install/my_cpp_pkg:/home/sven/ros2_ws/src/install/my_robot_interfaces:/home/sven/ros2_ws/src/install/my_robot_description:/home/sven/ros2_ws/install/turtlesim_catch_them_all:/home/sven/ros2_ws/install/my_robot_bringup:/home/sven/ros2_ws/install/my_cpp_pkg:/home/sven/ros2_ws/install/actions_cpp:/home/sven/ros2_ws/install/my_robot_interfaces:/home/sven/ros2_ws/install/my_robot_description:/home/sven/install/my_robot_description:/home/sven/ros2_ws/install/my_py_pkg:/home/sven/ros2_ws/install/actions_py:/opt/ros/humble LD_LIBRARY_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces/lib:/home/sven/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/sven/ros2_ws/src/install/my_py_pkg/lib/python3.10/site-packages:/home/sven/ros2_ws/src/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sven/ros2_ws/src/build/my_robot_bringup -- -j20 -l20
+[2.070s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sven/ros2_ws/src/build/my_robot_bringup' returned '0': AMENT_PREFIX_PATH=/home/sven/ros2_ws/src/install/my_py_pkg:/home/sven/ros2_ws/src/install/my_cpp_pkg:/home/sven/ros2_ws/src/install/my_robot_interfaces:/home/sven/ros2_ws/src/install/my_robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sven/ros2_ws/src/install/my_cpp_pkg:/home/sven/ros2_ws/src/install/my_robot_interfaces:/home/sven/ros2_ws/src/install/my_robot_description:/home/sven/ros2_ws/install/turtlesim_catch_them_all:/home/sven/ros2_ws/install/my_robot_bringup:/home/sven/ros2_ws/install/my_cpp_pkg:/home/sven/ros2_ws/install/actions_cpp:/home/sven/ros2_ws/install/my_robot_interfaces:/home/sven/ros2_ws/install/my_robot_description:/home/sven/install/my_robot_description:/home/sven/ros2_ws/install/my_py_pkg:/home/sven/ros2_ws/install/actions_py:/opt/ros/humble LD_LIBRARY_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces/lib:/home/sven/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/sven/ros2_ws/src/install/my_py_pkg/lib/python3.10/site-packages:/home/sven/ros2_ws/src/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sven/ros2_ws/src/build/my_robot_bringup -- -j20 -l20
+[2.082s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sven/ros2_ws/src/build/my_robot_bringup': AMENT_PREFIX_PATH=/home/sven/ros2_ws/src/install/my_py_pkg:/home/sven/ros2_ws/src/install/my_cpp_pkg:/home/sven/ros2_ws/src/install/my_robot_interfaces:/home/sven/ros2_ws/src/install/my_robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sven/ros2_ws/src/install/my_cpp_pkg:/home/sven/ros2_ws/src/install/my_robot_interfaces:/home/sven/ros2_ws/src/install/my_robot_description:/home/sven/ros2_ws/install/turtlesim_catch_them_all:/home/sven/ros2_ws/install/my_robot_bringup:/home/sven/ros2_ws/install/my_cpp_pkg:/home/sven/ros2_ws/install/actions_cpp:/home/sven/ros2_ws/install/my_robot_interfaces:/home/sven/ros2_ws/install/my_robot_description:/home/sven/install/my_robot_description:/home/sven/ros2_ws/install/my_py_pkg:/home/sven/ros2_ws/install/actions_py:/opt/ros/humble LD_LIBRARY_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces/lib:/home/sven/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/sven/ros2_ws/src/install/my_py_pkg/lib/python3.10/site-packages:/home/sven/ros2_ws/src/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sven/ros2_ws/src/build/my_robot_bringup
+[2.089s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_bringup)
+[2.089s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sven/ros2_ws/src/build/my_robot_bringup' returned '0': AMENT_PREFIX_PATH=/home/sven/ros2_ws/src/install/my_py_pkg:/home/sven/ros2_ws/src/install/my_cpp_pkg:/home/sven/ros2_ws/src/install/my_robot_interfaces:/home/sven/ros2_ws/src/install/my_robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sven/ros2_ws/src/install/my_cpp_pkg:/home/sven/ros2_ws/src/install/my_robot_interfaces:/home/sven/ros2_ws/src/install/my_robot_description:/home/sven/ros2_ws/install/turtlesim_catch_them_all:/home/sven/ros2_ws/install/my_robot_bringup:/home/sven/ros2_ws/install/my_cpp_pkg:/home/sven/ros2_ws/install/actions_cpp:/home/sven/ros2_ws/install/my_robot_interfaces:/home/sven/ros2_ws/install/my_robot_description:/home/sven/install/my_robot_description:/home/sven/ros2_ws/install/my_py_pkg:/home/sven/ros2_ws/install/actions_py:/opt/ros/humble LD_LIBRARY_PATH=/home/sven/ros2_ws/src/install/my_robot_interfaces/lib:/home/sven/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/sven/ros2_ws/src/install/my_py_pkg/lib/python3.10/site-packages:/home/sven/ros2_ws/src/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sven/ros2_ws/src/build/my_robot_bringup
+[2.095s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/my_robot_bringup' for CMake module files
+[2.095s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/my_robot_bringup' for CMake config files
+[2.095s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_bringup', 'cmake_prefix_path')
+[2.100s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sven/ros2_ws/src/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.ps1'
+[2.101s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sven/ros2_ws/src/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.dsv'
+[2.101s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sven/ros2_ws/src/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.sh'
+[2.101s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/my_robot_bringup/bin'
+[2.101s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/my_robot_bringup/lib/pkgconfig/my_robot_bringup.pc'
+[2.102s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/my_robot_bringup/lib/python3.10/site-packages'
+[2.102s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/my_robot_bringup/bin'
+[2.107s] INFO:colcon.colcon_core.shell:Creating package script '/home/sven/ros2_ws/src/install/my_robot_bringup/share/my_robot_bringup/package.ps1'
+[2.107s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sven/ros2_ws/src/install/my_robot_bringup/share/my_robot_bringup/package.dsv'
+[2.107s] INFO:colcon.colcon_core.shell:Creating package script '/home/sven/ros2_ws/src/install/my_robot_bringup/share/my_robot_bringup/package.sh'
+[2.108s] INFO:colcon.colcon_core.shell:Creating package script '/home/sven/ros2_ws/src/install/my_robot_bringup/share/my_robot_bringup/package.bash'
+[2.108s] INFO:colcon.colcon_core.shell:Creating package script '/home/sven/ros2_ws/src/install/my_robot_bringup/share/my_robot_bringup/package.zsh'
+[2.108s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sven/ros2_ws/src/install/my_robot_bringup/share/colcon-core/packages/my_robot_bringup)
+[2.126s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_bringup)
+[2.131s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/my_robot_bringup' for CMake module files
+[2.131s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/my_robot_bringup' for CMake config files
+[2.131s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_bringup', 'cmake_prefix_path')
+[2.137s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sven/ros2_ws/src/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.ps1'
+[2.137s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sven/ros2_ws/src/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.dsv'
+[2.137s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sven/ros2_ws/src/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.sh'
+[2.137s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/my_robot_bringup/bin'
+[2.137s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/my_robot_bringup/lib/pkgconfig/my_robot_bringup.pc'
+[2.137s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/my_robot_bringup/lib/python3.10/site-packages'
+[2.138s] Level 1:colcon.colcon_core.environment:checking '/home/sven/ros2_ws/src/install/my_robot_bringup/bin'
+[2.143s] INFO:colcon.colcon_core.shell:Creating package script '/home/sven/ros2_ws/src/install/my_robot_bringup/share/my_robot_bringup/package.ps1'
+[2.143s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sven/ros2_ws/src/install/my_robot_bringup/share/my_robot_bringup/package.dsv'
+[2.143s] INFO:colcon.colcon_core.shell:Creating package script '/home/sven/ros2_ws/src/install/my_robot_bringup/share/my_robot_bringup/package.sh'
+[2.144s] INFO:colcon.colcon_core.shell:Creating package script '/home/sven/ros2_ws/src/install/my_robot_bringup/share/my_robot_bringup/package.bash'
+[2.144s] INFO:colcon.colcon_core.shell:Creating package script '/home/sven/ros2_ws/src/install/my_robot_bringup/share/my_robot_bringup/package.zsh'
+[2.144s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sven/ros2_ws/src/install/my_robot_bringup/share/colcon-core/packages/my_robot_bringup)
+[2.144s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.144s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.144s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.144s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.163s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.163s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.163s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.174s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.180s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sven/ros2_ws/src/install/local_setup.ps1'
+[2.180s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sven/ros2_ws/src/install/_local_setup_util_ps1.py'
+[2.181s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sven/ros2_ws/src/install/setup.ps1'
+[2.187s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sven/ros2_ws/src/install/local_setup.sh'
+[2.188s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sven/ros2_ws/src/install/_local_setup_util_sh.py'
+[2.188s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sven/ros2_ws/src/install/setup.sh'
+[2.194s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sven/ros2_ws/src/install/local_setup.bash'
+[2.194s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sven/ros2_ws/src/install/setup.bash'
+[2.201s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sven/ros2_ws/src/install/local_setup.zsh'
+[2.202s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sven/ros2_ws/src/install/setup.zsh'

@@ -1,0 +1,12 @@
+[01m[K/home/sven/ros2_ws/src/actions_cpp/src/count_until_server_queue_goals.cpp:[m[K In constructor ‘[01m[KCountUntilServerQueueGoalsNode::CountUntilServerQueueGoalsNode()[m[K’:
+[01m[K/home/sven/ros2_ws/src/actions_cpp/src/count_until_server_queue_goals.cpp:17:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kcb_group_[m[K’
+   17 |         [01;31m[Kcb_group_[m[K = this->create_callback_group(rclcpp::CallbackGroupType::Reentrant);
+      |         [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/sven/ros2_ws/src/actions_cpp/src/count_until_server_queue_goals.cpp:[m[K In member function ‘[01m[Kvoid CountUntilServerQueueGoalsNode::run_goal_queue_thread()[m[K’:
+[01m[K/home/sven/ros2_ws/src/actions_cpp/src/count_until_server_queue_goals.cpp:76:24:[m[K [01;35m[Kwarning: [m[Kthe address of ‘[01m[Kbool rclcpp::ok(rclcpp::Context::SharedPtr)[m[K’ will never be NULL [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-Waddress]8;;[m[K]
+   76 |         while ([01;35m[Krclcpp::ok[m[K)
+      |                [01;35m[K~~~~~~~~^~[m[K
+gmake[2]: *** [CMakeFiles/count_until_server_queue_goals.dir/build.make:76: CMakeFiles/count_until_server_queue_goals.dir/src/count_until_server_queue_goals.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/count_until_server_queue_goals.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

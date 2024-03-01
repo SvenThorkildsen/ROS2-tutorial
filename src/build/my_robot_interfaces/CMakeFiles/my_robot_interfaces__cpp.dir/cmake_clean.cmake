@@ -1,5 +1,9 @@
 file(REMOVE_RECURSE
   "CMakeFiles/my_robot_interfaces__cpp"
+  "rosidl_generator_cpp/my_robot_interfaces/action/count_until.hpp"
+  "rosidl_generator_cpp/my_robot_interfaces/action/detail/count_until__builder.hpp"
+  "rosidl_generator_cpp/my_robot_interfaces/action/detail/count_until__struct.hpp"
+  "rosidl_generator_cpp/my_robot_interfaces/action/detail/count_until__traits.hpp"
   "rosidl_generator_cpp/my_robot_interfaces/msg/detail/hardware_status__builder.hpp"
   "rosidl_generator_cpp/my_robot_interfaces/msg/detail/hardware_status__struct.hpp"
   "rosidl_generator_cpp/my_robot_interfaces/msg/detail/hardware_status__traits.hpp"

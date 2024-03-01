@@ -1,0 +1,33 @@
+[35m[1mConsolidate compiler generated dependencies of target count_until_server[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/count_until_server.dir/src/count_until_server.cpp.o[0m
+[01m[K/home/sven/ros2_ws/src/actions_cpp/src/count_until_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse CountUntilServerNode::goal_callback(const GoalUUID&, std::shared_ptr<const my_robot_interfaces::action::CountUntil_Goal_<std::allocator<void> > >)[m[K’:
+[01m[K/home/sven/ros2_ws/src/actions_cpp/src/count_until_server.cpp:27:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kuuid[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   27 |         [01;35m[Kconst rclcpp_action::GoalUUID &uuid[m[K, std::shared_ptr<const CountUntil::Goal> goal)
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/sven/ros2_ws/src/actions_cpp/src/count_until_server.cpp:27:86:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   27 |         const rclcpp_action::GoalUUID &uuid, [01;35m[Kstd::shared_ptr<const CountUntil::Goal> goal[m[K)
+      |                                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/sven/ros2_ws/src/actions_cpp/src/count_until_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::CancelResponse CountUntilServerNode::cancel_callback(std::shared_ptr<rclcpp_action::ServerGoalHandle<my_robot_interfaces::action::CountUntil> >)[m[K’:
+[01m[K/home/sven/ros2_ws/src/actions_cpp/src/count_until_server.cpp:33:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal_handle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   33 |         [01;35m[Kconst std::shared_ptr<CountUntilGoalHandle> goal_handle[m[K)
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable count_until_server[0m
+[100%] Built target count_until_server
+-- Install configuration: ""
+-- Installing: /home/sven/ros2_ws/install/actions_cpp/lib/actions_cpp/count_until_server
+-- Set runtime path of "/home/sven/ros2_ws/install/actions_cpp/lib/actions_cpp/count_until_server" to ""
+-- Installing: /home/sven/ros2_ws/install/actions_cpp/share/ament_index/resource_index/package_run_dependencies/actions_cpp
+-- Installing: /home/sven/ros2_ws/install/actions_cpp/share/ament_index/resource_index/parent_prefix_path/actions_cpp
+-- Installing: /home/sven/ros2_ws/install/actions_cpp/share/actions_cpp/environment/ament_prefix_path.sh
+-- Installing: /home/sven/ros2_ws/install/actions_cpp/share/actions_cpp/environment/ament_prefix_path.dsv
+-- Installing: /home/sven/ros2_ws/install/actions_cpp/share/actions_cpp/environment/path.sh
+-- Installing: /home/sven/ros2_ws/install/actions_cpp/share/actions_cpp/environment/path.dsv
+-- Installing: /home/sven/ros2_ws/install/actions_cpp/share/actions_cpp/local_setup.bash
+-- Installing: /home/sven/ros2_ws/install/actions_cpp/share/actions_cpp/local_setup.sh
+-- Installing: /home/sven/ros2_ws/install/actions_cpp/share/actions_cpp/local_setup.zsh
+-- Installing: /home/sven/ros2_ws/install/actions_cpp/share/actions_cpp/local_setup.dsv
+-- Installing: /home/sven/ros2_ws/install/actions_cpp/share/actions_cpp/package.dsv
+-- Installing: /home/sven/ros2_ws/install/actions_cpp/share/ament_index/resource_index/packages/actions_cpp
+-- Installing: /home/sven/ros2_ws/install/actions_cpp/share/actions_cpp/cmake/actions_cppConfig.cmake
+-- Installing: /home/sven/ros2_ws/install/actions_cpp/share/actions_cpp/cmake/actions_cppConfig-version.cmake
+-- Installing: /home/sven/ros2_ws/install/actions_cpp/share/actions_cpp/package.xml

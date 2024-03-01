@@ -1,0 +1,21 @@
+[01m[K/home/sven/ros2_ws/src/actions_cpp/src/count_until_server.cpp:[m[K In constructor ‘[01m[KCountUntilServerNode::CountUntilServerNode()[m[K’:
+[01m[K/home/sven/ros2_ws/src/actions_cpp/src/count_until_server.cpp:18:13:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Krclcpp_action::GoalResponse CountUntilServerNode::goal_callback(const GoalUUID&, std::shared_ptr<const my_robot_interfaces::action::CountUntil_Goal_<std::allocator<void> > >)[m[K’
+   18 |             [01;31m[Kgoal_callback[m[K,
+      |             [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/sven/ros2_ws/src/actions_cpp/src/count_until_server.cpp:27:33:[m[K [01;36m[Knote: [m[Kdeclared here
+   27 |     rclcpp_action::GoalResponse [01;36m[Kgoal_callback[m[K(
+      |                                 [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/sven/ros2_ws/src/actions_cpp/src/count_until_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse CountUntilServerNode::goal_callback(const GoalUUID&, std::shared_ptr<const my_robot_interfaces::action::CountUntil_Goal_<std::allocator<void> > >)[m[K’:
+[01m[K/home/sven/ros2_ws/src/actions_cpp/src/count_until_server.cpp:28:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kuuid[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   28 |         [01;35m[Kconst rclcpp_action::GoalUUID &uuid[m[K, std::shared_ptr<const CountUntil::Goal> goal)
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/sven/ros2_ws/src/actions_cpp/src/count_until_server.cpp:28:86:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   28 |         const rclcpp_action::GoalUUID &uuid, [01;35m[Kstd::shared_ptr<const CountUntil::Goal> goal[m[K)
+      |                                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/sven/ros2_ws/src/actions_cpp/src/count_until_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::CancelResponse CountUntilServerNode::cancel_callback(std::shared_ptr<rclcpp_action::ServerGoalHandle<my_robot_interfaces::action::CountUntil> >)[m[K’:
+[01m[K/home/sven/ros2_ws/src/actions_cpp/src/count_until_server.cpp:34:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal_handle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   34 |         [01;35m[Kconst std::shared_ptr<CountUntilGoalHandle> goal_handle[m[K)
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/count_until_server.dir/build.make:76: CMakeFiles/count_until_server.dir/src/count_until_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/count_until_server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,28 @@
+[0.248s] Invoking command in '/home/sven/ros2_ws/build/actions_cpp': CMAKE_PREFIX_PATH=/home/sven/ros2_ws/install/my_robot_interfaces:/home/sven/ros2_ws/install/turtlesim_catch_them_all:/home/sven/ros2_ws/install/my_robot_bringup:/home/sven/ros2_ws/install/my_cpp_pkg:/home/sven/ros2_ws/install/actions_cpp:/home/sven/ros2_ws/install/my_robot_description:/home/sven/install/my_robot_description:/home/sven/ros2_ws/install/my_py_pkg:/home/sven/ros2_ws/install/actions_py:/opt/ros/humble LD_LIBRARY_PATH=/home/sven/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/sven/ros2_ws/build/actions_cpp -- -j20 -l20
+[0.398s] [35m[1mConsolidate compiler generated dependencies of target count_until_client[0m
+[0.398s] [ 50%] Built target count_until_server
+[0.399s] [ 75%] [32mBuilding CXX object CMakeFiles/count_until_client.dir/src/count_until_client.cpp.o[0m
+[2.177s] [100%] [32m[1mLinking CXX executable count_until_client[0m
+[2.259s] [100%] Built target count_until_client
+[2.271s] Invoked command in '/home/sven/ros2_ws/build/actions_cpp' returned '0': CMAKE_PREFIX_PATH=/home/sven/ros2_ws/install/my_robot_interfaces:/home/sven/ros2_ws/install/turtlesim_catch_them_all:/home/sven/ros2_ws/install/my_robot_bringup:/home/sven/ros2_ws/install/my_cpp_pkg:/home/sven/ros2_ws/install/actions_cpp:/home/sven/ros2_ws/install/my_robot_description:/home/sven/install/my_robot_description:/home/sven/ros2_ws/install/my_py_pkg:/home/sven/ros2_ws/install/actions_py:/opt/ros/humble LD_LIBRARY_PATH=/home/sven/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/sven/ros2_ws/build/actions_cpp -- -j20 -l20
+[2.285s] Invoking command in '/home/sven/ros2_ws/build/actions_cpp': CMAKE_PREFIX_PATH=/home/sven/ros2_ws/install/my_robot_interfaces:/home/sven/ros2_ws/install/turtlesim_catch_them_all:/home/sven/ros2_ws/install/my_robot_bringup:/home/sven/ros2_ws/install/my_cpp_pkg:/home/sven/ros2_ws/install/actions_cpp:/home/sven/ros2_ws/install/my_robot_description:/home/sven/install/my_robot_description:/home/sven/ros2_ws/install/my_py_pkg:/home/sven/ros2_ws/install/actions_py:/opt/ros/humble LD_LIBRARY_PATH=/home/sven/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/sven/ros2_ws/build/actions_cpp
+[2.290s] -- Install configuration: ""
+[2.290s] -- Up-to-date: /home/sven/ros2_ws/install/actions_cpp/lib/actions_cpp/count_until_server
+[2.290s] -- Installing: /home/sven/ros2_ws/install/actions_cpp/lib/actions_cpp/count_until_client
+[2.291s] -- Set runtime path of "/home/sven/ros2_ws/install/actions_cpp/lib/actions_cpp/count_until_client" to ""
+[2.291s] -- Up-to-date: /home/sven/ros2_ws/install/actions_cpp/share/ament_index/resource_index/package_run_dependencies/actions_cpp
+[2.291s] -- Up-to-date: /home/sven/ros2_ws/install/actions_cpp/share/ament_index/resource_index/parent_prefix_path/actions_cpp
+[2.291s] -- Up-to-date: /home/sven/ros2_ws/install/actions_cpp/share/actions_cpp/environment/ament_prefix_path.sh
+[2.291s] -- Up-to-date: /home/sven/ros2_ws/install/actions_cpp/share/actions_cpp/environment/ament_prefix_path.dsv
+[2.291s] -- Up-to-date: /home/sven/ros2_ws/install/actions_cpp/share/actions_cpp/environment/path.sh
+[2.291s] -- Up-to-date: /home/sven/ros2_ws/install/actions_cpp/share/actions_cpp/environment/path.dsv
+[2.291s] -- Up-to-date: /home/sven/ros2_ws/install/actions_cpp/share/actions_cpp/local_setup.bash
+[2.291s] -- Up-to-date: /home/sven/ros2_ws/install/actions_cpp/share/actions_cpp/local_setup.sh
+[2.291s] -- Up-to-date: /home/sven/ros2_ws/install/actions_cpp/share/actions_cpp/local_setup.zsh
+[2.291s] -- Up-to-date: /home/sven/ros2_ws/install/actions_cpp/share/actions_cpp/local_setup.dsv
+[2.291s] -- Installing: /home/sven/ros2_ws/install/actions_cpp/share/actions_cpp/package.dsv
+[2.291s] -- Up-to-date: /home/sven/ros2_ws/install/actions_cpp/share/ament_index/resource_index/packages/actions_cpp
+[2.291s] -- Up-to-date: /home/sven/ros2_ws/install/actions_cpp/share/actions_cpp/cmake/actions_cppConfig.cmake
+[2.291s] -- Up-to-date: /home/sven/ros2_ws/install/actions_cpp/share/actions_cpp/cmake/actions_cppConfig-version.cmake
+[2.291s] -- Up-to-date: /home/sven/ros2_ws/install/actions_cpp/share/actions_cpp/package.xml
+[2.292s] Invoked command in '/home/sven/ros2_ws/build/actions_cpp' returned '0': CMAKE_PREFIX_PATH=/home/sven/ros2_ws/install/my_robot_interfaces:/home/sven/ros2_ws/install/turtlesim_catch_them_all:/home/sven/ros2_ws/install/my_robot_bringup:/home/sven/ros2_ws/install/my_cpp_pkg:/home/sven/ros2_ws/install/actions_cpp:/home/sven/ros2_ws/install/my_robot_description:/home/sven/install/my_robot_description:/home/sven/ros2_ws/install/my_py_pkg:/home/sven/ros2_ws/install/actions_py:/opt/ros/humble LD_LIBRARY_PATH=/home/sven/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/sven/ros2_ws/build/actions_cpp
