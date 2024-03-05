@@ -1,0 +1,39 @@
+[0.317s] Invoking command in '/home/sven/ros2_ws/build/lifecycle_py': PYTHONPATH=/home/sven/ros2_ws/build/lifecycle_py/prefix_override:/home/sven/ros2_ws/install/lifecycle_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/sven/ros2_ws/build/lifecycle_py/build
+[0.424s] running develop
+[0.424s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.424s]   warnings.warn(
+[0.425s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.425s]   warnings.warn(
+[0.484s] Removing /home/sven/ros2_ws/install/lifecycle_py/lib/python3.10/site-packages/lifecycle-py.egg-link (link to .)
+[0.495s] Invoked command in '/home/sven/ros2_ws/build/lifecycle_py' returned '0': PYTHONPATH=/home/sven/ros2_ws/build/lifecycle_py/prefix_override:/home/sven/ros2_ws/install/lifecycle_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/sven/ros2_ws/build/lifecycle_py/build
+[0.496s] Invoking command in '/home/sven/ros2_ws/src/lifecycle_py': PYTHONPATH=/home/sven/ros2_ws/build/lifecycle_py/prefix_override:/home/sven/ros2_ws/install/lifecycle_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/lifecycle_py build --build-base /home/sven/ros2_ws/build/lifecycle_py/build install --record /home/sven/ros2_ws/build/lifecycle_py/install.log --single-version-externally-managed
+[0.592s] running egg_info
+[0.592s] writing ../../build/lifecycle_py/lifecycle_py.egg-info/PKG-INFO
+[0.593s] writing dependency_links to ../../build/lifecycle_py/lifecycle_py.egg-info/dependency_links.txt
+[0.593s] writing entry points to ../../build/lifecycle_py/lifecycle_py.egg-info/entry_points.txt
+[0.593s] writing requirements to ../../build/lifecycle_py/lifecycle_py.egg-info/requires.txt
+[0.593s] writing top-level names to ../../build/lifecycle_py/lifecycle_py.egg-info/top_level.txt
+[0.593s] reading manifest file '../../build/lifecycle_py/lifecycle_py.egg-info/SOURCES.txt'
+[0.593s] writing manifest file '../../build/lifecycle_py/lifecycle_py.egg-info/SOURCES.txt'
+[0.594s] running build
+[0.594s] running build_py
+[0.594s] copying lifecycle_py/lifecycle_node_manager.py -> /home/sven/ros2_ws/build/lifecycle_py/build/lib/lifecycle_py
+[0.594s] copying lifecycle_py/number_publisher.py -> /home/sven/ros2_ws/build/lifecycle_py/build/lib/lifecycle_py
+[0.594s] running install
+[0.594s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.594s]   warnings.warn(
+[0.594s] running install_lib
+[0.594s] creating /home/sven/ros2_ws/install/lifecycle_py/lib/python3.10/site-packages/lifecycle_py
+[0.594s] copying /home/sven/ros2_ws/build/lifecycle_py/build/lib/lifecycle_py/lifecycle_node_manager.py -> /home/sven/ros2_ws/install/lifecycle_py/lib/python3.10/site-packages/lifecycle_py
+[0.594s] copying /home/sven/ros2_ws/build/lifecycle_py/build/lib/lifecycle_py/__init__.py -> /home/sven/ros2_ws/install/lifecycle_py/lib/python3.10/site-packages/lifecycle_py
+[0.594s] copying /home/sven/ros2_ws/build/lifecycle_py/build/lib/lifecycle_py/number_publisher.py -> /home/sven/ros2_ws/install/lifecycle_py/lib/python3.10/site-packages/lifecycle_py
+[0.594s] byte-compiling /home/sven/ros2_ws/install/lifecycle_py/lib/python3.10/site-packages/lifecycle_py/lifecycle_node_manager.py to lifecycle_node_manager.cpython-310.pyc
+[0.595s] byte-compiling /home/sven/ros2_ws/install/lifecycle_py/lib/python3.10/site-packages/lifecycle_py/__init__.py to __init__.cpython-310.pyc
+[0.595s] byte-compiling /home/sven/ros2_ws/install/lifecycle_py/lib/python3.10/site-packages/lifecycle_py/number_publisher.py to number_publisher.cpython-310.pyc
+[0.595s] running install_data
+[0.595s] running install_egg_info
+[0.596s] Copying ../../build/lifecycle_py/lifecycle_py.egg-info to /home/sven/ros2_ws/install/lifecycle_py/lib/python3.10/site-packages/lifecycle_py-0.0.0-py3.10.egg-info
+[0.596s] running install_scripts
+[0.606s] Installing number_publisher script to /home/sven/ros2_ws/install/lifecycle_py/lib/lifecycle_py
+[0.606s] writing list of installed files to '/home/sven/ros2_ws/build/lifecycle_py/install.log'
+[0.615s] Invoked command in '/home/sven/ros2_ws/src/lifecycle_py' returned '0': PYTHONPATH=/home/sven/ros2_ws/build/lifecycle_py/prefix_override:/home/sven/ros2_ws/install/lifecycle_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/lifecycle_py build --build-base /home/sven/ros2_ws/build/lifecycle_py/build install --record /home/sven/ros2_ws/build/lifecycle_py/install.log --single-version-externally-managed

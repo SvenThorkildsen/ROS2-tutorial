@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target number_publisher[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/number_publisher.dir/src/number_publisher.cpp.o[0m
+[100%] [32m[1mLinking CXX executable number_publisher[0m
+[100%] Built target number_publisher
+-- Install configuration: ""
+-- Installing: /home/sven/ros2_ws/install/lifecycle_cpp/lib/lifecycle_cpp/number_publisher
+-- Set runtime path of "/home/sven/ros2_ws/install/lifecycle_cpp/lib/lifecycle_cpp/number_publisher" to ""
+-- Installing: /home/sven/ros2_ws/install/lifecycle_cpp/share/ament_index/resource_index/package_run_dependencies/lifecycle_cpp
+-- Installing: /home/sven/ros2_ws/install/lifecycle_cpp/share/ament_index/resource_index/parent_prefix_path/lifecycle_cpp
+-- Up-to-date: /home/sven/ros2_ws/install/lifecycle_cpp/share/lifecycle_cpp/environment/ament_prefix_path.sh
+-- Installing: /home/sven/ros2_ws/install/lifecycle_cpp/share/lifecycle_cpp/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/sven/ros2_ws/install/lifecycle_cpp/share/lifecycle_cpp/environment/path.sh
+-- Installing: /home/sven/ros2_ws/install/lifecycle_cpp/share/lifecycle_cpp/environment/path.dsv
+-- Up-to-date: /home/sven/ros2_ws/install/lifecycle_cpp/share/lifecycle_cpp/local_setup.bash
+-- Up-to-date: /home/sven/ros2_ws/install/lifecycle_cpp/share/lifecycle_cpp/local_setup.sh
+-- Up-to-date: /home/sven/ros2_ws/install/lifecycle_cpp/share/lifecycle_cpp/local_setup.zsh
+-- Installing: /home/sven/ros2_ws/install/lifecycle_cpp/share/lifecycle_cpp/local_setup.dsv
+-- Installing: /home/sven/ros2_ws/install/lifecycle_cpp/share/lifecycle_cpp/package.dsv
+-- Up-to-date: /home/sven/ros2_ws/install/lifecycle_cpp/share/ament_index/resource_index/packages/lifecycle_cpp
+-- Up-to-date: /home/sven/ros2_ws/install/lifecycle_cpp/share/lifecycle_cpp/cmake/lifecycle_cppConfig.cmake
+-- Up-to-date: /home/sven/ros2_ws/install/lifecycle_cpp/share/lifecycle_cpp/cmake/lifecycle_cppConfig-version.cmake
+-- Installing: /home/sven/ros2_ws/install/lifecycle_cpp/share/lifecycle_cpp/package.xml

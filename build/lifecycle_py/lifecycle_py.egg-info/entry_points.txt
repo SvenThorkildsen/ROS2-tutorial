@@ -1,0 +1,4 @@
+[console_scripts]
+lifecycle_node_manager = lifecycle_py.lifecycle_node_manager:main
+number_publisher = lifecycle_py.number_publisher:main
+

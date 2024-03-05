@@ -10,6 +10,8 @@
   <buildtool_depend>ament_cmake</buildtool_depend>
 
   <exec_depend>gazebo_ros</exec_depend>
+  <exec_depend>lifecycle_cpp</exec_depend>
+  <exec_depend>lifecycle_py</exec_depend>
   <exec_depend>my_cpp_pkg</exec_depend>
   <exec_depend>my_py_pkg</exec_depend>
   <exec_depend>my_robot_description</exec_depend>

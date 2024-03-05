@@ -1,1 +1,1 @@
-gazebo_ros:my_cpp_pkg:my_py_pkg:my_robot_description:robot_state_publisher:rviz2
+gazebo_ros:lifecycle_cpp:lifecycle_py:my_cpp_pkg:my_py_pkg:my_robot_description:robot_state_publisher:rviz2

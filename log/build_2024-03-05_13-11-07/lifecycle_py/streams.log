@@ -1,0 +1,21 @@
+[0.319s] Invoking command in '/home/sven/ros2_ws/build/lifecycle_py': PYTHONPATH=/home/sven/ros2_ws/build/lifecycle_py/prefix_override:/home/sven/ros2_ws/install/lifecycle_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/sven/ros2_ws/build/lifecycle_py/build --no-deps install_data
+[0.426s] running develop
+[0.436s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.436s]   warnings.warn(
+[0.437s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.437s]   warnings.warn(
+[0.495s] running egg_info
+[0.495s] writing lifecycle_py.egg-info/PKG-INFO
+[0.495s] writing dependency_links to lifecycle_py.egg-info/dependency_links.txt
+[0.495s] writing entry points to lifecycle_py.egg-info/entry_points.txt
+[0.495s] writing requirements to lifecycle_py.egg-info/requires.txt
+[0.495s] writing top-level names to lifecycle_py.egg-info/top_level.txt
+[0.496s] reading manifest file 'lifecycle_py.egg-info/SOURCES.txt'
+[0.496s] writing manifest file 'lifecycle_py.egg-info/SOURCES.txt'
+[0.497s] running build_ext
+[0.497s] Creating /home/sven/ros2_ws/install/lifecycle_py/lib/python3.10/site-packages/lifecycle-py.egg-link (link to .)
+[0.497s] Installing number_publisher script to /home/sven/ros2_ws/install/lifecycle_py/lib/lifecycle_py
+[0.497s] 
+[0.497s] Installed /home/sven/ros2_ws/build/lifecycle_py
+[0.497s] running install_data
+[0.508s] Invoked command in '/home/sven/ros2_ws/build/lifecycle_py' returned '0': PYTHONPATH=/home/sven/ros2_ws/build/lifecycle_py/prefix_override:/home/sven/ros2_ws/install/lifecycle_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/sven/ros2_ws/build/lifecycle_py/build --no-deps install_data

@@ -1,0 +1,39 @@
+[0.353s] Invoking command in '/home/sven/ros2_ws/src/lifecycle_py': PYTHONPATH=/home/sven/ros2_ws/build/lifecycle_py/prefix_override:/home/sven/ros2_ws/install/lifecycle_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/lifecycle_py build --build-base /home/sven/ros2_ws/build/lifecycle_py/build install --record /home/sven/ros2_ws/build/lifecycle_py/install.log --single-version-externally-managed
+[0.457s] running egg_info
+[0.457s] creating ../../build/lifecycle_py/lifecycle_py.egg-info
+[0.457s] writing ../../build/lifecycle_py/lifecycle_py.egg-info/PKG-INFO
+[0.457s] writing dependency_links to ../../build/lifecycle_py/lifecycle_py.egg-info/dependency_links.txt
+[0.457s] writing entry points to ../../build/lifecycle_py/lifecycle_py.egg-info/entry_points.txt
+[0.457s] writing requirements to ../../build/lifecycle_py/lifecycle_py.egg-info/requires.txt
+[0.457s] writing top-level names to ../../build/lifecycle_py/lifecycle_py.egg-info/top_level.txt
+[0.457s] writing manifest file '../../build/lifecycle_py/lifecycle_py.egg-info/SOURCES.txt'
+[0.458s] reading manifest file '../../build/lifecycle_py/lifecycle_py.egg-info/SOURCES.txt'
+[0.459s] writing manifest file '../../build/lifecycle_py/lifecycle_py.egg-info/SOURCES.txt'
+[0.459s] running build
+[0.459s] running build_py
+[0.459s] creating /home/sven/ros2_ws/build/lifecycle_py/build
+[0.459s] creating /home/sven/ros2_ws/build/lifecycle_py/build/lib
+[0.459s] creating /home/sven/ros2_ws/build/lifecycle_py/build/lib/lifecycle_py
+[0.459s] copying lifecycle_py/__init__.py -> /home/sven/ros2_ws/build/lifecycle_py/build/lib/lifecycle_py
+[0.459s] copying lifecycle_py/number_publisher.py -> /home/sven/ros2_ws/build/lifecycle_py/build/lib/lifecycle_py
+[0.459s] running install
+[0.459s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.459s]   warnings.warn(
+[0.459s] running install_lib
+[0.459s] creating /home/sven/ros2_ws/install/lifecycle_py/lib/python3.10/site-packages/lifecycle_py
+[0.460s] copying /home/sven/ros2_ws/build/lifecycle_py/build/lib/lifecycle_py/__init__.py -> /home/sven/ros2_ws/install/lifecycle_py/lib/python3.10/site-packages/lifecycle_py
+[0.460s] copying /home/sven/ros2_ws/build/lifecycle_py/build/lib/lifecycle_py/number_publisher.py -> /home/sven/ros2_ws/install/lifecycle_py/lib/python3.10/site-packages/lifecycle_py
+[0.460s] byte-compiling /home/sven/ros2_ws/install/lifecycle_py/lib/python3.10/site-packages/lifecycle_py/__init__.py to __init__.cpython-310.pyc
+[0.460s] byte-compiling /home/sven/ros2_ws/install/lifecycle_py/lib/python3.10/site-packages/lifecycle_py/number_publisher.py to number_publisher.cpython-310.pyc
+[0.460s] running install_data
+[0.460s] creating /home/sven/ros2_ws/install/lifecycle_py/share/ament_index
+[0.460s] creating /home/sven/ros2_ws/install/lifecycle_py/share/ament_index/resource_index
+[0.460s] creating /home/sven/ros2_ws/install/lifecycle_py/share/ament_index/resource_index/packages
+[0.461s] copying resource/lifecycle_py -> /home/sven/ros2_ws/install/lifecycle_py/share/ament_index/resource_index/packages
+[0.461s] copying package.xml -> /home/sven/ros2_ws/install/lifecycle_py/share/lifecycle_py
+[0.461s] running install_egg_info
+[0.462s] Copying ../../build/lifecycle_py/lifecycle_py.egg-info to /home/sven/ros2_ws/install/lifecycle_py/lib/python3.10/site-packages/lifecycle_py-0.0.0-py3.10.egg-info
+[0.462s] running install_scripts
+[0.472s] Installing number_publisher script to /home/sven/ros2_ws/install/lifecycle_py/lib/lifecycle_py
+[0.472s] writing list of installed files to '/home/sven/ros2_ws/build/lifecycle_py/install.log'
+[0.909s] Invoked command in '/home/sven/ros2_ws/src/lifecycle_py' returned '0': PYTHONPATH=/home/sven/ros2_ws/build/lifecycle_py/prefix_override:/home/sven/ros2_ws/install/lifecycle_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/lifecycle_py build --build-base /home/sven/ros2_ws/build/lifecycle_py/build install --record /home/sven/ros2_ws/build/lifecycle_py/install.log --single-version-externally-managed
