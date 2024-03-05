@@ -1,0 +1,7 @@
+[35m[1mConsolidate compiler generated dependencies of target move_robot_client[0m
+[35m[1mConsolidate compiler generated dependencies of target move_robot_server[0m
+[ 60%] Built target count_until_client
+[ 60%] Built target count_until_server_queue_goals
+[ 60%] Built target count_until_server
+[ 70%] [32mBuilding CXX object CMakeFiles/move_robot_server.dir/src/move_robot_server.cpp.o[0m
+[ 90%] Built target move_robot_client

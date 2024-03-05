@@ -70,6 +70,10 @@ CMakeFiles/my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/ac
 CMakeFiles/my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/action/detail/count_until__builder.hpp
 CMakeFiles/my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/action/detail/count_until__struct.hpp
 CMakeFiles/my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/action/detail/count_until__traits.hpp
+CMakeFiles/my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/action/move_robot.hpp
+CMakeFiles/my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/action/detail/move_robot__builder.hpp
+CMakeFiles/my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/action/detail/move_robot__struct.hpp
+CMakeFiles/my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/action/detail/move_robot__traits.hpp
 CMakeFiles/my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/msg/hardware_status.hpp
 CMakeFiles/my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/msg/detail/hardware_status__builder.hpp
 CMakeFiles/my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/msg/detail/hardware_status__struct.hpp
@@ -115,6 +119,7 @@ rosidl_generator_cpp/my_robot_interfaces/action/count_until.hpp: /opt/ros/humble
 rosidl_generator_cpp/my_robot_interfaces/action/count_until.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__struct.hpp.em
 rosidl_generator_cpp/my_robot_interfaces/action/count_until.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
 rosidl_generator_cpp/my_robot_interfaces/action/count_until.hpp: rosidl_adapter/my_robot_interfaces/action/CountUntil.idl
+rosidl_generator_cpp/my_robot_interfaces/action/count_until.hpp: rosidl_adapter/my_robot_interfaces/action/MoveRobot.idl
 rosidl_generator_cpp/my_robot_interfaces/action/count_until.hpp: rosidl_adapter/my_robot_interfaces/msg/HardwareStatus.idl
 rosidl_generator_cpp/my_robot_interfaces/action/count_until.hpp: rosidl_adapter/my_robot_interfaces/msg/LedStatus.idl
 rosidl_generator_cpp/my_robot_interfaces/action/count_until.hpp: rosidl_adapter/my_robot_interfaces/msg/Turtle.idl
@@ -140,6 +145,18 @@ rosidl_generator_cpp/my_robot_interfaces/action/detail/count_until__struct.hpp: 
 
 rosidl_generator_cpp/my_robot_interfaces/action/detail/count_until__traits.hpp: rosidl_generator_cpp/my_robot_interfaces/action/count_until.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/my_robot_interfaces/action/detail/count_until__traits.hpp
+
+rosidl_generator_cpp/my_robot_interfaces/action/move_robot.hpp: rosidl_generator_cpp/my_robot_interfaces/action/count_until.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/my_robot_interfaces/action/move_robot.hpp
+
+rosidl_generator_cpp/my_robot_interfaces/action/detail/move_robot__builder.hpp: rosidl_generator_cpp/my_robot_interfaces/action/count_until.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/my_robot_interfaces/action/detail/move_robot__builder.hpp
+
+rosidl_generator_cpp/my_robot_interfaces/action/detail/move_robot__struct.hpp: rosidl_generator_cpp/my_robot_interfaces/action/count_until.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/my_robot_interfaces/action/detail/move_robot__struct.hpp
+
+rosidl_generator_cpp/my_robot_interfaces/action/detail/move_robot__traits.hpp: rosidl_generator_cpp/my_robot_interfaces/action/count_until.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/my_robot_interfaces/action/detail/move_robot__traits.hpp
 
 rosidl_generator_cpp/my_robot_interfaces/msg/hardware_status.hpp: rosidl_generator_cpp/my_robot_interfaces/action/count_until.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/my_robot_interfaces/msg/hardware_status.hpp
@@ -230,6 +247,10 @@ my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/action/count_
 my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/action/detail/count_until__builder.hpp
 my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/action/detail/count_until__struct.hpp
 my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/action/detail/count_until__traits.hpp
+my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/action/detail/move_robot__builder.hpp
+my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/action/detail/move_robot__struct.hpp
+my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/action/detail/move_robot__traits.hpp
+my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/action/move_robot.hpp
 my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/msg/detail/hardware_status__builder.hpp
 my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/msg/detail/hardware_status__struct.hpp
 my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/msg/detail/hardware_status__traits.hpp

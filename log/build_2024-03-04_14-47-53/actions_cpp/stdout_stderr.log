@@ -1,0 +1,34 @@
+[35m[1mConsolidate compiler generated dependencies of target move_robot_server[0m
+[ 80%] Built target count_until_client
+[ 80%] Built target count_until_server
+[ 80%] Built target count_until_server_queue_goals
+[ 80%] Built target move_robot_client
+[ 90%] [32mBuilding CXX object CMakeFiles/move_robot_server.dir/src/move_robot_server.cpp.o[0m
+[01m[K/home/sven/ros2_ws/src/actions_cpp/src/move_robot_server.cpp:[m[K In member function ‘[01m[Kvoid MoveRobotServerNode::execute_goal(std::shared_ptr<rclcpp_action::ServerGoalHandle<my_robot_interfaces::action::MoveRobot> >)[m[K’:
+[01m[K/home/sven/ros2_ws/src/actions_cpp/src/move_robot_server.cpp:53:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal_handle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   53 |     void execute_goal([01;35m[Kconst std::shared_ptr<MoveRobotGoalHandle> goal_handle[m[K)
+      |                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable move_robot_server[0m
+[100%] Built target move_robot_server
+-- Install configuration: ""
+-- Up-to-date: /home/sven/ros2_ws/install/actions_cpp/lib/actions_cpp/count_until_server
+-- Up-to-date: /home/sven/ros2_ws/install/actions_cpp/lib/actions_cpp/count_until_server_queue_goals
+-- Up-to-date: /home/sven/ros2_ws/install/actions_cpp/lib/actions_cpp/count_until_client
+-- Installing: /home/sven/ros2_ws/install/actions_cpp/lib/actions_cpp/move_robot_server
+-- Set runtime path of "/home/sven/ros2_ws/install/actions_cpp/lib/actions_cpp/move_robot_server" to ""
+-- Up-to-date: /home/sven/ros2_ws/install/actions_cpp/lib/actions_cpp/move_robot_client
+-- Up-to-date: /home/sven/ros2_ws/install/actions_cpp/share/ament_index/resource_index/package_run_dependencies/actions_cpp
+-- Up-to-date: /home/sven/ros2_ws/install/actions_cpp/share/ament_index/resource_index/parent_prefix_path/actions_cpp
+-- Up-to-date: /home/sven/ros2_ws/install/actions_cpp/share/actions_cpp/environment/ament_prefix_path.sh
+-- Up-to-date: /home/sven/ros2_ws/install/actions_cpp/share/actions_cpp/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/sven/ros2_ws/install/actions_cpp/share/actions_cpp/environment/path.sh
+-- Up-to-date: /home/sven/ros2_ws/install/actions_cpp/share/actions_cpp/environment/path.dsv
+-- Up-to-date: /home/sven/ros2_ws/install/actions_cpp/share/actions_cpp/local_setup.bash
+-- Up-to-date: /home/sven/ros2_ws/install/actions_cpp/share/actions_cpp/local_setup.sh
+-- Up-to-date: /home/sven/ros2_ws/install/actions_cpp/share/actions_cpp/local_setup.zsh
+-- Up-to-date: /home/sven/ros2_ws/install/actions_cpp/share/actions_cpp/local_setup.dsv
+-- Installing: /home/sven/ros2_ws/install/actions_cpp/share/actions_cpp/package.dsv
+-- Up-to-date: /home/sven/ros2_ws/install/actions_cpp/share/ament_index/resource_index/packages/actions_cpp
+-- Up-to-date: /home/sven/ros2_ws/install/actions_cpp/share/actions_cpp/cmake/actions_cppConfig.cmake
+-- Up-to-date: /home/sven/ros2_ws/install/actions_cpp/share/actions_cpp/cmake/actions_cppConfig-version.cmake
+-- Up-to-date: /home/sven/ros2_ws/install/actions_cpp/share/actions_cpp/package.xml

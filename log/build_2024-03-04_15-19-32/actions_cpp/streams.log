@@ -1,0 +1,30 @@
+[0.032s] Invoking command in '/home/sven/ros2_ws/build/actions_cpp': CMAKE_PREFIX_PATH=/home/sven/ros2_ws/install/my_robot_interfaces:/home/sven/ros2_ws/install/turtlesim_catch_them_all:/home/sven/ros2_ws/install/my_robot_bringup:/home/sven/ros2_ws/install/my_cpp_pkg:/home/sven/ros2_ws/install/actions_cpp:/home/sven/ros2_ws/install/my_robot_description:/home/sven/install/my_robot_description:/home/sven/ros2_ws/install/my_py_pkg:/home/sven/ros2_ws/install/actions_py:/opt/ros/humble LD_LIBRARY_PATH=/home/sven/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/sven/ros2_ws/build/actions_cpp -- -j20 -l20
+[0.053s] [35m[1mConsolidate compiler generated dependencies of target move_robot_server[0m
+[0.059s] [ 20%] Built target count_until_server_queue_goals
+[0.059s] [ 40%] Built target count_until_client
+[0.059s] [ 60%] Built target count_until_server
+[0.059s] [ 80%] Built target move_robot_client
+[0.061s] [ 90%] [32mBuilding CXX object CMakeFiles/move_robot_server.dir/src/move_robot_server.cpp.o[0m
+[1.139s] [01m[K/home/sven/ros2_ws/src/actions_cpp/src/move_robot_server.cpp:[m[K In constructor ‘[01m[KMoveRobotServerNode::MoveRobotServerNode()[m[K’:
+[1.139s] [01m[K/home/sven/ros2_ws/src/actions_cpp/src/move_robot_server.cpp:12:73:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K([m[K’ before ‘[01m[K=[m[K’ token
+[1.139s]    12 |     MoveRobotServerNode() : Node("move_robot_server"), current_position_[01;31m[K=[m[K50
+[1.139s]       |                                                                         [01;31m[K^[m[K
+[1.139s] [01m[K/home/sven/ros2_ws/src/actions_cpp/src/move_robot_server.cpp:12:73:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K=[m[K’ token
+[1.143s] [01m[K/home/sven/ros2_ws/src/actions_cpp/src/move_robot_server.cpp:[m[K In member function ‘[01m[Kvoid MoveRobotServerNode::execute_goal(std::shared_ptr<rclcpp_action::ServerGoalHandle<my_robot_interfaces::action::MoveRobot> >)[m[K’:
+[1.143s] [01m[K/home/sven/ros2_ws/src/actions_cpp/src/move_robot_server.cpp:72:34:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kuint64_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.143s]    72 |         while ([01;35m[Kcurrent_position_ != target_position[m[K)
+[1.143s]       |                [01;35m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[1.143s] [01m[K/home/sven/ros2_ws/src/actions_cpp/src/move_robot_server.cpp:74:46:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kuint64_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.143s]    74 |             if ([01;35m[Kcurrent_position_ + velocity <= target_position[m[K)
+[1.143s]       |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[1.143s] [01m[K/home/sven/ros2_ws/src/actions_cpp/src/move_robot_server.cpp:81:51:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kuint64_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.143s]    81 |             else if ([01;35m[Kcurrent_position_ + velocity > target_position[m[K)
+[1.143s]       |                      [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[1.157s] [01m[K/home/sven/ros2_ws/src/actions_cpp/src/move_robot_server.cpp:98:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_position[m[K’ was not declared in this scope; did you mean ‘[01m[Kcurrent_position_[m[K’?
+[1.157s]    98 |         result->position = [01;31m[Kcurrent_position[m[K;
+[1.157s]       |                            [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.157s]       |                            [32m[Kcurrent_position_[m[K
+[1.379s] gmake[2]: *** [CMakeFiles/move_robot_server.dir/build.make:76: CMakeFiles/move_robot_server.dir/src/move_robot_server.cpp.o] Error 1
+[1.379s] gmake[1]: *** [CMakeFiles/Makefile2:223: CMakeFiles/move_robot_server.dir/all] Error 2
+[1.379s] gmake: *** [Makefile:146: all] Error 2
+[1.382s] Invoked command in '/home/sven/ros2_ws/build/actions_cpp' returned '2': CMAKE_PREFIX_PATH=/home/sven/ros2_ws/install/my_robot_interfaces:/home/sven/ros2_ws/install/turtlesim_catch_them_all:/home/sven/ros2_ws/install/my_robot_bringup:/home/sven/ros2_ws/install/my_cpp_pkg:/home/sven/ros2_ws/install/actions_cpp:/home/sven/ros2_ws/install/my_robot_description:/home/sven/install/my_robot_description:/home/sven/ros2_ws/install/my_py_pkg:/home/sven/ros2_ws/install/actions_py:/opt/ros/humble LD_LIBRARY_PATH=/home/sven/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/sven/ros2_ws/build/actions_cpp -- -j20 -l20

@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from my_robot_interfaces/action/MoveRobot.action
+// generated code does not contain a copyright notice
+
+
+module my_robot_interfaces {
+  module action {
+    @verbatim (language="comment", text=
+      "Goal")
+    struct MoveRobot_Goal {
+      int64 position;
+
+      int64 velocity;
+    };
+    @verbatim (language="comment", text=
+      "Result")
+    struct MoveRobot_Result {
+      int64 position;
+
+      string message;
+    };
+    @verbatim (language="comment", text=
+      "Feedback")
+    struct MoveRobot_Feedback {
+      int64 current_position;
+    };
+  };
+};

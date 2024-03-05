@@ -1,0 +1,54 @@
+[35m[1mConsolidate compiler generated dependencies of target move_robot_server[0m
+[ 30%] Built target count_until_client
+[ 40%] Built target count_until_server
+[ 60%] Built target move_robot_client
+[ 80%] Built target count_until_server_queue_goals
+[ 90%] [32mBuilding CXX object CMakeFiles/move_robot_server.dir/src/move_robot_server.cpp.o[0m
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/sven/ros2_ws/src/actions_cpp/src/move_robot_server.cpp:1[m[K:
+[01m[K/home/sven/ros2_ws/src/actions_cpp/src/move_robot_server.cpp:[m[K In member function ‘[01m[Kvoid MoveRobotServerNode::execute_goal(std::shared_ptr<rclcpp_action::ServerGoalHandle<my_robot_interfaces::action::MoveRobot> >)[m[K’:
+[01m[K/home/sven/ros2_ws/src/actions_cpp/src/move_robot_server.cpp:67:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kmy_robot_interfaces::action::MoveRobot_Feedback_<std::allocator<void> >::_current_position_type[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   67 |         RCLCPP_INFO(this->get_logger(), [01;35m[K"Feedback (%d)"[m[K, [32m[Kfeedback->current_position[m[K);
+      |                                         [01;35m[K^~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                                    [32m[K|[m[K
+      |                                                                    [32m[Kmy_robot_interfaces::action::MoveRobot_Feedback_<std::allocator<void> >::_current_position_type {aka long int}[m[K
+[01m[K/home/sven/ros2_ws/src/actions_cpp/src/move_robot_server.cpp:67:53:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   67 |         RCLCPP_INFO(this->get_logger(), "Feedback ([01;36m[K%d[m[K)", feedback->current_position);
+      |                                                    [01;36m[K~^[m[K
+      |                                                     [01;36m[K|[m[K
+      |                                                     [01;36m[Kint[m[K
+      |                                                    [32m[K%ld[m[K
+[100%] [32m[1mLinking CXX executable move_robot_server[0m
+[100%] Built target move_robot_server
+-- Install configuration: ""
+-- Up-to-date: /home/sven/ros2_ws/install/actions_cpp/lib/actions_cpp/count_until_server
+-- Up-to-date: /home/sven/ros2_ws/install/actions_cpp/lib/actions_cpp/count_until_server_queue_goals
+-- Up-to-date: /home/sven/ros2_ws/install/actions_cpp/lib/actions_cpp/count_until_client
+-- Installing: /home/sven/ros2_ws/install/actions_cpp/lib/actions_cpp/move_robot_server
+-- Set runtime path of "/home/sven/ros2_ws/install/actions_cpp/lib/actions_cpp/move_robot_server" to ""
+-- Up-to-date: /home/sven/ros2_ws/install/actions_cpp/lib/actions_cpp/move_robot_client
+-- Up-to-date: /home/sven/ros2_ws/install/actions_cpp/share/ament_index/resource_index/package_run_dependencies/actions_cpp
+-- Up-to-date: /home/sven/ros2_ws/install/actions_cpp/share/ament_index/resource_index/parent_prefix_path/actions_cpp
+-- Up-to-date: /home/sven/ros2_ws/install/actions_cpp/share/actions_cpp/environment/ament_prefix_path.sh
+-- Up-to-date: /home/sven/ros2_ws/install/actions_cpp/share/actions_cpp/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/sven/ros2_ws/install/actions_cpp/share/actions_cpp/environment/path.sh
+-- Up-to-date: /home/sven/ros2_ws/install/actions_cpp/share/actions_cpp/environment/path.dsv
+-- Up-to-date: /home/sven/ros2_ws/install/actions_cpp/share/actions_cpp/local_setup.bash
+-- Up-to-date: /home/sven/ros2_ws/install/actions_cpp/share/actions_cpp/local_setup.sh
+-- Up-to-date: /home/sven/ros2_ws/install/actions_cpp/share/actions_cpp/local_setup.zsh
+-- Up-to-date: /home/sven/ros2_ws/install/actions_cpp/share/actions_cpp/local_setup.dsv
+-- Installing: /home/sven/ros2_ws/install/actions_cpp/share/actions_cpp/package.dsv
+-- Up-to-date: /home/sven/ros2_ws/install/actions_cpp/share/ament_index/resource_index/packages/actions_cpp
+-- Up-to-date: /home/sven/ros2_ws/install/actions_cpp/share/actions_cpp/cmake/actions_cppConfig.cmake
+-- Up-to-date: /home/sven/ros2_ws/install/actions_cpp/share/actions_cpp/cmake/actions_cppConfig-version.cmake
+-- Up-to-date: /home/sven/ros2_ws/install/actions_cpp/share/actions_cpp/package.xml

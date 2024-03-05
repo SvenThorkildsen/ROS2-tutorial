@@ -1,0 +1,11 @@
+[01m[K/home/sven/ros2_ws/src/actions_cpp/src/move_robot_client.cpp:[m[K In member function ‘[01m[Kvoid MoveRobotClientNode::goal_response_callback(const SharedPtr&)[m[K’:
+[01m[K/home/sven/ros2_ws/src/actions_cpp/src/move_robot_client.cpp:56:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MoveRobotClientNode[m[K’ has no member named ‘[01m[Kgoal_handle_[m[K’
+   56 |             this->[01;31m[Kgoal_handle_[m[K = goal_handle;
+      |                   [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/sven/ros2_ws/src/actions_cpp/src/move_robot_client.cpp:[m[K In member function ‘[01m[Kvoid MoveRobotClientNode::goal_result_callback(const rclcpp_action::ClientGoalHandle<my_robot_interfaces::action::MoveRobot>::WrappedResult&)[m[K’:
+[01m[K/home/sven/ros2_ws/src/actions_cpp/src/move_robot_client.cpp:79:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct my_robot_interfaces::action::MoveRobot_Result_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct my_robot_interfaces::action::MoveRobot_Result_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kreached_number[m[K’
+   79 |         int reached_number = result.result->[01;31m[Kreached_number[m[K;
+      |                                             [01;31m[K^~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/move_robot_client.dir/build.make:76: CMakeFiles/move_robot_client.dir/src/move_robot_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/move_robot_client.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

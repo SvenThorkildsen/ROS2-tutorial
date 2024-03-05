@@ -1,0 +1,13 @@
+[35m[1mConsolidate compiler generated dependencies of target move_robot_client[0m
+[ 80%] Built target move_robot_server
+[ 80%] Built target count_until_server_queue_goals
+[ 80%] Built target count_until_client
+[ 80%] Built target count_until_server
+[ 90%] [32mBuilding CXX object CMakeFiles/move_robot_client.dir/src/move_robot_client.cpp.o[0m
+[01m[K/home/sven/ros2_ws/src/actions_cpp/src/move_robot_client.cpp:[m[K In member function ‘[01m[Kvoid MoveRobotClientNode::goal_response_callback(const SharedPtr&)[m[K’:
+[01m[K/home/sven/ros2_ws/src/actions_cpp/src/move_robot_client.cpp:56:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MoveRobotClientNode[m[K’ has no member named ‘[01m[Kgoal_handle_[m[K’
+   56 |             this->[01;31m[Kgoal_handle_[m[K = goal_handle;
+      |                   [01;31m[K^~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/move_robot_client.dir/build.make:76: CMakeFiles/move_robot_client.dir/src/move_robot_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/move_robot_client.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

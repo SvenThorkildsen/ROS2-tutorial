@@ -270,8 +270,17 @@ CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c__pyext.dir/ro
   rosidl_generator_c/my_robot_interfaces/action/detail/count_until__struct.h \
   /opt/ros/humble/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.h \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
-  rosidl_generator_c/my_robot_interfaces/action/detail/count_until__functions.h
+  rosidl_generator_c/my_robot_interfaces/action/detail/count_until__functions.h \
+  rosidl_generator_c/my_robot_interfaces/action/detail/move_robot__type_support.h \
+  rosidl_generator_c/my_robot_interfaces/action/detail/move_robot__struct.h \
+  rosidl_generator_c/my_robot_interfaces/action/detail/move_robot__functions.h
 
+
+rosidl_generator_c/my_robot_interfaces/action/detail/move_robot__functions.h:
+
+rosidl_generator_c/my_robot_interfaces/action/detail/move_robot__struct.h:
+
+rosidl_generator_c/my_robot_interfaces/action/detail/move_robot__type_support.h:
 
 rosidl_generator_c/my_robot_interfaces/action/detail/count_until__functions.h:
 

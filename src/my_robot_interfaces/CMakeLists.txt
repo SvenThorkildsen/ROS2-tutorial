@@ -11,6 +11,7 @@ find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "action/CountUntil.action"
+  "action/MoveRobot.action"
   "msg/HardwareStatus.msg"
   "msg/LedStatus.msg"
   "msg/Turtle.msg"

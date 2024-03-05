@@ -1,0 +1,53 @@
+-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_action: 16.0.8 (/opt/ros/humble/share/rclcpp_action/cmake)
+-- Found my_robot_interfaces: 0.0.0 (/home/sven/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/sven/ros2_ws/build/actions_cpp
+[35m[1mConsolidate compiler generated dependencies of target count_until_server_queue_goals[0m
+[35m[1mConsolidate compiler generated dependencies of target count_until_client[0m
+[35m[1mConsolidate compiler generated dependencies of target count_until_server[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/count_until_client.dir/src/count_until_client.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/count_until_server_queue_goals.dir/src/count_until_server_queue_goals.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/count_until_server.dir/src/count_until_server.cpp.o[0m
+[01m[K/home/sven/ros2_ws/src/actions_cpp/src/count_until_server_queue_goals.cpp:[m[K In member function ‘[01m[Kvoid CountUntilServerQueueGoalsNode::run_goal_queue_thread()[m[K’:
+[01m[K/home/sven/ros2_ws/src/actions_cpp/src/count_until_server_queue_goals.cpp:76:24:[m[K [01;35m[Kwarning: [m[Kthe address of ‘[01m[Kbool rclcpp::ok(rclcpp::Context::SharedPtr)[m[K’ will never be NULL [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-Waddress]8;;[m[K]
+   76 |         while ([01;35m[Krclcpp::ok[m[K)
+      |                [01;35m[K~~~~~~~~^~[m[K
+[ 66%] [32m[1mLinking CXX executable count_until_server[0m
+[ 83%] [32m[1mLinking CXX executable count_until_server_queue_goals[0m
+[ 83%] Built target count_until_server
+[100%] [32m[1mLinking CXX executable count_until_client[0m
+[100%] Built target count_until_server_queue_goals
+[100%] Built target count_until_client
+-- Install configuration: ""
+-- Installing: /home/sven/ros2_ws/install/actions_cpp/lib/actions_cpp/count_until_server
+-- Set runtime path of "/home/sven/ros2_ws/install/actions_cpp/lib/actions_cpp/count_until_server" to ""
+-- Installing: /home/sven/ros2_ws/install/actions_cpp/lib/actions_cpp/count_until_server_queue_goals
+-- Set runtime path of "/home/sven/ros2_ws/install/actions_cpp/lib/actions_cpp/count_until_server_queue_goals" to ""
+-- Installing: /home/sven/ros2_ws/install/actions_cpp/lib/actions_cpp/count_until_client
+-- Set runtime path of "/home/sven/ros2_ws/install/actions_cpp/lib/actions_cpp/count_until_client" to ""
+-- Up-to-date: /home/sven/ros2_ws/install/actions_cpp/share/ament_index/resource_index/package_run_dependencies/actions_cpp
+-- Up-to-date: /home/sven/ros2_ws/install/actions_cpp/share/ament_index/resource_index/parent_prefix_path/actions_cpp
+-- Up-to-date: /home/sven/ros2_ws/install/actions_cpp/share/actions_cpp/environment/ament_prefix_path.sh
+-- Installing: /home/sven/ros2_ws/install/actions_cpp/share/actions_cpp/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/sven/ros2_ws/install/actions_cpp/share/actions_cpp/environment/path.sh
+-- Installing: /home/sven/ros2_ws/install/actions_cpp/share/actions_cpp/environment/path.dsv
+-- Up-to-date: /home/sven/ros2_ws/install/actions_cpp/share/actions_cpp/local_setup.bash
+-- Up-to-date: /home/sven/ros2_ws/install/actions_cpp/share/actions_cpp/local_setup.sh
+-- Up-to-date: /home/sven/ros2_ws/install/actions_cpp/share/actions_cpp/local_setup.zsh
+-- Installing: /home/sven/ros2_ws/install/actions_cpp/share/actions_cpp/local_setup.dsv
+-- Installing: /home/sven/ros2_ws/install/actions_cpp/share/actions_cpp/package.dsv
+-- Up-to-date: /home/sven/ros2_ws/install/actions_cpp/share/ament_index/resource_index/packages/actions_cpp
+-- Up-to-date: /home/sven/ros2_ws/install/actions_cpp/share/actions_cpp/cmake/actions_cppConfig.cmake
+-- Up-to-date: /home/sven/ros2_ws/install/actions_cpp/share/actions_cpp/cmake/actions_cppConfig-version.cmake
+-- Up-to-date: /home/sven/ros2_ws/install/actions_cpp/share/actions_cpp/package.xml

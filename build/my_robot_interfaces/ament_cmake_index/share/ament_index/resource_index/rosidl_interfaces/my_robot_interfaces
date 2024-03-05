@@ -1,5 +1,7 @@
 action/CountUntil.action
 action/CountUntil.idl
+action/MoveRobot.action
+action/MoveRobot.idl
 msg/HardwareStatus.idl
 msg/HardwareStatus.msg
 msg/LedStatus.idl

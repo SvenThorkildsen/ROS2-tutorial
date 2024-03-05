@@ -13,21 +13,22 @@ public:
     CountUntilServerNode() : Node("count_until_server") 
     {
         cb_group_ = this->create_callback_group(rclcpp::CallbackGroupType::Reentrant);
-         count_until_server_ = rclcpp_action::create_server<CountUntil>(
+        count_until_server_ = rclcpp_action::create_server<CountUntil>(
             this,
             "count_until",
             std::bind(&CountUntilServerNode::goal_callback, this, _1, _2),
             std::bind(&CountUntilServerNode::cancel_callback, this, _1),
             std::bind(&CountUntilServerNode::handle_accepted_callback, this, _1),
             rcl_action_server_get_default_options(),
-            cb_group_
-         );
-         RCLCPP_INFO(this->get_logger(), "Action server has been started");
+            cb_group_);
+            
+        RCLCPP_INFO(this->get_logger(), "Action server has been started");
     }
 
 private:
     rclcpp_action::GoalResponse goal_callback(
-        const rclcpp_action::GoalUUID &uuid, std::shared_ptr<const CountUntil::Goal> goal)
+        const rclcpp_action::GoalUUID &uuid,
+        std::shared_ptr<const CountUntil::Goal> goal)
     {
         (void)uuid;
         RCLCPP_INFO(this->get_logger(), "Received a goal");

@@ -1,0 +1,19 @@
+[35m[1mConsolidate compiler generated dependencies of target move_robot_client[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/move_robot_server.dir/src/move_robot_server.cpp.o[0m
+[ 60%] Built target count_until_client
+[ 70%] Built target count_until_server_queue_goals
+[ 70%] Built target count_until_server
+[ 90%] Built target move_robot_client
+[01m[K/home/sven/ros2_ws/src/actions_cpp/src/move_robot_server.cpp:[m[K In member function ‘[01m[Kvoid MoveRobotServerNode::execute_goal(std::shared_ptr<rclcpp_action::ServerGoalHandle<my_robot_interfaces::action::MoveRobot> >)[m[K’:
+[01m[K/home/sven/ros2_ws/src/actions_cpp/src/move_robot_server.cpp:72:15:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K([m[K’ before ‘[01m[K![m[K’ token
+   72 |         while [01;31m[K![m[K(current_position_ == target_position)
+      |               [01;31m[K^[m[K
+[01m[K/home/sven/ros2_ws/src/actions_cpp/src/move_robot_server.cpp:73:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K{[m[K’ token
+   73 |         [01;31m[K{[m[K
+      |         [01;31m[K^[m[K
+[01m[K/home/sven/ros2_ws/src/actions_cpp/src/move_robot_server.cpp:72:15:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   72 |         while [01;36m[K![m[K(current_position_ == target_position)
+      |               [01;36m[K^[m[K
+gmake[2]: *** [CMakeFiles/move_robot_server.dir/build.make:76: CMakeFiles/move_robot_server.dir/src/move_robot_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:223: CMakeFiles/move_robot_server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

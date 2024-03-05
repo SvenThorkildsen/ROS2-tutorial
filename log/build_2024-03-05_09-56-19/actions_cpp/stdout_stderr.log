@@ -1,0 +1,14 @@
+[ 70%] [32mBuilding CXX object CMakeFiles/move_robot_server.dir/src/move_robot_server.cpp.o[0m
+[ 70%] Built target count_until_client
+[ 90%] Built target count_until_server_queue_goals
+[ 90%] Built target move_robot_client
+[ 90%] Built target count_until_server
+[01m[K/home/sven/ros2_ws/src/actions_cpp/src/move_robot_server.cpp:[m[K In member function ‘[01m[Kvoid MoveRobotServerNode::execute_goal(std::shared_ptr<rclcpp_action::ServerGoalHandle<my_robot_interfaces::action::MoveRobot> >)[m[K’:
+[01m[K/home/sven/ros2_ws/src/actions_cpp/src/move_robot_server.cpp:125:36:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kconst char*[m[K’ to ‘[01m[Kmy_robot_interfaces::action::MoveRobot_Result_<std::allocator<void> >::_position_type[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  125 |                 result->position = [01;31m[K"Goal was canceled"[m[K;
+      |                                    [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |                                    [01;31m[K|[m[K
+      |                                    [01;31m[Kconst char*[m[K
+gmake[2]: *** [CMakeFiles/move_robot_server.dir/build.make:76: CMakeFiles/move_robot_server.dir/src/move_robot_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:223: CMakeFiles/move_robot_server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

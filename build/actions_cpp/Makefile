@@ -236,6 +236,32 @@ count_until_client/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/count_until_client.dir/build.make CMakeFiles/count_until_client.dir/build
 .PHONY : count_until_client/fast
 
+#=============================================================================
+# Target rules for targets named move_robot_server
+
+# Build rule for target.
+move_robot_server: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 move_robot_server
+.PHONY : move_robot_server
+
+# fast build rule for target.
+move_robot_server/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_robot_server.dir/build.make CMakeFiles/move_robot_server.dir/build
+.PHONY : move_robot_server/fast
+
+#=============================================================================
+# Target rules for targets named move_robot_client
+
+# Build rule for target.
+move_robot_client: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 move_robot_client
+.PHONY : move_robot_client
+
+# fast build rule for target.
+move_robot_client/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_robot_client.dir/build.make CMakeFiles/move_robot_client.dir/build
+.PHONY : move_robot_client/fast
+
 src/count_until_client.o: src/count_until_client.cpp.o
 .PHONY : src/count_until_client.o
 
@@ -308,6 +334,54 @@ src/count_until_server_queue_goals.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/count_until_server_queue_goals.dir/build.make CMakeFiles/count_until_server_queue_goals.dir/src/count_until_server_queue_goals.cpp.s
 .PHONY : src/count_until_server_queue_goals.cpp.s
 
+src/move_robot_client.o: src/move_robot_client.cpp.o
+.PHONY : src/move_robot_client.o
+
+# target to build an object file
+src/move_robot_client.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_robot_client.dir/build.make CMakeFiles/move_robot_client.dir/src/move_robot_client.cpp.o
+.PHONY : src/move_robot_client.cpp.o
+
+src/move_robot_client.i: src/move_robot_client.cpp.i
+.PHONY : src/move_robot_client.i
+
+# target to preprocess a source file
+src/move_robot_client.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_robot_client.dir/build.make CMakeFiles/move_robot_client.dir/src/move_robot_client.cpp.i
+.PHONY : src/move_robot_client.cpp.i
+
+src/move_robot_client.s: src/move_robot_client.cpp.s
+.PHONY : src/move_robot_client.s
+
+# target to generate assembly for a file
+src/move_robot_client.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_robot_client.dir/build.make CMakeFiles/move_robot_client.dir/src/move_robot_client.cpp.s
+.PHONY : src/move_robot_client.cpp.s
+
+src/move_robot_server.o: src/move_robot_server.cpp.o
+.PHONY : src/move_robot_server.o
+
+# target to build an object file
+src/move_robot_server.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_robot_server.dir/build.make CMakeFiles/move_robot_server.dir/src/move_robot_server.cpp.o
+.PHONY : src/move_robot_server.cpp.o
+
+src/move_robot_server.i: src/move_robot_server.cpp.i
+.PHONY : src/move_robot_server.i
+
+# target to preprocess a source file
+src/move_robot_server.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_robot_server.dir/build.make CMakeFiles/move_robot_server.dir/src/move_robot_server.cpp.i
+.PHONY : src/move_robot_server.cpp.i
+
+src/move_robot_server.s: src/move_robot_server.cpp.s
+.PHONY : src/move_robot_server.s
+
+# target to generate assembly for a file
+src/move_robot_server.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_robot_server.dir/build.make CMakeFiles/move_robot_server.dir/src/move_robot_server.cpp.s
+.PHONY : src/move_robot_server.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -326,6 +400,8 @@ help:
 	@echo "... count_until_client"
 	@echo "... count_until_server"
 	@echo "... count_until_server_queue_goals"
+	@echo "... move_robot_client"
+	@echo "... move_robot_server"
 	@echo "... src/count_until_client.o"
 	@echo "... src/count_until_client.i"
 	@echo "... src/count_until_client.s"
@@ -335,6 +411,12 @@ help:
 	@echo "... src/count_until_server_queue_goals.o"
 	@echo "... src/count_until_server_queue_goals.i"
 	@echo "... src/count_until_server_queue_goals.s"
+	@echo "... src/move_robot_client.o"
+	@echo "... src/move_robot_client.i"
+	@echo "... src/move_robot_client.s"
+	@echo "... src/move_robot_server.o"
+	@echo "... src/move_robot_server.i"
+	@echo "... src/move_robot_server.s"
 .PHONY : help
 
 

@@ -1,0 +1,21 @@
+[0.032s] Invoking command in '/home/sven/ros2_ws/build/actions_cpp': CMAKE_PREFIX_PATH=/home/sven/ros2_ws/install/my_robot_interfaces:/home/sven/ros2_ws/install/turtlesim_catch_them_all:/home/sven/ros2_ws/install/my_robot_bringup:/home/sven/ros2_ws/install/my_cpp_pkg:/home/sven/ros2_ws/install/actions_cpp:/home/sven/ros2_ws/install/my_robot_description:/home/sven/install/my_robot_description:/home/sven/ros2_ws/install/my_py_pkg:/home/sven/ros2_ws/install/actions_py:/opt/ros/humble LD_LIBRARY_PATH=/home/sven/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/sven/ros2_ws/build/actions_cpp -- -j20 -l20
+[0.053s] [35m[1mConsolidate compiler generated dependencies of target move_robot_client[0m
+[0.059s] [ 60%] [32mBuilding CXX object CMakeFiles/move_robot_server.dir/src/move_robot_server.cpp.o[0m
+[0.059s] [ 60%] Built target count_until_client
+[0.059s] [ 70%] Built target count_until_server_queue_goals
+[0.059s] [ 70%] Built target count_until_server
+[0.060s] [ 90%] Built target move_robot_client
+[1.130s] [01m[K/home/sven/ros2_ws/src/actions_cpp/src/move_robot_server.cpp:[m[K In member function ‘[01m[Kvoid MoveRobotServerNode::execute_goal(std::shared_ptr<rclcpp_action::ServerGoalHandle<my_robot_interfaces::action::MoveRobot> >)[m[K’:
+[1.130s] [01m[K/home/sven/ros2_ws/src/actions_cpp/src/move_robot_server.cpp:72:15:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K([m[K’ before ‘[01m[K![m[K’ token
+[1.130s]    72 |         while [01;31m[K![m[K(current_position_ == target_position)
+[1.130s]       |               [01;31m[K^[m[K
+[1.130s] [01m[K/home/sven/ros2_ws/src/actions_cpp/src/move_robot_server.cpp:73:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K{[m[K’ token
+[1.131s]    73 |         [01;31m[K{[m[K
+[1.131s]       |         [01;31m[K^[m[K
+[1.131s] [01m[K/home/sven/ros2_ws/src/actions_cpp/src/move_robot_server.cpp:72:15:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[1.131s]    72 |         while [01;36m[K![m[K(current_position_ == target_position)
+[1.131s]       |               [01;36m[K^[m[K
+[1.436s] gmake[2]: *** [CMakeFiles/move_robot_server.dir/build.make:76: CMakeFiles/move_robot_server.dir/src/move_robot_server.cpp.o] Error 1
+[1.436s] gmake[1]: *** [CMakeFiles/Makefile2:223: CMakeFiles/move_robot_server.dir/all] Error 2
+[1.436s] gmake: *** [Makefile:146: all] Error 2
+[1.439s] Invoked command in '/home/sven/ros2_ws/build/actions_cpp' returned '2': CMAKE_PREFIX_PATH=/home/sven/ros2_ws/install/my_robot_interfaces:/home/sven/ros2_ws/install/turtlesim_catch_them_all:/home/sven/ros2_ws/install/my_robot_bringup:/home/sven/ros2_ws/install/my_cpp_pkg:/home/sven/ros2_ws/install/actions_cpp:/home/sven/ros2_ws/install/my_robot_description:/home/sven/install/my_robot_description:/home/sven/ros2_ws/install/my_py_pkg:/home/sven/ros2_ws/install/actions_py:/opt/ros/humble LD_LIBRARY_PATH=/home/sven/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/sven/ros2_ws/build/actions_cpp -- -j20 -l20

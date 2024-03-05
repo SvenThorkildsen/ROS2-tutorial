@@ -1,0 +1,39 @@
+[35m[1mConsolidate compiler generated dependencies of target move_robot_server[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/move_robot_client.dir/src/move_robot_client.cpp.o[0m
+[ 60%] Built target count_until_server_queue_goals
+[ 70%] Built target count_until_client
+[ 70%] Built target count_until_server
+[ 80%] [32mBuilding CXX object CMakeFiles/move_robot_server.dir/src/move_robot_server.cpp.o[0m
+[01m[K/home/sven/ros2_ws/src/actions_cpp/src/move_robot_client.cpp:50:5:[m[K [01;31m[Kerror: [m[Kinvalid use of qualified-name ‘[01m[Krclcpp_action::Client<my_robot_interfaces::action::MoveRobot>::SharedPtr[m[K’
+   50 |     [01;31m[Krclcpp_action[m[K::Client<MoveRobot>::SharedPtr move_robot_client_;
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/sven/ros2_ws/src/actions_cpp/src/move_robot_client.cpp:50:39:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   50 |     rclcpp_action::Client<MoveRobot>::[01;31m[KSharedPtr[m[K move_robot_client_;
+      |                                       [01;31m[K^~~~~~~~~[m[K
+      |                                                [32m[K;[m[K
+[01m[K/home/sven/ros2_ws/src/actions_cpp/src/move_robot_client.cpp:50:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_robot_client_[m[K’ does not name a type
+   50 |     rclcpp_action::Client<MoveRobot>::SharedPtr [01;31m[Kmove_robot_client_[m[K;
+      |                                                 [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sven/ros2_ws/src/actions_cpp/src/move_robot_client.cpp:[m[K In constructor ‘[01m[KMoveRobotClientNode::MoveRobotClientNode()[m[K’:
+[01m[K/home/sven/ros2_ws/src/actions_cpp/src/move_robot_client.cpp:14:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_robot_client_[m[K’ was not declared in this scope
+   14 |         [01;31m[Kmove_robot_client_[m[K =
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sven/ros2_ws/src/actions_cpp/src/move_robot_client.cpp:[m[K In member function ‘[01m[Kvoid MoveRobotClientNode::send_goal(int, int)[m[K’:
+[01m[K/home/sven/ros2_ws/src/actions_cpp/src/move_robot_client.cpp:24:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_robot_client_[m[K’ was not declared in this scope
+   24 |         [01;31m[Kmove_robot_client_[m[K->wait_for_action_server();
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sven/ros2_ws/src/actions_cpp/src/move_robot_client.cpp:34:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_result_callback[m[K’ is not a member of ‘[01m[KMoveRobotClientNode[m[K’
+   34 |             std::bind(&MoveRobotClientNode::[01;31m[Kgoal_result_callback[m[K, this, _1);
+      |                                             [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sven/ros2_ws/src/actions_cpp/src/move_robot_client.cpp:36:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_response_callback[m[K’ is not a member of ‘[01m[KMoveRobotClientNode[m[K’
+   36 |             std::bind(&MoveRobotClientNode::[01;31m[Kgoal_response_callback[m[K, this, _1);
+      |                                             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sven/ros2_ws/src/actions_cpp/src/move_robot_client.cpp:38:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_feedback_callback[m[K’ is not a member of ‘[01m[KMoveRobotClientNode[m[K’
+   38 |             std::bind(&MoveRobotClientNode::[01;31m[Kgoal_feedback_callback[m[K, this, _1, _2);
+      |                                             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/move_robot_client.dir/build.make:76: CMakeFiles/move_robot_client.dir/src/move_robot_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/move_robot_client.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 90%] [32m[1mLinking CXX executable move_robot_server[0m
+[ 90%] Built target move_robot_server
+gmake: *** [Makefile:146: all] Error 2

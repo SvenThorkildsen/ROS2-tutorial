@@ -1,0 +1,43 @@
+[35m[1mConsolidate compiler generated dependencies of target move_robot_client[0m
+[ 60%] Built target count_until_client
+[ 60%] Built target count_until_server_queue_goals
+[ 60%] Built target move_robot_server
+[ 80%] Built target count_until_server
+[ 90%] [32mBuilding CXX object CMakeFiles/move_robot_client.dir/src/move_robot_client.cpp.o[0m
+[01m[K/home/sven/ros2_ws/src/actions_cpp/src/move_robot_client.cpp:48:39:[m[K [01;31m[Kerror: [m[K‘[01m[KRobotMoveGoalHandle[m[K’ does not name a type
+   48 |     void goal_response_callback(const [01;31m[KRobotMoveGoalHandle[m[K::SharedPtr &goal_handle)
+      |                                       [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sven/ros2_ws/src/actions_cpp/src/move_robot_client.cpp:48:70:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+   48 |     void goal_response_callback(const RobotMoveGoalHandle::SharedPtr [01;31m[K&[m[Kgoal_handle)
+      |                                                                      [01;31m[K^[m[K
+[01m[K/home/sven/ros2_ws/src/actions_cpp/src/move_robot_client.cpp:48:69:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+   48 |     void goal_response_callback[34m[K([m[Kconst RobotMoveGoalHandle::SharedPtr[01;31m[K [m[K[32m[K&[m[Kgoal_handle)
+      |                                [34m[K~[m[K                                    [01;31m[K^[m[K[32m[K~[m[K
+      |                                                                     [32m[K)[m[K
+[01m[K/home/sven/ros2_ws/src/actions_cpp/src/move_robot_client.cpp:48:70:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   48 |     void goal_response_callback(const RobotMoveGoalHandle::SharedPtr [01;31m[K&[m[Kgoal_handle)
+      |                                                                      [01;31m[K^[m[K
+      |                                                                       [32m[K;[m[K
+[01m[K/home/sven/ros2_ws/src/actions_cpp/src/move_robot_client.cpp:48:71:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_handle[m[K’ does not name a type
+   48 |     void goal_response_callback(const RobotMoveGoalHandle::SharedPtr &[01;31m[Kgoal_handle[m[K)
+      |                                                                       [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/sven/ros2_ws/src/actions_cpp/src/move_robot_client.cpp:63:37:[m[K [01;31m[Kerror: [m[K‘[01m[KRobotMoveGoalHandle[m[K’ does not name a type
+   63 |     void goal_result_callback(const [01;31m[KRobotMoveGoalHandle[m[K::WrappedResult &result)
+      |                                     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sven/ros2_ws/src/actions_cpp/src/move_robot_client.cpp:63:72:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+   63 |     void goal_result_callback(const RobotMoveGoalHandle::WrappedResult [01;31m[K&[m[Kresult)
+      |                                                                        [01;31m[K^[m[K
+[01m[K/home/sven/ros2_ws/src/actions_cpp/src/move_robot_client.cpp:63:71:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+   63 |     void goal_result_callback[34m[K([m[Kconst RobotMoveGoalHandle::WrappedResult[01;31m[K [m[K[32m[K&[m[Kresult)
+      |                              [34m[K~[m[K                                        [01;31m[K^[m[K[32m[K~[m[K
+      |                                                                       [32m[K)[m[K
+[01m[K/home/sven/ros2_ws/src/actions_cpp/src/move_robot_client.cpp:63:72:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   63 |     void goal_result_callback(const RobotMoveGoalHandle::WrappedResult [01;31m[K&[m[Kresult)
+      |                                                                        [01;31m[K^[m[K
+      |                                                                         [32m[K;[m[K
+[01m[K/home/sven/ros2_ws/src/actions_cpp/src/move_robot_client.cpp:63:73:[m[K [01;31m[Kerror: [m[K‘[01m[Kresult[m[K’ does not name a type
+   63 |     void goal_result_callback(const RobotMoveGoalHandle::WrappedResult &[01;31m[Kresult[m[K)
+      |                                                                         [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/move_robot_client.dir/build.make:76: CMakeFiles/move_robot_client.dir/src/move_robot_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/move_robot_client.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

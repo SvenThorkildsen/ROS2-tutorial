@@ -66,6 +66,8 @@ CMAKE_BINARY_DIR = /home/sven/ros2_ws/build/actions_cpp
 all: CMakeFiles/count_until_server.dir/all
 all: CMakeFiles/count_until_server_queue_goals.dir/all
 all: CMakeFiles/count_until_client.dir/all
+all: CMakeFiles/move_robot_server.dir/all
+all: CMakeFiles/move_robot_client.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -78,6 +80,8 @@ clean: CMakeFiles/actions_cpp_uninstall.dir/clean
 clean: CMakeFiles/count_until_server.dir/clean
 clean: CMakeFiles/count_until_server_queue_goals.dir/clean
 clean: CMakeFiles/count_until_client.dir/clean
+clean: CMakeFiles/move_robot_server.dir/clean
+clean: CMakeFiles/move_robot_client.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -209,6 +213,58 @@ count_until_client: CMakeFiles/count_until_client.dir/rule
 CMakeFiles/count_until_client.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/count_until_client.dir/build.make CMakeFiles/count_until_client.dir/clean
 .PHONY : CMakeFiles/count_until_client.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/move_robot_server.dir
+
+# All Build rule for target.
+CMakeFiles/move_robot_server.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_robot_server.dir/build.make CMakeFiles/move_robot_server.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_robot_server.dir/build.make CMakeFiles/move_robot_server.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sven/ros2_ws/build/actions_cpp/CMakeFiles --progress-num=9,10 "Built target move_robot_server"
+.PHONY : CMakeFiles/move_robot_server.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/move_robot_server.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sven/ros2_ws/build/actions_cpp/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/move_robot_server.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sven/ros2_ws/build/actions_cpp/CMakeFiles 0
+.PHONY : CMakeFiles/move_robot_server.dir/rule
+
+# Convenience name for target.
+move_robot_server: CMakeFiles/move_robot_server.dir/rule
+.PHONY : move_robot_server
+
+# clean rule for target.
+CMakeFiles/move_robot_server.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_robot_server.dir/build.make CMakeFiles/move_robot_server.dir/clean
+.PHONY : CMakeFiles/move_robot_server.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/move_robot_client.dir
+
+# All Build rule for target.
+CMakeFiles/move_robot_client.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_robot_client.dir/build.make CMakeFiles/move_robot_client.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_robot_client.dir/build.make CMakeFiles/move_robot_client.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sven/ros2_ws/build/actions_cpp/CMakeFiles --progress-num=7,8 "Built target move_robot_client"
+.PHONY : CMakeFiles/move_robot_client.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/move_robot_client.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sven/ros2_ws/build/actions_cpp/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/move_robot_client.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sven/ros2_ws/build/actions_cpp/CMakeFiles 0
+.PHONY : CMakeFiles/move_robot_client.dir/rule
+
+# Convenience name for target.
+move_robot_client: CMakeFiles/move_robot_client.dir/rule
+.PHONY : move_robot_client
+
+# clean rule for target.
+CMakeFiles/move_robot_client.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_robot_client.dir/build.make CMakeFiles/move_robot_client.dir/clean
+.PHONY : CMakeFiles/move_robot_client.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

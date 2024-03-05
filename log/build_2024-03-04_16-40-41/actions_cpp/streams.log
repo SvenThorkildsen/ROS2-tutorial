@@ -1,0 +1,44 @@
+[0.031s] Invoking command in '/home/sven/ros2_ws/build/actions_cpp': CMAKE_PREFIX_PATH=/home/sven/ros2_ws/install/my_robot_interfaces:/home/sven/ros2_ws/install/turtlesim_catch_them_all:/home/sven/ros2_ws/install/my_robot_bringup:/home/sven/ros2_ws/install/my_cpp_pkg:/home/sven/ros2_ws/install/actions_cpp:/home/sven/ros2_ws/install/my_robot_description:/home/sven/install/my_robot_description:/home/sven/ros2_ws/install/my_py_pkg:/home/sven/ros2_ws/install/actions_py:/opt/ros/humble LD_LIBRARY_PATH=/home/sven/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/sven/ros2_ws/build/actions_cpp -- -j20 -l20
+[0.059s] [ 70%] [32mBuilding CXX object CMakeFiles/move_robot_client.dir/src/move_robot_client.cpp.o[0m
+[0.059s] [ 70%] Built target move_robot_server
+[0.059s] [ 70%] Built target count_until_server
+[0.059s] [ 70%] Built target count_until_client
+[0.059s] [ 90%] Built target count_until_server_queue_goals
+[1.109s] [01m[K/home/sven/ros2_ws/src/actions_cpp/src/move_robot_client.cpp:48:39:[m[K [01;31m[Kerror: [m[K‘[01m[KCountUntilGoalHandle[m[K’ does not name a type
+[1.109s]    48 |     void goal_response_callback(const [01;31m[KCountUntilGoalHandle[m[K::SharedPtr &goal_handle)
+[1.109s]       |                                       [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[1.109s] [01m[K/home/sven/ros2_ws/src/actions_cpp/src/move_robot_client.cpp:48:71:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+[1.109s]    48 |     void goal_response_callback(const CountUntilGoalHandle::SharedPtr [01;31m[K&[m[Kgoal_handle)
+[1.109s]       |                                                                       [01;31m[K^[m[K
+[1.109s] [01m[K/home/sven/ros2_ws/src/actions_cpp/src/move_robot_client.cpp:48:70:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+[1.109s]    48 |     void goal_response_callback[34m[K([m[Kconst CountUntilGoalHandle::SharedPtr[01;31m[K [m[K[32m[K&[m[Kgoal_handle)
+[1.109s]       |                                [34m[K~[m[K                                     [01;31m[K^[m[K[32m[K~[m[K
+[1.109s]       |                                                                      [32m[K)[m[K
+[1.110s] [01m[K/home/sven/ros2_ws/src/actions_cpp/src/move_robot_client.cpp:48:71:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[1.110s]    48 |     void goal_response_callback(const CountUntilGoalHandle::SharedPtr [01;31m[K&[m[Kgoal_handle)
+[1.110s]       |                                                                       [01;31m[K^[m[K
+[1.110s]       |                                                                        [32m[K;[m[K
+[1.110s] [01m[K/home/sven/ros2_ws/src/actions_cpp/src/move_robot_client.cpp:48:72:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_handle[m[K’ does not name a type
+[1.110s]    48 |     void goal_response_callback(const CountUntilGoalHandle::SharedPtr &[01;31m[Kgoal_handle[m[K)
+[1.110s]       |                                                                        [01;31m[K^~~~~~~~~~~[m[K
+[1.112s] [01m[K/home/sven/ros2_ws/src/actions_cpp/src/move_robot_client.cpp:63:37:[m[K [01;31m[Kerror: [m[K‘[01m[KCountUntilGoalHandle[m[K’ does not name a type
+[1.112s]    63 |     void goal_result_callback(const [01;31m[KCountUntilGoalHandle[m[K::WrappedResult &result)
+[1.112s]       |                                     [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[1.112s] [01m[K/home/sven/ros2_ws/src/actions_cpp/src/move_robot_client.cpp:63:73:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+[1.112s]    63 |     void goal_result_callback(const CountUntilGoalHandle::WrappedResult [01;31m[K&[m[Kresult)
+[1.112s]       |                                                                         [01;31m[K^[m[K
+[1.112s] [01m[K/home/sven/ros2_ws/src/actions_cpp/src/move_robot_client.cpp:63:72:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+[1.112s]    63 |     void goal_result_callback[34m[K([m[Kconst CountUntilGoalHandle::WrappedResult[01;31m[K [m[K[32m[K&[m[Kresult)
+[1.112s]       |                              [34m[K~[m[K                                         [01;31m[K^[m[K[32m[K~[m[K
+[1.112s]       |                                                                        [32m[K)[m[K
+[1.112s] [01m[K/home/sven/ros2_ws/src/actions_cpp/src/move_robot_client.cpp:63:73:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[1.112s]    63 |     void goal_result_callback(const CountUntilGoalHandle::WrappedResult [01;31m[K&[m[Kresult)
+[1.112s]       |                                                                         [01;31m[K^[m[K
+[1.112s]       |                                                                          [32m[K;[m[K
+[1.112s] [01m[K/home/sven/ros2_ws/src/actions_cpp/src/move_robot_client.cpp:63:74:[m[K [01;31m[Kerror: [m[K‘[01m[Kresult[m[K’ does not name a type
+[1.112s]    63 |     void goal_result_callback(const CountUntilGoalHandle::WrappedResult &[01;31m[Kresult[m[K)
+[1.112s]       |                                                                          [01;31m[K^~~~~~[m[K
+[1.460s] gmake[2]: *** [CMakeFiles/move_robot_client.dir/build.make:76: CMakeFiles/move_robot_client.dir/src/move_robot_client.cpp.o] Error 1
+[1.460s] gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/move_robot_client.dir/all] Error 2
+[1.460s] gmake: *** [Makefile:146: all] Error 2
+[1.462s] Invoked command in '/home/sven/ros2_ws/build/actions_cpp' returned '2': CMAKE_PREFIX_PATH=/home/sven/ros2_ws/install/my_robot_interfaces:/home/sven/ros2_ws/install/turtlesim_catch_them_all:/home/sven/ros2_ws/install/my_robot_bringup:/home/sven/ros2_ws/install/my_cpp_pkg:/home/sven/ros2_ws/install/actions_cpp:/home/sven/ros2_ws/install/my_robot_description:/home/sven/install/my_robot_description:/home/sven/ros2_ws/install/my_py_pkg:/home/sven/ros2_ws/install/actions_py:/opt/ros/humble LD_LIBRARY_PATH=/home/sven/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/sven/ros2_ws/build/actions_cpp -- -j20 -l20

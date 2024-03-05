@@ -1,0 +1,5 @@
+[ 80%] Built target count_until_client
+[ 80%] Built target count_until_server
+[ 80%] [32mBuilding CXX object CMakeFiles/move_robot_server.dir/src/move_robot_server.cpp.o[0m
+[ 90%] Built target count_until_server_queue_goals
+[ 90%] Built target move_robot_client

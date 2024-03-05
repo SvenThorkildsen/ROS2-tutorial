@@ -1,0 +1,30 @@
+[35m[1mConsolidate compiler generated dependencies of target move_robot_server[0m
+[ 50%] Built target count_until_client
+[ 50%] Built target count_until_server
+[ 60%] Built target count_until_server_queue_goals
+[ 80%] Built target move_robot_client
+[ 90%] [32mBuilding CXX object CMakeFiles/move_robot_server.dir/src/move_robot_server.cpp.o[0m
+[100%] [32m[1mLinking CXX executable move_robot_server[0m
+[100%] Built target move_robot_server
+-- Install configuration: ""
+-- Up-to-date: /home/sven/ros2_ws/install/actions_cpp/lib/actions_cpp/count_until_server
+-- Up-to-date: /home/sven/ros2_ws/install/actions_cpp/lib/actions_cpp/count_until_server_queue_goals
+-- Up-to-date: /home/sven/ros2_ws/install/actions_cpp/lib/actions_cpp/count_until_client
+-- Installing: /home/sven/ros2_ws/install/actions_cpp/lib/actions_cpp/move_robot_server
+-- Set runtime path of "/home/sven/ros2_ws/install/actions_cpp/lib/actions_cpp/move_robot_server" to ""
+-- Up-to-date: /home/sven/ros2_ws/install/actions_cpp/lib/actions_cpp/move_robot_client
+-- Up-to-date: /home/sven/ros2_ws/install/actions_cpp/share/ament_index/resource_index/package_run_dependencies/actions_cpp
+-- Up-to-date: /home/sven/ros2_ws/install/actions_cpp/share/ament_index/resource_index/parent_prefix_path/actions_cpp
+-- Up-to-date: /home/sven/ros2_ws/install/actions_cpp/share/actions_cpp/environment/ament_prefix_path.sh
+-- Up-to-date: /home/sven/ros2_ws/install/actions_cpp/share/actions_cpp/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/sven/ros2_ws/install/actions_cpp/share/actions_cpp/environment/path.sh
+-- Up-to-date: /home/sven/ros2_ws/install/actions_cpp/share/actions_cpp/environment/path.dsv
+-- Up-to-date: /home/sven/ros2_ws/install/actions_cpp/share/actions_cpp/local_setup.bash
+-- Up-to-date: /home/sven/ros2_ws/install/actions_cpp/share/actions_cpp/local_setup.sh
+-- Up-to-date: /home/sven/ros2_ws/install/actions_cpp/share/actions_cpp/local_setup.zsh
+-- Up-to-date: /home/sven/ros2_ws/install/actions_cpp/share/actions_cpp/local_setup.dsv
+-- Installing: /home/sven/ros2_ws/install/actions_cpp/share/actions_cpp/package.dsv
+-- Up-to-date: /home/sven/ros2_ws/install/actions_cpp/share/ament_index/resource_index/packages/actions_cpp
+-- Up-to-date: /home/sven/ros2_ws/install/actions_cpp/share/actions_cpp/cmake/actions_cppConfig.cmake
+-- Up-to-date: /home/sven/ros2_ws/install/actions_cpp/share/actions_cpp/cmake/actions_cppConfig-version.cmake
+-- Up-to-date: /home/sven/ros2_ws/install/actions_cpp/share/actions_cpp/package.xml

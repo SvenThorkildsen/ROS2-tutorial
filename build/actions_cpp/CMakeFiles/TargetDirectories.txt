@@ -3,6 +3,8 @@
 /home/sven/ros2_ws/build/actions_cpp/CMakeFiles/count_until_server.dir
 /home/sven/ros2_ws/build/actions_cpp/CMakeFiles/count_until_server_queue_goals.dir
 /home/sven/ros2_ws/build/actions_cpp/CMakeFiles/count_until_client.dir
+/home/sven/ros2_ws/build/actions_cpp/CMakeFiles/move_robot_server.dir
+/home/sven/ros2_ws/build/actions_cpp/CMakeFiles/move_robot_client.dir
 /home/sven/ros2_ws/build/actions_cpp/CMakeFiles/test.dir
 /home/sven/ros2_ws/build/actions_cpp/CMakeFiles/edit_cache.dir
 /home/sven/ros2_ws/build/actions_cpp/CMakeFiles/rebuild_cache.dir
