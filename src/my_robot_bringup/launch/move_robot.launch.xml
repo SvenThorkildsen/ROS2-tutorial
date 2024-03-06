@@ -1,0 +1,11 @@
+<launch>
+    <node pkg="lifecycle_cpp" exec="move_robot_server_lifecycle" name="move_robot_server_R2D2">
+        <param name="robot_name" value="R2D2" />
+    </node>
+    <node pkg="lifecycle_cpp" exec="move_robot_server_lifecycle" name="move_robot_server_C3PO">
+        <param name="robot_name" value="C3PO" />
+    </node>
+    <node pkg="lifecycle_py" exec="move_robot_startup">
+        <param name="managed_node_names" value="['move_robot_server_R2D2', 'move_robot_server_C3PO']" />
+    </node>
+</launch>

@@ -1,0 +1,23 @@
+[0.331s] Invoking command in '/home/sven/ros2_ws/build/lifecycle_py': PYTHONPATH=/home/sven/ros2_ws/build/lifecycle_py/prefix_override:/home/sven/ros2_ws/install/lifecycle_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/sven/ros2_ws/build/lifecycle_py/build --no-deps install_data
+[0.443s] running develop
+[0.443s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.443s]   warnings.warn(
+[0.443s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.443s]   warnings.warn(
+[0.503s] running egg_info
+[0.503s] writing lifecycle_py.egg-info/PKG-INFO
+[0.503s] writing dependency_links to lifecycle_py.egg-info/dependency_links.txt
+[0.503s] writing entry points to lifecycle_py.egg-info/entry_points.txt
+[0.503s] writing requirements to lifecycle_py.egg-info/requires.txt
+[0.503s] writing top-level names to lifecycle_py.egg-info/top_level.txt
+[0.504s] reading manifest file 'lifecycle_py.egg-info/SOURCES.txt'
+[0.504s] writing manifest file 'lifecycle_py.egg-info/SOURCES.txt'
+[0.505s] running build_ext
+[0.505s] Creating /home/sven/ros2_ws/install/lifecycle_py/lib/python3.10/site-packages/lifecycle-py.egg-link (link to .)
+[0.505s] Installing lifecycle_node_manager script to /home/sven/ros2_ws/install/lifecycle_py/lib/lifecycle_py
+[0.505s] Installing move_robot_startup script to /home/sven/ros2_ws/install/lifecycle_py/lib/lifecycle_py
+[0.505s] Installing number_publisher script to /home/sven/ros2_ws/install/lifecycle_py/lib/lifecycle_py
+[0.505s] 
+[0.505s] Installed /home/sven/ros2_ws/build/lifecycle_py
+[0.506s] running install_data
+[0.520s] Invoked command in '/home/sven/ros2_ws/build/lifecycle_py' returned '0': PYTHONPATH=/home/sven/ros2_ws/build/lifecycle_py/prefix_override:/home/sven/ros2_ws/install/lifecycle_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/sven/ros2_ws/build/lifecycle_py/build --no-deps install_data

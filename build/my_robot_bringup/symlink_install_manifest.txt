@@ -1,5 +1,6 @@
 /home/sven/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/launch/lifecycle_test.launch.py
 /home/sven/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/launch/lifecycle_test.launch.xml
+/home/sven/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/launch/move_robot.launch.xml
 /home/sven/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/launch/my_robot_gazebo.launch.xml
 /home/sven/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/launch/number_app.launch.py
 /home/sven/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/launch/robot_news_app.launch.py

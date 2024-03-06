@@ -8,14 +8,20 @@ endif()
 # find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
+find_package(rclcpp_action REQUIRED)
 find_package(rclcpp_lifecycle REQUIRED)
 find_package(example_interfaces REQUIRED)
+find_package(my_robot_interfaces REQUIRED)
 
 add_executable(number_publisher src/number_publisher.cpp)
 ament_target_dependencies(number_publisher rclcpp rclcpp_lifecycle example_interfaces)
 
+add_executable(move_robot_server_lifecycle src/move_robot_server_lifecycle.cpp)
+ament_target_dependencies(move_robot_server_lifecycle rclcpp rclcpp_action rclcpp_lifecycle example_interfaces my_robot_interfaces)
+
 install(TARGETS
   number_publisher
+  move_robot_server_lifecycle
   DESTINATION lib/${PROJECT_NAME}/
 )
 

@@ -210,6 +210,43 @@ number_publisher/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/number_publisher.dir/build.make CMakeFiles/number_publisher.dir/build
 .PHONY : number_publisher/fast
 
+#=============================================================================
+# Target rules for targets named move_robot_server_lifecycle
+
+# Build rule for target.
+move_robot_server_lifecycle: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 move_robot_server_lifecycle
+.PHONY : move_robot_server_lifecycle
+
+# fast build rule for target.
+move_robot_server_lifecycle/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_robot_server_lifecycle.dir/build.make CMakeFiles/move_robot_server_lifecycle.dir/build
+.PHONY : move_robot_server_lifecycle/fast
+
+src/move_robot_server_lifecycle.o: src/move_robot_server_lifecycle.cpp.o
+.PHONY : src/move_robot_server_lifecycle.o
+
+# target to build an object file
+src/move_robot_server_lifecycle.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_robot_server_lifecycle.dir/build.make CMakeFiles/move_robot_server_lifecycle.dir/src/move_robot_server_lifecycle.cpp.o
+.PHONY : src/move_robot_server_lifecycle.cpp.o
+
+src/move_robot_server_lifecycle.i: src/move_robot_server_lifecycle.cpp.i
+.PHONY : src/move_robot_server_lifecycle.i
+
+# target to preprocess a source file
+src/move_robot_server_lifecycle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_robot_server_lifecycle.dir/build.make CMakeFiles/move_robot_server_lifecycle.dir/src/move_robot_server_lifecycle.cpp.i
+.PHONY : src/move_robot_server_lifecycle.cpp.i
+
+src/move_robot_server_lifecycle.s: src/move_robot_server_lifecycle.cpp.s
+.PHONY : src/move_robot_server_lifecycle.s
+
+# target to generate assembly for a file
+src/move_robot_server_lifecycle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_robot_server_lifecycle.dir/build.make CMakeFiles/move_robot_server_lifecycle.dir/src/move_robot_server_lifecycle.cpp.s
+.PHONY : src/move_robot_server_lifecycle.cpp.s
+
 src/number_publisher.o: src/number_publisher.cpp.o
 .PHONY : src/number_publisher.o
 
@@ -249,7 +286,11 @@ help:
 	@echo "... test"
 	@echo "... lifecycle_cpp_uninstall"
 	@echo "... uninstall"
+	@echo "... move_robot_server_lifecycle"
 	@echo "... number_publisher"
+	@echo "... src/move_robot_server_lifecycle.o"
+	@echo "... src/move_robot_server_lifecycle.i"
+	@echo "... src/move_robot_server_lifecycle.s"
 	@echo "... src/number_publisher.o"
 	@echo "... src/number_publisher.i"
 	@echo "... src/number_publisher.s"

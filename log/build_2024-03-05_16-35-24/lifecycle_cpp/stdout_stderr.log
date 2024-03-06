@@ -1,0 +1,24 @@
+[35m[1mConsolidate compiler generated dependencies of target move_robot_server_lifecycle[0m
+[ 50%] Built target number_publisher
+[ 75%] [32mBuilding CXX object CMakeFiles/move_robot_server_lifecycle.dir/src/move_robot_server_lifecycle.cpp.o[0m
+[100%] [32m[1mLinking CXX executable move_robot_server_lifecycle[0m
+[100%] Built target move_robot_server_lifecycle
+-- Install configuration: ""
+-- Up-to-date: /home/sven/ros2_ws/install/lifecycle_cpp/lib/lifecycle_cpp/number_publisher
+-- Installing: /home/sven/ros2_ws/install/lifecycle_cpp/lib/lifecycle_cpp/move_robot_server_lifecycle
+-- Set runtime path of "/home/sven/ros2_ws/install/lifecycle_cpp/lib/lifecycle_cpp/move_robot_server_lifecycle" to ""
+-- Installing: /home/sven/ros2_ws/install/lifecycle_cpp/share/ament_index/resource_index/package_run_dependencies/lifecycle_cpp
+-- Up-to-date: /home/sven/ros2_ws/install/lifecycle_cpp/share/ament_index/resource_index/parent_prefix_path/lifecycle_cpp
+-- Up-to-date: /home/sven/ros2_ws/install/lifecycle_cpp/share/lifecycle_cpp/environment/ament_prefix_path.sh
+-- Installing: /home/sven/ros2_ws/install/lifecycle_cpp/share/lifecycle_cpp/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/sven/ros2_ws/install/lifecycle_cpp/share/lifecycle_cpp/environment/path.sh
+-- Installing: /home/sven/ros2_ws/install/lifecycle_cpp/share/lifecycle_cpp/environment/path.dsv
+-- Up-to-date: /home/sven/ros2_ws/install/lifecycle_cpp/share/lifecycle_cpp/local_setup.bash
+-- Up-to-date: /home/sven/ros2_ws/install/lifecycle_cpp/share/lifecycle_cpp/local_setup.sh
+-- Up-to-date: /home/sven/ros2_ws/install/lifecycle_cpp/share/lifecycle_cpp/local_setup.zsh
+-- Installing: /home/sven/ros2_ws/install/lifecycle_cpp/share/lifecycle_cpp/local_setup.dsv
+-- Installing: /home/sven/ros2_ws/install/lifecycle_cpp/share/lifecycle_cpp/package.dsv
+-- Up-to-date: /home/sven/ros2_ws/install/lifecycle_cpp/share/ament_index/resource_index/packages/lifecycle_cpp
+-- Up-to-date: /home/sven/ros2_ws/install/lifecycle_cpp/share/lifecycle_cpp/cmake/lifecycle_cppConfig.cmake
+-- Up-to-date: /home/sven/ros2_ws/install/lifecycle_cpp/share/lifecycle_cpp/cmake/lifecycle_cppConfig-version.cmake
+-- Installing: /home/sven/ros2_ws/install/lifecycle_cpp/share/lifecycle_cpp/package.xml

@@ -1,0 +1,28 @@
+[0.032s] Invoking command in '/home/sven/ros2_ws/build/lifecycle_cpp': CMAKE_PREFIX_PATH=/home/sven/ros2_ws/install/my_robot_interfaces:/home/sven/ros2_ws/install/turtlesim_catch_them_all:/home/sven/ros2_ws/install/my_robot_bringup:/home/sven/ros2_ws/install/my_cpp_pkg:/home/sven/ros2_ws/install/actions_cpp:/home/sven/ros2_ws/install/my_robot_description:/home/sven/ros2_ws/install/lifecycle_cpp:/home/sven/install/my_robot_description:/home/sven/ros2_ws/install/my_py_pkg:/home/sven/ros2_ws/install/actions_py:/home/sven/ros2_ws/install/lifecycle_py:/opt/ros/humble LD_LIBRARY_PATH=/home/sven/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/sven/ros2_ws/build/lifecycle_cpp -- -j20 -l20
+[0.052s] [35m[1mConsolidate compiler generated dependencies of target move_robot_server_lifecycle[0m
+[0.059s] [ 50%] Built target number_publisher
+[0.061s] [ 75%] [32mBuilding CXX object CMakeFiles/move_robot_server_lifecycle.dir/src/move_robot_server_lifecycle.cpp.o[0m
+[1.158s] [01m[K/home/sven/ros2_ws/src/lifecycle_cpp/src/move_robot_server_lifecycle.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.158s] [01m[K/home/sven/ros2_ws/src/lifecycle_cpp/src/move_robot_server_lifecycle.cpp:253:22:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::executors::MultiThreadedExecutor::add_node(std::shared_ptr<MoveRobotServerNode>&)[m[K’
+[1.158s]   253 |     [01;31m[Kexecutor.add_node(node)[m[K;
+[1.158s]       |     [01;31m[K~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[1.158s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.158s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.158s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.158s]                  from [01m[K/home/sven/ros2_ws/src/lifecycle_cpp/src/move_robot_server_lifecycle.cpp:1[m[K:
+[1.158s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:201:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvirtual void rclcpp::Executor::add_node(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr, bool)[m[K’
+[1.158s]   201 |   [01;36m[Kadd_node[m[K(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr, bool notify = true);
+[1.158s]       |   [01;36m[K^~~~~~~~[m[K
+[1.158s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:201:66:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kshared_ptr<[01;32m[KMoveRobotServerNode[m[K>[m[K’ to ‘[01m[Kshared_ptr<[01;32m[Krclcpp::node_interfaces::NodeBaseInterface[m[K>[m[K’
+[1.158s]   201 |   add_node([01;36m[Krclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr[m[K, bool notify = true);
+[1.158s]       |            [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[1.158s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:209:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvirtual void rclcpp::Executor::add_node(std::shared_ptr<rclcpp::Node>, bool)[m[K’
+[1.158s]   209 |   [01;36m[Kadd_node[m[K(std::shared_ptr<rclcpp::Node> node_ptr, bool notify = true);
+[1.158s]       |   [01;36m[K^~~~~~~~[m[K
+[1.158s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:209:42:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kshared_ptr<[01;32m[KMoveRobotServerNode[m[K>[m[K’ to ‘[01m[Kshared_ptr<[01;32m[Krclcpp::Node[m[K>[m[K’
+[1.158s]   209 |   add_node([01;36m[Kstd::shared_ptr<rclcpp::Node> node_ptr[m[K, bool notify = true);
+[1.158s]       |            [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[1.460s] gmake[2]: *** [CMakeFiles/move_robot_server_lifecycle.dir/build.make:76: CMakeFiles/move_robot_server_lifecycle.dir/src/move_robot_server_lifecycle.cpp.o] Error 1
+[1.460s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/move_robot_server_lifecycle.dir/all] Error 2
+[1.460s] gmake: *** [Makefile:146: all] Error 2
+[1.462s] Invoked command in '/home/sven/ros2_ws/build/lifecycle_cpp' returned '2': CMAKE_PREFIX_PATH=/home/sven/ros2_ws/install/my_robot_interfaces:/home/sven/ros2_ws/install/turtlesim_catch_them_all:/home/sven/ros2_ws/install/my_robot_bringup:/home/sven/ros2_ws/install/my_cpp_pkg:/home/sven/ros2_ws/install/actions_cpp:/home/sven/ros2_ws/install/my_robot_description:/home/sven/ros2_ws/install/lifecycle_cpp:/home/sven/install/my_robot_description:/home/sven/ros2_ws/install/my_py_pkg:/home/sven/ros2_ws/install/actions_py:/home/sven/ros2_ws/install/lifecycle_py:/opt/ros/humble LD_LIBRARY_PATH=/home/sven/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/sven/ros2_ws/build/lifecycle_cpp -- -j20 -l20

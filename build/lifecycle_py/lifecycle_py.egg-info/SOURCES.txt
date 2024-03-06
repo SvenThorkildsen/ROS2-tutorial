@@ -10,8 +10,13 @@ setup.py
 ../../build/lifecycle_py/lifecycle_py.egg-info/zip-safe
 lifecycle_py/__init__.py
 lifecycle_py/lifecycle_node_manager.py
+lifecycle_py/move_robot_startup.py
 lifecycle_py/number_publisher.py
+lifecycle_py.egg-info/PKG-INFO
+lifecycle_py.egg-info/SOURCES.txt
+lifecycle_py.egg-info/dependency_links.txt
+lifecycle_py.egg-info/entry_points.txt
+lifecycle_py.egg-info/requires.txt
+lifecycle_py.egg-info/top_level.txt
+lifecycle_py.egg-info/zip-safe
 resource/lifecycle_py
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py

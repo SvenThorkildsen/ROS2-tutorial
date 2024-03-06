@@ -272,7 +272,7 @@ SITE:STRING=sven-cleanseasolutions
 TinyXML2_DIR:PATH=TinyXML2_DIR-NOTFOUND
 
 //Path to a library.
-_lib:FILEPATH=/opt/ros/humble/lib/libexample_interfaces__rosidl_typesupport_fastrtps_cpp.so
+_lib:FILEPATH=/home/sven/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so
 
 //The directory containing a CMake configuration file for action_msgs.
 action_msgs_DIR:PATH=/opt/ros/humble/share/action_msgs/cmake
@@ -367,6 +367,9 @@ lifecycle_cpp_SOURCE_DIR:STATIC=/home/sven/ros2_ws/src/lifecycle_cpp
 //The directory containing a CMake configuration file for lifecycle_msgs.
 lifecycle_msgs_DIR:PATH=/opt/ros/humble/share/lifecycle_msgs/cmake
 
+//The directory containing a CMake configuration file for my_robot_interfaces.
+my_robot_interfaces_DIR:PATH=/home/sven/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake
+
 //Path to a library.
 pkgcfg_lib__OPENSSL_crypto:FILEPATH=/usr/lib/x86_64-linux-gnu/libcrypto.so
 
@@ -375,6 +378,9 @@ pkgcfg_lib__OPENSSL_ssl:FILEPATH=/usr/lib/x86_64-linux-gnu/libssl.so
 
 //The directory containing a CMake configuration file for rcl.
 rcl_DIR:PATH=/opt/ros/humble/share/rcl/cmake
+
+//The directory containing a CMake configuration file for rcl_action.
+rcl_action_DIR:PATH=/opt/ros/humble/share/rcl_action/cmake
 
 //The directory containing a CMake configuration file for rcl_interfaces.
 rcl_interfaces_DIR:PATH=/opt/ros/humble/share/rcl_interfaces/cmake
@@ -393,6 +399,9 @@ rcl_yaml_param_parser_DIR:PATH=/opt/ros/humble/share/rcl_yaml_param_parser/cmake
 
 //The directory containing a CMake configuration file for rclcpp.
 rclcpp_DIR:PATH=/opt/ros/humble/share/rclcpp/cmake
+
+//The directory containing a CMake configuration file for rclcpp_action.
+rclcpp_action_DIR:PATH=/opt/ros/humble/share/rclcpp_action/cmake
 
 //The directory containing a CMake configuration file for rclcpp_lifecycle.
 rclcpp_lifecycle_DIR:PATH=/opt/ros/humble/share/rclcpp_lifecycle/cmake

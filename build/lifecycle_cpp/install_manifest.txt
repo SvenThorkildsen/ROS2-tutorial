@@ -1,4 +1,5 @@
 /home/sven/ros2_ws/install/lifecycle_cpp/lib/lifecycle_cpp/number_publisher
+/home/sven/ros2_ws/install/lifecycle_cpp/lib/lifecycle_cpp/move_robot_server_lifecycle
 /home/sven/ros2_ws/install/lifecycle_cpp/share/ament_index/resource_index/package_run_dependencies/lifecycle_cpp
 /home/sven/ros2_ws/install/lifecycle_cpp/share/ament_index/resource_index/parent_prefix_path/lifecycle_cpp
 /home/sven/ros2_ws/install/lifecycle_cpp/share/lifecycle_cpp/environment/ament_prefix_path.sh

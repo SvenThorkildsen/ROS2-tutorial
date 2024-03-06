@@ -1,0 +1,39 @@
+[01m[K/home/sven/ros2_ws/src/lifecycle_cpp/src/move_robot_server_lifecycle.cpp:[m[K In constructor ‘[01m[KMoveRobotServerNode::MoveRobotServerNode()[m[K’:
+[01m[K/home/sven/ros2_ws/src/lifecycle_cpp/src/move_robot_server_lifecycle.cpp:16:29:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KMoveRobotServerNode[m[K’ does not have any field named ‘[01m[KNode[m[K’
+   16 |     MoveRobotServerNode() : [01;31m[KNode[m[K("move_robot_server"), current_position_(50) // Default position for the robot
+      |                             [01;31m[K^~~~[m[K
+[01m[K/home/sven/ros2_ws/src/lifecycle_cpp/src/move_robot_server_lifecycle.cpp:16:76:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp_lifecycle::LifecycleNode::LifecycleNode()[m[K’
+   16 |     MoveRobotServerNode() : Node("move_robot_server"), current_position_(50[01;31m[K)[m[K // Default position for the robot
+      |                                                                            [01;31m[K^[m[K
+In file included from [01m[K/home/sven/ros2_ws/src/lifecycle_cpp/src/move_robot_server_lifecycle.cpp:3[m[K:
+[01m[K/opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node.hpp:148:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp_lifecycle::LifecycleNode::LifecycleNode(const string&, const string&, const rclcpp::NodeOptions&, bool)[m[K’
+  148 |   [01;36m[KLifecycleNode[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node.hpp:148:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 0 provided
+[01m[K/opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node.hpp:135:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp_lifecycle::LifecycleNode::LifecycleNode(const string&, const rclcpp::NodeOptions&, bool)[m[K’
+  135 |   explicit [01;36m[KLifecycleNode[m[K(
+      |            [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node.hpp:135:12:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 0 provided
+[01m[K/home/sven/ros2_ws/src/lifecycle_cpp/src/move_robot_server_lifecycle.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/sven/ros2_ws/src/lifecycle_cpp/src/move_robot_server_lifecycle.cpp:253:22:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::executors::MultiThreadedExecutor::add_node(std::shared_ptr<MoveRobotServerNode>&)[m[K’
+  253 |     [01;31m[Kexecutor.add_node(node)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~^~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/sven/ros2_ws/src/lifecycle_cpp/src/move_robot_server_lifecycle.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:201:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvirtual void rclcpp::Executor::add_node(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr, bool)[m[K’
+  201 |   [01;36m[Kadd_node[m[K(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr, bool notify = true);
+      |   [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:201:66:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kshared_ptr<[01;32m[KMoveRobotServerNode[m[K>[m[K’ to ‘[01m[Kshared_ptr<[01;32m[Krclcpp::node_interfaces::NodeBaseInterface[m[K>[m[K’
+  201 |   add_node([01;36m[Krclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr[m[K, bool notify = true);
+      |            [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:209:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvirtual void rclcpp::Executor::add_node(std::shared_ptr<rclcpp::Node>, bool)[m[K’
+  209 |   [01;36m[Kadd_node[m[K(std::shared_ptr<rclcpp::Node> node_ptr, bool notify = true);
+      |   [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:209:42:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kshared_ptr<[01;32m[KMoveRobotServerNode[m[K>[m[K’ to ‘[01m[Kshared_ptr<[01;32m[Krclcpp::Node[m[K>[m[K’
+  209 |   add_node([01;36m[Kstd::shared_ptr<rclcpp::Node> node_ptr[m[K, bool notify = true);
+      |            [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/move_robot_server_lifecycle.dir/build.make:76: CMakeFiles/move_robot_server_lifecycle.dir/src/move_robot_server_lifecycle.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/move_robot_server_lifecycle.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

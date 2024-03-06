@@ -1,0 +1,25 @@
+[0.033s] Invoking command in '/home/sven/ros2_ws/build/lifecycle_cpp': CMAKE_PREFIX_PATH=/home/sven/ros2_ws/install/my_robot_interfaces:/home/sven/ros2_ws/install/turtlesim_catch_them_all:/home/sven/ros2_ws/install/my_robot_bringup:/home/sven/ros2_ws/install/my_cpp_pkg:/home/sven/ros2_ws/install/actions_cpp:/home/sven/ros2_ws/install/my_robot_description:/home/sven/ros2_ws/install/lifecycle_cpp:/home/sven/install/my_robot_description:/home/sven/ros2_ws/install/my_py_pkg:/home/sven/ros2_ws/install/actions_py:/home/sven/ros2_ws/install/lifecycle_py:/opt/ros/humble LD_LIBRARY_PATH=/home/sven/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/sven/ros2_ws/build/lifecycle_cpp -- -j20 -l20
+[0.046s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.108s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.122s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.123s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.126s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.131s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.138s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.166s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.166s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.223s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.296s] -- Found rclcpp_lifecycle: 16.0.8 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[0.314s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[0.377s] -- Found my_robot_interfaces: 0.0.0 (/home/sven/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake)
+[0.404s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[0.404s]   ament_target_dependencies() the passed package name 'rclcpp_action' was not
+[0.404s]   found before
+[0.404s] Call Stack (most recent call first):
+[0.404s]   CMakeLists.txt:19 (ament_target_dependencies)
+[0.404s] 
+[0.404s] [0m
+[0.404s] -- Configuring incomplete, errors occurred!
+[0.404s] See also "/home/sven/ros2_ws/build/lifecycle_cpp/CMakeFiles/CMakeOutput.log".
+[0.407s] gmake: *** [Makefile:308: cmake_check_build_system] Error 1
+[0.409s] Invoked command in '/home/sven/ros2_ws/build/lifecycle_cpp' returned '2': CMAKE_PREFIX_PATH=/home/sven/ros2_ws/install/my_robot_interfaces:/home/sven/ros2_ws/install/turtlesim_catch_them_all:/home/sven/ros2_ws/install/my_robot_bringup:/home/sven/ros2_ws/install/my_cpp_pkg:/home/sven/ros2_ws/install/actions_cpp:/home/sven/ros2_ws/install/my_robot_description:/home/sven/ros2_ws/install/lifecycle_cpp:/home/sven/install/my_robot_description:/home/sven/ros2_ws/install/my_py_pkg:/home/sven/ros2_ws/install/actions_py:/home/sven/ros2_ws/install/lifecycle_py:/opt/ros/humble LD_LIBRARY_PATH=/home/sven/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/sven/ros2_ws/build/lifecycle_cpp -- -j20 -l20
