@@ -86,7 +86,8 @@
         "/home/sven/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages",
         "/home/sven/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages",
         "/opt/ros/humble/lib/python3.10/site-packages",
-        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+        "/opt/ros/humble/local/lib/python3.10/dist-packages",
+        "./components_py"
     ],
     "cmake.configureOnOpen": true,
     "files.watcherExclude": {

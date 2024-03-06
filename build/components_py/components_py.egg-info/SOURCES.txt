@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+components_py/__init__.py
+components_py/manual_composition.py
+components_py/node1.py
+components_py/node2.py
+components_py.egg-info/PKG-INFO
+components_py.egg-info/SOURCES.txt
+components_py.egg-info/dependency_links.txt
+components_py.egg-info/entry_points.txt
+components_py.egg-info/requires.txt
+components_py.egg-info/top_level.txt
+components_py.egg-info/zip-safe
+resource/components_py

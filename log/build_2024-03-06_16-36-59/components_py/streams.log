@@ -1,0 +1,28 @@
+[0.332s] Invoking command in '/home/sven/ros2_ws/build/components_py': PYTHONPATH=/home/sven/ros2_ws/build/components_py/prefix_override:/home/sven/ros2_ws/install/components_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/sven/ros2_ws/build/components_py/build --no-deps install_data
+[0.444s] running develop
+[0.445s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.445s]   warnings.warn(
+[0.445s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.445s]   warnings.warn(
+[0.508s] running egg_info
+[0.508s] creating components_py.egg-info
+[0.508s] writing components_py.egg-info/PKG-INFO
+[0.508s] writing dependency_links to components_py.egg-info/dependency_links.txt
+[0.508s] writing entry points to components_py.egg-info/entry_points.txt
+[0.508s] writing requirements to components_py.egg-info/requires.txt
+[0.508s] writing top-level names to components_py.egg-info/top_level.txt
+[0.508s] writing manifest file 'components_py.egg-info/SOURCES.txt'
+[0.509s] reading manifest file 'components_py.egg-info/SOURCES.txt'
+[0.509s] writing manifest file 'components_py.egg-info/SOURCES.txt'
+[0.510s] running build_ext
+[0.510s] Creating /home/sven/ros2_ws/install/components_py/lib/python3.10/site-packages/components-py.egg-link (link to .)
+[0.510s] Installing manual_composition script to /home/sven/ros2_ws/install/components_py/lib/components_py
+[0.510s] 
+[0.510s] Installed /home/sven/ros2_ws/build/components_py
+[0.510s] running install_data
+[0.510s] creating /home/sven/ros2_ws/install/components_py/share/ament_index
+[0.510s] creating /home/sven/ros2_ws/install/components_py/share/ament_index/resource_index
+[0.510s] creating /home/sven/ros2_ws/install/components_py/share/ament_index/resource_index/packages
+[0.510s] copying resource/components_py -> /home/sven/ros2_ws/install/components_py/share/ament_index/resource_index/packages
+[0.510s] copying package.xml -> /home/sven/ros2_ws/install/components_py/share/components_py
+[0.523s] Invoked command in '/home/sven/ros2_ws/build/components_py' returned '0': PYTHONPATH=/home/sven/ros2_ws/build/components_py/prefix_override:/home/sven/ros2_ws/install/components_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/sven/ros2_ws/build/components_py/build --no-deps install_data

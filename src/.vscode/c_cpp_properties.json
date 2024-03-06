@@ -5,8 +5,9 @@
             "includePath": [
                 "${workspaceFolder}/**",
                 "/opt/ros/humble/include/**",
-                "~/ros2_ws/install/my_robot_interfaces/include/**",
-                "~/ros2_ws/install/turtlesim_catch_them_all/include/**"
+                "/home/sven/ros2_ws/install/my_robot_interfaces/include/**",
+                "~/ros2_ws/install/turtlesim_catch_them_all/include/**",
+                "/home/sven/ros2_ws/src/components_cpp/include/**"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",

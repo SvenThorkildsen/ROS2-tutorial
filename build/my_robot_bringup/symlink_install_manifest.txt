@@ -1,3 +1,5 @@
+/home/sven/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/launch/components.launch.py
+/home/sven/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/launch/components.launch.xml
 /home/sven/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/launch/lifecycle_test.launch.py
 /home/sven/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/launch/lifecycle_test.launch.xml
 /home/sven/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/launch/move_robot.launch.xml

@@ -1,0 +1,23 @@
+[0.031s] Invoking command in '/home/sven/ros2_ws/build/components_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sven/ros2_ws/install/components_py:/home/sven/ros2_ws/install/executors_py:/home/sven/ros2_ws/install/my_py_pkg:/home/sven/ros2_ws/install/actions_py:/home/sven/ros2_ws/install/lifecycle_py:/opt/ros/humble /usr/bin/cmake --build /home/sven/ros2_ws/build/components_cpp -- -j20 -l20
+[0.058s] [ 75%] [32mBuilding CXX object CMakeFiles/manual_composition.dir/src/manual_composition.cpp.o[0m
+[0.058s] [ 75%] [32mBuilding CXX object CMakeFiles/manual_composition.dir/src/node1.cpp.o[0m
+[0.058s] [ 75%] [32mBuilding CXX object CMakeFiles/manual_composition.dir/src/node2.cpp.o[0m
+[0.062s] [01m[K/home/sven/ros2_ws/src/components_cpp/src/node1.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kcomponents_cpp/include/node1.hpp: No such file or directory
+[0.062s]     2 | #include [01;31m[K<components_cpp/include/node1.hpp>[m[K
+[0.062s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.062s] [01m[K/home/sven/ros2_ws/src/components_cpp/src/node2.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kcomponents_cpp/node2.hpp: No such file or directory
+[0.062s]     1 | #include [01;31m[K<components_cpp/node2.hpp>[m[K
+[0.062s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.062s] compilation terminated.
+[0.062s] compilation terminated.
+[0.062s] gmake[2]: *** [CMakeFiles/manual_composition.dir/build.make:90: CMakeFiles/manual_composition.dir/src/node1.cpp.o] Error 1
+[0.062s] gmake[2]: *** Waiting for unfinished jobs....
+[0.062s] gmake[2]: *** [CMakeFiles/manual_composition.dir/build.make:104: CMakeFiles/manual_composition.dir/src/node2.cpp.o] Error 1
+[0.141s] [01m[K/home/sven/ros2_ws/src/components_cpp/src/manual_composition.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kcomponents_cpp/include/node1.hpp: No such file or directory
+[0.141s]     2 | #include [01;31m[K<components_cpp/include/node1.hpp>[m[K
+[0.141s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.141s] compilation terminated.
+[0.142s] gmake[2]: *** [CMakeFiles/manual_composition.dir/build.make:76: CMakeFiles/manual_composition.dir/src/manual_composition.cpp.o] Error 1
+[0.142s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/manual_composition.dir/all] Error 2
+[0.142s] gmake: *** [Makefile:146: all] Error 2
+[0.144s] Invoked command in '/home/sven/ros2_ws/build/components_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sven/ros2_ws/install/components_py:/home/sven/ros2_ws/install/executors_py:/home/sven/ros2_ws/install/my_py_pkg:/home/sven/ros2_ws/install/actions_py:/home/sven/ros2_ws/install/lifecycle_py:/opt/ros/humble /usr/bin/cmake --build /home/sven/ros2_ws/build/components_cpp -- -j20 -l20

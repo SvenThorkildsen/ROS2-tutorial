@@ -1,0 +1,23 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/manual_composition.dir/src/manual_composition.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/manual_composition.dir/src/node1.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/manual_composition.dir/src/node2.cpp.o[0m
+[100%] [32m[1mLinking CXX executable manual_composition[0m
+[100%] Built target manual_composition
+-- Install configuration: ""
+-- Installing: /home/sven/ros2_ws/install/components_cpp/lib/components_cpp/manual_composition
+-- Set runtime path of "/home/sven/ros2_ws/install/components_cpp/lib/components_cpp/manual_composition" to ""
+-- Up-to-date: /home/sven/ros2_ws/install/components_cpp/share/ament_index/resource_index/package_run_dependencies/components_cpp
+-- Installing: /home/sven/ros2_ws/install/components_cpp/share/ament_index/resource_index/parent_prefix_path/components_cpp
+-- Up-to-date: /home/sven/ros2_ws/install/components_cpp/share/components_cpp/environment/ament_prefix_path.sh
+-- Installing: /home/sven/ros2_ws/install/components_cpp/share/components_cpp/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/sven/ros2_ws/install/components_cpp/share/components_cpp/environment/path.sh
+-- Installing: /home/sven/ros2_ws/install/components_cpp/share/components_cpp/environment/path.dsv
+-- Up-to-date: /home/sven/ros2_ws/install/components_cpp/share/components_cpp/local_setup.bash
+-- Up-to-date: /home/sven/ros2_ws/install/components_cpp/share/components_cpp/local_setup.sh
+-- Up-to-date: /home/sven/ros2_ws/install/components_cpp/share/components_cpp/local_setup.zsh
+-- Installing: /home/sven/ros2_ws/install/components_cpp/share/components_cpp/local_setup.dsv
+-- Installing: /home/sven/ros2_ws/install/components_cpp/share/components_cpp/package.dsv
+-- Up-to-date: /home/sven/ros2_ws/install/components_cpp/share/ament_index/resource_index/packages/components_cpp
+-- Up-to-date: /home/sven/ros2_ws/install/components_cpp/share/components_cpp/cmake/components_cppConfig.cmake
+-- Up-to-date: /home/sven/ros2_ws/install/components_cpp/share/components_cpp/cmake/components_cppConfig-version.cmake
+-- Up-to-date: /home/sven/ros2_ws/install/components_cpp/share/components_cpp/package.xml

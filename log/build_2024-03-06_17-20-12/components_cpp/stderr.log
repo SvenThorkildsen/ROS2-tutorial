@@ -1,0 +1,18 @@
+[01m[K/home/sven/ros2_ws/src/components_cpp/src/node1.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kcomponents_cpp/include/node1.hpp: No such file or directory
+    2 | #include [01;31m[K<components_cpp/include/node1.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sven/ros2_ws/src/components_cpp/src/node2.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kcomponents_cpp/node2.hpp: No such file or directory
+    1 | #include [01;31m[K<components_cpp/node2.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+compilation terminated.
+gmake[2]: *** [CMakeFiles/manual_composition.dir/build.make:90: CMakeFiles/manual_composition.dir/src/node1.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/manual_composition.dir/build.make:104: CMakeFiles/manual_composition.dir/src/node2.cpp.o] Error 1
+[01m[K/home/sven/ros2_ws/src/components_cpp/src/manual_composition.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kcomponents_cpp/include/node1.hpp: No such file or directory
+    2 | #include [01;31m[K<components_cpp/include/node1.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/manual_composition.dir/build.make:76: CMakeFiles/manual_composition.dir/src/manual_composition.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/manual_composition.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
