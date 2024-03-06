@@ -1,0 +1,65 @@
+[0.029s] Invoking command in '/home/sven/ros2_ws/build/executors_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sven/ros2_ws/install/executors_py:/home/sven/ros2_ws/install/my_py_pkg:/home/sven/ros2_ws/install/actions_py:/home/sven/ros2_ws/install/lifecycle_py:/opt/ros/humble /usr/bin/cmake /home/sven/ros2_ws/src/executors_cpp -DCMAKE_INSTALL_PREFIX=/home/sven/ros2_ws/install/executors_cpp
+[0.057s] -- The C compiler identification is GNU 11.4.0
+[0.083s] -- The CXX compiler identification is GNU 11.4.0
+[0.087s] -- Detecting C compiler ABI info
+[0.121s] -- Detecting C compiler ABI info - done
+[0.124s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.124s] -- Detecting C compile features
+[0.125s] -- Detecting C compile features - done
+[0.126s] -- Detecting CXX compiler ABI info
+[0.165s] -- Detecting CXX compiler ABI info - done
+[0.169s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.169s] -- Detecting CXX compile features
+[0.169s] -- Detecting CXX compile features - done
+[0.171s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.247s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.293s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.315s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.317s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.322s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.329s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.339s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.373s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.375s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.422s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.435s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.458s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.463s] -- Looking for pthread.h
+[0.498s] -- Looking for pthread.h - found
+[0.498s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.534s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.535s] -- Found Threads: TRUE  
+[0.640s] -- Configuring done
+[0.644s] -- Generating done
+[0.645s] -- Build files have been written to: /home/sven/ros2_ws/build/executors_cpp
+[0.649s] Invoked command in '/home/sven/ros2_ws/build/executors_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sven/ros2_ws/install/executors_py:/home/sven/ros2_ws/install/my_py_pkg:/home/sven/ros2_ws/install/actions_py:/home/sven/ros2_ws/install/lifecycle_py:/opt/ros/humble /usr/bin/cmake /home/sven/ros2_ws/src/executors_cpp -DCMAKE_INSTALL_PREFIX=/home/sven/ros2_ws/install/executors_cpp
+[0.650s] Invoking command in '/home/sven/ros2_ws/build/executors_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sven/ros2_ws/install/executors_py:/home/sven/ros2_ws/install/my_py_pkg:/home/sven/ros2_ws/install/actions_py:/home/sven/ros2_ws/install/lifecycle_py:/opt/ros/humble /usr/bin/cmake --build /home/sven/ros2_ws/build/executors_cpp -- -j20 -l20
+[0.675s] [ 50%] [32mBuilding CXX object CMakeFiles/single_threaded_executor.dir/src/single_threaded_executor.cpp.o[0m
+[0.675s] [ 50%] [32mBuilding CXX object CMakeFiles/multi_threaded_executor.dir/src/multi_threaded_executor.cpp.o[0m
+[1.914s] [ 75%] [32m[1mLinking CXX executable multi_threaded_executor[0m
+[1.964s] [ 75%] Built target multi_threaded_executor
+[2.044s] [100%] [32m[1mLinking CXX executable single_threaded_executor[0m
+[2.100s] [100%] Built target single_threaded_executor
+[2.106s] Invoked command in '/home/sven/ros2_ws/build/executors_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sven/ros2_ws/install/executors_py:/home/sven/ros2_ws/install/my_py_pkg:/home/sven/ros2_ws/install/actions_py:/home/sven/ros2_ws/install/lifecycle_py:/opt/ros/humble /usr/bin/cmake --build /home/sven/ros2_ws/build/executors_cpp -- -j20 -l20
+[2.124s] Invoking command in '/home/sven/ros2_ws/build/executors_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sven/ros2_ws/install/executors_py:/home/sven/ros2_ws/install/my_py_pkg:/home/sven/ros2_ws/install/actions_py:/home/sven/ros2_ws/install/lifecycle_py:/opt/ros/humble /usr/bin/cmake --install /home/sven/ros2_ws/build/executors_cpp
+[2.128s] -- Install configuration: ""
+[2.128s] -- Installing: /home/sven/ros2_ws/install/executors_cpp/lib/executors_cpp/single_threaded_executor
+[2.128s] -- Set runtime path of "/home/sven/ros2_ws/install/executors_cpp/lib/executors_cpp/single_threaded_executor" to ""
+[2.128s] -- Installing: /home/sven/ros2_ws/install/executors_cpp/lib/executors_cpp/multi_threaded_executor
+[2.128s] -- Set runtime path of "/home/sven/ros2_ws/install/executors_cpp/lib/executors_cpp/multi_threaded_executor" to ""
+[2.128s] -- Installing: /home/sven/ros2_ws/install/executors_cpp/share/ament_index/resource_index/package_run_dependencies/executors_cpp
+[2.128s] -- Installing: /home/sven/ros2_ws/install/executors_cpp/share/ament_index/resource_index/parent_prefix_path/executors_cpp
+[2.128s] -- Installing: /home/sven/ros2_ws/install/executors_cpp/share/executors_cpp/environment/ament_prefix_path.sh
+[2.128s] -- Installing: /home/sven/ros2_ws/install/executors_cpp/share/executors_cpp/environment/ament_prefix_path.dsv
+[2.128s] -- Installing: /home/sven/ros2_ws/install/executors_cpp/share/executors_cpp/environment/path.sh
+[2.128s] -- Installing: /home/sven/ros2_ws/install/executors_cpp/share/executors_cpp/environment/path.dsv
+[2.128s] -- Installing: /home/sven/ros2_ws/install/executors_cpp/share/executors_cpp/local_setup.bash
+[2.128s] -- Installing: /home/sven/ros2_ws/install/executors_cpp/share/executors_cpp/local_setup.sh
+[2.128s] -- Installing: /home/sven/ros2_ws/install/executors_cpp/share/executors_cpp/local_setup.zsh
+[2.128s] -- Installing: /home/sven/ros2_ws/install/executors_cpp/share/executors_cpp/local_setup.dsv
+[2.128s] -- Installing: /home/sven/ros2_ws/install/executors_cpp/share/executors_cpp/package.dsv
+[2.128s] -- Installing: /home/sven/ros2_ws/install/executors_cpp/share/ament_index/resource_index/packages/executors_cpp
+[2.128s] -- Installing: /home/sven/ros2_ws/install/executors_cpp/share/executors_cpp/cmake/executors_cppConfig.cmake
+[2.128s] -- Installing: /home/sven/ros2_ws/install/executors_cpp/share/executors_cpp/cmake/executors_cppConfig-version.cmake
+[2.128s] -- Installing: /home/sven/ros2_ws/install/executors_cpp/share/executors_cpp/package.xml
+[2.129s] Invoked command in '/home/sven/ros2_ws/build/executors_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sven/ros2_ws/install/executors_py:/home/sven/ros2_ws/install/my_py_pkg:/home/sven/ros2_ws/install/actions_py:/home/sven/ros2_ws/install/lifecycle_py:/opt/ros/humble /usr/bin/cmake --install /home/sven/ros2_ws/build/executors_cpp

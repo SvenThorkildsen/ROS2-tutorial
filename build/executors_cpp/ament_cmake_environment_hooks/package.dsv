@@ -1,0 +1,4 @@
+source;share/executors_cpp/local_setup.bash
+source;share/executors_cpp/local_setup.dsv
+source;share/executors_cpp/local_setup.sh
+source;share/executors_cpp/local_setup.zsh

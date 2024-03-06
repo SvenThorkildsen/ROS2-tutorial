@@ -1,0 +1,26 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/multi_threaded_executor.dir/src/multi_threaded_executor.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/single_threaded_executor.dir/src/single_threaded_executor.cpp.o[0m
+[100%] [32m[1mLinking CXX executable multi_threaded_executor[0m
+[100%] [32m[1mLinking CXX executable single_threaded_executor[0m
+[100%] Built target single_threaded_executor
+[100%] Built target multi_threaded_executor
+-- Install configuration: ""
+-- Installing: /home/sven/ros2_ws/install/executors_cpp/lib/executors_cpp/single_threaded_executor
+-- Set runtime path of "/home/sven/ros2_ws/install/executors_cpp/lib/executors_cpp/single_threaded_executor" to ""
+-- Installing: /home/sven/ros2_ws/install/executors_cpp/lib/executors_cpp/multi_threaded_executor
+-- Set runtime path of "/home/sven/ros2_ws/install/executors_cpp/lib/executors_cpp/multi_threaded_executor" to ""
+-- Up-to-date: /home/sven/ros2_ws/install/executors_cpp/share/ament_index/resource_index/package_run_dependencies/executors_cpp
+-- Up-to-date: /home/sven/ros2_ws/install/executors_cpp/share/ament_index/resource_index/parent_prefix_path/executors_cpp
+-- Up-to-date: /home/sven/ros2_ws/install/executors_cpp/share/executors_cpp/environment/ament_prefix_path.sh
+-- Up-to-date: /home/sven/ros2_ws/install/executors_cpp/share/executors_cpp/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/sven/ros2_ws/install/executors_cpp/share/executors_cpp/environment/path.sh
+-- Up-to-date: /home/sven/ros2_ws/install/executors_cpp/share/executors_cpp/environment/path.dsv
+-- Up-to-date: /home/sven/ros2_ws/install/executors_cpp/share/executors_cpp/local_setup.bash
+-- Up-to-date: /home/sven/ros2_ws/install/executors_cpp/share/executors_cpp/local_setup.sh
+-- Up-to-date: /home/sven/ros2_ws/install/executors_cpp/share/executors_cpp/local_setup.zsh
+-- Up-to-date: /home/sven/ros2_ws/install/executors_cpp/share/executors_cpp/local_setup.dsv
+-- Installing: /home/sven/ros2_ws/install/executors_cpp/share/executors_cpp/package.dsv
+-- Up-to-date: /home/sven/ros2_ws/install/executors_cpp/share/ament_index/resource_index/packages/executors_cpp
+-- Up-to-date: /home/sven/ros2_ws/install/executors_cpp/share/executors_cpp/cmake/executors_cppConfig.cmake
+-- Up-to-date: /home/sven/ros2_ws/install/executors_cpp/share/executors_cpp/cmake/executors_cppConfig-version.cmake
+-- Up-to-date: /home/sven/ros2_ws/install/executors_cpp/share/executors_cpp/package.xml

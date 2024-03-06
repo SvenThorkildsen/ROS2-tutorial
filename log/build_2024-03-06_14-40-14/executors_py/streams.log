@@ -1,0 +1,22 @@
+[0.336s] Invoking command in '/home/sven/ros2_ws/build/executors_py': PYTHONPATH=/home/sven/ros2_ws/build/executors_py/prefix_override:/home/sven/ros2_ws/install/executors_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/sven/ros2_ws/build/executors_py/build --no-deps install_data
+[0.447s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.447s]   warnings.warn(
+[0.447s] running develop
+[0.448s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.448s]   warnings.warn(
+[0.508s] running egg_info
+[0.508s] writing executors_py.egg-info/PKG-INFO
+[0.508s] writing dependency_links to executors_py.egg-info/dependency_links.txt
+[0.508s] writing entry points to executors_py.egg-info/entry_points.txt
+[0.508s] writing requirements to executors_py.egg-info/requires.txt
+[0.508s] writing top-level names to executors_py.egg-info/top_level.txt
+[0.509s] reading manifest file 'executors_py.egg-info/SOURCES.txt'
+[0.509s] writing manifest file 'executors_py.egg-info/SOURCES.txt'
+[0.510s] running build_ext
+[0.510s] Creating /home/sven/ros2_ws/install/executors_py/lib/python3.10/site-packages/executors-py.egg-link (link to .)
+[0.511s] Installing multi_threaded_executor script to /home/sven/ros2_ws/install/executors_py/lib/executors_py
+[0.511s] Installing single_threaded_executor script to /home/sven/ros2_ws/install/executors_py/lib/executors_py
+[0.511s] 
+[0.511s] Installed /home/sven/ros2_ws/build/executors_py
+[0.511s] running install_data
+[0.523s] Invoked command in '/home/sven/ros2_ws/build/executors_py' returned '0': PYTHONPATH=/home/sven/ros2_ws/build/executors_py/prefix_override:/home/sven/ros2_ws/install/executors_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/sven/ros2_ws/build/executors_py/build --no-deps install_data
